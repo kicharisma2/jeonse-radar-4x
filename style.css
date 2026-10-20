@@ -917,13 +917,14 @@ body {
   transition: all var(--transition-fast);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .listing-card:hover {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(3, 199, 90, 0.4);
   background: var(--bg-card-hover);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
 }
 
 .listing-card.highlight-new {
@@ -1484,6 +1485,284 @@ body {
   background: var(--bg-tertiary);
   color: var(--text-secondary);
   border: 1px solid var(--border-light);
+}
+
+/* =================================================================
+   Article Detail Modal (물건 상세 팝업 모달)
+   ================================================================= */
+.modal-article-card {
+  width: 680px;
+  max-width: 95vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+}
+
+.article-modal-header {
+  padding: 18px 24px;
+  border-bottom: var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.article-modal-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.article-modal-title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.article-modal-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.article-modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 가격 배너 박스 */
+.article-price-banner {
+  background: linear-gradient(135deg, rgba(3, 199, 90, 0.15) 0%, rgba(59, 130, 246, 0.1) 100%);
+  border: 1px solid rgba(3, 199, 90, 0.3);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-banner-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.price-type-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--naver-green);
+  letter-spacing: 0.05em;
+}
+
+.price-large {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+body.theme-light .price-large {
+  color: #0f172a;
+}
+
+.price-banner-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.badge-loan-status {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+.text-maintenance {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+/* 스펙 2열 그리드 */
+.article-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  background: var(--bg-tertiary);
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.spec-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.84rem;
+  padding: 4px 0;
+}
+
+.spec-key {
+  color: var(--text-muted);
+}
+
+.spec-val {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* 특징 태그 묶음 */
+.article-popup-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.article-popup-tags .tag-chip {
+  padding: 4px 10px;
+  font-size: 0.78rem;
+}
+
+/* 상세 설명 박스 */
+.article-desc-box {
+  background: var(--bg-input);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.desc-box-title {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* 공인중개사 명함 카드 */
+.article-realtor-card {
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.realtor-info-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.realtor-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #60a5fa;
+  text-transform: uppercase;
+}
+
+.realtor-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.realtor-address {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.btn-call-realtor {
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+.btn-call-realtor:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+/* 팝업 모달 하단 푸터 액션 */
+.article-modal-footer {
+  padding: 16px 24px;
+  background: var(--bg-input);
+  border-top: var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.btn-naver-huge {
+  background: linear-gradient(135deg, #03c75a 0%, #009e43 100%);
+  color: #ffffff;
+  border: none;
+  padding: 11px 22px;
+  border-radius: var(--radius-md);
+  font-size: 0.92rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 16px var(--naver-green-glow);
+  transition: all var(--transition-fast);
+}
+.btn-naver-huge:hover {
+  background: linear-gradient(135deg, #0adb65 0%, #03b64e 100%);
+  box-shadow: 0 6px 20px rgba(3, 199, 90, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-close-article-modal {
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-light);
+  padding: 11px 20px;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.btn-close-article-modal:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
 }
 
 /* =================================================================

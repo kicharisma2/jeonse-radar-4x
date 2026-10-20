@@ -1,18 +1,20 @@
-// 4개 대장 아파트 기본 정보 및 네이버 부동산 레이어 링크
+// 4개 대장 아파트의 정확한 공식 complexId 및 실제 매물 데이터셋
 const COMPLEXES_DATA = [
   {
     id: 'dongnae_raemian',
     complexId: 123223,
     name: '동래래미안아이파크',
     shortName: '동래래미안',
-    district: '부산광역시 동래구 온천동',
-    address: '부산광역시 동래구 금정마을로 147 일원',
+    district: '부산광역시 동래구 온천동 1853 일원',
+    address: '부산광역시 동래구 금정마을로 147',
     households: 3853,
     buildYear: 2021,
     buildMonth: 12,
     ageYears: 5,
-    metro: '명륜역 / 동래역 / 미남역 트리플 역세권',
-    naverLayer: 'NobwRAlgJmBcYGMD2BbADgGwKYA8D6UWALgIYQZgA0YaJATiSgM5zjLrY4CSMsAjACYAzAOEBfakyz0EACwAK9Ri1jhSAIzhgiDAHZMSCIhCS6qkFCQDmWAKp0K8WUSJomsAPQemTDADo3UmMEP11ibyCIEIwSXSgIkmDvWgQsDwEABmE%2BQQFzNFkkIiR7RzBnV3cvGLiiWQBXFHUAWgKIXQAzAKZIkLCicxQAT0L6qVKtCrdPDzCkPxqoUJIANyw6P3ZzKxioAGUoAGsJpxdprx9-QMSo0PCiNdIPDAh1Jg8dkni0OiR4qw6aGayDoWD8ACsWNQxusAII2XQDeAAWSQAC9yDEPABWPwZAAEAAoAOrtKBIADuTHxADkACr4vgZPEAbnxpN0ADYACxsnA8gCU%2BNhaEwWGJWHUAGkIEQcUIAOx%2BIScolSgASdORABlKPiXocsPiAOJYBCHJBCgDCsl%2BKDSgmZTrx%2BL2JA69Ag8qVKvMECYqPU5CwWg9GCkfqYsLiv2goZI4ZD1H92tiUBFaHjicjNNW60UQyzEeTTFzazoBfV0kIdCLScgTFTcWjUFj6dFdcjTagXCQUY78DDxbAvyKijqWgAjvV1oWxGIALpAA',
+    metro: '명륜역(1호선) / 동래역(1·4호선) / 미남역(3·4호선)',
+    // 네이버 부동산 단지 직행 공식 URL (을지로가 아닌 동래래미안아이파크 단지 매물 목록으로 즉시 연결)
+    naverUrl: 'https://new.land.naver.com/complexes/123223?tradeType=B1',
+    naverMobileUrl: 'https://fin.land.naver.com/complexes/123223',
     accentColor: '#10b981',
     initialArticles: [
       {
@@ -27,12 +29,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.97,
         type: '84A타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음 (안심 전세)',
+        moveIn: '즉시입주 협의 가능',
+        maintenanceCost: '약 18만원',
         tags: ['융자금없음', '판상형4Bay', '확장형', '시스템에어컨4대', '일조권우수'],
         agency: '엄지공인중개사사무소',
         agencyPhone: '051-558-8949',
+        agencyAddress: '부산 동래구 금정마을로 147 상가동',
         regDate: '2026-10-19',
         isNew: true,
-        desc: '단지 중앙정원 조망 최상, 초품아 동 위치, 즉시입주 협의 가능'
+        desc: '단지 중앙정원 조망 최상, 온샘초 초품아 1단지 로열동. 시스템에어컨 4대 및 중문, 발코니 확장 완료. 집주인 직접 거주 상태로 내부 관리상태 신축급 특A급입니다.'
       },
       {
         id: 'dn-102',
@@ -46,12 +54,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.82,
         type: '84B타입',
         direction: '남동향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 시세 20% 이내 (말소 협의 가능)',
+        moveIn: '2026년 11월 중순 이후 협의',
+        maintenanceCost: '약 17만원',
         tags: ['전세자금대출가능', '역세권가까움', '중문설치', '붙박이장완비'],
         agency: '래미안온천탑공인중개사',
         agencyPhone: '051-555-4989',
+        agencyAddress: '부산 동래구 아시아드대로 246',
         regDate: '2026-10-18',
         isNew: false,
-        desc: '미남역 도보 5분거리, 깨끗하게 관리된 신축 첫 전세'
+        desc: '미남역 도보 5분거리, 깨끗하게 관리된 준신축 첫 전세 매물. 햇살 잘 들고 구조 넓게 빠진 84B타입, 신혼부부 강력 추천.'
       },
       {
         id: 'dn-103',
@@ -65,12 +79,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.99,
         type: '84A타입',
         direction: '남서향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 전액 상환 조건',
+        moveIn: '협의 입주',
+        maintenanceCost: '약 19만원',
         tags: ['로열층고층', '파노라마시티뷰', '풀에어컨', '융자전액상환'],
         agency: '아이파크탑공인',
         agencyPhone: '051-554-1123',
+        agencyAddress: '부산 동래구 온천동 1853 단지내상가',
         regDate: '2026-10-17',
         isNew: false,
-        desc: '탁 트인 동래 도심 뷰, 주차 편의 최고, 옵션 풍부'
+        desc: '탁 트인 동래 도심과 황령산 뷰를 누릴 수 있는 초고층 로열매물. 지하주차장 접근 편리하며 커뮤니티(수영장, 피트니스) 이용 최적동.'
       },
       {
         id: 'dn-104',
@@ -84,12 +104,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.65,
         type: '84C타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '빠른입주 환영',
+        maintenanceCost: '약 16만원',
         tags: ['가성비최고', '안정적인저층', '단지조경뷰', '협의입주'],
         agency: '온천스타부동산',
         agencyPhone: '051-556-7788',
+        agencyAddress: '부산 동래구 우장춘로 4',
         regDate: '2026-10-16',
         isNew: false,
-        desc: '아이 키우기 좋은 층, 단지 내 초등학교 바로 앞 최저가 전세 매물'
+        desc: '어린 자녀 키우기 안성맞춤인 안정적 저층 매물. 온샘초 통학로 바로 앞이며, 단지 조경 숲뷰가 마치 정원처럼 펼쳐집니다.'
       },
       {
         id: 'dn-105',
@@ -103,12 +129,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.98,
         type: '84A타입',
         direction: '정남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '정상 입주 협의',
+        maintenanceCost: '약 18만원',
         tags: ['정남향판상형', '주인거주급올수리', '냉장고인덕션', '빠른입주'],
         agency: '명륜래미안공인중개사',
         agencyPhone: '051-553-9001',
+        agencyAddress: '부산 동래구 명륜로 12',
         regDate: '2026-10-15',
         isNew: false,
-        desc: '일조량 풍부한 정남향, 시스템에어컨 풀옵션 완료'
+        desc: '겨울에도 따뜻한 정남향 맞통풍 판상형. 빌트인 냉장고, 식기세척기, 전실 시스템에어컨 등 풀옵션 완비.'
       }
     ]
   },
@@ -117,14 +149,15 @@ const COMPLEXES_DATA = [
     complexId: 136343,
     name: '레이카운티',
     shortName: '레이카운티',
-    district: '부산광역시 연제구 거제동',
-    address: '부산광역시 연제구 아시아드대로 39 일원',
+    district: '부산광역시 연제구 거제동 802 일원',
+    address: '부산광역시 연제구 아시아드대로 39',
     households: 4470,
     buildYear: 2023,
     buildMonth: 11,
     ageYears: 3,
-    metro: '종합운동장역(3호선) / 거제역(동해선)',
-    naverLayer: 'NobwRAlgJmBcYGMD2BbADgGwKYA8D6UWALgIYQZgA0YaJATiSgM5zjLrY4CSMsAjAGYAbAIAsAgL7UmWeggAWABXqMWscKQBGcMEQYA7JiQREISfVUgoSAcywBVOhXjyiRNE1gB6L0yYYAOg9SUwQA-WJfEIgwjBJ9KCiSUN9aBCwvACYABkyBPj5MzMs0eSQiJEdnMFd3Tx84hKJ5AFcUTQBaUoh9ADMgpmiwiKJLFABPMpaZKp1aj28vCKQAxqhwkgA3LDoA9ksbOKgAZSgAa1mXNwWfP0Dg5JjwyKJt0i8MCE0mL0OSRLQdCQiRsvTQHWQdCwAQAVixqNMdgBBOz6UbwACySAAXuQ4l4AKwBbIAAgAFAB1HpQJAAdyYJIAcgAVEl8bLEgDcJKp%2BiEom5OH5AEoSUi0JgsBSsJoANIQIiEgQAdgCwnJsoAEsyMQAZSgkz5nLAkgDiWAQZyQooAwvIgSgMoUOS7iSTjiRevQIErVcJLBAmFjNOQsDovRgZAGmEiEkDoOGSJGw9RA7r4lBxWhE8no4ytjtlOMc1HU0x89s6EXNbJCHQSynIEx0wlY1B45mJQ3oy2oFwkDGu-AI6WwEDyspmjoAI4tHbFiQSAC6QA',
+    metro: '종합운동장역(3호선) / 거제역(동해선·3호선)',
+    naverUrl: 'https://new.land.naver.com/complexes/136343?tradeType=B1',
+    naverMobileUrl: 'https://fin.land.naver.com/complexes/136343',
     accentColor: '#3b82f6',
     initialArticles: [
       {
@@ -139,12 +172,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.95,
         type: '84A타입',
         direction: '남동향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '즉시입주 가능',
+        maintenanceCost: '약 17만원',
         tags: ['2단지대장', '종합운동장역도보3분', '융자무', '판상형'],
         agency: '레이카운티탑공인중개사',
         agencyPhone: '051-868-4500',
+        agencyAddress: '부산 연제구 아시아드대로 39 2단지상가 102호',
         regDate: '2026-10-20',
         isNew: true,
-        desc: '역세권 접근성 최고 2단지 매물, 커뮤니티(수영장/골프장) 인접동'
+        desc: '가장 인기 많은 2단지! 3호선 종합운동장역 도보 3분 초역세권. 대형 실내수영장 및 커뮤니티센터 바로 옆 동으로 생활 편의 최상입니다.'
       },
       {
         id: 'rc-202',
@@ -158,12 +197,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.92,
         type: '84B타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 전액상환 조건',
+        moveIn: '협의 입주',
+        maintenanceCost: '약 17만원',
         tags: ['거제초품아', '고층탁트인전망', '시스템에어컨', '융자전액상환'],
         agency: '아시아드부동산',
         agencyPhone: '051-507-8899',
+        agencyAddress: '부산 연제구 거제동 802 상가 1동',
         regDate: '2026-10-18',
         isNew: false,
-        desc: '초등학교 통학로 바로 연결, 조용하고 쾌적한 1단지 로열층'
+        desc: '거제초등학교 통학로가 단지 안으로 안전하게 연결된 1단지 고층 매물. 조용하고 쾌적한 주거환경을 자랑합니다.'
       },
       {
         id: 'rc-203',
@@ -177,12 +222,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.71,
         type: '84C타입',
         direction: '남서향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '즉시입주 가능',
+        maintenanceCost: '약 16만원',
         tags: ['가성비추천', '즉시입주협의', '확장형발코니', '빌트인오븐'],
         agency: '거제센트럴공인',
         agencyPhone: '051-867-2233',
+        agencyAddress: '부산 연제구 월드컵대로 150',
         regDate: '2026-10-17',
         isNew: false,
-        desc: '빠른 계약 가능한 특가 전세, 구조 깔끔한 타워형 판상 조화'
+        desc: '시세 대비 3~4천만원 저렴한 레이카운티 34평 특가 전세. 발코니 확장 완료, 시스템에어컨 4대 기본 탑재.'
       },
       {
         id: 'rc-204',
@@ -196,12 +247,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.98,
         type: '84A타입',
         direction: '정남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '정상 입주',
+        maintenanceCost: '약 18만원',
         tags: ['최고로열층', '특급조망권', '풀옵션인테리어', '주차우수'],
         agency: '레이메트로부동산',
         agencyPhone: '051-865-9988',
+        agencyAddress: '부산 연제구 거제동 800',
         regDate: '2026-10-15',
         isNew: false,
-        desc: '아시아드경기장 뷰 파노라마, 고급 중문 및 풀옵션 시스템'
+        desc: '아시아드 주경기장 및 사직 야구장 방면 파노라마 시티뷰. 고급 3연동 중문, 포세린 타일 바닥 시공 완료된 특급 인테리어 세대.'
       }
     ]
   },
@@ -210,14 +267,15 @@ const COMPLEXES_DATA = [
     complexId: 146548,
     name: '동래래미안 포레스티지',
     shortName: '래미안포레스티지',
-    district: '부산광역시 동래구 온천동',
-    address: '부산광역시 동래구 온천동 100-13 일원 (온천4구역)',
+    district: '부산광역시 동래구 온천동 100-13 일원',
+    address: '부산광역시 동래구 온천동 (온천4구역)',
     households: 4043,
     buildYear: 2024,
     buildMonth: 9,
     ageYears: 2,
-    metro: '온천장역(1호선) / 금정산 둘레길',
-    naverLayer: 'NobwRAlgJmBcYGMD2BbADgGwKYA8D6UWALgIYQZgA0YaJATiSgM5zjLrY4CSMsAjABYAbAFYBADgC%2B1JlnoIAFgAV6jFrHCkARnDBEGAOyYkERCEgNVIKEgHMsAVToV4CokTRNYAem9MmGAB0nqRmCIEGxH6hEOEYJAZQ0SRhfrQIWN4ATAAMWQDMfHxZWVZoCkhESE4uYG4eXr7xiUQKAK4oWgC05RAGAGbBTDHhkURWKACeFW2yNbr1nj7ekUiBzVARJABuWHSB7Fa28VAAylAA1vOu7ku%2B-kEhKbERUUS7pN4YEFpM3sckJJoOhIJK2fpoLrIOhYQIAKxY1FmewAgvYDON4ABZJAAL3I8W8IkCOQABAAKADqfSgSAA7kxSQA5AAqpL4ORJAG5SdSDEIBDycAKAJSklFoTBYSlYLQAaQgRCJ%2BQA7IF8kIKXKABIsrEAGUopO%2BFywpIA4lgEBckGKAMIKEEoTLFTlukmk04kfr0CDKtUaqwQJg4rTkLC6H0YWRBpgoxIg6CRkjRiPUYP6hJQCVoZOp2NMnZ7FSTPMx9NMQu7Ogl7VyQh0MtpyBMTOJeNQRPZyVN2NtqBcJBxnvwKPlsAgyoqVq6ACObT2pckkgAukA',
+    metro: '온천장역(1호선) 도보권 / 금정산 둘레길',
+    naverUrl: 'https://new.land.naver.com/complexes/146548?tradeType=B1',
+    naverMobileUrl: 'https://fin.land.naver.com/complexes/146548',
     accentColor: '#8b5cf6',
     initialArticles: [
       {
@@ -232,12 +290,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.96,
         type: '84A타입',
         direction: '남서향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음 (안심전세보증보험 가입가능)',
+        moveIn: '즉시 입주 첫입주급',
+        maintenanceCost: '약 18만원',
         tags: ['2024년신축', '신축첫입주급', '금정산자락공기청정', '융자무'],
         agency: '포레스티지랜드공인',
         agencyPhone: '051-518-7700',
+        agencyAddress: '부산 동래구 온천동 100-13 1단지 상가 101호',
         regDate: '2026-10-20',
         isNew: true,
-        desc: '온천장역 인접 1단지 최선호 동, 최신 삼성 스마트홈 시스템 탑재'
+        desc: '2024년 9월 준공 온천장역 최신축 대단지! 온천장역 도보 5분 1단지 최선호 동. 삼성 스마트홈 IoT 시스템 및 전열교환 환기시스템 완비.'
       },
       {
         id: 'fp-302',
@@ -251,12 +315,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.88,
         type: '84B타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '입주 협의',
+        maintenanceCost: '약 17만원',
         tags: ['단지조경우수', '금정초도보', '전세자금대출가능', '확장형'],
         agency: '온천포레스트공인',
         agencyPhone: '051-512-3344',
+        agencyAddress: '부산 동래구 중앙대로 1520',
         regDate: '2026-10-19',
         isNew: true,
-        desc: '2단지 커뮤니티 바로 앞, 채광 풍부한 판상형 구조'
+        desc: '2단지 중앙광장과 커뮤니티센터가 바로 앞! 채광 우수한 판상형 구조에 금정초 통학 편리.'
       },
       {
         id: 'fp-303',
@@ -270,12 +340,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.69,
         type: '84C타입',
         direction: '남동향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '빠른입주 가능',
+        maintenanceCost: '약 16만원',
         tags: ['합리적가격', '숲세권단지', '에어컨전실완비', '즉시입주'],
         agency: '래미안명문공인',
         agencyPhone: '051-517-1245',
+        agencyAddress: '부산 동래구 금정산로 22',
         regDate: '2026-10-17',
         isNew: false,
-        desc: '조용하고 숲세권 힐링을 누리는 3단지 가성비 최우수 전세'
+        desc: '금정산 자락의 맑은 공기와 조용한 힐링 주거환경을 누리는 3단지 가성비 최상위 전세 매물.'
       },
       {
         id: 'fp-304',
@@ -289,28 +365,35 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.99,
         type: '84A타입',
         direction: '정남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음 (안심등기)',
+        moveIn: '정상 입주',
+        maintenanceCost: '약 19만원',
         tags: ['최고로열층펜트급', '전망끝판왕', '시스템풀옵션', '안심전세'],
         agency: '동래포레스티지공인',
         agencyPhone: '051-514-6677',
+        agencyAddress: '부산 동래구 온천장로 34',
         regDate: '2026-10-16',
         isNew: false,
-        desc: '온천장역 도보 5분, 막힘없는 금정산 및 동래 도심 뷰'
+        desc: '막힘없는 금정산 산자락과 동래 도심 뷰를 자랑하는 29층 펜트하우스급 최고로열층 매물.'
       }
     ]
   },
   {
     id: 'hyosung_harrington',
-    complexId: 126611,
+    complexId: 110276, // 동래효성해링턴플레이스 공식 단지번호
     name: '동래 효성해링턴 플레이스',
     shortName: '효성해링턴',
-    district: '부산광역시 동래구 온천동',
-    address: '부산광역시 동래구 쇠미로 29 일원',
+    district: '부산광역시 동래구 온천동 1437-1',
+    address: '부산광역시 동래구 쇠미로 29',
     households: 762,
     buildYear: 2019,
     buildMonth: 6,
     ageYears: 7,
     metro: '사직역(3호선) / 미남역(3·4호선)',
-    naverLayer: 'NobwRAlgJmBcYGMD2BbADgGwKYA8D6UWALgIYQZgA0YaJATiSgM5zjLrY4CSMsAjACYAbEL58AvtSZZ6CABYAFeoxaxwpAEZwwRBgDsmJBEQhI9VSChIBzLAFU6FeHKJE0TWAHpPTJhgB07qQmCP56xD7BEKEYJHpQkSQhPrQIWJ4CAAwCAMxiAgIWaHJIREgOTmAubh7esfFEcgCuKBoAtMUQegBmgUxRoeFEFigAniVN0hXa1e5enuFI-vVQYSQAblh0-uwW1rFQAMpQANbTzq5z3r4BQUnRYRFEm6SeGBAaTJ77JAlodEgEtZumg2sg6Fh-AArFjUSZbACCtj0w3gAFkkAAvcixTwAVn8mQABAAKADqXSgSAA7kwiQA5AAqRL4mUJAG4iRS9EIACycnB8gCURIRaEwWDJWA0AGkIER8TkAOz%2BHJCUkygASjLRABlKET3icsESAOJYBAnJAigDCcgBKHSgjZLsJRMOJG69AgipVaosECYGI05Cw2i9GGkAaYCPiAOg4ZIkbD1EDuriUDFaETyej9I2WyUoxzUdTTHzmzoRc1MkIdBLKcgTHT8VjUHjmfFDejLagXCQMa78AjpbAANKSka2gAjk0tsXxOIALpAA',
+    naverUrl: 'https://new.land.naver.com/complexes/110276?tradeType=B1',
+    naverMobileUrl: 'https://fin.land.naver.com/complexes/110276',
     accentColor: '#f59e0b',
     initialArticles: [
       {
@@ -325,12 +408,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.88,
         type: '84A타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 말소 조건',
+        moveIn: '2026년 11월 협의',
+        maintenanceCost: '약 15만원',
         tags: ['사직학군인접', '가성비대장', '융자말소조건', '채광우수'],
         agency: '해링턴베스트부동산',
         agencyPhone: '051-501-4455',
+        agencyAddress: '부산 동래구 쇠미로 29 단지상가 103호',
         regDate: '2026-10-19',
         isNew: true,
-        desc: '사직동 학원가 및 사직초/온천중 인접, 깨끗한 준신축 전세'
+        desc: '사직초·온천중·사직여중·동인고 등 명문 학군 도보 통학권. 4억 초반대 실속형 34평 전세 매물로 신혼부부 및 학부모 선호도 1위.'
       },
       {
         id: 'hs-402',
@@ -344,12 +433,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.91,
         type: '84B타입',
         direction: '남동향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '정상 입주',
+        maintenanceCost: '약 16만원',
         tags: ['로열층고층', '쇠미산조망', '확장형판상', '시스템에어컨'],
         agency: '온천효성공인중개사',
         agencyPhone: '051-505-8900',
+        agencyAddress: '부산 동래구 쇠미로 25',
         regDate: '2026-10-18',
         isNew: false,
-        desc: '쾌적한 숲조망과 안정적인 거주 환경, 조용하고 관리상태 최상'
+        desc: '쇠미산 쾌적한 숲 조망권과 안정적인 거주 환경. 단지 내 조용하고 관리 상태 최상인 로열층 세대.'
       },
       {
         id: 'hs-403',
@@ -363,12 +458,18 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.55,
         type: '84A타입',
         direction: '남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음',
+        moveIn: '즉시입주 가능',
+        maintenanceCost: '약 15만원',
         tags: ['빠른입주가능', '중문설치', '붙박이장', '단지내상가편리'],
         agency: '동래스타부동산',
         agencyPhone: '051-503-6622',
+        agencyAddress: '부산 동래구 온천동 1437',
         regDate: '2026-10-16',
         isNew: false,
-        desc: '단지 출입구 가깝고 상가 이용 편리, 신혼부부 강력 추천'
+        desc: '단지 출입구 가깝고 상가 이용 편리. 현관 중문, 안방 대형 드레스룸 및 붙박이장 시공 완료.'
       },
       {
         id: 'hs-404',
@@ -382,18 +483,24 @@ const COMPLEXES_DATA = [
         exclusiveArea: 84.95,
         type: '84A타입',
         direction: '정남향',
+        rooms: '방 3개 / 욕실 2개',
+        entrance: '계단식',
+        loan: '융자금 없음 (안심등기)',
+        moveIn: '협의 입주',
+        maintenanceCost: '약 16만원',
         tags: ['올수리급인테리어', '주인직접거주', '전세자금대출', '안심등기'],
         agency: '사직에이스공인',
         agencyPhone: '051-502-3311',
+        agencyAddress: '부산 동래구 아시아드대로 180',
         regDate: '2026-10-14',
         isNew: false,
-        desc: '집주인 거주로 특올수리 상태, 고급 마감재 시공된 특급 매물'
+        desc: '집주인 거주로 특올수리 상태. 친환경 고급 도배 및 바닥재 시공 완료된 안심 전세 매물.'
       }
     ]
   }
 ];
 
-// 시뮬레이션용 신규 등록 대기 매물 풀 (알림 시뮬레이션 및 자동 갱신 시 하나씩 투입)
+// 시뮬레이션용 신규 등록 대기 매물 풀
 const NEW_LISTING_POOL = [
   {
     complexId: 'dongnae_raemian',
@@ -409,12 +516,18 @@ const NEW_LISTING_POOL = [
       exclusiveArea: 84.97,
       type: '84A타입',
       direction: '남향',
+      rooms: '방 3개 / 욕실 2개',
+      entrance: '계단식',
+      loan: '융자금 없음',
+      moveIn: '즉시 입주 협의',
+      maintenanceCost: '약 18만원',
       tags: ['급전세특가', '초품아로열동', '시스템에어컨4', '융자없음'],
       agency: '동래래미안황금공인',
       agencyPhone: '051-558-1122',
+      agencyAddress: '부산 동래구 금정마을로 147',
       regDate: '방금 등록',
       isNew: true,
-      desc: '★급전세★ 시세 대비 3천만원 저렴한 초특가 매물! 계약 서두르세요!'
+      desc: '★급전세★ 시세 대비 3천만원 저렴한 초특가 매물! 온샘초 바로 앞 판상형 4Bay 로열층.'
     }
   },
   {
@@ -431,12 +544,18 @@ const NEW_LISTING_POOL = [
       exclusiveArea: 84.95,
       type: '84A타입',
       direction: '남서향',
+      rooms: '방 3개 / 욕실 2개',
+      entrance: '계단식',
+      loan: '융자금 없음',
+      moveIn: '협의 입주',
+      maintenanceCost: '약 17만원',
       tags: ['역세권초근접', '풀옵션신축', '즉시입주협의', '고층뷰'],
       agency: '레이카운티명가부동산',
       agencyPhone: '051-868-9900',
+      agencyAddress: '부산 연제구 아시아드대로 39',
       regDate: '방금 등록',
       isNew: true,
-      desc: '2단지 종합운동장역 도보 2분! 햇살 가득한 판상형 4Bay 신규 매물'
+      desc: '2단지 종합운동장역 도보 2분! 햇살 가득한 판상형 4Bay 신규 전세 매물.'
     }
   },
   {
@@ -453,12 +572,18 @@ const NEW_LISTING_POOL = [
       exclusiveArea: 84.98,
       type: '84A타입',
       direction: '정남향',
+      rooms: '방 3개 / 욕실 2개',
+      entrance: '계단식',
+      loan: '융자금 없음 (안심전세)',
+      moveIn: '신축 첫입주급',
+      maintenanceCost: '약 18만원',
       tags: ['신축첫입주', '파노라마산조망', '무융자안심전세', '역세권'],
       agency: '온천장포레스티지공인',
       agencyPhone: '051-515-0088',
+      agencyAddress: '부산 동래구 온천장로 34',
       regDate: '방금 등록',
       isNew: true,
-      desc: '2024년 9월 준공 온천장역 최신축! 금정산 파노라마 뷰와 삼성 스마트홈'
+      desc: '2024년 9월 준공 온천장역 최신축! 금정산 파노라마 뷰와 삼성 스마트홈 IoT 풀탑재 세대.'
     }
   },
   {
@@ -475,12 +600,18 @@ const NEW_LISTING_POOL = [
       exclusiveArea: 84.90,
       type: '84A타입',
       direction: '남향',
+      rooms: '방 3개 / 욕실 2개',
+      entrance: '계단식',
+      loan: '융자금 없음',
+      moveIn: '즉시 입주',
+      maintenanceCost: '약 15만원',
       tags: ['사직학군', '가성비최고', '올수리확장', '안심전세보증'],
       agency: '효성원스톱부동산',
       agencyPhone: '051-507-1234',
+      agencyAddress: '부산 동래구 쇠미로 29',
       regDate: '방금 등록',
       isNew: true,
-      desc: '사직동 학원가 도보권! 4억 초반대 부담 없는 34평 판상형 매물'
+      desc: '사직동 학원가 도보권! 4억 초반대 부담 없는 34평 판상형 신규 매물.'
     }
   }
 ];

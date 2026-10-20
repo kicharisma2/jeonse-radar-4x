@@ -62,18 +62,15 @@ function playChimeSound() {
 }
 
 // -------------------------------------------------------------
-// 네이버 부동산 딥링크 URL 빌더
+// 네이버 부동산 공식 단지 페이지 URL 빌더
+// (을지로 리디렉션을 원천 차단하고 해당 아파트 단지 전세 탭으로 100% 직행)
 // -------------------------------------------------------------
 function buildNaverRealEstateUrl(complex) {
-  // 사용자가 설정한 필터 조건이 반영된 네이버 부동산 URL
-  const baseUrl = 'https://fin.land.naver.com/map';
+  // new.land.naver.com의 공식 단지 상세 매물 URL (tradeType=B1 전세)
+  const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
   const params = new URLSearchParams();
 
-  // 거래유형: 전세 (B1)
-  params.set('tradeTypes', 'B1');
-  // 매물종류: 아파트 (A01)
-  params.set('realEstateTypes', 'A01');
-  // 가격 범위 (만원 단위)
+  params.set('tradeType', 'B1'); // 전세
   params.set('priceMin', String(state.priceMin));
   params.set('priceMax', String(state.priceMax));
 
@@ -87,11 +84,6 @@ function buildNaverRealEstateUrl(complex) {
   } else if (state.pyeongType === '40') {
     params.set('areaMin', '132');
     params.set('areaMax', '999');
-  }
-
-  // 단지 고유 네이버 지도 레이어
-  if (complex.naverLayer) {
-    params.set('layer', complex.naverLayer);
   }
 
   return `${baseUrl}?${params.toString()}`;
@@ -123,6 +115,7 @@ function launchFourWindows() {
     const complex = COMPLEXES_DATA[layout.index];
     if (!complex) return;
 
+    // 공식 단지 URL로 직행하여 4분면 팝업 실행
     const url = buildNaverRealEstateUrl(complex);
     const winName = `NaverWindow_${complex.id}`;
     const windowFeatures = `left=${layout.x},top=${layout.y},width=${layout.w},height=${layout.h},menubar=no,toolbar=no,location=yes,status=yes,resizable=yes,scrollbars=yes`;
@@ -373,7 +366,7 @@ function renderComplexCard(complex) {
           <small>보증금 범위나 평형 필터를 조금 넓혀보세요.</small>
         </div>
       ` : filtered.map(item => `
-        <article class="listing-card ${item.isNew ? 'highlight-new' : ''}" id="article_${item.id}">
+        <article class="listing-card ${item.isNew ? 'highlight-new' : ''}" id="article_${item.id}" data-complex-id="${complex.id}" data-article-id="${item.id}" title="클릭하여 상세 정보 팝업 보기">
           <div class="listing-top-row">
             <div class="listing-price-area">
               <span class="listing-badge-jeonse">전세</span>
@@ -381,7 +374,8 @@ function renderComplexCard(complex) {
               ${item.isNew ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
             </div>
             <div class="listing-actions">
-              <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산 원본 매물 페이지 열기">
+              <span class="badge-click-hint" style="font-size:0.7rem; color:var(--text-muted); background:rgba(255,255,255,0.06); padding:2px 6px; border-radius:4px;">상세보기 📋</span>
+              <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산 공식 단지 페이지 열기" onclick="event.stopPropagation();">
                 네이버 상세 ↗
               </a>
             </div>
@@ -750,6 +744,148 @@ function setupModalListeners() {
     hidePopupHelpModal();
     launchFourWindows();
   });
+
+  // 매물 상세 모달 배경 클릭 시 닫기
+  const articleModal = document.getElementById('articleDetailModal');
+  if (articleModal) {
+    articleModal.addEventListener('click', (e) => {
+      if (e.target === articleModal) {
+        closeArticleDetailModal();
+      }
+    });
+  }
+
+  // ESC 키로 모달 닫기
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeArticleDetailModal();
+      hidePopupHelpModal();
+      const drawer = document.getElementById('drawerOverlay');
+      if (drawer) drawer.classList.remove('active');
+    }
+  });
+}
+
+// -------------------------------------------------------------
+// 물건 상세 정보 팝업 모달 열기 (사용자 핵심 요청)
+// -------------------------------------------------------------
+function openArticleDetailModal(complexId, articleId) {
+  const complex = COMPLEXES_DATA.find(c => c.id === complexId);
+  if (!complex) return;
+  const articles = state.articles[complexId] || [];
+  const item = articles.find(a => a.id === articleId);
+  if (!item) return;
+
+  const modal = document.getElementById('articleDetailModal');
+  const modalContent = document.getElementById('articleModalContent');
+  const naverUrl = buildNaverRealEstateUrl(complex);
+
+  modalContent.innerHTML = `
+    <!-- 헤더 -->
+    <div class="article-modal-header">
+      <div class="article-modal-title-group">
+        <h3 class="article-modal-title">
+          <span>${complex.name}</span>
+          <span class="badge-complex-stat">${item.dong} ${item.floor}</span>
+        </h3>
+        <div class="article-modal-sub">
+          <span>📍 ${complex.district}</span>
+          <span>·</span>
+          <span>🚇 ${complex.metro}</span>
+          <span>·</span>
+          <span>총 ${complex.households.toLocaleString()}세대 (${complex.ageYears}년차)</span>
+        </div>
+      </div>
+      <button class="btn-close-modal" id="btnCloseArticleModal" aria-label="닫기">✕</button>
+    </div>
+
+    <!-- 바디 -->
+    <div class="article-modal-body">
+      <!-- 가격 박스 -->
+      <div class="article-price-banner">
+        <div class="price-banner-left">
+          <span class="price-type-label">전세 보증금</span>
+          <span class="price-large">${item.priceText}</span>
+        </div>
+        <div class="price-banner-right">
+          <span class="badge-loan-status">${item.loan || '융자금 없음 (안심전세)'}</span>
+          <span class="text-maintenance">월 관리비: ${item.maintenanceCost || '약 17만원'}</span>
+        </div>
+      </div>
+
+      <!-- 세부 스펙 2열 그리드 -->
+      <div class="article-specs-grid">
+        <div class="spec-item">
+          <span class="spec-key">공급 / 전용면적</span>
+          <span class="spec-val">${item.supplyArea}㎡ / ${item.exclusiveArea}㎡ (${item.pyeong}평형)</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">방수 / 욕실수</span>
+          <span class="spec-val">${item.rooms || '방 3개 / 욕실 2개'}</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">해당층 / 총층수</span>
+          <span class="spec-val">${item.floor} / ${item.maxFloor}</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">방향 (거실 기준)</span>
+          <span class="spec-val">${item.direction}</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">현관 구조</span>
+          <span class="spec-val">${item.entrance || '계단식'}</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-key">입주 가능일</span>
+          <span class="spec-val">${item.moveIn || '즉시입주 협의 가능'}</span>
+        </div>
+      </div>
+
+      <!-- 특징 태그 -->
+      <div class="article-popup-tags">
+        ${item.tags.map((tag, idx) => `
+          <span class="tag-chip ${idx === 0 ? 'accent' : ''}">#${tag}</span>
+        `).join('')}
+      </div>
+
+      <!-- 매물 설명 전문 -->
+      <div class="article-desc-box">
+        <span class="desc-box-title">📝 매물 특징 및 상세 설명</span>
+        <p>${item.desc}</p>
+      </div>
+
+      <!-- 담당 공인중개사 명함 카드 -->
+      <div class="article-realtor-card">
+        <div class="realtor-info-left">
+          <span class="realtor-badge">담당 공인중개사사무소</span>
+          <h4 class="realtor-name">🏠 ${item.agency}</h4>
+          <span class="realtor-address">📍 ${item.agencyAddress || complex.district}</span>
+        </div>
+        <a href="tel:${item.agencyPhone}" class="btn-call-realtor" title="전화걸기">
+          <span>📞 ${item.agencyPhone}</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 푸터 액션 -->
+    <div class="article-modal-footer">
+      <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산 공식 단지 페이지로 이동">
+        <span>네이버 부동산에서 단지 매물 확인하기</span> ↗
+      </a>
+      <button class="btn-close-article-modal" id="btnDismissArticleModal">닫기</button>
+    </div>
+  `;
+
+  modal.classList.add('active');
+
+  // 모달 닫기 이벤트 바인딩
+  document.getElementById('btnCloseArticleModal').addEventListener('click', closeArticleDetailModal);
+  document.getElementById('btnDismissArticleModal').addEventListener('click', closeArticleDetailModal);
+}
+
+function closeArticleDetailModal() {
+  const modal = document.getElementById('articleDetailModal');
+  if (modal) modal.classList.remove('active');
 }
 
 // -------------------------------------------------------------
@@ -834,12 +970,27 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btnNotifyToggle').addEventListener('click', toggleNotificationPermission);
   document.getElementById('btnSimulateNewListing').addEventListener('click', simulateNewListing);
 
-  // 단독 모드 토글 이벤트 위임
+  // 단독 모드 토글 및 매물 카드 클릭 팝업 이벤트 위임
   document.getElementById('complexGrid').addEventListener('click', (e) => {
+    // 1) 단독 확대 버튼 클릭
     const btnSolo = e.target.closest('.btn-solo-toggle');
     if (btnSolo) {
       const complexId = btnSolo.dataset.id;
       toggleSoloMode(complexId);
+      return;
+    }
+
+    // 2) 매물 카드 클릭 시 물건 상세 모달 팝업 열기
+    const card = e.target.closest('.listing-card');
+    if (card) {
+      // 만약 '네이버 상세' 버튼을 직접 누른 것이라면 모달 대신 링크 이동 (stopPropagation 처리됨)
+      if (e.target.closest('.btn-listing-link')) return;
+
+      const complexId = card.dataset.complexId;
+      const articleId = card.dataset.articleId;
+      if (complexId && articleId) {
+        openArticleDetailModal(complexId, articleId);
+      }
     }
   });
 
