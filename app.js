@@ -162,12 +162,25 @@ async function toggleNotificationPermission() {
       state.notificationsEnabled = true;
       updateNotifyButtonUI();
       showToast('🎉 알림 허용 완료', '새로운 전세 매물이 등록되면 데스크탑 알림을 보내드립니다!', 'success');
-      // 웰컴 테스트 알림
-      new Notification('🏢 동래·연제 전세 4분할 레이더', {
-        body: '실시간 전세 모니터링 알림이 정상적으로 등록되었습니다.',
-        icon: 'https://ssl.pstatic.net/static.land/static/space/20231122/img/common/favicon.ico'
-      });
-      playChimeSound();
+      
+      // 웰컴 알림: 세션 중 1회만 표시 및 3초 후 알아서 자동 닫힘
+      if (!sessionStorage.getItem('welcomeNotifSent')) {
+        sessionStorage.setItem('welcomeNotifSent', 'true');
+        try {
+          const notif = new Notification('🏢 동래·연제 전세 4분할 레이더', {
+            body: '실시간 전세 모니터링 알림이 정상적으로 등록되었습니다.',
+            tag: 'welcome-status-alert',
+            renotify: false,
+            icon: 'https://ssl.pstatic.net/static.land/static/space/20231122/img/common/favicon.ico'
+          });
+          setTimeout(() => {
+            try { notif.close(); } catch (e) {}
+          }, 3000);
+        } catch (e) {
+          console.warn('Welcome notif error:', e);
+        }
+        playChimeSound();
+      }
     } else {
       showToast('알림 권한 거부됨', '브라우저 설정에서 알림 권한을 허용해주세요.', 'warning');
     }
@@ -199,7 +212,7 @@ function triggerNewListingAlert(complex, article) {
   const title = `🔔 [${complex.name}] 신규 전세 매물!`;
   const body = `${article.dong} ${article.floor} | 전세 ${article.priceText} (${article.pyeong}평형)`;
 
-  // 1. 데스크탑 푸시 알림
+  // 1. 데스크탑 푸시 알림 (자동 4초 후 소멸)
   if (state.notificationsEnabled && 'Notification' in window && Notification.permission === 'granted') {
     try {
       const notif = new Notification(title, {
@@ -211,6 +224,9 @@ function triggerNewListingAlert(complex, article) {
         window.focus();
         highlightArticle(complex.id, article.id);
       };
+      setTimeout(() => {
+        try { notif.close(); } catch (e) {}
+      }, 4000);
     } catch (e) {
       console.warn('Push error:', e);
     }
@@ -327,16 +343,18 @@ function renderComplexCard(complex) {
       <div class="complex-info">
         <div class="complex-title-row">
           <h2 class="complex-name">${complex.name}</h2>
-          <span class="badge-complex-stat">${complex.households.toLocaleString()}세대 · ${complex.ageYears}년차</span>
+          <span class="badge-complex-stat">${complex.households.toLocaleString()}세대</span>
+          <span class="badge-complex-substat">${complex.ageYears}년차 (${complex.buildYear}.${complex.buildMonth})</span>
         </div>
         <div class="complex-meta">
-          <span class="meta-item">📍 <strong>${complex.district}</strong></span>
-          <span class="meta-item">🚇 ${complex.metro}</span>
+          <span class="meta-item">📍 <strong>${complex.shortDistrict || complex.district}</strong></span>
+          <span class="meta-dot">·</span>
+          <span class="meta-item">🚇 ${complex.shortMetro || complex.metro}</span>
         </div>
       </div>
       <div class="card-header-actions">
         <!-- 딥링크 네이버 부동산 바로보기 -->
-        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" title="네이버 부동산에서 이 단지의 필터 매물을 봅니다">
+        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
           <span>네이버 바로보기</span> ↗
         </a>
         <!-- 단독 확대 토글 -->
@@ -382,12 +400,12 @@ function renderComplexCard(complex) {
             </div>
           </div>
 
-          <!-- 동호수 및 스펙 칩 바: 박스 정중앙에 깔끔하고 선명하게 정렬 -->
+          <!-- 동호수 및 스펙 칩 바: 박스 정중앙에 시원하게 1줄 균형 배치 -->
           <div class="card-spec-bar">
-            <span class="spec-chip spec-chip-dong">🏢 ${item.dong}</span>
-            <span class="spec-chip spec-chip-floor">${item.floor}/${item.maxFloor}</span>
-            <span class="spec-chip spec-chip-area">📐 전용 84㎡ (34평형)</span>
-            <span class="spec-chip spec-chip-dir">${item.direction}</span>
+            <span class="spec-chip spec-chip-dong">🏢 ${item.dong} · ${item.floor}/${item.maxFloor}</span>
+            <span class="spec-chip spec-chip-area">📐 ${item.exclusiveArea ? `전용 ${item.exclusiveArea}㎡` : '전용 84㎡'} (${item.pyeong}평형)</span>
+            <span class="spec-chip spec-chip-dir">🧭 ${item.direction}</span>
+            <span class="spec-chip spec-chip-floor">🛡️ ${item.loan && item.loan.includes('없음') ? '융자없음' : '안심전세'}</span>
           </div>
 
           <!-- 특징 태그들 -->
@@ -912,10 +930,12 @@ function startMonitoringCycle() {
 }
 
 function runMonitoringCheck() {
-  // 실제 사이클에서 4개 단지 매물 변동 체크
-  // 낮은 확률(약 20%)로 새 매물 감지 트리거
-  if (Math.random() < 0.25) {
-    simulateNewListing();
+  // 실시간 레이더 감시 핑 (자동으로 가짜 매물이 생성되어 실제 매물과 섞이지 않도록 방지)
+  // 사용자가 상단 '🧪 알림 테스트' 버튼을 직접 클릭할 때만 테스트 매물이 동작합니다.
+  const pulseDot = document.querySelector('.pulse-dot');
+  if (pulseDot) {
+    pulseDot.style.transform = 'scale(1.4)';
+    setTimeout(() => { pulseDot.style.transform = 'scale(1)'; }, 400);
   }
 }
 
