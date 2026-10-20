@@ -939,31 +939,34 @@ body {
   100% { transform: scale(1); }
 }
 
-.listing-top-row {
+/* Card Top Header: 가격 & 액션 버튼 정렬 */
+.card-top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
 }
 
-.listing-price-area {
+.card-price-block {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .listing-badge-jeonse {
   font-size: 0.72rem;
   font-weight: 800;
-  padding: 2px 6px;
+  padding: 2px 7px;
   border-radius: 4px;
   background: rgba(3, 199, 90, 0.15);
   color: var(--naver-green);
+  border: 1px solid rgba(3, 199, 90, 0.3);
 }
 
 .listing-price {
   font-family: var(--font-display);
-  font-size: 1.22rem;
+  font-size: 1.25rem;
   font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -0.02em;
@@ -980,32 +983,64 @@ body {
   box-shadow: 0 2px 6px rgba(244, 63, 94, 0.4);
 }
 
-.listing-spec-row {
+.listing-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.85rem;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.badge-click-hint {
+  font-size: 0.72rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 3px 7px;
+  border-radius: 4px;
+  border: 1px solid var(--border-light);
+  white-space: nowrap;
+}
+
+/* 동호수 및 스펙 칩 바: 박스 정중앙에 시원하게 1줄 균형 배치 */
+.card-spec-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
   flex-wrap: wrap;
 }
 
-.listing-dong {
-  color: #38bdf8;
+body.theme-light .card-spec-bar {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.06);
 }
 
-.listing-floor {
-  color: var(--text-secondary);
-  font-size: 0.8rem;
-}
-
-.listing-area {
-  color: #a78bfa;
-}
-
-.listing-direction {
-  color: var(--text-muted);
+.spec-chip {
   font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.spec-chip-dong {
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+.spec-chip-floor {
+  color: var(--text-secondary);
+}
+
+.spec-chip-area {
+  color: #a78bfa;
+  font-weight: 700;
+}
+
+.spec-chip-dir {
+  color: var(--text-muted);
 }
 
 /* Tags */
@@ -1023,6 +1058,7 @@ body {
   font-weight: 500;
   padding: 2px 7px;
   border-radius: 4px;
+  white-space: nowrap;
 }
 
 .tag-chip.accent {
@@ -1850,64 +1886,312 @@ body.theme-light .price-large {
 }
 
 /* =================================================================
-   Responsive Breakpoints
+   Mobile View Tabs (모바일 전용 단지 선택 탭 바)
    ================================================================= */
-@media (max-width: 1200px) {
+.mobile-view-tabs {
+  display: none;
+  background: var(--bg-secondary);
+  border-bottom: var(--glass-border);
+  padding: 8px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 95;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-tab-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.mobile-tab-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-tab-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  padding: 7px 14px;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.mobile-tab-btn.active {
+  background: var(--naver-green);
+  color: #ffffff;
+  border-color: var(--naver-green);
+  box-shadow: 0 2px 8px var(--naver-green-glow);
+}
+
+.tab-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.dot-dn { background: var(--dn-color); }
+.dot-rc { background: var(--rc-color); }
+.dot-fp { background: var(--fp-color); }
+.dot-hs { background: var(--hs-color); }
+
+/* =================================================================
+   Responsive Breakpoints: Mobile & Tablet Perfection
+   ================================================================= */
+@media (max-width: 1024px) {
   .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
     height: auto;
-  }
-  
-  .filter-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .filter-price-group {
-    width: 100%;
-  }
-
-  .header-center {
-    display: none;
+    min-height: auto;
   }
 }
 
-@media (max-width: 768px) {
+/* 스마트폰 및 태블릿 (900px 이하) */
+@media (max-width: 900px) {
+  /* 헤더: 모바일 최적화 2열 구조 */
   .app-header {
-    padding: 0 16px;
-    height: 64px;
+    height: auto;
+    padding: 10px 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+  }
+
+  .header-left {
+    flex: 1;
+  }
+
+  .brand-logo {
+    gap: 8px;
+  }
+
+  .radar-pulse-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .pulse-dot {
+    width: 8px;
+    height: 8px;
   }
 
   .brand-title {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+    white-space: nowrap;
   }
 
   .brand-subtitle {
     display: none;
   }
 
+  .header-center {
+    display: none;
+  }
+
   .header-right {
+    display: flex;
+    align-items: center;
     gap: 6px;
   }
 
-  .btn-four-split .btn-label {
+  /* 헤더 우측 버튼들 콤팩트 */
+  .btn-action.btn-four-split {
+    display: none; /* 모바일에서는 배너의 버튼 사용 */
+  }
+
+  .btn-notify-toggle .btn-label,
+  .btn-test-alert .btn-label {
     display: none;
   }
 
-  .btn-four-split {
+  .btn-action {
+    padding: 7px 10px;
+    font-size: 0.85rem;
+  }
+
+  .btn-icon-only {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* 모바일 탭 바 표시 */
+  .mobile-view-tabs {
+    display: block;
+  }
+
+  /* 필터 바 가로 스크롤 콤팩트 */
+  .filter-panel {
     padding: 8px 12px;
   }
 
-  .btn-notify-toggle .btn-label {
+  .filter-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .filter-container::-webkit-scrollbar {
     display: none;
   }
 
+  .filter-group {
+    flex-shrink: 0;
+  }
+
+  .filter-price-group {
+    min-width: 280px;
+  }
+
+  .filter-title {
+    font-size: 0.7rem;
+  }
+
+  .pill-btn {
+    padding: 6px 10px;
+    font-size: 0.78rem;
+  }
+
+  /* 4창 분할 배너 */
+  .launcher-banner {
+    padding: 10px 14px;
+  }
+
+  .banner-text {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .btn-banner-action {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.88rem;
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  /* 모바일 메인 대시보드: 시원한 1열 100% 폭 (글자 절대 안 밀림!) */
   .dashboard-main {
-    padding: 12px 10px;
+    padding: 10px 8px;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: auto;
+    min-height: auto;
+  }
+
+  .complex-card {
+    border-radius: var(--radius-md);
+    width: 100%;
+  }
+
+  .card-header {
+    padding: 12px 14px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .complex-name {
+    font-size: 1.05rem;
+  }
+
+  .badge-complex-stat {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+
+  .complex-meta {
+    font-size: 0.74rem;
+    gap: 6px;
+  }
+
+  .btn-naver-direct {
+    padding: 5px 10px;
+    font-size: 0.76rem;
+  }
+
+  .btn-card-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 0.85rem;
+  }
+
+  .card-summary-ribbon {
+    padding: 8px 14px;
+    font-size: 0.74rem;
+  }
+
+  .card-body {
+    padding: 10px;
+    gap: 10px;
+    max-height: none; /* 모바일에서 시원하게 펼치기 */
+  }
+
+  /* 매물 카드 모바일 완벽 정렬 */
+  .listing-card {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+
+  .listing-price {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  .listing-badge-jeonse {
+    font-size: 0.72rem;
+    padding: 2px 7px;
+  }
+
+  .badge-click-hint {
+    font-size: 0.72rem;
+    padding: 3px 7px;
+  }
+
+  .btn-listing-link {
+    font-size: 0.74rem;
+    padding: 3px 7px;
+  }
+
+  .card-spec-bar {
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .spec-chip {
+    font-size: 0.78rem;
+  }
+
+  .tag-chip {
+    font-size: 0.72rem;
+    padding: 2px 7px;
+  }
+
+  .listing-desc {
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .listing-bottom-row {
+    font-size: 0.74rem;
+    padding-top: 6px;
   }
 
   .app-footer {
     display: none;
   }
 }
+
+

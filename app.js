@@ -367,35 +367,40 @@ function renderComplexCard(complex) {
         </div>
       ` : filtered.map(item => `
         <article class="listing-card ${item.isNew ? 'highlight-new' : ''}" id="article_${item.id}" data-complex-id="${complex.id}" data-article-id="${item.id}" title="클릭하여 상세 정보 팝업 보기">
-          <div class="listing-top-row">
-            <div class="listing-price-area">
+          <!-- 카드 메인 행: 좌측 가격/뱃지, 우측 액션 버튼 -->
+          <div class="card-top-header">
+            <div class="card-price-block">
               <span class="listing-badge-jeonse">전세</span>
               <span class="listing-price">${item.priceText}</span>
               ${item.isNew ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
             </div>
             <div class="listing-actions">
-              <span class="badge-click-hint" style="font-size:0.7rem; color:var(--text-muted); background:rgba(255,255,255,0.06); padding:2px 6px; border-radius:4px;">상세보기 📋</span>
+              <span class="badge-click-hint">상세보기 📋</span>
               <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산 공식 단지 페이지 열기" onclick="event.stopPropagation();">
                 네이버 상세 ↗
               </a>
             </div>
           </div>
 
-          <div class="listing-spec-row">
-            <span class="listing-dong">${item.dong}</span>
-            <span class="listing-floor">${item.floor}/${item.maxFloor}</span>
-            <span class="listing-area">${item.pyeong}평형 (${item.type})</span>
-            <span class="listing-direction">${item.direction}</span>
+          <!-- 동호수 및 스펙 칩 바: 박스 정중앙에 깔끔하고 선명하게 정렬 -->
+          <div class="card-spec-bar">
+            <span class="spec-chip spec-chip-dong">🏢 ${item.dong}</span>
+            <span class="spec-chip spec-chip-floor">${item.floor}/${item.maxFloor}</span>
+            <span class="spec-chip spec-chip-area">📐 전용 84㎡ (34평형)</span>
+            <span class="spec-chip spec-chip-dir">${item.direction}</span>
           </div>
 
+          <!-- 특징 태그들 -->
           <div class="listing-tags">
             ${item.tags.map((tag, idx) => `
               <span class="tag-chip ${idx === 0 ? 'accent' : ''}">#${tag}</span>
             `).join('')}
           </div>
 
+          <!-- 매물 한줄 설명 -->
           <p class="listing-desc" title="${item.desc}">${item.desc}</p>
 
+          <!-- 하단 정보: 중개사명 및 등록일 -->
           <div class="listing-bottom-row">
             <div class="agency-info">
               <span class="agency-name">🏠 ${item.agency}</span>
@@ -993,6 +998,29 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  // 모바일 전용 뷰 탭 바 이벤트
+  const mobileTabs = document.getElementById('mobileViewTabs');
+  if (mobileTabs) {
+    mobileTabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.mobile-tab-btn');
+      if (!btn) return;
+      const targetTab = btn.dataset.tab;
+
+      document.querySelectorAll('.mobile-tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const gridContainer = document.getElementById('complexGrid');
+      if (targetTab === 'all') {
+        state.soloComplexId = null;
+        gridContainer.classList.remove('solo-mode');
+      } else {
+        state.soloComplexId = targetTab;
+        gridContainer.classList.add('solo-mode');
+      }
+      renderAllComplexes();
+    });
+  }
 
   // 6. 테마 토글
   setupThemeToggle();

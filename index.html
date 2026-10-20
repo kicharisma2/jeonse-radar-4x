@@ -188,6 +188,31 @@
     </div>
   </div>
 
+  <!-- 모바일 전용 뷰 컨트롤 바 (스마트폰에서 4분할 전체 / 단지별 탭 선택) -->
+  <nav class="mobile-view-tabs" id="mobileViewTabs" aria-label="모바일 화면 분할 및 단지 선택">
+    <div class="mobile-tab-scroll">
+      <button class="mobile-tab-btn active" data-tab="all" id="mTabAll">
+        <span>🔲 4분할 전체보기</span>
+      </button>
+      <button class="mobile-tab-btn" data-tab="dongnae_raemian" id="mTabDn">
+        <span class="tab-dot dot-dn"></span>
+        <span>동래래미안</span>
+      </button>
+      <button class="mobile-tab-btn" data-tab="ray_county" id="mTabRc">
+        <span class="tab-dot dot-rc"></span>
+        <span>레이카운티</span>
+      </button>
+      <button class="mobile-tab-btn" data-tab="raemian_forestige" id="mTabFp">
+        <span class="tab-dot dot-fp"></span>
+        <span>포레스티지</span>
+      </button>
+      <button class="mobile-tab-btn" data-tab="hyosung_harrington" id="mTabHs">
+        <span class="tab-dot dot-hs"></span>
+        <span>효성해링턴</span>
+      </button>
+    </div>
+  </nav>
+
   <!-- 메인 4분할 그리드 대시보드 -->
   <main class="dashboard-main" id="dashboardMain">
     <div class="grid-container" id="complexGrid">
