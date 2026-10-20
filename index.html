@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동래·연제 전세 4분할 레이더 | 부산 4대 대장아파트 실시간 전세 모니터</title>
+  <meta name="description" content="부산 동래구 및 연제구 대표 4대 아파트(동래래미안아이파크, 레이카운티, 동래래미안포레스티지, 동래효성해링턴플레이스)의 전세 매물(4억 3천~5억 5천, 30평대)을 한 화면 4분할로 실시간 모니터링하고 네이버 부동산 연동 및 신규 매물 알림을 제공하는 스마트 부동산 레이더입니다.">
+  <meta name="keywords" content="네이버부동산, 동래래미안아이파크, 레이카운티, 래미안포레스티지, 효성해링턴, 부산전세, 4분할화면, 전세알림">
+  <meta property="og:title" content="동래·연제 전세 4분할 레이더 (JeonseRadar 4X)">
+  <meta property="og:description" content="동래래미안아이파크 · 레이카운티 · 래미안포레스티지 · 효성해링턴 4대 단지 4분할 네이버창 및 실시간 신규 매물 알림">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏢</text></svg>">
+
+  <!-- Google Fonts: Pretendard & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+
+  <!-- 최상단 헤더 네비게이션 -->
+  <header class="app-header" id="appHeader">
+    <div class="header-left">
+      <div class="brand-logo">
+        <div class="radar-pulse-icon" title="실시간 레이더 작동 중">
+          <span class="pulse-ring"></span>
+          <span class="pulse-dot"></span>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">동래·연제 전세 <span class="text-gradient">4분할 레이더</span></h1>
+          <p class="brand-subtitle">부산 대장 4대 단지 맞춤 전세 모니터링 시스템</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 헤더 중앙: 실시간 감시 상태 뱃지 & 통계 -->
+    <div class="header-center">
+      <div class="status-chip" id="monitoringStatusChip">
+        <span class="live-beacon"></span>
+        <span class="status-label">실시간 감시 활성</span>
+        <span class="status-timer" id="nextCheckTimer">다음 감시: 25초</span>
+      </div>
+      <div class="stat-badge" id="totalMatchesBadge">
+        <span class="stat-num" id="totalMatchesCount">0</span>
+        <span class="stat-txt">조건 부합 매물</span>
+      </div>
+    </div>
+
+    <!-- 헤더 우측: 핵심 액션 버튼군 -->
+    <div class="header-right">
+      <!-- 1클릭 네이버 4분할 창 실행 버튼 (사용자 핵심 요구사항) -->
+      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="모니터 화면을 4등분하여 4개 단지 네이버 부동산 창을 동시에 팝업 실행합니다">
+        <span class="btn-icon">🖥️</span>
+        <span class="btn-label">네이버 4창 분할 실행</span>
+        <span class="badge-hot">1-CLICK</span>
+      </button>
+
+      <!-- 신규 매물 알림 토글 -->
+      <button class="btn-action btn-notify-toggle" id="btnNotifyToggle" title="새 매물이 등록되면 바탕화면 푸시 알림과 알림음을 발생시킵니다">
+        <span class="btn-icon" id="notifyIcon">🔔</span>
+        <span class="btn-label" id="notifyLabel">알림 켜기</span>
+      </button>
+
+      <!-- 알림 센터 드로어 열기 -->
+      <button class="btn-icon-only" id="btnOpenNotificationCenter" title="알림 내역 보기">
+        <span class="icon">📫</span>
+        <span class="badge-counter" id="unreadNotifCount" style="display: none;">0</span>
+      </button>
+
+      <!-- 알림 시뮬레이션 테스트 버튼 -->
+      <button class="btn-action btn-test-alert" id="btnSimulateNewListing" title="새 매물이 올라왔을 때의 알림과 푸시를 즉시 테스트해봅니다">
+        <span class="btn-icon">🧪</span>
+        <span class="btn-label">알림 테스트</span>
+      </button>
+
+      <!-- 테마 토글 (다크/라이트) -->
+      <button class="btn-icon-only" id="btnThemeToggle" title="테마 전환">
+        <span class="icon" id="themeIcon">☀️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 메인 필터 컨트롤 바 -->
+  <section class="filter-panel" id="filterPanel" aria-label="매물 검색 필터">
+    <div class="filter-container">
+      
+      <!-- 필터 그룹 1: 거래 유형 -->
+      <div class="filter-group">
+        <span class="filter-title">거래 유형</span>
+        <div class="pill-group" role="radiogroup" aria-label="거래 유형 선택">
+          <button class="pill-btn active" data-type="trade" data-value="jeonse" id="filterJeonse">
+            <span class="pill-check">✓</span> 전세
+          </button>
+          <button class="pill-btn disabled" data-type="trade" data-value="sale" title="전세 전용 모니터 모드입니다">
+            매매
+          </button>
+          <button class="pill-btn disabled" data-type="trade" data-value="monthly" title="전세 전용 모니터 모드입니다">
+            월세
+          </button>
+        </div>
+      </div>
+
+      <!-- 필터 그룹 2: 전세 보증금 범위 (사용자: 4억 3천 ~ 5억 5천) -->
+      <div class="filter-group filter-price-group">
+        <div class="filter-header-row">
+          <span class="filter-title">전세 보증금</span>
+          <span class="filter-value-text" id="priceRangeDisplay">4억 3,000만 ~ 5억 5,000만원</span>
+        </div>
+        <div class="price-slider-wrap">
+          <div class="dual-range-container">
+            <input type="range" id="priceMinRange" min="30000" max="70000" step="1000" value="43000" aria-label="최소 보증금">
+            <input type="range" id="priceMaxRange" min="30000" max="70000" step="1000" value="55000" aria-label="최대 보증금">
+            <div class="slider-track" id="priceTrack"></div>
+          </div>
+          <div class="price-quick-tags">
+            <button class="tag-btn active" data-min="43000" data-max="55000">기본 (4.3억~5.5억)</button>
+            <button class="tag-btn" data-min="43000" data-max="48000">4.3억~4.8억</button>
+            <button class="tag-btn" data-min="48000" data-max="52000">4.8억~5.2억</button>
+            <button class="tag-btn" data-min="50000" data-max="55000">5.0억~5.5억</button>
+            <button class="tag-btn" data-min="30000" data-max="70000">전체 범위</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 필터 그룹 3: 면적 (30평대 지정) -->
+      <div class="filter-group">
+        <span class="filter-title">면적</span>
+        <div class="pill-group" role="radiogroup" aria-label="면적 선택">
+          <button class="pill-btn" data-type="pyeong" data-value="all" id="pyeongAll">전체 평형</button>
+          <button class="pill-btn active" data-type="pyeong" data-value="30" id="pyeong30">
+            <span class="pill-check">✓</span> 30평대 (84㎡형)
+          </button>
+          <button class="pill-btn" data-type="pyeong" data-value="20" id="pyeong20">20평대 (59㎡형)</button>
+          <button class="pill-btn" data-type="pyeong" data-value="40" id="pyeong40">40평대 이상</button>
+        </div>
+      </div>
+
+      <!-- 필터 그룹 4: 세대수 & 사용승인일 -->
+      <div class="filter-group">
+        <span class="filter-title">단지 조건</span>
+        <div class="tag-row">
+          <span class="spec-tag active" title="선택된 4개 단지는 모두 500세대 이상입니다">
+            🏢 500세대 이상 (충족)
+          </span>
+          <div class="dropdown-wrapper">
+            <select id="selectBuildAge" class="custom-select" aria-label="사용승인연한 필터">
+              <option value="all">연식: 전체 (신축~전체)</option>
+              <option value="within20" selected>사용승인: 20년 이내 (신축/준신축)</option>
+              <option value="over20">사용승인: 20년 이상</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- 필터 그룹 5: 빠른 정렬 및 초기화 -->
+      <div class="filter-group filter-group-right">
+        <span class="filter-title">정렬 및 옵션</span>
+        <div class="action-row">
+          <select id="selectSort" class="custom-select" aria-label="매물 정렬 기준">
+            <option value="price_asc">가격 낮은순 (최저가)</option>
+            <option value="newest" selected>최신 등록순</option>
+            <option value="price_desc">가격 높은순</option>
+            <option value="area_desc">면적 넓은순</option>
+          </select>
+          <button class="btn-reset" id="btnResetFilters" title="기본 필터로 초기화">
+            <span>↺ 초기화</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4분할 네이버창 팝업 실행 모달/안내 배너 -->
+  <div class="launcher-banner" id="launcherBanner">
+    <div class="launcher-banner-content">
+      <div class="banner-badge">💡 4분할 화면 꿀팁</div>
+      <p class="banner-text">
+        <strong>[네이버 4창 분할 실행]</strong> 버튼을 누르면 브라우저 화면의 4분면(좌상, 우상, 좌하, 우하)에
+        <strong>동래래미안아이파크 · 레이카운티 · 래미안포레스티지 · 효성해링턴</strong> 네이버창이 정확하게 정렬되어 동시에 뜹니다.
+      </p>
+      <button class="btn-banner-action" id="btnBannerLaunch">지금 4창 분할 띄우기</button>
+    </div>
+  </div>
+
+  <!-- 메인 4분할 그리드 대시보드 -->
+  <main class="dashboard-main" id="dashboardMain">
+    <div class="grid-container" id="complexGrid">
+
+      <!-- 단지 1: 동래래미안아이파크 -->
+      <section class="complex-card card-dn" id="cardDongnaeRaemian" data-complex-id="dongnae_raemian">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
+      <!-- 단지 2: 레이카운티 -->
+      <section class="complex-card card-rc" id="cardRayCounty" data-complex-id="ray_county">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
+      <!-- 단지 3: 동래래미안포레스티지 -->
+      <section class="complex-card card-fp" id="cardRaemianForestige" data-complex-id="raemian_forestige">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
+      <!-- 단지 4: 동래효성해링턴플레이스 -->
+      <section class="complex-card card-hs" id="cardHyosungHarrington" data-complex-id="hyosung_harrington">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
+    </div>
+  </main>
+
+  <!-- 하단 고정 바: 빠른 이동 및 상태 요약 -->
+  <footer class="app-footer" id="appFooter">
+    <div class="footer-left">
+      <span class="footer-dot"></span>
+      <span class="footer-info">모니터링 대상: 부산 4대 대장 단지 총 13,128세대 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
+    </div>
+    <div class="footer-center">
+      <span class="footer-tip">팁: 각 단지 카드의 <strong>[네이버 바로보기]</strong>를 누르면 해당 단지의 필터링된 네이버 지도로 즉시 이동합니다.</span>
+    </div>
+    <div class="footer-right">
+      <button class="btn-footer-link" id="btnFooterOpenAll">전체 4단지 네이버창 동시열기</button>
+    </div>
+  </footer>
+
+  <!-- 알림 센터 사이드 드로어 -->
+  <aside class="drawer-overlay" id="drawerOverlay">
+    <div class="notif-drawer" id="notifDrawer">
+      <div class="drawer-header">
+        <div class="drawer-title-group">
+          <span class="drawer-icon">🔔</span>
+          <h2 class="drawer-title">실시간 매물 알림 피드</h2>
+        </div>
+        <button class="btn-close-drawer" id="btnCloseDrawer" aria-label="닫기">✕</button>
+      </div>
+
+      <div class="drawer-actions">
+        <button class="btn-drawer-small" id="btnClearNotifs">내역 지우기</button>
+        <button class="btn-drawer-small primary" id="btnTestNotifInDrawer">테스트 알림 발생</button>
+      </div>
+
+      <div class="drawer-body" id="notifListContainer">
+        <!-- 알림 리스트 아이템들이 렌더링됨 -->
+        <div class="empty-notif" id="emptyNotifMsg">
+          <span class="empty-icon">📭</span>
+          <p>아직 수신된 신규 매물 알림이 없습니다.</p>
+          <p class="empty-sub">새로운 전세 매물이 감지되면 즉시 이곳에 기록되고 푸시 알림이 발송됩니다.</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 팝업 차단 안내 모달 -->
+  <div class="modal-overlay" id="popupHelpModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-icon">⚠️</span>
+        <h3 class="modal-title">브라우저 팝업 허용 필요</h3>
+        <button class="btn-close-modal" id="btnCloseHelpModal">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          한 화면에 네이버 부동산 창 4개를 동시에 분할 팝업으로 띄우려면 브라우저의 <strong>팝업 허용</strong> 권한이 필요합니다.
+        </p>
+        <div class="help-steps">
+          <div class="step-item">
+            <span class="step-num">1</span>
+            <div class="step-text">브라우저 주소창 우측 상단의 <strong>[팝업 차단됨 🚫]</strong> 아이콘을 클릭합니다.</div>
+          </div>
+          <div class="step-item">
+            <span class="step-num">2</span>
+            <div class="step-text"><strong>'항상 팝업 및 리디렉션을 허용'</strong>을 선택하고 [완료]를 누릅니다.</div>
+          </div>
+          <div class="step-item">
+            <span class="step-num">3</span>
+            <div class="step-text">다시 아래의 <strong>[4창 분할 실행]</strong> 버튼을 누르면 화면 4분면에 창이 정렬되어 뜹니다!</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-modal-action primary" id="btnRetryLaunch">네이버 4창 다시 열기</button>
+        <button class="btn-modal-action secondary" id="btnDismissModal">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 토스트 알림 컨테이너 -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- 스크립트 로드 -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
