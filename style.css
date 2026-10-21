@@ -858,21 +858,27 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   flex-shrink: 0;
 }
-.num-dongnae_raemian { background: var(--dn-color); }
-.num-ray_county { background: var(--rc-color); }
-.num-raemian_forestige { background: var(--fp-color); }
-.num-hyosung_harrington { background: var(--hs-color); }
-.num-myeongnyun_ipark { background: var(--mi-color); }
-.num-thesharp_dongnae { background: var(--td-color); }
+.num-dongnae_raemian { background: #10b981; }
+.num-ray_county { background: #3b82f6; }
+.num-raemian_forestige { background: #a855f7; }
+.num-hyosung_harrington { background: #f59e0b; }
+.num-myeongnyun_ipark { background: #06b6d4; }
+.num-thesharp_dongnae { background: #f43f5e; }
 
+/* 아파트 이름: 번호 뱃지와 1:1 색상 일치 */
 .complex-name {
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: -0.01em;
-  color: var(--text-primary);
   white-space: nowrap;
 }
+.name-dongnae_raemian { color: #10b981; }
+.name-ray_county { color: #3b82f6; }
+.name-raemian_forestige { color: #a855f7; }
+.name-hyosung_harrington { color: #f59e0b; }
+.name-myeongnyun_ipark { color: #06b6d4; }
+.name-thesharp_dongnae { color: #f43f5e; }
 
 .badge-complex-stat {
   font-size: 0.72rem;
@@ -933,69 +939,29 @@ body {
   gap: 8px;
 }
 
-/* 네이버 바로보기 버튼: 단지별 고유 컬러 브랜딩으로 초록색 남발 방지 & 시인성 극대화 */
+/* 네이버 바로보기 버튼: 단정한 화이트 미니멀 버튼 (사용자 요청: 그냥 흰색으로 변경) */
 .btn-naver-direct {
-  color: #ffffff;
-  border: none;
-  padding: 6px 12px;
+  background: #ffffff;
+  color: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 5px 12px;
   border-radius: var(--radius-sm);
   font-size: 0.78rem;
   font-weight: 700;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all var(--transition-fast);
   white-space: nowrap;
 }
-.btn-naver-dongnae_raemian {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
-}
-.btn-naver-dongnae_raemian:hover {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.45);
-}
-.btn-naver-ray_county {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
-}
-.btn-naver-ray_county:hover {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.45);
-}
-.btn-naver-raemian_forestige {
-  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
-  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3);
-}
-.btn-naver-raemian_forestige:hover {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.45);
-}
-.btn-naver-hyosung_harrington {
-  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
-  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.3);
-}
-.btn-naver-hyosung_harrington:hover {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.45);
-}
-.btn-naver-myeongnyun_ipark {
-  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  box-shadow: 0 2px 8px rgba(8, 145, 178, 0.3);
-}
-.btn-naver-myeongnyun_ipark:hover {
-  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
-  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.45);
-}
-.btn-naver-thesharp_dongnae {
-  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
-  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.3);
-}
-.btn-naver-thesharp_dongnae:hover {
-  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
-  box-shadow: 0 4px 12px rgba(225, 29, 72, 0.45);
+.btn-naver-direct:hover {
+  background: #f8fafc;
+  color: #0284c7;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn-card-icon {

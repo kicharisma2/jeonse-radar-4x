@@ -389,7 +389,7 @@ function renderComplexCard(complex) {
       <div class="complex-info">
         <div class="complex-title-row">
           <span class="badge-complex-num num-${complex.id}">${complexNum}</span>
-          <h2 class="complex-name">${complex.name}</h2>
+          <h2 class="complex-name name-${complex.id}">${complex.name}</h2>
           <span class="badge-complex-stat stat-${complex.id}">${complex.households.toLocaleString()}세대</span>
           <span class="badge-complex-substat">${complex.ageYears}년차 (${complex.buildYear}.${complex.buildMonth})</span>
         </div>
@@ -400,8 +400,8 @@ function renderComplexCard(complex) {
         </div>
       </div>
       <div class="card-header-actions">
-        <!-- 딥링크 네이버 부동산 바로보기 (단지별 차별화 컬러) -->
-        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct btn-naver-${complex.id}" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
+        <!-- 딥링크 네이버 부동산 바로보기 (깔끔한 화이트 미니멀 버튼) -->
+        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
           <span>네이버 바로보기</span> ↗
         </a>
         <!-- 단독 확대 토글 -->

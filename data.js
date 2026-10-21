@@ -36,7 +36,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2027년 3월 초·중순 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -69,7 +69,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -102,7 +102,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -135,7 +135,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -168,7 +168,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -201,7 +201,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -234,7 +234,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -267,7 +267,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -300,7 +300,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -333,7 +333,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2026년 11월 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -366,7 +366,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -399,7 +399,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2026년 11월 말 입주 (날짜 절충 가능)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -432,7 +432,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -465,7 +465,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -498,7 +498,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "빠른 입주 가능 (즉시 협의)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -531,7 +531,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -564,7 +564,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -597,7 +597,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2027년 1월 중 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -630,7 +630,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -663,7 +663,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -716,7 +716,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -749,7 +749,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -782,7 +782,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -815,7 +815,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -868,7 +868,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -901,7 +901,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -934,7 +934,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2026년 12월 초·중순 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -967,7 +967,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2027년 1월 초 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1000,7 +1000,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1033,7 +1033,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "공실 (즉시 입주 가능)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1066,7 +1066,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "빠른 입주 가능 (즉시 협의)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1099,7 +1099,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1132,7 +1132,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1165,7 +1165,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1198,7 +1198,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1231,7 +1231,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1264,7 +1264,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1297,7 +1297,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1330,7 +1330,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1363,7 +1363,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "입주 시기 및 조건 협의 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1396,7 +1396,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "2026년 10월 말 이후 협의 입주",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1449,7 +1449,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "입주 시기 및 조건 협의 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1482,7 +1482,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "이사 날짜 협의 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1515,7 +1515,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1568,7 +1568,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1601,7 +1601,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "빠른 입주 가능 (즉시 협의)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1634,7 +1634,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1687,7 +1687,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1720,7 +1720,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "빠른 입주 가능 (즉시 협의)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1753,7 +1753,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "즉시 입주 또는 날짜 협의",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1786,7 +1786,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "빠른 입주 가능 (즉시 협의)",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
@@ -1819,7 +1819,7 @@ const COMPLEXES_DATA = [
         "rooms": "방 3개 / 욕실 2개",
         "entrance": "계단식",
         "loan": "융자금 없음 (안심 전세)",
-        "moveIn": "즉시입주 협의 가능",
+        "moveIn": "이사 날짜 협의 가능",
         "maintenanceCost": "약 18만원",
         "tags": [
           "네이버실매물",
