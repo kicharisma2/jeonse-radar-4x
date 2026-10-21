@@ -10,7 +10,7 @@ const state = {
   pyeongType: '30', // 30평대 (30~39평)
   minHouseholds: 500,
   buildAge: 'within20', // 20년 이내 (신축/준신축)
-  sort: 'newest',
+  sort: 'price_asc', // 기본 정렬: 가격 낮은순 (최저가순 사용자 요구)
   notificationsEnabled: false,
   soloComplexId: null,
   nextCheckSeconds: 25,
@@ -62,28 +62,45 @@ function playChimeSound() {
 }
 
 // -------------------------------------------------------------
-// 네이버 부동산 공식 단지 페이지 URL 빌더
-// (을지로 리디렉션을 원천 차단하고 해당 아파트 단지 전세 탭으로 100% 직행)
+// 네이버 부동산 공식 단지 페이지 & 매물 상세 URL 빌더
+// (네이버 공식 최신 파라미터 규격을 적용하여 전세·30평대·최저가순·매물상세 100% 보장)
 // -------------------------------------------------------------
-function buildNaverRealEstateUrl(complex) {
-  // new.land.naver.com의 공식 단지 상세 매물 URL (tradeType=B1 전세)
+function buildNaverRealEstateUrl(complex, articleNo = null) {
+  // new.land.naver.com 공식 규격:
+  // a=APT (아파트), b=B1 (전세), e=RETAIL (일반매물)
+  // f=최소가격, g=최대가격, h=최소면적(㎡), i=최대면적(㎡), order=prc (가격 낮은순)
   const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
   const params = new URLSearchParams();
 
-  params.set('tradeType', 'B1'); // 전세
-  params.set('priceMin', String(state.priceMin));
-  params.set('priceMax', String(state.priceMax));
+  params.set('a', 'APT');
+  params.set('b', 'B1'); // 전세 필터 100% 강제 고정
+  params.set('e', 'RETAIL');
 
-  // 평형 조건
+  if (state.priceMin) {
+    params.set('f', String(state.priceMin));
+  }
+  if (state.priceMax) {
+    params.set('g', String(state.priceMax));
+  }
+
+  // 평형 조건 (30평대: 99㎡~132㎡ / 전용 84㎡)
   if (state.pyeongType === '30') {
-    params.set('areaMin', '99');
-    params.set('areaMax', '132');
+    params.set('h', '99');
+    params.set('i', '132');
   } else if (state.pyeongType === '20') {
-    params.set('areaMin', '66');
-    params.set('areaMax', '99');
+    params.set('h', '66');
+    params.set('i', '99');
   } else if (state.pyeongType === '40') {
-    params.set('areaMin', '132');
-    params.set('areaMax', '999');
+    params.set('h', '132');
+    params.set('i', '999');
+  }
+
+  // 가격 낮은순 (최저가순 정렬)
+  params.set('order', 'prc');
+
+  // 개별 매물번호가 있는 경우 네이버에서 해당 매물 패널을 즉시 열도록 articleNo 지정
+  if (articleNo) {
+    params.set('articleNo', String(articleNo));
   }
 
   return `${baseUrl}?${params.toString()}`;
@@ -394,8 +411,8 @@ function renderComplexCard(complex) {
             </div>
             <div class="listing-actions">
               <span class="badge-click-hint">상세보기 📋</span>
-              <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산 공식 단지 페이지 열기" onclick="event.stopPropagation();">
-                네이버 상세 ↗
+              <a href="${buildNaverRealEstateUrl(complex, item.articleNo)}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산에서 동일 조건 이 매물 확인하기" onclick="event.stopPropagation();">
+                네이버 매물 ↗
               </a>
             </div>
           </div>
@@ -801,7 +818,8 @@ function openArticleDetailModal(complexId, articleId) {
 
   const modal = document.getElementById('articleDetailModal');
   const modalContent = document.getElementById('articleModalContent');
-  const naverUrl = buildNaverRealEstateUrl(complex);
+  const naverArticleUrl = buildNaverRealEstateUrl(complex, item.articleNo);
+  const naverComplexUrl = buildNaverRealEstateUrl(complex);
 
   modalContent.innerHTML = `
     <!-- 헤더 -->
@@ -817,6 +835,7 @@ function openArticleDetailModal(complexId, articleId) {
           <span>🚇 ${complex.metro}</span>
           <span>·</span>
           <span>총 ${complex.households.toLocaleString()}세대 (${complex.ageYears}년차)</span>
+          ${item.articleNo ? `<span>·</span><span>매물번호: #${item.articleNo}</span>` : ''}
         </div>
       </div>
       <button class="btn-close-modal" id="btnCloseArticleModal" aria-label="닫기">✕</button>
@@ -832,7 +851,7 @@ function openArticleDetailModal(complexId, articleId) {
         </div>
         <div class="price-banner-right">
           <span class="badge-loan-status">${item.loan || '융자금 없음 (안심전세)'}</span>
-          <span class="text-maintenance">월 관리비: ${item.maintenanceCost || '약 17만원'}</span>
+          <span class="text-maintenance">월 관리비: ${item.maintenanceCost || '약 18만원'}</span>
         </div>
       </div>
 
@@ -892,9 +911,14 @@ function openArticleDetailModal(complexId, articleId) {
 
     <!-- 푸터 액션 -->
     <div class="article-modal-footer">
-      <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산 공식 단지 페이지로 이동">
-        <span>네이버 부동산에서 단지 매물 확인하기</span> ↗
-      </a>
+      <div class="modal-footer-links">
+        <a href="${naverArticleUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산에서 동일 조건 이 매물 확인하기">
+          <span>네이버에서 이 매물 확인하기 (${item.articleNo ? '#' + item.articleNo : '실매물'})</span> ↗
+        </a>
+        <a href="${naverComplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-secondary" title="네이버 부동산에서 동일 조건(전세·30평대·최저가순) 단지 전체 매물 보기">
+          <span>동일 조건 단지 전체 매물</span> ↗
+        </a>
+      </div>
       <button class="btn-close-article-modal" id="btnDismissArticleModal">닫기</button>
     </div>
   `;
