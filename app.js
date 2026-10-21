@@ -2,6 +2,32 @@
  * 동래·연제 전세 4분할 레이더 (JeonseRadar 4X) - Main Application Logic
  */
 
+function loadVisibleComplexes() {
+  try {
+    const saved = localStorage.getItem('jeonse_visible_complexes');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+    }
+  } catch (e) {
+    console.warn('Failed to parse visible complexes', e);
+  }
+  return ['dongnae_raemian', 'ray_county', 'raemian_forestige', 'hyosung_harrington', 'myeongnyun_ipark', 'thesharp_dongnae'];
+}
+
+function loadFavoriteComplexes() {
+  try {
+    const saved = localStorage.getItem('jeonse_favorite_complexes');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed)) return parsed;
+    }
+  } catch (e) {
+    console.warn('Failed to parse favorite complexes', e);
+  }
+  return [];
+}
+
 // 애플리케이션 상태 (사용자 요구조건 기본값 반영)
 const state = {
   tradeType: 'jeonse',
@@ -16,7 +42,10 @@ const state = {
   nextCheckSeconds: 25,
   articles: {}, // complexId => articles array
   notifications: [],
-  theme: 'dark'
+  theme: 'dark',
+  visibleComplexIds: loadVisibleComplexes(),
+  favoriteComplexIds: loadFavoriteComplexes(),
+  onlyFavoritesFilter: false
 };
 
 // 4개 단지별 활성 윈도우 핸들러 참조 (재사용 및 윈도우 제어용)
@@ -356,12 +385,37 @@ function isWithin24Hours(dateStr) {
 }
 
 // -------------------------------------------------------------
-// DOM 렌더링: 6개 단지 카드 렌더링
+// DOM 렌더링: 6개 단지 카드 렌더링 (관심 단지 및 추가/삭제 동적 지원)
 // -------------------------------------------------------------
 function renderAllComplexes() {
+  const activeIds = state.onlyFavoritesFilter
+    ? COMPLEXES_DATA.filter(c => state.favoriteComplexIds.includes(c.id)).map(c => c.id)
+    : state.visibleComplexIds;
+
   COMPLEXES_DATA.forEach(complex => {
-    renderComplexCard(complex);
+    const cardElem = document.getElementById(getCardElementId(complex.id));
+    if (!cardElem) return;
+
+    const isVisible = activeIds.includes(complex.id);
+    cardElem.classList.toggle('is-hidden', !isVisible);
+
+    if (isVisible) {
+      renderComplexCard(complex);
+    }
   });
+
+  // 동적 표시 카드 수에 맞춘 반응형 그리드 클래스 갱신
+  const gridElem = document.getElementById('complexGrid');
+  if (gridElem) {
+    gridElem.classList.remove('grid-count-1', 'grid-count-2', 'grid-count-3', 'grid-count-4', 'grid-count-5', 'grid-count-6');
+    const count = activeIds.length;
+    if (count > 0) {
+      gridElem.classList.add(`grid-count-${Math.min(count, 6)}`);
+    }
+  }
+
+  // 상단 관심 아파트 선택 칩 목록 갱신
+  renderComplexSelectorChips();
   updateTotalMatches();
 }
 
@@ -380,6 +434,7 @@ function renderComplexCard(complex) {
     : '매물 없음';
 
   const isSolo = state.soloComplexId === complex.id;
+  const isFav = state.favoriteComplexIds.includes(complex.id);
   const complexIndex = COMPLEXES_DATA.findIndex(c => c.id === complex.id);
   const complexNum = complexIndex >= 0 ? complexIndex + 1 : 1;
 
@@ -400,13 +455,21 @@ function renderComplexCard(complex) {
         </div>
       </div>
       <div class="card-header-actions">
+        <!-- 관심 아파트 등록/해제 토글 (★ / ☆) -->
+        <button class="btn-card-icon btn-fav-toggle ${isFav ? 'is-fav' : ''}" data-id="${complex.id}" title="${isFav ? '관심 아파트 해제' : '관심 아파트로 등록'}">
+          ${isFav ? '★' : '☆'}
+        </button>
         <!-- 딥링크 네이버 부동산 바로보기 (깔끔한 화이트 미니멀 버튼) -->
         <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
           <span>네이버 바로보기</span> ↗
         </a>
         <!-- 단독 확대 토글 -->
-        <button class="btn-card-icon btn-solo-toggle" data-id="${complex.id}" title="${isSolo ? '6분할 뷰로 복귀' : '이 단지만 단독 크게보기'}">
+        <button class="btn-card-icon btn-solo-toggle" data-id="${complex.id}" title="${isSolo ? '분할 뷰로 복귀' : '이 단지만 단독 크게보기'}">
           ${isSolo ? '🗗' : '🔲'}
+        </button>
+        <!-- 단지 숨기기/삭제 버튼 -->
+        <button class="btn-card-icon btn-remove-complex" data-id="${complex.id}" title="이 아파트 화면에서 숨기기 (상단 관리 바에서 다시 추가 가능)">
+          ✕
         </button>
       </div>
     </div>
@@ -439,7 +502,7 @@ function renderComplexCard(complex) {
             <div class="card-price-block">
               <span class="listing-badge-jeonse badge-jeonse-${complex.id}">전세</span>
               <span class="listing-price">${item.priceText}</span>
-              ${isNewItem ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
+              ${isNewItem ? '<span class="listing-new-tag">NEW</span>' : ''}
             </div>
             <div class="listing-actions">
               <span class="badge-click-hint">상세보기 📋</span>
@@ -509,6 +572,114 @@ function updateTotalMatches() {
   });
   const elem = document.getElementById('totalMatchesCount');
   if (elem) elem.textContent = String(count);
+}
+
+// -------------------------------------------------------------
+// 관심 아파트 관리 및 추가/삭제 기능 (사용자 요청: 6개 내에서 추가/삭제)
+// -------------------------------------------------------------
+function renderComplexSelectorChips() {
+  const container = document.getElementById('complexChipsGroup');
+  if (!container) return;
+
+  const btnFavs = document.getElementById('btnShowOnlyFavs');
+  if (btnFavs) {
+    btnFavs.classList.toggle('active', state.onlyFavoritesFilter);
+    btnFavs.innerHTML = `<span class="fav-star-icon">★</span> 관심 단지만 보기 (${state.favoriteComplexIds.length})`;
+  }
+
+  container.innerHTML = COMPLEXES_DATA.map((complex, idx) => {
+    const isVisible = state.visibleComplexIds.includes(complex.id);
+    const isFav = state.favoriteComplexIds.includes(complex.id);
+
+    return `
+      <div class="complex-select-chip ${isVisible ? 'active' : 'inactive'} chip-${complex.id}" data-id="${complex.id}">
+        <button class="chip-star-btn ${isFav ? 'is-fav' : ''}" data-id="${complex.id}" title="${isFav ? '관심 단지 해제' : '관심 단지로 등록'}">
+          ${isFav ? '★' : '☆'}
+        </button>
+        <span class="chip-num num-${complex.id}">${idx + 1}</span>
+        <span class="chip-name" data-id="${complex.id}">${complex.name}</span>
+        <button class="chip-toggle-btn" data-id="${complex.id}" title="${isVisible ? '화면에서 숨기기' : '화면에 다시 추가'}">
+          ${isVisible ? '✕' : '+ 추가'}
+        </button>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleFavoriteComplex(complexId) {
+  const index = state.favoriteComplexIds.indexOf(complexId);
+  const complex = COMPLEXES_DATA.find(c => c.id === complexId);
+  const name = complex ? complex.name : '아파트';
+
+  if (index >= 0) {
+    state.favoriteComplexIds.splice(index, 1);
+    showToast('관심 아파트 해제', `${name} 관심 등록이 해제되었습니다.`, 'info');
+  } else {
+    state.favoriteComplexIds.push(complexId);
+    showToast('관심 아파트 등록 ⭐', `${name} 관심 아파트로 등록되었습니다.`, 'info');
+  }
+
+  try {
+    localStorage.setItem('jeonse_favorite_complexes', JSON.stringify(state.favoriteComplexIds));
+  } catch (e) {
+    console.warn('Failed to save favorites', e);
+  }
+
+  renderAllComplexes();
+}
+
+function toggleVisibleComplex(complexId) {
+  const index = state.visibleComplexIds.indexOf(complexId);
+  const complex = COMPLEXES_DATA.find(c => c.id === complexId);
+  const name = complex ? complex.name : '아파트';
+
+  if (index >= 0) {
+    // 삭제/숨기기: 최소 1개는 유지
+    if (state.visibleComplexIds.length <= 1) {
+      showToast('숨기기 제한', '화면에는 최소 1개 이상의 아파트가 표시되어야 합니다.', 'warning');
+      return;
+    }
+    state.visibleComplexIds.splice(index, 1);
+    showToast('아파트 숨김', `${name} 카드를 화면에서 숨겼습니다. 상단 관리 바에서 언제든 다시 추가할 수 있습니다.`, 'info');
+  } else {
+    // 다시 추가하기
+    state.visibleComplexIds.push(complexId);
+    showToast('아파트 추가 🏢', `${name} 카드가 화면에 다시 추가되었습니다.`, 'info');
+  }
+
+  try {
+    localStorage.setItem('jeonse_visible_complexes', JSON.stringify(state.visibleComplexIds));
+  } catch (e) {
+    console.warn('Failed to save visible complexes', e);
+  }
+
+  renderAllComplexes();
+}
+
+function showAllComplexes() {
+  state.visibleComplexIds = COMPLEXES_DATA.map(c => c.id);
+  state.onlyFavoritesFilter = false;
+  try {
+    localStorage.setItem('jeonse_visible_complexes', JSON.stringify(state.visibleComplexIds));
+  } catch (e) {}
+
+  showToast('전체 6개 복원', '6개 아파트를 모두 화면에 표시합니다.', 'info');
+  renderAllComplexes();
+}
+
+function toggleOnlyFavoritesFilter() {
+  if (!state.onlyFavoritesFilter) {
+    if (state.favoriteComplexIds.length === 0) {
+      showToast('관심 아파트 없음', '먼저 각 아파트의 별표(★)를 눌러 관심 아파트를 등록해주세요.', 'warning');
+      return;
+    }
+    state.onlyFavoritesFilter = true;
+    showToast('관심 단지 모아보기 ⭐', `등록된 관심 아파트 ${state.favoriteComplexIds.length}개만 표시합니다.`, 'info');
+  } else {
+    state.onlyFavoritesFilter = false;
+    showToast('전체 보기 모드', '일반 보기 모드로 복귀했습니다.', 'info');
+  }
+  renderAllComplexes();
 }
 
 function highlightArticle(complexId, articleId) {
@@ -1078,7 +1249,37 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btnNotifyToggle').addEventListener('click', toggleNotificationPermission);
   document.getElementById('btnSimulateNewListing').addEventListener('click', simulateNewListing);
 
-  // 단독 모드 토글 및 매물 카드 클릭 팝업 이벤트 위임
+  // 관심 아파트 관리 바 (칩 클릭, 즐겨찾기 필터, 전체 복원) 이벤트
+  const chipsGroup = document.getElementById('complexChipsGroup');
+  if (chipsGroup) {
+    chipsGroup.addEventListener('click', (e) => {
+      // 1) 칩 내의 별표 버튼 클릭 -> 관심 단지 토글
+      const starBtn = e.target.closest('.chip-star-btn');
+      if (starBtn) {
+        e.stopPropagation();
+        toggleFavoriteComplex(starBtn.dataset.id);
+        return;
+      }
+
+      // 2) 칩 자체 또는 토글(+ 추가/✕) 버튼 클릭 -> 단지 표시/숨김 토글
+      const chip = e.target.closest('.complex-select-chip');
+      if (chip) {
+        toggleVisibleComplex(chip.dataset.id);
+      }
+    });
+  }
+
+  const btnFavs = document.getElementById('btnShowOnlyFavs');
+  if (btnFavs) {
+    btnFavs.addEventListener('click', toggleOnlyFavoritesFilter);
+  }
+
+  const btnShowAll = document.getElementById('btnShowAllComplexes');
+  if (btnShowAll) {
+    btnShowAll.addEventListener('click', showAllComplexes);
+  }
+
+  // 단독 모드 토글, 관심 등록, 단지 숨기기 및 매물 카드 클릭 팝업 이벤트 위임
   document.getElementById('complexGrid').addEventListener('click', (e) => {
     // 1) 단독 확대 버튼 클릭
     const btnSolo = e.target.closest('.btn-solo-toggle');
@@ -1088,7 +1289,23 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // 2) 매물 카드 클릭 시 물건 상세 모달 팝업 열기
+    // 2) 관심 아파트 별(★) 버튼 클릭
+    const btnFav = e.target.closest('.btn-fav-toggle');
+    if (btnFav) {
+      const complexId = btnFav.dataset.id;
+      toggleFavoriteComplex(complexId);
+      return;
+    }
+
+    // 3) 단지 숨기기/삭제(✕) 버튼 클릭
+    const btnRemove = e.target.closest('.btn-remove-complex');
+    if (btnRemove) {
+      const complexId = btnRemove.dataset.id;
+      toggleVisibleComplex(complexId);
+      return;
+    }
+
+    // 4) 매물 카드 클릭 시 물건 상세 모달 팝업 열기
     const card = e.target.closest('.listing-card');
     if (card) {
       // 만약 '네이버 상세' 버튼을 직접 누른 것이라면 모달 대신 링크 이동 (stopPropagation 처리됨)
