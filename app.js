@@ -460,6 +460,7 @@ function getCardElementId(complexId) {
   switch (complexId) {
     case 'dongnae_raemian': return 'cardDongnaeRaemian';
     case 'ray_county': return 'cardRayCounty';
+    case 'dongnae_forestige':
     case 'raemian_forestige': return 'cardRaemianForestige';
     case 'hyosung_harrington': return 'cardHyosungHarrington';
     default: return '';
@@ -1011,6 +1012,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. 알림 센터 및 모달 이벤트
   setupNotificationDrawer();
   setupModalListeners();
+
+  // 0. 왼쪽 위 제목/로고 클릭 시 새로고침 기능 (사용자 요청)
+  const brandLogo = document.getElementById('brandLogo');
+  if (brandLogo) {
+    brandLogo.addEventListener('click', () => {
+      showToast('🔄 페이지 새로고침', '데이터를 최신 상태로 새로고침합니다...', 'info');
+      setTimeout(() => {
+        window.location.reload();
+      }, 250);
+    });
+    brandLogo.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        window.location.reload();
+      }
+    });
+  }
 
   // 5. 버튼 이벤트
   document.getElementById('btnLaunchFourWindows').addEventListener('click', launchFourWindows);
