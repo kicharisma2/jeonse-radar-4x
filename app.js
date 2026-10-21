@@ -376,18 +376,21 @@ function renderComplexCard(complex) {
   const minPrice = filtered.length ? Math.min(...filtered.map(a => a.price)) : 0;
   const maxPrice = filtered.length ? Math.max(...filtered.map(a => a.price)) : 0;
   const priceRangeSummary = filtered.length 
-    ? `${(minPrice/10000).toFixed(1)}억 ~ ${(maxPrice/10000).toFixed(1)}억`
+    ? `${formatPrice(minPrice)} ~ ${formatPrice(maxPrice)}`
     : '매물 없음';
 
   const isSolo = state.soloComplexId === complex.id;
+  const complexIndex = COMPLEXES_DATA.findIndex(c => c.id === complex.id);
+  const complexNum = complexIndex >= 0 ? complexIndex + 1 : 1;
 
   cardElem.innerHTML = `
     <!-- 카드 헤더 -->
-    <div class="card-header">
+    <div class="card-header header-${complex.id}">
       <div class="complex-info">
         <div class="complex-title-row">
+          <span class="badge-complex-num num-${complex.id}">${complexNum}</span>
           <h2 class="complex-name">${complex.name}</h2>
-          <span class="badge-complex-stat">${complex.households.toLocaleString()}세대</span>
+          <span class="badge-complex-stat stat-${complex.id}">${complex.households.toLocaleString()}세대</span>
           <span class="badge-complex-substat">${complex.ageYears}년차 (${complex.buildYear}.${complex.buildMonth})</span>
         </div>
         <div class="complex-meta">
@@ -397,21 +400,21 @@ function renderComplexCard(complex) {
         </div>
       </div>
       <div class="card-header-actions">
-        <!-- 딥링크 네이버 부동산 바로보기 -->
-        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
+        <!-- 딥링크 네이버 부동산 바로보기 (단지별 차별화 컬러) -->
+        <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct btn-naver-${complex.id}" title="네이버 부동산에서 이 단지의 30평대(84㎡) 필터 매물을 봅니다">
           <span>네이버 바로보기</span> ↗
         </a>
         <!-- 단독 확대 토글 -->
-        <button class="btn-card-icon btn-solo-toggle" data-id="${complex.id}" title="${isSolo ? '4분할 뷰로 복귀' : '이 단지만 단독 크게보기'}">
+        <button class="btn-card-icon btn-solo-toggle" data-id="${complex.id}" title="${isSolo ? '6분할 뷰로 복귀' : '이 단지만 단독 크게보기'}">
           ${isSolo ? '🗗' : '🔲'}
         </button>
       </div>
     </div>
 
     <!-- 요약 리본 -->
-    <div class="card-summary-ribbon">
+    <div class="card-summary-ribbon ribbon-${complex.id}">
       <div class="summary-left">
-        <span>조건 일치 매물: <strong class="match-count-badge">${filtered.length}개</strong></span>
+        <span>조건 일치 매물: <strong class="match-count-badge count-${complex.id}">${filtered.length}개</strong></span>
         <span class="price-range-info">| 전세 호가: ${priceRangeSummary}</span>
       </div>
       <div class="summary-right">
@@ -434,7 +437,7 @@ function renderComplexCard(complex) {
           <!-- 카드 메인 행: 좌측 가격/뱃지, 우측 액션 버튼 -->
           <div class="card-top-header">
             <div class="card-price-block">
-              <span class="listing-badge-jeonse">전세</span>
+              <span class="listing-badge-jeonse badge-jeonse-${complex.id}">전세</span>
               <span class="listing-price">${item.priceText}</span>
               ${isNewItem ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
             </div>
@@ -558,8 +561,8 @@ function setupFilterListeners() {
     state.priceMin = minVal;
     state.priceMax = maxVal;
 
-    // 텍스트 포맷: 4억 3,000만 ~ 5억 5,000만원
-    priceDisplay.textContent = `${formatPrice(minVal)} ~ ${formatPrice(maxVal)}원`;
+    // 텍스트 포맷: 4억 3,000만원 ~ 5억 5,000만원
+    priceDisplay.textContent = `${formatPrice(minVal)} ~ ${formatPrice(maxVal)}`;
 
     // 슬라이더 트랙 채우기 (퍼센트 계산: 30000 ~ 70000)
     const minPercent = ((minVal - 30000) / 40000) * 100;
@@ -655,10 +658,17 @@ function setupFilterListeners() {
 }
 
 function formatPrice(val) {
+  if (typeof val !== 'number') {
+    let str = String(val).trim().replace(/[만원\s]+$/, '').trim();
+    if (str.endsWith('억')) return `${str}원`;
+    if (str.includes('억')) return `${str}만원`;
+    return `${str}만원`;
+  }
   const eok = Math.floor(val / 10000);
   const man = val % 10000;
-  if (man === 0) return `${eok}억`;
-  return `${eok}억 ${man.toLocaleString()}만`;
+  if (eok > 0 && man === 0) return `${eok}억원`;
+  if (eok > 0 && man > 0) return `${eok}억 ${man.toLocaleString()}만원`;
+  return `${man.toLocaleString()}만원`;
 }
 
 // -------------------------------------------------------------
