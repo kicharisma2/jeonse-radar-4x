@@ -439,19 +439,21 @@ function renderComplexCard(complex) {
   const complexNum = complexIndex >= 0 ? complexIndex + 1 : 1;
 
   cardElem.innerHTML = `
-    <!-- 카드 헤더 -->
+    <!-- 카드 헤더 (전 단지 고정 74px 높이 완벽 수평 정렬) -->
     <div class="card-header header-${complex.id}">
       <div class="complex-info">
         <div class="complex-title-row">
           <span class="badge-complex-num num-${complex.id}">${complexNum}</span>
           <h2 class="complex-name name-${complex.id}">${complex.name}</h2>
           <span class="badge-complex-stat stat-${complex.id}">${complex.households.toLocaleString()}세대</span>
-          <span class="badge-complex-substat">${complex.ageYears}년차 (${complex.buildYear}.${complex.buildMonth})</span>
+          <span class="badge-complex-age">${complex.ageYears}년차</span>
         </div>
         <div class="complex-meta">
           <span class="meta-item">📍 <strong>${complex.shortDistrict || complex.district}</strong></span>
           <span class="meta-dot">·</span>
           <span class="meta-item">🚇 ${complex.shortMetro || complex.metro}</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-item">준공: ${complex.buildYear}.${complex.buildMonth}</span>
         </div>
       </div>
       <div class="card-header-actions">
@@ -474,14 +476,18 @@ function renderComplexCard(complex) {
       </div>
     </div>
 
-    <!-- 요약 리본 -->
+    <!-- 조건 일치 매물 서브바 (고정 38px 높이, 칙칙한 회색띠 제거 및 고대비 테마 뱃지 적용) -->
     <div class="card-summary-ribbon ribbon-${complex.id}">
       <div class="summary-left">
-        <span>조건 일치 매물: <strong class="match-count-badge count-${complex.id}">${filtered.length}개</strong></span>
-        <span class="price-range-info">| 전세 호가: ${priceRangeSummary}</span>
+        <span class="badge-match-pill pill-${complex.id}">
+          <span class="match-icon">🏷️</span> 조건 일치: <strong>${filtered.length}개</strong>
+        </span>
+        <span class="summary-price-badge">
+          전세 호가: <strong>${priceRangeSummary}</strong>
+        </span>
       </div>
       <div class="summary-right">
-        <span>준공: ${complex.buildYear}.${complex.buildMonth}</span>
+        <span class="summary-spec-text">${complex.ageYears}년차 (${complex.buildYear}.${complex.buildMonth})</span>
       </div>
     </div>
 
