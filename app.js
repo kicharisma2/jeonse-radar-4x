@@ -107,23 +107,25 @@ function buildNaverRealEstateUrl(complex, articleNo = null) {
 }
 
 // -------------------------------------------------------------
-// 핵심 기능 1: 1클릭 화면 4분할 네이버 창 동시 실행 (사용자 요구)
+// 핵심 기능 1: 1클릭 화면 6분할 네이버 창 동시 실행 (3열 x 2행 바둑판 정렬)
 // -------------------------------------------------------------
-function launchFourWindows() {
+function launchSixWindows() {
   const availW = window.screen.availWidth || window.innerWidth;
   const availH = window.screen.availHeight || window.innerHeight;
   const availLeft = window.screen.availLeft || 0;
   const availTop = window.screen.availTop || 0;
 
-  const halfW = Math.floor(availW / 2);
-  const halfH = Math.floor(availH / 2);
+  const colW = Math.floor(availW / 3);
+  const rowH = Math.floor(availH / 2);
 
-  // 4개 단지 분할 좌표 (좌상, 우상, 좌하, 우하)
+  // 6대 단지 분할 좌표 (3열 2행: 상단 3개, 하단 3개)
   const windowLayouts = [
-    { index: 0, x: availLeft, y: availTop, w: halfW, h: halfH, title: '동래래미안아이파크' },
-    { index: 1, x: availLeft + halfW, y: availTop, w: halfW, h: halfH, title: '레이카운티' },
-    { index: 2, x: availLeft, y: availTop + halfH, w: halfW, h: halfH, title: '동래래미안포레스티지' },
-    { index: 3, x: availLeft + halfW, y: availTop + halfH, w: halfW, h: halfH, title: '효성해링턴' }
+    { index: 0, x: availLeft, y: availTop, w: colW, h: rowH, title: '동래래미안아이파크' },
+    { index: 1, x: availLeft + colW, y: availTop, w: colW, h: rowH, title: '레이카운티' },
+    { index: 2, x: availLeft + colW * 2, y: availTop, w: colW, h: rowH, title: '동래래미안포레스티지' },
+    { index: 3, x: availLeft, y: availTop + rowH, w: colW, h: rowH, title: '동래효성해링턴' },
+    { index: 4, x: availLeft + colW, y: availTop + rowH, w: colW, h: rowH, title: '명륜아이파크1단지' },
+    { index: 5, x: availLeft + colW * 2, y: availTop + rowH, w: colW, h: rowH, title: '더샵동래' }
   ];
 
   let blockedCount = 0;
@@ -132,7 +134,7 @@ function launchFourWindows() {
     const complex = COMPLEXES_DATA[layout.index];
     if (!complex) return;
 
-    // 공식 단지 URL로 직행하여 4분면 팝업 실행
+    // 공식 단지 URL로 직행하여 6분면 팝업 실행
     const url = buildNaverRealEstateUrl(complex);
     const winName = `NaverWindow_${complex.id}`;
     const windowFeatures = `left=${layout.x},top=${layout.y},width=${layout.w},height=${layout.h},menubar=no,toolbar=no,location=yes,status=yes,resizable=yes,scrollbars=yes`;
@@ -153,9 +155,10 @@ function launchFourWindows() {
     showPopupHelpModal();
     showToast('⚠️ 팝업 차단 감지', '브라우저 주소창 우측에서 팝업을 허용해주세요.', 'warning');
   } else {
-    showToast('🚀 네이버 4창 분할 실행 완료', '화면 4분면에 4대 단지 네이버 부동산 창이 정렬되었습니다!', 'success');
+    showToast('🚀 네이버 6창 분할 실행 완료', '화면 6분면에 6대 단지 네이버 부동산 창이 정렬되었습니다!', 'success');
   }
 }
+const launchFourWindows = launchSixWindows;
 
 // -------------------------------------------------------------
 // 핵심 기능 2: 신규 매물 실시간 알림 시스템
@@ -329,7 +332,31 @@ function filterArticles(articles, complex) {
 }
 
 // -------------------------------------------------------------
-// DOM 렌더링: 4개 단지 카드 렌더링
+// 24시간 이내 등록 매물 판정 헬퍼 (사용자 요구: 24시간 이내만 NEW 표시)
+// -------------------------------------------------------------
+function isWithin24Hours(dateStr) {
+  if (!dateStr) return false;
+  let itemDate;
+  if (/^\d{8}$/.test(dateStr)) {
+    const y = parseInt(dateStr.slice(0, 4), 10);
+    const m = parseInt(dateStr.slice(4, 6), 10) - 1;
+    const d = parseInt(dateStr.slice(6, 8), 10);
+    itemDate = new Date(y, m, d, 23, 59, 59);
+  } else if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+    const parts = dateStr.split('-');
+    itemDate = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10), 23, 59, 59);
+  } else {
+    itemDate = new Date(dateStr);
+  }
+  if (isNaN(itemDate.getTime())) return false;
+
+  const now = new Date();
+  const diffHours = (now.getTime() - itemDate.getTime()) / (1000 * 60 * 60);
+  return diffHours <= 24;
+}
+
+// -------------------------------------------------------------
+// DOM 렌더링: 6개 단지 카드 렌더링
 // -------------------------------------------------------------
 function renderAllComplexes() {
   COMPLEXES_DATA.forEach(complex => {
@@ -400,14 +427,16 @@ function renderComplexCard(complex) {
           <p>현재 설정한 필터 조건에 맞는 전세 매물이 없습니다.</p>
           <small>보증금 범위나 평형 필터를 조금 넓혀보세요.</small>
         </div>
-      ` : filtered.map(item => `
-        <article class="listing-card ${item.isNew ? 'highlight-new' : ''}" id="article_${item.id}" data-complex-id="${complex.id}" data-article-id="${item.id}" title="클릭하여 상세 정보 팝업 보기">
+      ` : filtered.map(item => {
+        const isNewItem = isWithin24Hours(item.confirmYmd || item.regDate);
+        return `
+        <article class="listing-card ${isNewItem ? 'highlight-new' : ''}" id="article_${item.id}" data-complex-id="${complex.id}" data-article-id="${item.id}" title="클릭하여 상세 정보 팝업 보기">
           <!-- 카드 메인 행: 좌측 가격/뱃지, 우측 액션 버튼 -->
           <div class="card-top-header">
             <div class="card-price-block">
               <span class="listing-badge-jeonse">전세</span>
               <span class="listing-price">${item.priceText}</span>
-              ${item.isNew ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
+              ${isNewItem ? '<span class="listing-new-tag">NEW 신규</span>' : ''}
             </div>
             <div class="listing-actions">
               <span class="badge-click-hint">상세보기 📋</span>
@@ -444,7 +473,7 @@ function renderComplexCard(complex) {
             <span class="listing-date">${item.regDate}</span>
           </div>
         </article>
-      `).join('')}
+      `;}).join('')}
     </div>
   `;
 
@@ -463,6 +492,8 @@ function getCardElementId(complexId) {
     case 'dongnae_forestige':
     case 'raemian_forestige': return 'cardRaemianForestige';
     case 'hyosung_harrington': return 'cardHyosungHarrington';
+    case 'myeongnyun_ipark': return 'cardMyeongnyunIpark';
+    case 'thesharp_dongnae': return 'cardThesharpDongnae';
     default: return '';
   }
 }
@@ -1093,8 +1124,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // 안내 토스트
   setTimeout(() => {
     showToast(
-      '🏢 동래·연제 전세 4분할 레이더 준비 완료',
-      '상단의 [네이버 4창 분할 실행] 버튼을 누르면 화면 4분할로 네이버 부동산이 열립니다.'
+      '🏢 동래·연제 전세 6분할 레이더 준비 완료',
+      '상단의 [네이버 6창 분할 실행] 버튼을 누르면 화면 6분할(3x2)로 네이버 부동산이 열립니다.'
     );
   }, 800);
 });

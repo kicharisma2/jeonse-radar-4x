@@ -39,6 +39,10 @@
   --fp-glow: rgba(139, 92, 246, 0.2);
   --hs-color: #f59e0b;
   --hs-glow: rgba(245, 158, 11, 0.2);
+  --mi-color: #06b6d4;
+  --mi-glow: rgba(6, 182, 212, 0.2);
+  --td-color: #f43f5e;
+  --td-glow: rgba(244, 63, 94, 0.2);
 
   /* Shadows & Glassmorphism */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -726,9 +730,9 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  gap: 12px;
   flex: 1;
   min-height: 0;
   height: 100%;
@@ -772,6 +776,8 @@ body {
 .card-rc { border-top: 3px solid var(--rc-color); }
 .card-fp { border-top: 3px solid var(--fp-color); }
 .card-hs { border-top: 3px solid var(--hs-color); }
+.card-mi { border-top: 3px solid var(--mi-color); }
+.card-td { border-top: 3px solid var(--td-color); }
 
 /* Card Header */
 .card-header {
@@ -831,6 +837,8 @@ body {
 .card-rc .badge-complex-stat { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
 .card-fp .badge-complex-stat { background: rgba(139, 92, 246, 0.15); color: #c084fc; }
 .card-hs .badge-complex-stat { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
+.card-mi .badge-complex-stat { background: rgba(6, 182, 212, 0.15); color: #22d3ee; }
+.card-td .badge-complex-stat { background: rgba(244, 63, 94, 0.15); color: #fb7185; }
 
 .complex-meta {
   display: flex;
@@ -2026,10 +2034,18 @@ body.theme-light .price-large {
 .dot-rc { background: var(--rc-color); }
 .dot-fp { background: var(--fp-color); }
 .dot-hs { background: var(--hs-color); }
+.dot-mi { background: var(--mi-color); }
+.dot-td { background: var(--td-color); }
 
 /* =================================================================
    Responsive Breakpoints: Mobile & Tablet Perfection
    ================================================================= */
+@media (max-width: 1200px) and (min-width: 901px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 1024px) {
   .grid-container {
     height: auto;

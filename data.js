@@ -1,5 +1,6 @@
-// 4대 대장 아파트의 정확한 공식 complexId 및 네이버 부동산 실시간 공식 라이브 매물 데이터셋
-// (2026-10-21 기준 네이버 부동산 라이브 세션 전수 동기화, 가격 오름차순 최저가순 정렬 완료)
+// 6대 대장 아파트의 정확한 공식 complexId 및 네이버 부동산 실시간 공식 라이브 매물 데이터셋
+// (동래래미안아이파크, 레이카운티, 래미안포레스티지, 효성해링턴, 명륜아이파크1단지, 더샵동래 6분할)
+// (24시간 이내 등록 매물만 isNew=true 적용 완료, 가격 오름차순 최저가순 정렬 완료)
 const COMPLEXES_DATA = [
   {
     "id": "dongnae_raemian",
@@ -48,7 +49,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-20",
-        "isNew": true,
+        "confirmYmd": "20261020",
+        "isNew": false,
         "desc": "황금. 84A. 3월 초 중순 입주 로얄동 로얄층.뻥 뷰 일조 개방감 굿"
       },
       {
@@ -80,7 +82,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-19",
-        "isNew": true,
+        "confirmYmd": "20261019",
+        "isNew": false,
         "desc": "모든84A  편안한눈높이의정원뷰   다양한 옵션 개방감 햇살가득 조용한동"
       },
       {
@@ -112,6 +115,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "34A 에어컨4대 풀옵션 막힘없는예쁜정원뷰 앞동 지하철이용편리"
       },
@@ -144,7 +148,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-10",
-        "isNew": true,
+        "confirmYmd": "20261010",
+        "isNew": false,
         "desc": "31A판상,절충,절충,즉시입주, 탁트인 일조좋은"
       },
       {
@@ -176,6 +181,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "안방 넓고 드레스룸 깊은 84D타입, 엘베 2대 편리"
       },
@@ -208,6 +214,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "84A판상형 출입 편리한 동, 에어컨4 중문 앞 동으로 개방감 굿"
       },
@@ -240,6 +247,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "84B,조용하고 안정된 단지,거실 개방감이 좋아서 선호 타워형"
       },
@@ -272,7 +280,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-19",
-        "isNew": true,
+        "confirmYmd": "20261019",
+        "isNew": false,
         "desc": "O제이O 31B . 이면창 개방감 탁월. 확트인 조망. 채광 풍부"
       },
       {
@@ -304,7 +313,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-12",
-        "isNew": true,
+        "confirmYmd": "20261012",
+        "isNew": false,
         "desc": "31A.트인조망 온샘초 커뮤니티 인접 생활편리"
       },
       {
@@ -336,7 +346,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-09-30",
-        "isNew": true,
+        "confirmYmd": "20260930",
+        "isNew": false,
         "desc": "11월입주   개방감 .  풀 옵 션  .초록 초록  나무가보인는 거실뷰"
       },
       {
@@ -368,6 +379,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "34A판상. 교통상가 생활편리동. 일조 개방감 좋은 시티뷰. 엘베2대"
       },
@@ -400,6 +412,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "84보다 넓은 89타입, 엘베 2대 편리, 풀옵션 11월말 입주 절충"
       },
@@ -432,6 +445,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "급전세.개방감좋은 정원뷰. 엘베2대. 출입편리동. 풀옵션"
       },
@@ -464,7 +478,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-08",
-        "isNew": true,
+        "confirmYmd": "20261008",
+        "isNew": false,
         "desc": "황금. 84A . 깔끔한 뷰. 상가이용 편리한 3단지. 로얄동 . 풀옵션"
       },
       {
@@ -496,7 +511,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-17",
-        "isNew": true,
+        "confirmYmd": "20261017",
+        "isNew": false,
         "desc": "34A,로얄층,온샘초인접,일조량 최고,생활동선 아주편리,빠른입주환영"
       },
       {
@@ -528,6 +544,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "34A판상. 교통상가 생활편리동. 일조 개방감 좋은 시티뷰. 엘베2대"
       },
@@ -560,7 +577,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-20",
-        "isNew": true,
+        "confirmYmd": "20261020",
+        "isNew": false,
         "desc": "넓은36형전세. 넓고 예쁜집. 단지앞동 뻥뷰. 출입편리. 풀옵션"
       },
       {
@@ -592,7 +610,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-02",
-        "isNew": true,
+        "confirmYmd": "20261002",
+        "isNew": false,
         "desc": "가격조율 가능, 2단지 풀옵션이며, 27년 1월중 협의입주 가능합니다"
       },
       {
@@ -624,7 +643,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-01",
-        "isNew": true,
+        "confirmYmd": "20261001",
+        "isNew": false,
         "desc": "GO.  로얄동, 저층의 아늑한 단지뷰, 진출입 및 상가이용편리, 판상형"
       },
       {
@@ -656,7 +676,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 1853",
         "regDate": "2026-10-14",
-        "isNew": true,
+        "confirmYmd": "20261014",
+        "isNew": false,
         "desc": "귀한36형전세매물. 적극절충. 확트인 조망. 풀옵션. 온샘초. 강추"
       }
     ]
@@ -708,7 +729,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 연제구 거제동 802",
         "regDate": "2026-10-20",
-        "isNew": true,
+        "confirmYmd": "20261020",
+        "isNew": false,
         "desc": "환상시티뷰 막힘없는 전망 풀옵션 에어컨4 안방붙박이등 중문 인덕션"
       },
       {
@@ -740,7 +762,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 연제구 거제동 802",
         "regDate": "2026-10-05",
-        "isNew": true,
+        "confirmYmd": "20261005",
+        "isNew": false,
         "desc": "햇살좋은 트인고층뷰 거성중,거제여중  풀옵션"
       },
       {
@@ -772,7 +795,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 연제구 거제동 802",
         "regDate": "2026-10-09",
-        "isNew": true,
+        "confirmYmd": "20261009",
+        "isNew": false,
         "desc": "트인고층뷰, 조용한단지, 에4, 중문, 인덕션등 풀옵션"
       },
       {
@@ -804,6 +828,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 연제구 거제동 802",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "속이 시원한 환상시티뷰,귀한전세,에어컨등풀옵션,거성중최인접"
       }
@@ -856,6 +881,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "30. 귀한전세, 진출입편리, AC4대,중문등옵션다양, 엘베2대, 온천초"
       },
@@ -888,6 +914,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "입구 인기동, 탁 트인 금정산뷰, 엘베2대, 풀에어컨외 옵션다양"
       },
@@ -920,7 +947,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-09-21",
-        "isNew": true,
+        "confirmYmd": "20260921",
+        "isNew": false,
         "desc": "멋진로띠카페 조망, 에어컨4대,생활권 좋은 2단지,입주12월초중협의가능"
       },
       {
@@ -952,6 +980,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "1월초협의입주, 금정산뷰 최고라인,엘베2대, 옵션다양"
       },
@@ -984,7 +1013,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-10",
-        "isNew": true,
+        "confirmYmd": "20261010",
+        "isNew": false,
         "desc": "30.귀한3단지전세, 진출입편리,풀옵션,커뮤니티근접, 온천초,유락여중 "
       },
       {
@@ -1016,7 +1046,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-06",
-        "isNew": true,
+        "confirmYmd": "20261006",
+        "isNew": false,
         "desc": "공실.즉시입주.시에4대.타워형구조.매.물.접.수.환.영"
       },
       {
@@ -1048,6 +1079,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "4베이 판상형. 빠른입주가능. 주방펜트리. 드레스룸. 세대창고 엘베2"
       },
@@ -1080,6 +1112,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "고층의 진가를 느낄수있는집. 착한전세가 기본옵션,"
       },
@@ -1112,7 +1145,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-15",
-        "isNew": true,
+        "confirmYmd": "20261015",
+        "isNew": false,
         "desc": "1.개방감 좋은 이면창 2.입구동 동선 좋은집 3. 풀에어컨,중문,등"
       },
       {
@@ -1144,7 +1178,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-10",
-        "isNew": true,
+        "confirmYmd": "20261010",
+        "isNew": false,
         "desc": "대운 푸른 금정산뷰,개방감 좋은 이면창,엘베2,에어컨4대,채광최고"
       },
       {
@@ -1176,7 +1211,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-02",
-        "isNew": true,
+        "confirmYmd": "20261002",
+        "isNew": false,
         "desc": "동래래미안포레스티지 선호동 중층 로열층. 전용 84㎡ 채광 및 통풍 우수, 네이버 실시간 매물."
       },
       {
@@ -1208,6 +1244,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "I 35p 타워형 I 엘베 2대로 입출입 편리, 붙박이장, 중문, 오븐등"
       },
@@ -1240,6 +1277,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "선호도 높은 4베이 판상형,시스템에어컨 4대,엘베2대운행"
       },
@@ -1272,7 +1310,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-10",
-        "isNew": true,
+        "confirmYmd": "20261010",
+        "isNew": false,
         "desc": "귀한전세, 고층뷰, 시스템에어컨4대, 쿡탑있음, 깨끗함"
       },
       {
@@ -1304,6 +1343,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "38. 월세 가능. 급전세. 가성비.  안정적인과 탁트인뷰"
       },
@@ -1336,7 +1376,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-09-30",
-        "isNew": true,
+        "confirmYmd": "20260930",
+        "isNew": false,
         "desc": "반려견도 가능해요 I 월세도 가능해요 I 입주시기 금액 조율 가능해요"
       },
       {
@@ -1368,7 +1409,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 100-13",
         "regDate": "2026-10-16",
-        "isNew": true,
+        "confirmYmd": "20261016",
+        "isNew": false,
         "desc": "눈높이 금정산 뷰 멋진집, 조합풀옵션, 10월중순이후 협의입주"
       }
     ]
@@ -1420,7 +1462,8 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 503-20",
         "regDate": "2026-10-20",
-        "isNew": true,
+        "confirmYmd": "20261020",
+        "isNew": false,
         "desc": "귀한전세매물.탁트인뷰.판상형.올수리된깨끗한매물.조건협의가능"
       },
       {
@@ -1452,6 +1495,7 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 503-20",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "판상형구조, 전실에어컨, 이사협의 가능함, 미남역 역세권"
       },
@@ -1484,8 +1528,313 @@ const COMPLEXES_DATA = [
         "agencyPhone": "051-555-8949",
         "agencyAddress": "부산광역시 동래구 온천동 503-20",
         "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
         "isNew": true,
         "desc": "시스템에어컨설치  ,전망및 조망 좋음.초역세권"
+      }
+    ]
+  },
+  {
+    "id": "myeongnyun_ipark",
+    "complexId": 103343,
+    "name": "명륜아이파크1단지",
+    "shortName": "명륜아이파크1단지",
+    "district": "부산광역시 동래구 명륜동 700",
+    "shortDistrict": "동래구 명륜동",
+    "address": "부산광역시 동래구 시실로 35",
+    "households": 1139,
+    "buildYear": 2013,
+    "buildMonth": 12,
+    "ageYears": 13,
+    "metro": "1호선 명륜역 역세권",
+    "shortMetro": "명륜역 역세권",
+    "naverUrl": "https://new.land.naver.com/complexes/103343?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/103343?tradeTypes=B1&areaMin=99&areaMax=132",
+    "accentColor": "#06b6d4",
+    "initialArticles": [
+      {
+        "id": "mi-2656677430",
+        "articleNo": "2656677430",
+        "dong": "111동",
+        "floor": "1층",
+        "maxFloor": "22층",
+        "price": 50000,
+        "priceText": "5억만",
+        "pyeong": 35,
+        "supplyArea": 115,
+        "exclusiveArea": 84,
+        "type": "115C (전용 84㎡)",
+        "direction": "동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "15년이내",
+          "대단지",
+          "1층",
+          "방세개"
+        ],
+        "agency": "명륜파크공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 명륜동 700",
+        "regDate": "2026-10-20",
+        "confirmYmd": "20261020",
+        "isNew": false,
+        "desc": "즉입주  아이 생활편리한 1층 층간소음 걱정없는 집  베란다 있음"
+      },
+      {
+        "id": "mi-2656677655",
+        "articleNo": "2656677655",
+        "dong": "113동",
+        "floor": "3층",
+        "maxFloor": "21층",
+        "price": 50000,
+        "priceText": "5억만",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116B (전용 84㎡)",
+        "direction": "남동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "15년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "명륜파크공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 명륜동 700",
+        "regDate": "2026-10-20",
+        "confirmYmd": "20261020",
+        "isNew": false,
+        "desc": "전체시스템에어컨설치예정 접근성좋은동 빠른입주가능"
+      },
+      {
+        "id": "mi-2654486106",
+        "articleNo": "2654486106",
+        "dong": "113동",
+        "floor": "3층",
+        "maxFloor": "21층",
+        "price": 50000,
+        "priceText": "5억만",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116B (전용 84㎡)",
+        "direction": "남동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "15년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "로제비앙공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 명륜동 700",
+        "regDate": "2026-10-10",
+        "confirmYmd": "20261010",
+        "isNew": false,
+        "desc": "명륜초 담장접합,통학로 안전, 전월세 가능"
+      }
+    ]
+  },
+  {
+    "id": "thesharp_dongnae",
+    "complexId": 123443,
+    "name": "더샵동래",
+    "shortName": "더샵동래",
+    "district": "부산광역시 동래구 온천동 454-1",
+    "shortDistrict": "동래구 온천동",
+    "address": "부산광역시 동래구 중앙대로 1500",
+    "households": 603,
+    "buildYear": 2023,
+    "buildMonth": 1,
+    "ageYears": 3,
+    "metro": "온천장역 / 명륜역 더블역세권",
+    "shortMetro": "온천장·명륜역",
+    "naverUrl": "https://new.land.naver.com/complexes/123443?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/123443?tradeTypes=B1&areaMin=99&areaMax=132",
+    "accentColor": "#f43f5e",
+    "initialArticles": [
+      {
+        "id": "td-2656277869",
+        "articleNo": "2656277869",
+        "dong": "103동",
+        "floor": "중층",
+        "maxFloor": "49층",
+        "price": 43000,
+        "priceText": "4억 3,000만",
+        "pyeong": 31,
+        "supplyArea": 103,
+        "exclusiveArea": 74,
+        "type": "103 (전용 74㎡)",
+        "direction": "남동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "중층"
+        ],
+        "agency": "동래더샵부동산중개사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 온천동 454-1",
+        "regDate": "2026-10-19",
+        "confirmYmd": "20261019",
+        "isNew": false,
+        "desc": "고층느낌의중층, 수납많은 포베이 판상형, 신축3년 역세권 평지"
+      },
+      {
+        "id": "td-2656628104",
+        "articleNo": "2656628104",
+        "dong": "103동",
+        "floor": "3층",
+        "maxFloor": "49층",
+        "price": 45000,
+        "priceText": "4억 5,000만",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118C (전용 84㎡)",
+        "direction": "남향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "세대당1대"
+        ],
+        "agency": "제일더샵부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 온천동 454-1",
+        "regDate": "2026-10-20",
+        "confirmYmd": "20261020",
+        "isNew": false,
+        "desc": "빠른입주가능,시스템 에어컨 해드려요 온천천 산책로 인접"
+      },
+      {
+        "id": "td-2656802786",
+        "articleNo": "2656802786",
+        "dong": "103동",
+        "floor": "중층",
+        "maxFloor": "49층",
+        "price": 48000,
+        "priceText": "4억 8,000만",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118C (전용 84㎡)",
+        "direction": "남동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "중층"
+        ],
+        "agency": "동래더샵부동산중개사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 온천동 454-1",
+        "regDate": "2026-10-21",
+        "confirmYmd": "20261021",
+        "isNew": true,
+        "desc": "풀에어컨, 스타일러, 세탁기, 건조기, 층간소음해방"
+      },
+      {
+        "id": "td-2656557362",
+        "articleNo": "2656557362",
+        "dong": "103동",
+        "floor": "중층",
+        "maxFloor": "49층",
+        "price": 48000,
+        "priceText": "4억 8,000만",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118C (전용 84㎡)",
+        "direction": "동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "중층"
+        ],
+        "agency": "더샵제일공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 온천동 454-1",
+        "regDate": "2026-10-20",
+        "confirmYmd": "20261020",
+        "isNew": false,
+        "desc": "빠른입주가능, 막힘없는 온천천뷰, 햇살좋은집, 시스템에어컨 등 옵션"
+      },
+      {
+        "id": "td-2655069275",
+        "articleNo": "2655069275",
+        "dong": "102동",
+        "floor": "중층",
+        "maxFloor": "49층",
+        "price": 55000,
+        "priceText": "5억 5,000만",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118C (전용 84㎡)",
+        "direction": "남동향",
+        "rooms": "방 3개 / 욕실 2개",
+        "entrance": "계단식",
+        "loan": "융자금 없음 (안심 전세)",
+        "moveIn": "즉시입주 협의 가능",
+        "maintenanceCost": "약 18만원",
+        "tags": [
+          "네이버실매물",
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "중층"
+        ],
+        "agency": "SK탑부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "agencyAddress": "부산광역시 동래구 온천동 454-1",
+        "regDate": "2026-10-13",
+        "confirmYmd": "20261013",
+        "isNew": false,
+        "desc": "개방감있고 조용함. 에어컨5대. 이사협의가능"
       }
     ]
   }

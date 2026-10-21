@@ -32,8 +32,8 @@
           <span class="pulse-dot"></span>
         </div>
         <div class="brand-text">
-          <h1 class="brand-title">동래·연제 전세 <span class="text-gradient">4분할 레이더</span></h1>
-          <p class="brand-subtitle">부산 대장 4대 단지 맞춤 전세 모니터링 시스템</p>
+          <h1 class="brand-title">동래·연제 전세 <span class="text-gradient">6분할 레이더</span></h1>
+          <p class="brand-subtitle">부산 대장 6대 단지 맞춤 전세 모니터링 시스템</p>
         </div>
       </div>
     </div>
@@ -53,10 +53,10 @@
 
     <!-- 헤더 우측: 핵심 액션 버튼군 -->
     <div class="header-right">
-      <!-- 1클릭 네이버 4분할 창 실행 버튼 (사용자 핵심 요구사항) -->
-      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="모니터 화면을 4등분하여 4개 단지 네이버 부동산 창을 동시에 팝업 실행합니다">
+      <!-- 1클릭 네이버 6분할 창 실행 버튼 (사용자 핵심 요구사항) -->
+      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="모니터 화면을 6등분하여 6개 단지 네이버 부동산 창을 동시에 팝업 실행합니다">
         <span class="btn-icon">🖥️</span>
-        <span class="btn-label">네이버 4창 분할 실행</span>
+        <span class="btn-label">네이버 6창 분할 실행</span>
         <span class="badge-hot">1-CLICK</span>
       </button>
 
@@ -179,20 +179,20 @@
   <!-- 4분할 네이버창 팝업 실행 모달/안내 배너 -->
   <div class="launcher-banner" id="launcherBanner">
     <div class="launcher-banner-content">
-      <div class="banner-badge">💡 4분할 화면 꿀팁</div>
+      <div class="banner-badge">💡 6분할 화면 꿀팁</div>
       <p class="banner-text">
-        <strong>[네이버 4창 분할 실행]</strong> 버튼을 누르면 브라우저 화면의 4분면(좌상, 우상, 좌하, 우하)에
-        <strong>동래래미안아이파크 · 레이카운티 · 래미안포레스티지 · 효성해링턴</strong> 네이버창이 정확하게 정렬되어 동시에 뜹니다.
+        <strong>[네이버 6창 분할 실행]</strong> 버튼을 누르면 브라우저 화면의 6분면(3열 2행)에
+        <strong>동래래미안 · 레이카운티 · 포레스티지 · 효성해링턴 · 명륜아이파크1단지 · 더샵동래</strong> 네이버창이 바둑판 배열로 동시에 뜹니다.
       </p>
-      <button class="btn-banner-action" id="btnBannerLaunch">지금 4창 분할 띄우기</button>
+      <button class="btn-banner-action" id="btnBannerLaunch">지금 6창 분할 띄우기</button>
     </div>
   </div>
 
-  <!-- 모바일 전용 뷰 컨트롤 바 (스마트폰에서 4분할 전체 / 단지별 탭 선택) -->
+  <!-- 모바일 전용 뷰 컨트롤 바 (스마트폰에서 6분할 전체 / 단지별 탭 선택) -->
   <nav class="mobile-view-tabs" id="mobileViewTabs" aria-label="모바일 화면 분할 및 단지 선택">
     <div class="mobile-tab-scroll">
       <button class="mobile-tab-btn active" data-tab="all" id="mTabAll">
-        <span>🔲 4분할 전체보기</span>
+        <span>🔲 6분할 전체보기</span>
       </button>
       <button class="mobile-tab-btn" data-tab="dongnae_raemian" id="mTabDn">
         <span class="tab-dot dot-dn"></span>
@@ -210,10 +210,18 @@
         <span class="tab-dot dot-hs"></span>
         <span>효성해링턴</span>
       </button>
+      <button class="mobile-tab-btn" data-tab="myeongnyun_ipark" id="mTabMi">
+        <span class="tab-dot dot-mi"></span>
+        <span>명륜아이파크</span>
+      </button>
+      <button class="mobile-tab-btn" data-tab="thesharp_dongnae" id="mTabTd">
+        <span class="tab-dot dot-td"></span>
+        <span>더샵동래</span>
+      </button>
     </div>
   </nav>
 
-  <!-- 메인 4분할 그리드 대시보드 -->
+  <!-- 메인 6분할 그리드 대시보드 (3열 2행) -->
   <main class="dashboard-main" id="dashboardMain">
     <div class="grid-container" id="complexGrid">
 
@@ -237,6 +245,16 @@
         <!-- JS로 동적 렌더링 -->
       </section>
 
+      <!-- 단지 5: 명륜아이파크1단지 (신규 추가) -->
+      <section class="complex-card card-mi" id="cardMyeongnyunIpark" data-complex-id="myeongnyun_ipark">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
+      <!-- 단지 6: 더샵동래 (신규 추가) -->
+      <section class="complex-card card-td" id="cardThesharpDongnae" data-complex-id="thesharp_dongnae">
+        <!-- JS로 동적 렌더링 -->
+      </section>
+
     </div>
   </main>
 
@@ -244,13 +262,13 @@
   <footer class="app-footer" id="appFooter">
     <div class="footer-left">
       <span class="footer-dot"></span>
-      <span class="footer-info">모니터링 대상: 부산 4대 대장 단지 총 13,128세대 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
+      <span class="footer-info">모니터링 대상: 부산 6대 대장 단지 총 14,870세대 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
     </div>
     <div class="footer-center">
       <span class="footer-tip">팁: 각 단지 카드의 <strong>[네이버 바로보기]</strong>를 누르면 해당 단지의 필터링된 네이버 지도로 즉시 이동합니다.</span>
     </div>
     <div class="footer-right">
-      <button class="btn-footer-link" id="btnFooterOpenAll">전체 4단지 네이버창 동시열기</button>
+      <button class="btn-footer-link" id="btnFooterOpenAll">전체 6단지 네이버창 동시열기</button>
     </div>
   </footer>
 
