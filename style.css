@@ -1659,6 +1659,15 @@ body.theme-light .card-spec-bar {
   color: var(--text-primary);
   border-color: rgba(255, 255, 255, 0.2);
 }
+.btn-listing-link.btn-link-filter {
+  color: #0284c7;
+  border-color: rgba(2, 132, 199, 0.4);
+  background: rgba(2, 132, 199, 0.08);
+}
+.btn-listing-link.btn-link-filter:hover {
+  background: rgba(2, 132, 199, 0.18);
+  color: #0369a1;
+}
 
 /* Empty State */
 .empty-listings {

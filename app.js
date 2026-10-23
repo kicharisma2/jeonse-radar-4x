@@ -119,8 +119,9 @@ function generateRealisticArticlesForComplex(complex) {
     const artNo = '2656' + String(Math.abs((Number(cId) * 137 + idx * 83) % 900000) + 100000);
 
     return {
-      id: `${cId}-${t.trade}-${artNo}`,
-      articleNo: artNo,
+      id: `${cId}-${t.trade}-sample-${idx}`,
+      articleNo: null,
+      isReal: false,
       tradeType: t.trade,
       dong: t.dong,
       floor: t.fl,
@@ -132,19 +133,19 @@ function generateRealisticArticlesForComplex(complex) {
       type: t.type,
       direction: '남향',
       desc: t.desc,
-      tags: [isSale ? '매매' : '전세', `${t.p}평형`, '로열층', '즉시입주'],
+      tags: [isSale ? '매매' : '전세', `${t.p}평형`, '기준시세'],
       agency: `${name}공인중개사사무소`,
       agencyPhone: '051-555-8949',
       agencyAddress: complex.district || '부산광역시',
-      confirmYmd: '20261022',
-      regDate: '2026-10-22',
-      isNew: idx < 2
+      confirmYmd: '20261023',
+      regDate: '2026-10-23',
+      isNew: false
     };
   });
 }
 
 /**
- * 단지의 매물 로드 (100% 실매물 + 필요 시 보충 매물 결합)
+ * 단지의 매물 로드 (100% 네이버 실매물 우선, 가짜 매물 혼합 금지)
  */
 function getComplexArticles(complex) {
   if (!complex) return [];
@@ -152,29 +153,12 @@ function getComplexArticles(complex) {
   const cKey = String(complex.complexId || complex.id);
   const realArticles = (realMap[cKey] && Array.isArray(realMap[cKey])) ? realMap[cKey] : [];
 
+  // 네이버 실매물이 있는 경우: 가짜 보충 매물을 섞지 않고 100% 실매물만 반환
   if (realArticles.length > 0) {
-    const hasJeonse = realArticles.some(a => a.tradeType === 'jeonse');
-    const hasSale = realArticles.some(a => a.tradeType === 'sale');
-
-    // 전세/매매 둘 다 있다면 스크랩 데이터 100% 사용
-    if (hasJeonse && hasSale) {
-      return [...realArticles];
-    }
-
-    // 만약 한쪽만 있다면 (예: 복천현대처럼 매매만 53건 스크랩된 경우), 반대쪽 유형(전세)을 보충하여 전세 필터 시에도 즉시 표시
-    const generated = generateRealisticArticlesForComplex(complex);
-    if (!hasJeonse) {
-      const jeonseOnly = generated.filter(a => a.tradeType === 'jeonse');
-      return [...realArticles, ...jeonseOnly];
-    }
-    if (!hasSale) {
-      const saleOnly = generated.filter(a => a.tradeType === 'sale');
-      return [...realArticles, ...saleOnly];
-    }
     return [...realArticles];
   }
 
-  // 스크랩 데이터가 없는 카탈로그 단지인 경우 템플릿 생성
+  // 스크랩 데이터가 없는 소형 단지/신규 등록 단지인 경우에만 템플릿 반환
   if (complex.initialArticles && Array.isArray(complex.initialArticles) && complex.initialArticles.length > 0) {
     return [...complex.initialArticles];
   }
@@ -375,35 +359,31 @@ function buildNaverRealEstateUrl(complex, options = {}) {
 
   const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
 
-  // 1. 개별 매물 직결: 실제 네이버 articleNo가 있으면 네이버 상세 드로어로 직접 열람
   let articleNo = null;
+  let tradeType = state.tradeType || 'jeonse';
+  let pyeongType = state.pyeongType;
+
   if (typeof options === 'string' || typeof options === 'number') {
     articleNo = String(options).trim();
-  } else if (typeof options === 'object' && options && options.articleNo) {
-    articleNo = String(options.articleNo).trim();
+  } else if (typeof options === 'object' && options) {
+    if (options.articleNo) articleNo = String(options.articleNo).trim();
+    if (options.tradeType) tradeType = options.tradeType;
+    if (options.pyeongType !== undefined) pyeongType = options.pyeongType;
+    if (options.pyeong) {
+      const p = Number(options.pyeong);
+      if (p >= 20 && p < 30) pyeongType = '20';
+      else if (p >= 30 && p < 40) pyeongType = '30';
+      else if (p >= 40) pyeongType = '40';
+    }
   }
 
-  if (articleNo) {
-    return `${baseUrl}?articleNo=${articleNo}`;
-  }
-
-  // 2. 단지 전체/필터 조회: 거래유형(전세/매매), 평형, 가격 파라미터 적용
   const params = new URLSearchParams();
   params.set('a', 'APT'); // 아파트
-  
   // 거래 유형: b=A1(매매), b=B1(전세) - 월세(B2)는 절대 노출하지 않음
-  let tradeType = state.tradeType || 'jeonse';
-  if (typeof options === 'object' && options && options.tradeType) {
-    tradeType = options.tradeType;
-  }
   params.set('b', tradeType === 'sale' ? 'A1' : 'B1');
   params.set('e', 'RETAIL'); // 일반 매물
 
   // 평형 조건
-  let pyeongType = state.pyeongType;
-  if (typeof options === 'object' && options && options.pyeongType !== undefined) {
-    pyeongType = options.pyeongType;
-  }
   if (pyeongType === '20') {
     params.set('h', '66');
     params.set('i', '99');
@@ -425,6 +405,12 @@ function buildNaverRealEstateUrl(complex, options = {}) {
 
   // 최저가순 정렬
   params.set('order', 'prc');
+
+  // 실제 검증된 네이버 articleNo가 있으면 매물 직결 드로어 파라미터 추가
+  // (거래유형/평형/가격 필터도 함께 유지되므로, 매물이 닫히더라도 단지 전체가 아닌 동일 조건 필터로 안전하게 유지)
+  if (articleNo && /^\d{6,12}$/.test(articleNo)) {
+    params.set('articleNo', articleNo);
+  }
 
   return `${baseUrl}?${params.toString()}`;
 }
@@ -587,8 +573,9 @@ function renderAllComplexes() {
     activeComplexCount++;
     totalHouseholds += complex.households || 0;
 
-    // 해당 단지의 매물 로드 (실매물 맵 + 보충 연동)
-    if (!state.articles[complex.id] || state.articles[complex.id].length === 0) {
+    // 해당 단지의 매물 로드 (실시간 100% 네이버 실매물 맵 연동, 구버전 가짜 매물 자동 치유)
+    const currentArticles = state.articles[complex.id];
+    if (!currentArticles || currentArticles.length === 0 || currentArticles.some(a => a.isReal === false || !a.articleNo)) {
       state.articles[complex.id] = getComplexArticles(complex);
     }
 
@@ -745,8 +732,13 @@ function renderListingCardHtml(complex, item) {
   else if (p >= 30 && p < 40) itemPyeongType = '30';
   else if (p >= 40) itemPyeongType = '40';
 
-  // 네이버 실제 매물 직결 URL (articleNo 파라미터가 들어가 네이버 매물 상세창이 즉시 열림)
-  const naverItemUrl = buildNaverRealEstateUrl(complex, { articleNo: item.articleNo });
+  // 실제 네이버 articleNo 검증
+  const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
+  const naverItemUrl = buildNaverRealEstateUrl(complex, {
+    articleNo: isRealArticle ? item.articleNo : null,
+    tradeType: item.tradeType,
+    pyeong: item.pyeong
+  });
   const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
 
   return `
@@ -761,8 +753,8 @@ function renderListingCardHtml(complex, item) {
           <button class="btn-listing-detail" data-complex-id="${complex.id}" data-article-id="${item.id}" title="상세 정보 및 중개사 확인">
             상세정보
           </button>
-          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산에서 매물 #${item.articleNo} 바로보기">
-            네이버 확인 ↗
+          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link ${!isRealArticle ? 'btn-link-filter' : ''}" title="${isRealArticle ? `네이버 부동산에서 실매물 #${item.articleNo} 바로보기` : `네이버 부동산에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}">
+            ${isRealArticle ? '네이버 확인 ↗' : '단지 검색 ↗'}
           </a>
         </div>
       </div>
@@ -1673,8 +1665,16 @@ function openArticleDetailModal(complexId, articleId) {
   const content = document.getElementById('articleModalContent');
   if (!modal || !content) return;
 
-  const naverArticleUrl = buildNaverRealEstateUrl(complex, item.articleNo);
-  const naverComplexUrl = buildNaverRealEstateUrl(complex);
+  const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
+  const naverArticleUrl = buildNaverRealEstateUrl(complex, {
+    articleNo: isRealArticle ? item.articleNo : null,
+    tradeType: item.tradeType,
+    pyeong: item.pyeong
+  });
+  const naverComplexUrl = buildNaverRealEstateUrl(complex, {
+    tradeType: item.tradeType,
+    pyeong: item.pyeong
+  });
   const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
 
   content.innerHTML = `
@@ -1686,7 +1686,7 @@ function openArticleDetailModal(complexId, articleId) {
           <span class="badge-trade-type ${item.tradeType === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           ${item.dong} ${item.floor} (${item.pyeong}평형)
         </h3>
-        <span class="modal-article-regdate">등록일자: ${item.regDate || '2026-10-22'} · 확인매물</span>
+        <span class="modal-article-regdate">등록일자: ${item.regDate || '2026-10-23'} · ${isRealArticle ? '네이버 검증 실매물' : '단지 기준정보'}</span>
       </div>
       <button class="btn-close-modal" id="btnCloseArticleModal" aria-label="닫기">✕</button>
     </div>
@@ -1761,8 +1761,8 @@ function openArticleDetailModal(complexId, articleId) {
     <!-- 푸터 액션 -->
     <div class="article-modal-footer">
       <div class="modal-footer-links">
-        <a href="${naverArticleUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산에서 동일 조건 이 매물 확인하기">
-          <span>네이버에서 이 매물 확인하기 (${item.articleNo ? '#' + item.articleNo : '실매물'})</span> ↗
+        <a href="${naverArticleUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산에서 확인하기">
+          <span>${isRealArticle ? `네이버에서 이 실매물 바로보기 (#${item.articleNo})` : `네이버에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}</span> ↗
         </a>
         <a href="${naverComplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-secondary" title="네이버 부동산에서 동일 조건 단지 전체 매물 보기">
           <span>동일 조건 단지 전체 매물</span> ↗
