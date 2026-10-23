@@ -718,11 +718,11 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 3px 8px 3px 6px;
+  padding: 4px 10px 4px 6px;
   border-radius: var(--radius-sm);
   background: rgba(30, 41, 59, 0.85);
-  border: 1.5px solid rgba(255, 255, 255, 0.14);
-  font-size: 0.8rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.16);
+  font-size: 0.82rem;
   font-weight: 600;
   color: #f8fafc;
   transition: all var(--transition-fast);
@@ -732,7 +732,7 @@ body {
 
 .complex-select-chip:hover {
   background: rgba(51, 65, 85, 0.95);
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 .complex-select-chip.active {
@@ -740,24 +740,90 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
 }
 
-.complex-select-chip.chip-dongnae_raemian.active { border-color: rgba(16, 185, 129, 0.7); }
-.complex-select-chip.chip-ray_county.active { border-color: rgba(59, 130, 246, 0.7); }
-.complex-select-chip.chip-raemian_forestige.active { border-color: rgba(168, 85, 247, 0.7); }
-.complex-select-chip.chip-hyosung_harrington.active { border-color: rgba(245, 158, 11, 0.7); }
-.complex-select-chip.chip-myeongnyun_ipark.active { border-color: rgba(6, 182, 212, 0.7); }
-.complex-select-chip.chip-thesharp_dongnae.active { border-color: rgba(244, 63, 94, 0.7); }
+/* 슬롯 번호 1~6 뱃지 (관리 바 상단 선명한 식별) */
+.chip-slot-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  border-radius: 6px !important;
+  font-size: 0.85rem !important;
+  font-weight: 900 !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) !important;
+  margin-right: 2px !important;
+  flex-shrink: 0 !important;
+}
 
-.complex-select-chip.inactive {
-  opacity: 0.5;
-  background: rgba(15, 23, 42, 0.45);
-  border-style: dashed;
-  border-color: rgba(255, 255, 255, 0.18);
+.chip-num-slot-1 { background: linear-gradient(135deg, #10b981, #059669) !important; }
+.chip-num-slot-2 { background: linear-gradient(135deg, #2563eb, #1d4ed8) !important; }
+.chip-num-slot-3 { background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important; }
+.chip-num-slot-4 { background: linear-gradient(135deg, #f59e0b, #d97706) !important; }
+.chip-num-slot-5 { background: linear-gradient(135deg, #06b6d4, #0891b2) !important; }
+.chip-num-slot-6 { background: linear-gradient(135deg, #f43f5e, #e11d48) !important; }
+
+.complex-select-chip.chip-slot-1.active { border-color: #10b981 !important; }
+.complex-select-chip.chip-slot-2.active { border-color: #2563eb !important; }
+.complex-select-chip.chip-slot-3.active { border-color: #8b5cf6 !important; }
+.complex-select-chip.chip-slot-4.active { border-color: #f59e0b !important; }
+.complex-select-chip.chip-slot-5.active { border-color: #06b6d4 !important; }
+.complex-select-chip.chip-slot-6.active { border-color: #f43f5e !important; }
+
+/* 라이트 모드 (기본 테마) 칩 스타일 */
+body.theme-light .complex-selector-bar {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+body.theme-light .selector-title {
+  color: #64748b !important;
+}
+body.theme-light .selector-title strong {
+  color: #0f172a !important;
+}
+body.theme-light .complex-select-chip {
+  background: #f8fafc !important;
+  border: 1.5px solid #cbd5e1 !important;
+  color: #0f172a !important;
+}
+body.theme-light .complex-select-chip:hover {
+  background: #ffffff !important;
+  border-color: #94a3b8 !important;
+}
+body.theme-light .complex-select-chip.active {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08) !important;
+}
+body.theme-light .complex-select-chip.empty-chip {
+  background: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+  color: #64748b !important;
+}
+body.theme-light .btn-selector-action {
+  background: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  color: #0f172a !important;
+}
+body.theme-light .btn-selector-action:hover {
+  background: #f1f5f9 !important;
+  border-color: #94a3b8 !important;
+}
+
+.chip-swap-inline-btn, .chip-remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 3px;
+  font-size: 0.8rem;
   color: #94a3b8;
+  line-height: 1;
+  transition: transform var(--transition-fast), color var(--transition-fast);
 }
-.complex-select-chip.inactive:hover {
-  opacity: 0.9;
-  border-style: solid;
-}
+.chip-swap-inline-btn:hover { color: #3b82f6; transform: scale(1.2); }
+.chip-remove-btn:hover { color: #ef4444; transform: scale(1.2); }
 
 .chip-star-btn {
   background: none;
@@ -778,39 +844,9 @@ body {
   text-shadow: 0 0 6px rgba(251, 191, 36, 0.7);
 }
 
-.chip-num {
-  font-size: 0.68rem;
-  font-weight: 800;
-  padding: 1px 5px;
-  border-radius: 3px;
-  color: #ffffff;
-  line-height: 1.2;
-}
-
 .chip-name {
   cursor: pointer;
-}
-
-.chip-toggle-btn {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  color: #cbd5e1;
-  border-radius: 3px;
-  font-size: 0.7rem;
-  padding: 1px 6px;
-  cursor: pointer;
-  margin-left: 2px;
-  transition: all var(--transition-fast);
-}
-.chip-toggle-btn:hover {
-  background: rgba(244, 63, 94, 0.25);
-  color: #fda4af;
-  border-color: rgba(244, 63, 94, 0.5);
-}
-.complex-select-chip.inactive .chip-toggle-btn {
-  background: rgba(16, 185, 129, 0.2);
-  color: #34d399;
-  border-color: rgba(16, 185, 129, 0.45);
+  font-weight: 700;
 }
 
 .selector-right {
@@ -1093,31 +1129,42 @@ body.theme-light .card-header {
   overflow: hidden;
 }
 
-/* 단지 번호 뱃지 (1~6 한눈에 식별) */
+/* 단지 번호 뱃지 (1~6 한눈에 선명하고 돋보이게 식별) */
 .badge-complex-num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
-  font-size: 0.8rem;
-  font-weight: 800;
-  color: #ffffff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  flex-shrink: 0;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  border-radius: 8px !important;
+  font-size: 1.05rem !important;
+  font-weight: 900 !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35) !important;
+  flex-shrink: 0 !important;
+  border: 2px solid rgba(255, 255, 255, 0.95) !important;
+  margin-right: 6px !important;
 }
-.num-dongnae_raemian { background: #10b981; }
-.num-ray_county { background: #3b82f6; }
-.num-raemian_forestige { background: #a855f7; }
-.num-hyosung_harrington { background: #f59e0b; }
-.num-myeongnyun_ipark { background: #06b6d4; }
-.num-thesharp_dongnae { background: #f43f5e; }
+.num-slot-1 { background: linear-gradient(135deg, #10b981, #059669) !important; }
+.num-slot-2 { background: linear-gradient(135deg, #2563eb, #1d4ed8) !important; }
+.num-slot-3 { background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important; }
+.num-slot-4 { background: linear-gradient(135deg, #f59e0b, #d97706) !important; }
+.num-slot-5 { background: linear-gradient(135deg, #06b6d4, #0891b2) !important; }
+.num-slot-6 { background: linear-gradient(135deg, #f43f5e, #e11d48) !important; }
+
+.num-dongnae_raemian { background: #10b981 !important; }
+.num-ray_county { background: #2563eb !important; }
+.num-raemian_forestige { background: #8b5cf6 !important; }
+.num-hyosung_harrington { background: #f59e0b !important; }
+.num-myeongnyun_ipark { background: #06b6d4 !important; }
+.num-thesharp_dongnae { background: #f43f5e !important; }
 
 /* 아파트 이름: 번호 뱃지와 1:1 색상 일치 */
 .complex-name {
   font-family: var(--font-display);
-  font-size: 1.12rem;
+  font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -1125,12 +1172,19 @@ body.theme-light .card-header {
   text-overflow: ellipsis;
   flex-shrink: 0;
 }
-.name-dongnae_raemian { color: #10b981; }
-.name-ray_county { color: #3b82f6; }
-.name-raemian_forestige { color: #a855f7; }
-.name-hyosung_harrington { color: #f59e0b; }
-.name-myeongnyun_ipark { color: #06b6d4; }
-.name-thesharp_dongnae { color: #f43f5e; }
+.name-slot-1 { color: #059669 !important; }
+.name-slot-2 { color: #1d4ed8 !important; }
+.name-slot-3 { color: #6d28d9 !important; }
+.name-slot-4 { color: #d97706 !important; }
+.name-slot-5 { color: #0891b2 !important; }
+.name-slot-6 { color: #e11d48 !important; }
+
+body.theme-dark .name-slot-1 { color: #34d399 !important; }
+body.theme-dark .name-slot-2 { color: #60a5fa !important; }
+body.theme-dark .name-slot-3 { color: #a78bfa !important; }
+body.theme-dark .name-slot-4 { color: #fbbf24 !important; }
+body.theme-dark .name-slot-5 { color: #22d3ee !important; }
+body.theme-dark .name-slot-6 { color: #fb7185 !important; }
 
 .badge-complex-stat {
   font-size: 0.72rem;
@@ -2983,17 +3037,40 @@ body.theme-light .empty-slot-card {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.25);
-  font-size: 0.68rem;
-  font-weight: 800;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 900;
+  margin-right: 2px;
 }
-.picker-slot-pill.active .slot-pill-num {
-  background: #ffffff;
-  color: #3b82f6;
+.picker-slot-pill .pill-num-slot-1 { background: #10b981 !important; color: #fff !important; }
+.picker-slot-pill .pill-num-slot-2 { background: #2563eb !important; color: #fff !important; }
+.picker-slot-pill .pill-num-slot-3 { background: #8b5cf6 !important; color: #fff !important; }
+.picker-slot-pill .pill-num-slot-4 { background: #f59e0b !important; color: #fff !important; }
+.picker-slot-pill .pill-num-slot-5 { background: #06b6d4 !important; color: #fff !important; }
+.picker-slot-pill .pill-num-slot-6 { background: #f43f5e !important; color: #fff !important; }
+
+.tab-slot-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  font-size: 0.76rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-right: 4px;
 }
+.tab-num-slot-1 { background: #10b981 !important; }
+.tab-num-slot-2 { background: #2563eb !important; }
+.tab-num-slot-3 { background: #8b5cf6 !important; }
+.tab-num-slot-4 { background: #f59e0b !important; }
+.tab-num-slot-5 { background: #06b6d4 !important; }
+.tab-num-slot-6 { background: #f43f5e !important; }
 .picker-slot-pill.empty {
   border-style: dashed;
   opacity: 0.7;
