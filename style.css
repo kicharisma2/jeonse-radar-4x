@@ -2930,6 +2930,75 @@ body.theme-light .empty-slot-card {
   margin-top: 2px;
 }
 
+/* 모달 상단 6슬롯 선택 바 */
+.picker-slot-selector-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid var(--border-light);
+  overflow-x: auto;
+}
+.slot-bar-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.picker-slot-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+}
+.picker-slot-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+.picker-slot-pill:hover {
+  border-color: #3b82f6;
+  color: var(--text-primary);
+  background: rgba(59, 130, 246, 0.1);
+}
+.picker-slot-pill.active {
+  background: #3b82f6;
+  color: #ffffff;
+  border-color: #3b82f6;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+  font-weight: 700;
+}
+.picker-slot-pill .slot-pill-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+.picker-slot-pill.active .slot-pill-num {
+  background: #ffffff;
+  color: #3b82f6;
+}
+.picker-slot-pill.empty {
+  border-style: dashed;
+  opacity: 0.7;
+}
+
 .picker-tabs {
   display: flex;
   gap: 6px;
@@ -3361,6 +3430,373 @@ body.theme-light .btn-backup-action {
 body.theme-light .btn-backup-action:hover {
   background: #f1f5f9;
 }
+
+/* =================================================================
+   초슬림 컴팩트 레이아웃 스타일 (매물 가시성 250px+ 극대화)
+   ================================================================= */
+.app-header-compact {
+  height: 44px !important;
+  min-height: 44px !important;
+  max-height: 44px !important;
+  padding: 4px 16px !important;
+  box-sizing: border-box;
+}
+.app-header-compact .brand-title {
+  font-size: 1.05rem !important;
+}
+.app-header-compact .radar-pulse-icon {
+  width: 22px !important;
+  height: 22px !important;
+}
+.app-header-compact .status-chip {
+  padding: 3px 8px !important;
+  font-size: 0.74rem !important;
+}
+.app-header-compact .stat-badge {
+  padding: 3px 8px !important;
+  font-size: 0.74rem !important;
+}
+.btn-slim {
+  height: 30px !important;
+  padding: 4px 10px !important;
+  font-size: 0.78rem !important;
+}
+.btn-icon-only.btn-slim {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* 초슬림 한 줄 메인 필터 바 (42px) */
+.filter-panel-compact {
+  height: 42px !important;
+  min-height: 42px !important;
+  max-height: 42px !important;
+  padding: 4px 16px !important;
+  box-sizing: border-box;
+  display: flex !important;
+  align-items: center !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.filter-compact-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: max-content;
+}
+.filter-compact-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-compact-label {
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.filter-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border-light);
+  flex-shrink: 0;
+}
+.pill-group-compact {
+  display: inline-flex;
+  gap: 3px;
+  background: var(--bg-tertiary);
+  padding: 2px;
+  border-radius: var(--radius-sm);
+}
+.pill-btn-compact {
+  height: 26px !important;
+  padding: 2px 8px !important;
+  font-size: 0.78rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+}
+.filter-price-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.filter-value-text-compact {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #10b981;
+  white-space: nowrap;
+  min-width: 95px;
+}
+.dual-range-container-compact {
+  position: relative;
+  width: 130px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+.dual-range-container-compact input[type="range"] {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  appearance: none;
+  background: transparent;
+  z-index: 2;
+  margin: 0;
+  height: 18px;
+}
+.dual-range-container-compact input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.dual-range-container-compact .slider-track {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 2px;
+  z-index: 1;
+}
+.price-quick-tags-compact {
+  display: flex;
+  gap: 4px;
+}
+.price-quick-tags-compact .tag-btn {
+  height: 24px;
+  padding: 1px 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.custom-select-compact {
+  height: 26px !important;
+  padding: 2px 8px !important;
+  font-size: 0.76rem !important;
+  border-radius: 4px !important;
+}
+.btn-action-compact {
+  height: 26px !important;
+  padding: 3px 9px !important;
+  font-size: 0.76rem !important;
+  border-radius: 4px !important;
+  white-space: nowrap;
+}
+
+/* 초슬림 아파트 관리 바 (34px) */
+.complex-selector-bar-compact {
+  height: 34px !important;
+  min-height: 34px !important;
+  max-height: 34px !important;
+  padding: 3px 16px !important;
+  box-sizing: border-box;
+  background: var(--bg-secondary) !important;
+  border-bottom: 1px solid var(--border-light) !important;
+}
+.selector-container-compact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+}
+.selector-left-compact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+}
+.selector-right-compact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.selector-title-compact {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.complex-chips-group-compact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.complex-chips-group-compact .complex-select-chip {
+  padding: 2px 7px !important;
+  font-size: 0.75rem !important;
+  height: 24px !important;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.complex-chips-group-compact .complex-select-chip:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.25);
+}
+.complex-chips-group-compact .complex-select-chip.empty-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed var(--border-light);
+  color: var(--text-muted);
+}
+.complex-chips-group-compact .complex-select-chip.empty-chip:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+}
+.chip-swap-inline-btn {
+  background: transparent;
+  border: none;
+  font-size: 0.68rem;
+  padding: 0 2px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity var(--transition-fast);
+}
+.chip-swap-inline-btn:hover {
+  opacity: 1;
+}
+.btn-chip-add {
+  height: 24px !important;
+  padding: 2px 8px !important;
+  font-size: 0.75rem !important;
+}
+
+/* 대시보드 메인 확장 (바 축소 효과 100% 반영) */
+.dashboard-main-expanded {
+  flex: 1 !important;
+  min-height: 0 !important;
+  height: calc(100vh - 128px) !important;
+  padding: 10px 16px !important;
+  box-sizing: border-box;
+  overflow: hidden !important;
+}
+
+/* 6대 단지 카드 헤더 & 서브바 높이 대폭 슬림화 */
+.complex-card .card-header {
+  height: 44px !important;
+  min-height: 44px !important;
+  max-height: 44px !important;
+  padding: 4px 10px !important;
+  gap: 6px !important;
+}
+.complex-card .complex-title-row {
+  gap: 5px !important;
+}
+.complex-card .complex-name {
+  font-size: 0.94rem !important;
+  font-weight: 800 !important;
+}
+.complex-card .badge-complex-stat,
+.complex-card .badge-complex-age {
+  font-size: 0.7rem !important;
+  padding: 1px 5px !important;
+}
+.complex-card .complex-meta {
+  display: none !important; /* 수직 공간 확보를 위해 메타 주소 숨김 */
+}
+.complex-card .card-header-actions {
+  gap: 4px !important;
+}
+.complex-card .btn-naver-direct {
+  padding: 3px 8px !important;
+  font-size: 0.74rem !important;
+  height: 26px !important;
+}
+.complex-card .btn-card-icon {
+  width: 26px !important;
+  height: 26px !important;
+  font-size: 0.8rem !important;
+}
+.btn-card-swap-text {
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  padding: 2px 6px !important;
+  background: rgba(59, 130, 246, 0.12) !important;
+  color: #3b82f6 !important;
+  border-radius: var(--radius-sm) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  cursor: pointer;
+}
+.btn-card-swap-text:hover {
+  background: #3b82f6 !important;
+  color: #ffffff !important;
+}
+
+/* 서브바 (리본) 초슬림화 (24px) */
+.complex-card .card-summary-ribbon {
+  height: 24px !important;
+  min-height: 24px !important;
+  max-height: 24px !important;
+  padding: 2px 10px !important;
+  font-size: 0.74rem !important;
+}
+.complex-card .badge-match-pill {
+  padding: 1px 6px !important;
+  font-size: 0.72rem !important;
+}
+
+/* 카드 본문 (매물 리스트 영역) 대폭 확장 */
+.complex-card .card-body {
+  height: calc(100% - 68px) !important;
+  padding: 6px 8px !important;
+  gap: 6px !important;
+  overflow-y: auto !important;
+}
+
+/* 매물 개별 카드 컴팩트화 (화면에 3~4개 매물이 넉넉히 들어오도록 조정) */
+.complex-card .listing-card {
+  padding: 8px 10px !important;
+  border-radius: var(--radius-sm) !important;
+  margin-bottom: 6px !important;
+}
+.complex-card .listing-top-row {
+  margin-bottom: 4px !important;
+}
+.complex-card .listing-price-huge {
+  font-size: 1.15rem !important;
+}
+.complex-card .badge-trade-type {
+  font-size: 0.68rem !important;
+  padding: 1px 5px !important;
+}
+.complex-card .card-spec-bar {
+  padding: 4px 6px !important;
+  gap: 4px !important;
+  margin-bottom: 4px !important;
+}
+.complex-card .spec-chip {
+  font-size: 0.74rem !important;
+  padding: 1px 5px !important;
+}
+.complex-card .tag-row-scroll {
+  margin-bottom: 4px !important;
+}
+.complex-card .tag-chip {
+  font-size: 0.68rem !important;
+  padding: 1px 5px !important;
+}
+.complex-card .listing-desc {
+  font-size: 0.75rem !important;
+  line-height: 1.35 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 4px !important;
+}
+.complex-card .listing-bottom-row {
+  font-size: 0.72rem !important;
+  padding-top: 4px !important;
+}
+
 
 
 

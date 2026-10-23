@@ -23,8 +23,8 @@
 </head>
 <body class="theme-light">
 
-  <!-- 최상단 헤더 네비게이션 -->
-  <header class="app-header" id="appHeader">
+  <!-- 초슬림 최상단 헤더 네비게이션 (높이 44px) -->
+  <header class="app-header app-header-compact" id="appHeader">
     <div class="header-left">
       <div class="brand-logo" id="brandLogo" role="button" tabindex="0" title="클릭하여 데이터 새로고침">
         <div class="radar-pulse-icon" title="실시간 레이더 작동 중">
@@ -33,205 +33,157 @@
         </div>
         <div class="brand-text">
           <h1 class="brand-title">스마트 부동산 <span class="text-gradient">6분할 레이더</span></h1>
-          <p class="brand-subtitle">전국 대장 아파트 실시간 전세·매매 맞춤 모니터링</p>
         </div>
       </div>
-    </div>
-
-    <!-- 헤더 중앙: 실시간 감시 상태 뱃지 & 통계 -->
-    <div class="header-center">
       <div class="status-chip" id="monitoringStatusChip">
         <span class="live-beacon"></span>
-        <span class="status-label">실시간 감시 활성</span>
-        <span class="status-timer" id="nextCheckTimer">다음 감시: 25초</span>
+        <span class="status-label">실시간 감시</span>
+        <span class="status-timer" id="nextCheckTimer">25초</span>
       </div>
       <div class="stat-badge" id="totalMatchesBadge">
         <span class="stat-num" id="totalMatchesCount">0</span>
-        <span class="stat-txt">조건 부합 매물</span>
+        <span class="stat-txt">매물</span>
       </div>
     </div>
 
     <!-- 헤더 우측: 핵심 액션 버튼군 -->
     <div class="header-right">
-      <!-- 1클릭 네이버 6분할 창 실행 버튼 -->
-      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="화면을 6등분하여 현재 모니터링 중인 6개 아파트 네이버 부동산 창을 동시에 팝업 실행합니다">
+      <button class="btn-action btn-four-split btn-slim" id="btnLaunchFourWindows" title="화면을 6등분하여 6개 아파트 네이버 부동산 창을 동시에 팝업 실행합니다">
         <span class="btn-icon">🖥️</span>
         <span class="btn-label">네이버 6창 분할 실행</span>
         <span class="badge-hot">1-CLICK</span>
       </button>
 
-      <!-- 내 레이더 설정 & 프로필 관리 버튼 -->
-      <button class="btn-action btn-profile-settings" id="btnProfileSettings" title="내 프로필 및 컴퓨터 저장 설정 관리">
+      <button class="btn-action btn-profile-settings btn-slim" id="btnProfileSettings" title="내 프로필 및 컴퓨터 저장 설정 관리">
         <span class="btn-icon">⚙️</span>
         <span class="btn-label" id="profileNameLabel">내 설정</span>
       </button>
 
-      <!-- 신규 매물 알림 토글 -->
-      <button class="btn-action btn-notify-toggle" id="btnNotifyToggle" title="새 매물이 등록되면 바탕화면 푸시 알림과 알림음을 발생시킵니다">
+      <button class="btn-action btn-notify-toggle btn-slim" id="btnNotifyToggle" title="새 매물 데스크탑 알림 토글">
         <span class="btn-icon" id="notifyIcon">🔔</span>
-        <span class="btn-label" id="notifyLabel">알림 켜기</span>
+        <span class="btn-label" id="notifyLabel">알림</span>
       </button>
 
-      <!-- 알림 센터 드로어 열기 -->
-      <button class="btn-icon-only" id="btnOpenNotificationCenter" title="알림 내역 보기">
+      <button class="btn-icon-only btn-slim" id="btnOpenNotificationCenter" title="알림 피드">
         <span class="icon">📫</span>
         <span class="badge-counter" id="unreadNotifCount" style="display: none;">0</span>
       </button>
 
-      <!-- 알림 시뮬레이션 테스트 버튼 -->
-      <button class="btn-action btn-test-alert" id="btnSimulateNewListing" title="새 매물이 올라왔을 때의 알림과 푸시를 즉시 테스트해봅니다">
+      <button class="btn-action btn-test-alert btn-slim" id="btnSimulateNewListing" title="새 매물 알림 테스트">
         <span class="btn-icon">🧪</span>
-        <span class="btn-label">알림 테스트</span>
+        <span class="btn-label">테스트</span>
       </button>
 
-      <!-- 테마 토글 (기본: 라이트모드, 클릭 시 다크모드로 전환) -->
-      <button class="btn-icon-only" id="btnThemeToggle" title="테마 전환 (어두운 화면 / 밝은 화면)">
+      <button class="btn-icon-only btn-slim" id="btnThemeToggle" title="테마 전환 (어두운 화면 / 밝은 화면)">
         <span class="icon" id="themeIcon">🌙</span>
       </button>
     </div>
   </header>
 
-  <!-- 메인 필터 컨트롤 바 -->
-  <section class="filter-panel" id="filterPanel" aria-label="매물 검색 필터">
-    <div class="filter-container">
+  <!-- 초슬림 한 줄 메인 필터 컨트롤 바 (높이 42px) -->
+  <section class="filter-panel filter-panel-compact" id="filterPanel" aria-label="매물 검색 필터">
+    <div class="filter-compact-row">
       
-      <!-- 필터 그룹 1: 거래 유형 (전세 / 매매 완벽 지원) -->
-      <div class="filter-group">
-        <span class="filter-title">거래 유형</span>
-        <div class="pill-group" role="radiogroup" aria-label="거래 유형 선택">
-          <button class="pill-btn active" data-type="trade" data-value="jeonse" id="filterJeonse">
+      <!-- 거래 유형 -->
+      <div class="filter-compact-item">
+        <span class="filter-compact-label">거래</span>
+        <div class="pill-group pill-group-compact" role="radiogroup">
+          <button class="pill-btn pill-btn-compact active" data-type="trade" data-value="jeonse" id="filterJeonse">
             <span class="pill-check">✓</span> 전세
           </button>
-          <button class="pill-btn" data-type="trade" data-value="sale" id="filterSale">
+          <button class="pill-btn pill-btn-compact" data-type="trade" data-value="sale" id="filterSale">
             매매
           </button>
         </div>
       </div>
 
-      <!-- 필터 그룹 2: 금액 범위 (전세 보증금 / 매매 가격 동적 연동) -->
-      <div class="filter-group filter-price-group">
-        <div class="filter-header-row">
-          <span class="filter-title" id="priceFilterTitle">전세 보증금</span>
-          <span class="filter-value-text" id="priceRangeDisplay">4억 3,000만원 ~ 5억 5,000만원</span>
+      <div class="filter-divider"></div>
+
+      <!-- 금액 범위 -->
+      <div class="filter-compact-item filter-price-item">
+        <span class="filter-compact-label" id="priceFilterTitle">금액</span>
+        <span class="filter-value-text-compact" id="priceRangeDisplay">4.3억 ~ 5.5억</span>
+        <div class="dual-range-container-compact">
+          <input type="range" id="priceMinRange" min="20000" max="80000" step="1000" value="43000" aria-label="최소 금액">
+          <input type="range" id="priceMaxRange" min="20000" max="80000" step="1000" value="55000" aria-label="최대 금액">
+          <div class="slider-track" id="priceTrack"></div>
         </div>
-        <div class="price-slider-wrap">
-          <div class="dual-range-container">
-            <input type="range" id="priceMinRange" min="20000" max="80000" step="1000" value="43000" aria-label="최소 금액">
-            <input type="range" id="priceMaxRange" min="20000" max="80000" step="1000" value="55000" aria-label="최대 금액">
-            <div class="slider-track" id="priceTrack"></div>
-          </div>
-          <div class="price-quick-tags" id="priceQuickTags">
-            <!-- JS에서 전세/매매에 따라 퀵 태그 동적 렌더링 -->
-          </div>
+        <div class="price-quick-tags-compact" id="priceQuickTags"></div>
+      </div>
+
+      <div class="filter-divider"></div>
+
+      <!-- 면적 -->
+      <div class="filter-compact-item">
+        <span class="filter-compact-label">면적</span>
+        <div class="pill-group pill-group-compact" role="radiogroup">
+          <button class="pill-btn pill-btn-compact" data-type="pyeong" data-value="all" id="pyeongAll">전체</button>
+          <button class="pill-btn pill-btn-compact" data-type="pyeong" data-value="20" id="pyeong20">20평대 (59㎡)</button>
+          <button class="pill-btn pill-btn-compact active" data-type="pyeong" data-value="30" id="pyeong30">
+            <span class="pill-check">✓</span> 30평대 (84㎡)
+          </button>
+          <button class="pill-btn pill-btn-compact" data-type="pyeong" data-value="40" id="pyeong40">40평대+</button>
         </div>
       </div>
 
-      <!-- 필터 그룹 3: 면적 (20평대, 30평대, 40평대, 전체 평형) -->
-      <div class="filter-group">
-        <span class="filter-title">면적 (평형)</span>
-        <div class="pill-group" role="radiogroup" aria-label="면적 선택">
-          <button class="pill-btn" data-type="pyeong" data-value="all" id="pyeongAll">전체 평형</button>
-          <button class="pill-btn" data-type="pyeong" data-value="20" id="pyeong20">20평대 (59㎡형)</button>
-          <button class="pill-btn active" data-type="pyeong" data-value="30" id="pyeong30">
-            <span class="pill-check">✓</span> 30평대 (84㎡형)
-          </button>
-          <button class="pill-btn" data-type="pyeong" data-value="40" id="pyeong40">40평대 이상</button>
-        </div>
-      </div>
+      <div class="filter-divider"></div>
 
-      <!-- 필터 그룹 4: 세대수 & 사용승인일 -->
-      <div class="filter-group">
-        <span class="filter-title">단지 조건</span>
-        <div class="tag-row">
-          <span class="spec-tag active" title="선택된 대장 단지는 500세대 이상 프리미엄 단지입니다">
-            🏢 500세대 이상
-          </span>
-          <div class="dropdown-wrapper">
-            <select id="selectBuildAge" class="custom-select" aria-label="사용승인연한 필터">
-              <option value="all">연식: 전체 (신축~구축)</option>
-              <option value="within20" selected>사용승인: 20년 이내 (신축/준신축)</option>
-              <option value="over20">사용승인: 20년 이상</option>
-            </select>
-          </div>
-        </div>
-      </div>
+      <!-- 정렬 및 액션 버튼군 -->
+      <div class="filter-compact-item filter-compact-actions">
+        <select id="selectSort" class="custom-select custom-select-compact" aria-label="정렬">
+          <option value="price_asc" selected>최저가순</option>
+          <option value="newest">최신순</option>
+          <option value="price_desc">최고가순</option>
+          <option value="area_desc">면적순</option>
+        </select>
+        
+        <button class="btn-action-highlight btn-action-compact" id="btnApplyFilters" title="현재 조건으로 즉시 재조회">
+          <span>🔍 조건 적용</span>
+        </button>
+        
+        <button class="btn-action-save btn-action-compact" id="btnSaveDefaults" title="현재 조건을 내 컴퓨터 기본값으로 영구 저장">
+          <span>💾 기본값 저장</span>
+        </button>
 
-      <!-- 필터 그룹 5: 정렬 및 [적용], [기본값 저장], [초기화] 액션 버튼군 -->
-      <div class="filter-group filter-group-right">
-        <span class="filter-title">정렬 및 조건 실행</span>
-        <div class="action-row">
-          <select id="selectSort" class="custom-select" aria-label="매물 정렬 기준">
-            <option value="price_asc" selected>가격 낮은순 (최저가)</option>
-            <option value="newest">최신 등록순</option>
-            <option value="price_desc">가격 높은순</option>
-            <option value="area_desc">면적 넓은순</option>
-          </select>
-          
-          <!-- 사용자 핵심 요구: 적용 버튼 -->
-          <button class="btn-action-highlight btn-apply-filters" id="btnApplyFilters" title="현재 변경한 조건으로 즉시 매물을 재조회합니다">
-            <span>🔍 조건 적용</span>
-          </button>
-          
-          <!-- 사용자 핵심 요구: 설정값 저장 버튼 -->
-          <button class="btn-action-save btn-save-defaults" id="btnSaveDefaults" title="현재 설정한 조건(거래유형, 금액, 평수 등)을 내 컴퓨터 기본값으로 영구 저장합니다">
-            <span>💾 기본값 저장</span>
-          </button>
-
-          <button class="btn-reset" id="btnResetFilters" title="저장된 기본 필터값으로 초기화">
-            <span>↺ 초기화</span>
-          </button>
-        </div>
+        <button class="btn-reset btn-action-compact" id="btnResetFilters" title="기본값으로 초기화">
+          <span>↺ 초기화</span>
+        </button>
       </div>
 
     </div>
   </section>
 
-  <!-- 아파트 관리 바: 6개 단지 칩, 새 아파트 추가/교체 모달, 지역 세트 프리셋 -->
-  <section class="complex-selector-bar" id="complexSelectorBar" aria-label="모니터링 아파트 6개 관리">
-    <div class="selector-container">
-      <div class="selector-left">
-        <span class="selector-title">🏢 <strong>모니터링 아파트 (최대 6개):</strong></span>
-        <div class="complex-chips-group" id="complexChipsGroup">
-          <!-- JS에서 현재 선택된 아파트 칩 동적 렌더링 -->
+  <!-- 초슬림 아파트 관리 바 (높이 34px) -->
+  <section class="complex-selector-bar complex-selector-bar-compact" id="complexSelectorBar" aria-label="모니터링 아파트 6개 관리">
+    <div class="selector-container-compact">
+      <div class="selector-left-compact">
+        <span class="selector-title-compact">🏢 <strong>아파트 6슬롯:</strong></span>
+        <div class="complex-chips-group-compact" id="complexChipsGroup">
+          <!-- JS에서 현재 선택된 아파트 칩 동적 렌더링 (클릭 시 교체 모달 열림) -->
         </div>
-        <!-- 새 아파트 추가/교체 모달 오픈 버튼 -->
-        <button class="btn-selector-action highlight" id="btnOpenComplexPicker" title="전국 60+개 대장 아파트 중 선택하거나 네이버 단지번호를 직접 등록합니다">
+        <button class="btn-selector-action highlight btn-chip-add" id="btnOpenComplexPicker" title="전국 아파트 검색 및 새 아파트 등록">
           <span class="btn-plus-icon">+</span> 아파트 추가 / 교체
         </button>
       </div>
 
-      <div class="selector-right">
-        <!-- 인기 지역 6대 단지 세트 원클릭 선택 드롭다운 -->
-        <div class="dropdown-wrapper">
-          <select id="selectRegionPreset" class="custom-select preset-select" aria-label="인기 지역 6대 단지 세트 선택">
-            <option value="" disabled selected>⚡ 인기 지역 6대 단지 세트 ▾</option>
-            <option value="busan_dongnae">부산 동래·연제 6대 대장 (동래래미안·레이카운티·포레스티지 등)</option>
-            <option value="busan_haeundae">부산 해운대·수영 6대 대장 (엘시티·삼익비치·제니스·광안자이 등)</option>
-            <option value="seoul_gangnam">서울 강남·서초 6대 대장 (아크로리버파크·원베일리·반포자이 등)</option>
-            <option value="seoul_mapo">서울 마포·용산 6대 대장 (마래푸·한남더힐·마프자 등)</option>
-          </select>
-        </div>
+      <div class="selector-right-compact">
+        <select id="selectRegionPreset" class="custom-select preset-select custom-select-compact" aria-label="인기 지역 6대 단지 세트 선택">
+          <option value="" disabled selected>⚡ 인기 지역 세트 ▾</option>
+          <option value="busan_dongnae">부산 동래·연제 6대 대장 세트</option>
+          <option value="busan_haeundae">부산 해운대·수영 6대 대장 세트</option>
+          <option value="seoul_gangnam">서울 강남·서초 6대 대장 세트</option>
+          <option value="seoul_mapo">서울 마포·용산 6대 대장 세트</option>
+        </select>
 
-        <button class="btn-selector-action" id="btnShowOnlyFavs" title="별표(★) 표시한 관심 아파트만 모아봅니다">
-          <span class="fav-star-icon">★</span> 관심 단지만 보기
+        <button class="btn-selector-action btn-action-compact" id="btnShowOnlyFavs" title="관심 단지만 모아보기">
+          <span class="fav-star-icon">★</span> 관심 단지만
         </button>
-        <button class="btn-selector-action" id="btnShowAllComplexes" title="등록된 아파트 카드를 모두 화면에 표시합니다">
-          <span>↺ 6개 전체 보기</span>
+        <button class="btn-selector-action btn-action-compact" id="btnShowAllComplexes" title="등록된 6개 아파트 전체 보기">
+          <span>↺ 전체 보기</span>
         </button>
       </div>
     </div>
   </section>
-
-  <!-- 6분할 안내 배너 -->
-  <div class="launcher-banner" id="launcherBanner">
-    <div class="launcher-banner-content">
-      <div class="banner-badge">💡 6분할 화면 꿀팁</div>
-      <p class="banner-text">
-        <span class="banner-highlight-btn">[네이버 6창 분할 실행]</span> 버튼을 누르면 현재 모니터링 중인 6개 아파트의 네이버 부동산 페이지가 모니터 화면의 6분면(3열 2행)에 바둑판 배열로 동시에 열립니다.
-      </p>
-      <button class="btn-banner-action" id="btnBannerLaunch">지금 6창 분할 띄우기</button>
-    </div>
-  </div>
 
   <!-- 모바일 전용 뷰 탭 바 -->
   <nav class="mobile-view-tabs" id="mobileViewTabs" aria-label="모바일 화면 분할 및 단지 선택">
@@ -240,8 +192,8 @@
     </div>
   </nav>
 
-  <!-- 메인 6분할 그리드 대시보드 (3열 2행, 최대 6개 슬롯) -->
-  <main class="dashboard-main" id="dashboardMain">
+  <!-- 메인 6분할 그리드 대시보드 (3열 2행, 최대 6개 슬롯 - 상단 바 축소로 압도적인 매물 가시성 확보) -->
+  <main class="dashboard-main dashboard-main-expanded" id="dashboardMain">
     <div class="grid-container" id="complexGrid">
       <!-- JS에서 6개 슬롯 카드 및 빈 슬롯(+ 추가 카드) 동적 렌더링 -->
     </div>
@@ -294,11 +246,19 @@
         <div class="picker-header-title">
           <span class="modal-icon">🏢</span>
           <div>
-            <h3 class="modal-title">아파트 선택 및 추가 <span class="badge-slot" id="pickerTargetSlotBadge">슬롯 1</span></h3>
-            <p class="picker-sub">전국 대장 아파트를 검색하거나 네이버 단지번호를 등록해 6개 화면을 자유롭게 구성하세요.</p>
+            <h3 class="modal-title">아파트 선택 및 교체 <span class="badge-slot" id="pickerTargetSlotBadge">슬롯 1</span></h3>
+            <p class="picker-sub">바꿀 슬롯 번호를 클릭하고, 아래에서 아파트를 검색하여 1클릭으로 바로 교체하세요.</p>
           </div>
         </div>
         <button class="btn-close-modal" id="btnClosePickerModal">✕</button>
+      </div>
+
+      <!-- 대상 슬롯 1~6 선택 탭 바 (직관적인 슬롯 전환) -->
+      <div class="picker-slot-selector-bar">
+        <span class="slot-bar-label">바꿀 슬롯 선택:</span>
+        <div class="picker-slot-pills" id="pickerSlotPills">
+          <!-- JS에서 슬롯 1~6 탭 동적 렌더링 -->
+        </div>
       </div>
 
       <!-- 모달 탭: 카탈로그 검색 / 단지번호 직접 등록 / 지역 세트 -->

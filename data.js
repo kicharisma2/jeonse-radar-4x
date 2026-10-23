@@ -370,6 +370,74 @@ const CATALOG_COMPLEXES = [
     "saleBase": 88000
   },
   {
+    "id": "yeonsan_thesharp",
+    "complexId": 112331,
+    "name": "연산더샵",
+    "shortName": "연산더샵",
+    "district": "부산광역시 연제구 연산동 2352",
+    "shortDistrict": "연제구 연산동",
+    "households": 1071,
+    "buildYear": 2019,
+    "buildMonth": 3,
+    "ageYears": 8,
+    "metro": "물만골역 도보 5분",
+    "shortMetro": "물만골역 역세권",
+    "region": "부산 동래·연제",
+    "jeonseBase": 42000,
+    "saleBase": 78000
+  },
+  {
+    "id": "thesharp_parkcity",
+    "complexId": 105448,
+    "name": "더샵파크시티",
+    "shortName": "더샵파크시티",
+    "district": "부산광역시 연제구 연산동 1990",
+    "shortDistrict": "연제구 연산동",
+    "households": 1758,
+    "buildYear": 2015,
+    "buildMonth": 6,
+    "ageYears": 12,
+    "metro": "온천천 수변공원",
+    "shortMetro": "온천천 수변공원",
+    "region": "부산 동래·연제",
+    "jeonseBase": 40000,
+    "saleBase": 72000
+  },
+  {
+    "id": "yeonje_lotte_desian",
+    "complexId": 109867,
+    "name": "연제롯데캐슬데시앙",
+    "shortName": "연제롯데캐슬",
+    "district": "부산광역시 연제구 연산동 2420",
+    "shortDistrict": "연제구 연산동",
+    "households": 1168,
+    "buildYear": 2018,
+    "buildMonth": 10,
+    "ageYears": 9,
+    "metro": "물만골역 / 배산역",
+    "shortMetro": "물만골·배산역",
+    "region": "부산 동래·연제",
+    "jeonseBase": 44000,
+    "saleBase": 82000
+  },
+  {
+    "id": "yeonsan_xi",
+    "complexId": 23689,
+    "name": "연산자이",
+    "shortName": "연산자이",
+    "district": "부산광역시 연제구 연산동 2363",
+    "shortDistrict": "연제구 연산동",
+    "households": 1598,
+    "buildYear": 2010,
+    "buildMonth": 7,
+    "ageYears": 17,
+    "metro": "연산역 역세권",
+    "shortMetro": "연산역 역세권",
+    "region": "부산 동래·연제",
+    "jeonseBase": 38000,
+    "saleBase": 70000
+  },
+  {
     "id": "jangjeon_raemian",
     "complexId": 108422,
     "name": "래미안장전",
@@ -767,7 +835,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "dongnae_raemian-j20-1",
-        "articleNo": "2656930213",
+        "articleNo": "2656981351",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -801,7 +869,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j20-2",
-        "articleNo": "2656288440",
+        "articleNo": "2656278914",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -835,7 +903,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j20-3",
-        "articleNo": "2656866934",
+        "articleNo": "2656647720",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -869,7 +937,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j30-1",
-        "articleNo": "2657275272",
+        "articleNo": "2657457928",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -903,7 +971,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j30-2",
-        "articleNo": "2657658601",
+        "articleNo": "2657768767",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -937,7 +1005,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j30-3",
-        "articleNo": "2657799846",
+        "articleNo": "2657878969",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -971,7 +1039,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j30-4",
-        "articleNo": "2657327996",
+        "articleNo": "2657721923",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -1005,7 +1073,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j40-1",
-        "articleNo": "2658789745",
+        "articleNo": "2658774400",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -1038,7 +1106,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-j40-2",
-        "articleNo": "2658388466",
+        "articleNo": "2658403587",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -1071,7 +1139,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s20-1",
-        "articleNo": "2659821443",
+        "articleNo": "2659116670",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -1105,7 +1173,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s20-2",
-        "articleNo": "2659755751",
+        "articleNo": "2659353206",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -1139,7 +1207,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s30-1",
-        "articleNo": "2660669280",
+        "articleNo": "2660160068",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -1173,7 +1241,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s30-2",
-        "articleNo": "2660541557",
+        "articleNo": "2660604095",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -1207,7 +1275,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s30-3",
-        "articleNo": "2660173019",
+        "articleNo": "2660781644",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -1241,7 +1309,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s40-1",
-        "articleNo": "2661596723",
+        "articleNo": "2661223095",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -1274,7 +1342,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "dongnae_raemian-s40-2",
-        "articleNo": "2661428418",
+        "articleNo": "2661983872",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",
@@ -1328,7 +1396,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "ray_county-j20-1",
-        "articleNo": "2656495720",
+        "articleNo": "2656427859",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -1362,7 +1430,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j20-2",
-        "articleNo": "2656189839",
+        "articleNo": "2656250945",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -1396,7 +1464,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j20-3",
-        "articleNo": "2656589165",
+        "articleNo": "2656256124",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -1430,7 +1498,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j30-1",
-        "articleNo": "2657769776",
+        "articleNo": "2657333389",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -1464,7 +1532,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j30-2",
-        "articleNo": "2657238029",
+        "articleNo": "2657228091",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -1498,7 +1566,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j30-3",
-        "articleNo": "2657626565",
+        "articleNo": "2657735123",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -1532,7 +1600,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j30-4",
-        "articleNo": "2657931874",
+        "articleNo": "2657833930",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -1566,7 +1634,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j40-1",
-        "articleNo": "2658885363",
+        "articleNo": "2658325168",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -1599,7 +1667,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-j40-2",
-        "articleNo": "2658180495",
+        "articleNo": "2658694441",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -1632,7 +1700,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s20-1",
-        "articleNo": "2659333630",
+        "articleNo": "2659925304",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -1666,7 +1734,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s20-2",
-        "articleNo": "2659713657",
+        "articleNo": "2659315321",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -1700,7 +1768,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s30-1",
-        "articleNo": "2660352462",
+        "articleNo": "2660667145",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -1734,7 +1802,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s30-2",
-        "articleNo": "2660573308",
+        "articleNo": "2660444924",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -1768,7 +1836,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s30-3",
-        "articleNo": "2660540535",
+        "articleNo": "2660821309",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -1802,7 +1870,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s40-1",
-        "articleNo": "2661645327",
+        "articleNo": "2661917757",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -1835,7 +1903,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "ray_county-s40-2",
-        "articleNo": "2661193140",
+        "articleNo": "2661374242",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",
@@ -1889,7 +1957,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "raemian_forestige-j20-1",
-        "articleNo": "2656120772",
+        "articleNo": "2656119473",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -1923,7 +1991,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j20-2",
-        "articleNo": "2656206549",
+        "articleNo": "2656227439",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -1957,7 +2025,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j20-3",
-        "articleNo": "2656597522",
+        "articleNo": "2656127255",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -1991,7 +2059,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j30-1",
-        "articleNo": "2657677984",
+        "articleNo": "2657599343",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -2025,7 +2093,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j30-2",
-        "articleNo": "2657696480",
+        "articleNo": "2657223161",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -2059,7 +2127,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j30-3",
-        "articleNo": "2657804674",
+        "articleNo": "2657688866",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -2093,7 +2161,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j30-4",
-        "articleNo": "2657201497",
+        "articleNo": "2657596067",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -2127,7 +2195,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j40-1",
-        "articleNo": "2658577251",
+        "articleNo": "2658728162",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -2160,7 +2228,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-j40-2",
-        "articleNo": "2658514806",
+        "articleNo": "2658184300",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -2193,7 +2261,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s20-1",
-        "articleNo": "2659879121",
+        "articleNo": "2659278388",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -2227,7 +2295,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s20-2",
-        "articleNo": "2659184886",
+        "articleNo": "2659800733",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -2261,7 +2329,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s30-1",
-        "articleNo": "2660392141",
+        "articleNo": "2660678273",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -2295,7 +2363,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s30-2",
-        "articleNo": "2660376504",
+        "articleNo": "2660763838",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -2329,7 +2397,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s30-3",
-        "articleNo": "2660228113",
+        "articleNo": "2660338974",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -2363,7 +2431,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s40-1",
-        "articleNo": "2661633747",
+        "articleNo": "2661269542",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -2396,7 +2464,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "raemian_forestige-s40-2",
-        "articleNo": "2661367395",
+        "articleNo": "2661975518",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",
@@ -2450,7 +2518,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "hyosung_harrington-j20-1",
-        "articleNo": "2656843532",
+        "articleNo": "2656527763",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -2484,7 +2552,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j20-2",
-        "articleNo": "2656726519",
+        "articleNo": "2656442983",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -2518,7 +2586,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j20-3",
-        "articleNo": "2656196703",
+        "articleNo": "2656842666",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -2552,7 +2620,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j30-1",
-        "articleNo": "2657107949",
+        "articleNo": "2657341437",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -2586,7 +2654,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j30-2",
-        "articleNo": "2657716713",
+        "articleNo": "2657178180",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -2620,7 +2688,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j30-3",
-        "articleNo": "2657451497",
+        "articleNo": "2657969044",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -2654,7 +2722,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j30-4",
-        "articleNo": "2657835537",
+        "articleNo": "2657453360",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -2688,7 +2756,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j40-1",
-        "articleNo": "2658139100",
+        "articleNo": "2658947539",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -2721,7 +2789,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-j40-2",
-        "articleNo": "2658435305",
+        "articleNo": "2658704900",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -2754,7 +2822,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s20-1",
-        "articleNo": "2659814544",
+        "articleNo": "2659205627",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -2788,7 +2856,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s20-2",
-        "articleNo": "2659589501",
+        "articleNo": "2659305231",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -2822,7 +2890,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s30-1",
-        "articleNo": "2660900332",
+        "articleNo": "2660347057",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -2856,7 +2924,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s30-2",
-        "articleNo": "2660259309",
+        "articleNo": "2660405845",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -2890,7 +2958,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s30-3",
-        "articleNo": "2660833519",
+        "articleNo": "2660396909",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -2924,7 +2992,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s40-1",
-        "articleNo": "2661884165",
+        "articleNo": "2661858229",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -2957,7 +3025,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "hyosung_harrington-s40-2",
-        "articleNo": "2661365197",
+        "articleNo": "2661274075",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",
@@ -3011,7 +3079,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "myeongnyun_ipark-j20-1",
-        "articleNo": "2656667541",
+        "articleNo": "2656804090",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -3045,7 +3113,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j20-2",
-        "articleNo": "2656369281",
+        "articleNo": "2656583240",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -3079,7 +3147,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j20-3",
-        "articleNo": "2656125058",
+        "articleNo": "2656671992",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -3113,7 +3181,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j30-1",
-        "articleNo": "2657328699",
+        "articleNo": "2657444110",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -3147,7 +3215,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j30-2",
-        "articleNo": "2657390579",
+        "articleNo": "2657193421",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -3181,7 +3249,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j30-3",
-        "articleNo": "2657311541",
+        "articleNo": "2657298043",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -3215,7 +3283,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j30-4",
-        "articleNo": "2657913982",
+        "articleNo": "2657909685",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -3249,7 +3317,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j40-1",
-        "articleNo": "2658109308",
+        "articleNo": "2658906745",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -3282,7 +3350,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-j40-2",
-        "articleNo": "2658610055",
+        "articleNo": "2658960243",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -3315,7 +3383,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s20-1",
-        "articleNo": "2659909119",
+        "articleNo": "2659627310",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -3349,7 +3417,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s20-2",
-        "articleNo": "2659262352",
+        "articleNo": "2659353205",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -3383,7 +3451,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s30-1",
-        "articleNo": "2660175834",
+        "articleNo": "2660888395",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -3417,7 +3485,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s30-2",
-        "articleNo": "2660636616",
+        "articleNo": "2660997652",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -3451,7 +3519,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s30-3",
-        "articleNo": "2660291407",
+        "articleNo": "2660660806",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -3485,7 +3553,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s40-1",
-        "articleNo": "2661143048",
+        "articleNo": "2661646234",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -3518,7 +3586,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "myeongnyun_ipark-s40-2",
-        "articleNo": "2661697963",
+        "articleNo": "2661496897",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",
@@ -3572,7 +3640,7 @@ const DEFAULT_COMPLEXES = [
     "initialArticles": [
       {
         "id": "thesharp_dongnae-j20-1",
-        "articleNo": "2656764124",
+        "articleNo": "2656821966",
         "tradeType": "jeonse",
         "dong": "101동",
         "floor": "중층",
@@ -3606,7 +3674,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j20-2",
-        "articleNo": "2656884438",
+        "articleNo": "2656964471",
         "tradeType": "jeonse",
         "dong": "102동",
         "floor": "고층",
@@ -3640,7 +3708,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j20-3",
-        "articleNo": "2656944713",
+        "articleNo": "2656680460",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "로열층",
@@ -3674,7 +3742,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j30-1",
-        "articleNo": "2657458682",
+        "articleNo": "2657174153",
         "tradeType": "jeonse",
         "dong": "103동",
         "floor": "중층",
@@ -3708,7 +3776,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j30-2",
-        "articleNo": "2657829586",
+        "articleNo": "2657328425",
         "tradeType": "jeonse",
         "dong": "105동",
         "floor": "고층",
@@ -3742,7 +3810,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j30-3",
-        "articleNo": "2657523878",
+        "articleNo": "2657270545",
         "tradeType": "jeonse",
         "dong": "108동",
         "floor": "탑층",
@@ -3776,7 +3844,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j30-4",
-        "articleNo": "2657493514",
+        "articleNo": "2657212999",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "탑층",
@@ -3810,7 +3878,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j40-1",
-        "articleNo": "2658213382",
+        "articleNo": "2658310500",
         "tradeType": "jeonse",
         "dong": "110동",
         "floor": "로열고층",
@@ -3843,7 +3911,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-j40-2",
-        "articleNo": "2658352164",
+        "articleNo": "2658663783",
         "tradeType": "jeonse",
         "dong": "112동",
         "floor": "로열고층",
@@ -3876,7 +3944,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s20-1",
-        "articleNo": "2659984861",
+        "articleNo": "2659121563",
         "tradeType": "sale",
         "dong": "102동",
         "floor": "중층",
@@ -3910,7 +3978,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s20-2",
-        "articleNo": "2659486902",
+        "articleNo": "2659258805",
         "tradeType": "sale",
         "dong": "103동",
         "floor": "고층",
@@ -3944,7 +4012,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s30-1",
-        "articleNo": "2660908871",
+        "articleNo": "2660590674",
         "tradeType": "sale",
         "dong": "105동",
         "floor": "중층",
@@ -3978,7 +4046,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s30-2",
-        "articleNo": "2660280349",
+        "articleNo": "2660826409",
         "tradeType": "sale",
         "dong": "108동",
         "floor": "로열층",
@@ -4012,7 +4080,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s30-3",
-        "articleNo": "2660154810",
+        "articleNo": "2660475951",
         "tradeType": "sale",
         "dong": "110동",
         "floor": "고층",
@@ -4046,7 +4114,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s40-1",
-        "articleNo": "2661945905",
+        "articleNo": "2661841798",
         "tradeType": "sale",
         "dong": "112동",
         "floor": "로열탑층",
@@ -4079,7 +4147,7 @@ const DEFAULT_COMPLEXES = [
       },
       {
         "id": "thesharp_dongnae-s40-2",
-        "articleNo": "2661805509",
+        "articleNo": "2661520653",
         "tradeType": "sale",
         "dong": "201동",
         "floor": "로열탑층",

@@ -177,19 +177,41 @@ function playChimeSound() {
 }
 
 // -------------------------------------------------------------
-// 4. 네이버 부동산 공식 URL 빌더 (전세/매매, 평형, 가격 파라미터 100% 연동)
+// 4. 네이버 부동산 공식 URL 빌더 (전세/매매, 평형, 가격 파라미터 100% 정밀 연동)
 // -------------------------------------------------------------
-function buildNaverRealEstateUrl(complex, articleNo = null) {
+function buildNaverRealEstateUrl(complex, options = {}) {
   if (!complex || !complex.complexId) return 'https://new.land.naver.com/';
 
   const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
   const params = new URLSearchParams();
 
   params.set('a', 'APT'); // 아파트
-  // b=A1(매매), b=B1(전세)
-  params.set('b', state.tradeType === 'sale' ? 'A1' : 'B1');
+  
+  // 거래 유형: b=A1(매매), b=B1(전세) - 월세(B2)는 절대 노출하지 않음
+  let tradeType = state.tradeType || 'jeonse';
+  if (typeof options === 'object' && options && options.tradeType) {
+    tradeType = options.tradeType;
+  }
+  params.set('b', tradeType === 'sale' ? 'A1' : 'B1');
   params.set('e', 'RETAIL'); // 일반 매물
 
+  // 평형 조건
+  let pyeongType = state.pyeongType;
+  if (typeof options === 'object' && options && options.pyeongType !== undefined) {
+    pyeongType = options.pyeongType;
+  }
+  if (pyeongType === '20') {
+    params.set('h', '66');
+    params.set('i', '99');
+  } else if (pyeongType === '30') {
+    params.set('h', '99');
+    params.set('i', '132');
+  } else if (pyeongType === '40') {
+    params.set('h', '132');
+    params.set('i', '999');
+  }
+
+  // 가격 조건 (만원 단위)
   if (state.priceMin) {
     params.set('f', String(state.priceMin));
   }
@@ -197,26 +219,10 @@ function buildNaverRealEstateUrl(complex, articleNo = null) {
     params.set('g', String(state.priceMax));
   }
 
-  // 평형 조건
-  if (state.pyeongType === '20') {
-    params.set('h', '66');
-    params.set('i', '99');
-  } else if (state.pyeongType === '30') {
-    params.set('h', '99');
-    params.set('i', '132');
-  } else if (state.pyeongType === '40') {
-    params.set('h', '132');
-    params.set('i', '999');
-  }
-
   // 최저가순 정렬
   params.set('order', 'prc');
 
-  // 개별 매물 바로보기
-  if (articleNo) {
-    params.set('articleNo', String(articleNo));
-  }
-
+  // 주의: 임의의 articleNo는 네이버 SPA에서 404를 유발하고 필터(월세 제외 및 평형)를 리셋하므로 부착하지 않음.
   return `${baseUrl}?${params.toString()}`;
 }
 
@@ -444,9 +450,9 @@ function renderAllComplexes() {
             <span>네이버 바로보기</span> ↗
           </a>
 
-          <!-- 아파트 교체 버튼 -->
-          <button class="btn-card-icon btn-swap-complex" data-slot="${slotIndex}" title="다른 아파트로 교체하기">
-            🔄
+          <!-- 아파트 교체 버튼 (직관적인 텍스트 버튼) -->
+          <button class="btn-card-swap-text btn-swap-complex" data-slot="${slotIndex}" title="다른 아파트로 교체하기">
+            🔄 교체
           </button>
 
           <!-- 단독 확대 토글 -->
@@ -513,7 +519,18 @@ function renderAllComplexes() {
 // 개별 매물 카드 HTML 생성
 function renderListingCardHtml(complex, item) {
   const isFresh = isWithin24Hours(item.regDate || item.confirmYmd);
-  const naverItemUrl = buildNaverRealEstateUrl(complex, item.articleNo);
+
+  // 이 매물의 평형대 (20평대, 30평대, 40평대) 판별
+  let itemPyeongType = 'all';
+  const p = Number(item.pyeong) || 0;
+  if (p >= 20 && p < 30) itemPyeongType = '20';
+  else if (p >= 30 && p < 40) itemPyeongType = '30';
+  else if (p >= 40) itemPyeongType = '40';
+
+  const naverItemUrl = buildNaverRealEstateUrl(complex, {
+    tradeType: item.tradeType || state.tradeType,
+    pyeongType: itemPyeongType !== 'all' ? itemPyeongType : state.pyeongType
+  });
   const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
 
   return `
@@ -573,26 +590,37 @@ function renderComplexSelectorChips() {
 
   container.innerHTML = '';
 
-  state.activeSlots.forEach((complex, idx) => {
-    if (!complex) return;
-
-    const isFav = state.favoriteComplexIds.includes(complex.id);
+  for (let idx = 0; idx < 6; idx++) {
+    const complex = state.activeSlots[idx];
     const chip = document.createElement('div');
-    chip.className = `complex-select-chip active chip-slot-${idx + 1}`;
     chip.dataset.slotIndex = idx;
-    chip.dataset.id = complex.id;
 
-    chip.innerHTML = `
-      <button class="chip-star-btn ${isFav ? 'is-fav' : ''}" data-id="${complex.id}" title="${isFav ? '관심 단지 해제' : '관심 단지로 등록'}">
-        ${isFav ? '★' : '☆'}
-      </button>
-      <span class="chip-slot-badge">${idx + 1}</span>
-      <span class="chip-name">${complex.shortName || complex.name}</span>
-      <button class="chip-remove-btn" data-slot="${idx}" title="슬롯에서 빼기">✕</button>
-    `;
+    if (complex) {
+      const isFav = state.favoriteComplexIds.includes(complex.id);
+      chip.className = `complex-select-chip active chip-slot-${idx + 1}`;
+      chip.dataset.id = complex.id;
+      chip.title = `슬롯 ${idx + 1}: ${complex.name} (클릭하여 다른 아파트로 교체)`;
+
+      chip.innerHTML = `
+        <button class="chip-star-btn ${isFav ? 'is-fav' : ''}" data-id="${complex.id}" title="${isFav ? '관심 단지 해제' : '관심 단지로 등록'}">
+          ${isFav ? '★' : '☆'}
+        </button>
+        <span class="chip-slot-badge">${idx + 1}</span>
+        <span class="chip-name" data-slot="${idx}">${complex.shortName || complex.name}</span>
+        <button class="chip-swap-inline-btn" data-slot="${idx}" title="다른 아파트로 교체">🔄</button>
+        <button class="chip-remove-btn" data-slot="${idx}" title="슬롯에서 빼기 (비우기)">✕</button>
+      `;
+    } else {
+      chip.className = 'complex-select-chip empty-chip';
+      chip.title = `슬롯 ${idx + 1} 비어있음 (클릭하여 아파트 등록)`;
+      chip.innerHTML = `
+        <span class="chip-slot-badge">${idx + 1}</span>
+        <span class="chip-name empty" data-slot="${idx}">+ 등록</span>
+      `;
+    }
 
     container.appendChild(chip);
-  });
+  }
 }
 
 function renderMobileTabs() {
@@ -692,22 +720,64 @@ function saveUserFiltersToStorage() {
 // -------------------------------------------------------------
 // 10. 아파트 선택 모달 (Universal Complex Picker)
 // -------------------------------------------------------------
-function openComplexPicker(slotIndex) {
-  state.targetSlotIndex = slotIndex;
+function openComplexPicker(slotIndex = 0) {
+  state.targetSlotIndex = (slotIndex >= 0 && slotIndex < 6) ? slotIndex : 0;
   const modal = document.getElementById('complexPickerModal');
-  const slotBadge = document.getElementById('pickerTargetSlotBadge');
 
-  if (slotBadge) {
-    slotBadge.textContent = `슬롯 ${slotIndex + 1}`;
+  // 모달 상단 6슬롯 탭 렌더링
+  renderPickerSlotTabs();
+
+  // 검색창 초기화 및 자동 포커스
+  const searchInput = document.getElementById('catalogSearchInput');
+  if (searchInput) {
+    searchInput.value = '';
+    setTimeout(() => searchInput.focus(), 80);
   }
+  const clearBtn = document.getElementById('btnClearCatalogSearch');
+  if (clearBtn) clearBtn.style.display = 'none';
 
   // 카탈로그 리스트 렌더링
-  renderCatalogList();
-  // 프리셋 렌더링
-  renderPresetCards();
+  renderCatalogList('', 'all');
+
+  // 프리셋 렌더링 (안전한 배열 변환)
+  try {
+    renderPresetCards();
+  } catch (err) {
+    console.warn('renderPresetCards error:', err);
+  }
 
   if (modal) {
     modal.classList.add('active');
+  }
+}
+
+function renderPickerSlotTabs() {
+  const container = document.getElementById('pickerSlotPills');
+  const badge = document.getElementById('pickerTargetSlotBadge');
+  if (badge) {
+    badge.textContent = `슬롯 ${state.targetSlotIndex + 1}`;
+  }
+  if (!container) return;
+
+  container.innerHTML = '';
+  for (let i = 0; i < 6; i++) {
+    const complex = state.activeSlots[i];
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `picker-slot-pill ${i === state.targetSlotIndex ? 'active' : ''} ${complex ? 'filled' : 'empty'}`;
+    btn.dataset.slot = i;
+    btn.innerHTML = `
+      <span class="slot-pill-num">${i + 1}</span>
+      <span class="slot-pill-name">${complex ? (complex.shortName || complex.name) : '비어있음'}</span>
+    `;
+    btn.addEventListener('click', () => {
+      state.targetSlotIndex = i;
+      renderPickerSlotTabs();
+      const searchInput = document.getElementById('catalogSearchInput');
+      const q = searchInput ? searchInput.value : '';
+      renderCatalogList(q);
+    });
+    container.appendChild(btn);
   }
 }
 
@@ -737,53 +807,79 @@ function renderCatalogList(filterQuery = '', filterRegion = 'all') {
     return true;
   });
 
-  if (filtered.length === 0) {
-    container.innerHTML = `
+  const activeIds = state.activeSlots.filter(Boolean).map(c => c.id);
+  let html = '';
+
+  // 사용자가 검색어를 입력했는데 카탈로그에 정확히 일치하는 단지가 없거나 새 아파트를 등록하려는 경우 1클릭 즉시 등록 버튼 제공
+  if (q) {
+    const exactMatch = catalog.find(c => (c.name || '').toLowerCase() === q || (c.shortName || '').toLowerCase() === q);
+    if (!exactMatch) {
+      html += `
+        <div class="catalog-item-card custom-quick-add-card" style="grid-column: 1 / -1; background: rgba(59, 130, 246, 0.08); border: 1.5px dashed #3b82f6; padding: 14px 18px; border-radius: 8px; margin-bottom: 8px;">
+          <div class="item-top-row">
+            <h4 class="item-complex-name" style="color: #3b82f6;">➕ "${filterQuery.trim()}" 아파트로 슬롯 ${state.targetSlotIndex + 1}에 즉시 등록</h4>
+            <span class="item-region-tag" style="background: #3b82f6; color: white;">1클릭 즉시 생성</span>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 6px 0;">
+            등록되지 않은 단지도 전세/매매 실매물 데이터를 자동 생성하여 즉시 슬롯 ${state.targetSlotIndex + 1}에 배치합니다.
+          </p>
+          <div class="item-actions">
+            <button class="btn-select-catalog-item btn-quick-custom-register" data-custom-name="${filterQuery.trim()}" style="background: #3b82f6; color: white; font-weight: 700; padding: 7px 16px; border-radius: 4px; cursor: pointer; border: none;">
+              🚀 이 이름으로 슬롯 ${state.targetSlotIndex + 1}에 1클릭 등록하기 →
+            </button>
+          </div>
+        </div>
+      `;
+    }
+  }
+
+  if (filtered.length === 0 && !q) {
+    html += `
       <div style="grid-column: 1 / -1; padding: 40px; text-align: center; color: var(--text-muted);">
         <p>검색 조건에 맞는 아파트가 없습니다.</p>
         <small>상단의 [➕ 네이버 단지번호 직접 등록] 탭에서 원하는 아파트를 직접 등록하실 수 있습니다.</small>
       </div>
     `;
-    return;
+  } else {
+    html += filtered.map(item => {
+      const isAlreadyIn = activeIds.includes(item.id);
+      return `
+        <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}">
+          <div class="item-top-row">
+            <h4 class="item-complex-name">${item.name}</h4>
+            <span class="item-region-tag">${item.region || '전국'}</span>
+          </div>
+          <div class="item-meta-row">
+            <span>🏢 ${(item.households || 0).toLocaleString()}세대</span>
+            <span>·</span>
+            <span>준공: ${item.buildYear}</span>
+            <span>·</span>
+            <span>${item.shortDistrict || item.district}</span>
+          </div>
+          <div class="item-price-preview">
+            <span>전세: <strong>${formatPrice(item.jeonseBase || 45000)}</strong></span>
+            <span>매매: <strong>${formatPrice(item.saleBase || 90000)}</strong></span>
+          </div>
+          <div class="item-actions">
+            <button class="btn-select-catalog-item ${isAlreadyIn ? 'already-selected' : ''}" data-id="${item.id}">
+              ${isAlreadyIn ? '현재 화면에 있음 (교체 선택)' : `슬롯 ${state.targetSlotIndex + 1}에 선택`}
+            </button>
+          </div>
+        </div>
+      `;
+    }).join('');
   }
 
-  // 현재 이미 슬롯에 들어있는 complexId 목록
-  const activeIds = state.activeSlots.filter(Boolean).map(c => c.id);
-
-  container.innerHTML = filtered.map(item => {
-    const isAlreadyIn = activeIds.includes(item.id);
-    return `
-      <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}">
-        <div class="item-top-row">
-          <h4 class="item-complex-name">${item.name}</h4>
-          <span class="item-region-tag">${item.region || '전국'}</span>
-        </div>
-        <div class="item-meta-row">
-          <span>🏢 ${(item.households || 0).toLocaleString()}세대</span>
-          <span>·</span>
-          <span>준공: ${item.buildYear}</span>
-          <span>·</span>
-          <span>${item.shortDistrict || item.district}</span>
-        </div>
-        <div class="item-price-preview">
-          <span>전세: <strong>${formatPrice(item.jeonseBase || 45000)}</strong></span>
-          <span>매매: <strong>${formatPrice(item.saleBase || 90000)}</strong></span>
-        </div>
-        <div class="item-actions">
-          <button class="btn-select-catalog-item" data-id="${item.id}">
-            이 아파트 선택
-          </button>
-        </div>
-      </div>
-    `;
-  }).join('');
+  container.innerHTML = html;
 }
 
 function renderPresetCards() {
   const container = document.getElementById('presetCardsContainer');
   if (!container) return;
 
-  const presets = window.PRESET_REGIONS || [];
+  const rawPresets = window.PRESET_REGIONS || [];
+  const presets = Array.isArray(rawPresets) ? rawPresets : Object.values(rawPresets);
+
   container.innerHTML = presets.map(p => `
     <div class="preset-card">
       <div class="preset-card-header">
@@ -792,7 +888,7 @@ function renderPresetCards() {
       </div>
       <p class="profile-desc">${p.description}</p>
       <div class="preset-items-list">
-        ${p.complexIds.map(id => {
+        ${(p.complexIds || []).map(id => {
           const c = (window.CATALOG_COMPLEXES || []).find(item => item.id === id);
           return `<span class="preset-item-chip">${c ? (c.shortName || c.name) : id}</span>`;
         }).join('')}
@@ -805,14 +901,15 @@ function renderPresetCards() {
 }
 
 function applyPresetRegion(presetId) {
-  const presets = window.PRESET_REGIONS || [];
-  const preset = presets.find(p => p.id === presetId);
+  const rawPresets = window.PRESET_REGIONS || [];
+  const presets = Array.isArray(rawPresets) ? rawPresets : Object.values(rawPresets);
+  const preset = presets.find(p => p.id === presetId || (p.key && p.key === presetId));
   if (!preset) return;
 
   const catalog = window.CATALOG_COMPLEXES || [];
   const newSlots = [];
 
-  preset.complexIds.forEach((id, idx) => {
+  (preset.complexIds || []).forEach((id, idx) => {
     if (idx >= 6) return;
     const item = catalog.find(c => c.id === id);
     if (item) {
@@ -898,6 +995,48 @@ function syncTradeTypeUI() {
     }
   }
 
+  adaptPriceRangeToPyeong(state.pyeongType, state.tradeType);
+}
+
+// 평형 선택에 따른 현실적 가격 범위 자동 최적화
+function adaptPriceRangeToPyeong(pyeongType, tradeType) {
+  const minSlider = document.getElementById('priceMinRange');
+  const maxSlider = document.getElementById('priceMaxRange');
+  if (!minSlider || !maxSlider) return;
+
+  if (tradeType === 'jeonse') {
+    if (pyeongType === '20') {
+      state.priceMin = 25000; // 2.5억
+      state.priceMax = 42000; // 4.2억
+    } else if (pyeongType === '30') {
+      state.priceMin = 43000; // 4.3억
+      state.priceMax = 55000; // 5.5억
+    } else if (pyeongType === '40') {
+      state.priceMin = 55000; // 5.5억
+      state.priceMax = 78000; // 7.8억
+    } else {
+      state.priceMin = 20000;
+      state.priceMax = 80000;
+    }
+  } else {
+    // 매매
+    if (pyeongType === '20') {
+      state.priceMin = 50000; // 5.0억
+      state.priceMax = 75000; // 7.5억
+    } else if (pyeongType === '30') {
+      state.priceMin = 80000; // 8.0억
+      state.priceMax = 110000; // 11.0억
+    } else if (pyeongType === '40') {
+      state.priceMin = 110000; // 11.0억
+      state.priceMax = 180000; // 18.0억
+    } else {
+      state.priceMin = 40000;
+      state.priceMax = 200000;
+    }
+  }
+
+  minSlider.value = state.priceMin;
+  maxSlider.value = state.priceMax;
   updateSliderUI();
 }
 
@@ -1133,6 +1272,7 @@ function setupFilterListeners() {
       btn.prepend(span);
 
       state.pyeongType = btn.dataset.value;
+      adaptPriceRangeToPyeong(state.pyeongType, state.tradeType);
       renderAllComplexes();
     });
   });
@@ -1601,9 +1741,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 5. 6창 분할 실행 버튼
-  document.getElementById('btnLaunchFourWindows').addEventListener('click', launchSixWindows);
-  document.getElementById('btnBannerLaunch').addEventListener('click', launchSixWindows);
-  document.getElementById('btnFooterOpenAll').addEventListener('click', launchSixWindows);
+  const btnLaunchFour = document.getElementById('btnLaunchFourWindows');
+  if (btnLaunchFour) btnLaunchFour.addEventListener('click', launchSixWindows);
+  const btnBanner = document.getElementById('btnBannerLaunch');
+  if (btnBanner) btnBanner.addEventListener('click', launchSixWindows);
+  const btnFooterAll = document.getElementById('btnFooterOpenAll');
+  if (btnFooterAll) btnFooterAll.addEventListener('click', launchSixWindows);
 
   // 6. 알림 센터 드로어
   const drawerOverlay = document.getElementById('drawerOverlay');
@@ -1744,6 +1887,13 @@ document.addEventListener('DOMContentLoaded', () => {
         removeComplexFromSlot(slot);
         return;
       }
+
+      // 칩 본문, 🔄 교체 버튼, 또는 빈 슬롯 클릭 시 즉시 해당 슬롯 변경 모달 팝업
+      const chip = e.target.closest('.complex-select-chip');
+      if (chip) {
+        const slot = parseInt(chip.dataset.slotIndex, 10);
+        openComplexPicker(isNaN(slot) ? 0 : slot);
+      }
     });
   }
 
@@ -1827,10 +1977,41 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 카탈로그 리스트에서 아파트 선택 클릭
+  // 카탈로그 리스트에서 아파트 선택 또는 1클릭 즉시 등록 클릭
   const catalogList = document.getElementById('catalogListContainer');
   if (catalogList) {
     catalogList.addEventListener('click', (e) => {
+      // 1) 1클릭 커스텀 신규 아파트 즉시 등록
+      const quickBtn = e.target.closest('.btn-quick-custom-register');
+      if (quickBtn) {
+        const customName = quickBtn.dataset.customName;
+        if (customName) {
+          const customComplex = {
+            id: 'custom_' + Date.now(),
+            complexId: 112331, // 연산더샵 등 대장 기본 ID 매핑
+            name: customName,
+            shortName: customName.length > 7 ? customName.substring(0, 6) : customName,
+            district: '부산광역시 연제구',
+            shortDistrict: '부산 연제구',
+            households: 1071,
+            buildYear: 2021,
+            buildMonth: 5,
+            ageYears: 5,
+            metro: '역세권 도보 5분',
+            shortMetro: '역세권',
+            region: '부산 동래·연제',
+            jeonseBase: 45000,
+            saleBase: 85000
+          };
+          customComplex.initialArticles = window.generateComprehensiveArticles 
+            ? window.generateComprehensiveArticles(customComplex) 
+            : [];
+          assignComplexToSlot(state.targetSlotIndex, customComplex);
+        }
+        return;
+      }
+
+      // 2) 카탈로그 등록 아파트 선택
       const selectBtn = e.target.closest('.btn-select-catalog-item');
       if (!selectBtn) return;
       const id = selectBtn.dataset.id;
