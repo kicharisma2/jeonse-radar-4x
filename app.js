@@ -354,12 +354,30 @@ function playChimeSound() {
 // -------------------------------------------------------------
 // 4. 네이버 부동산 공식 URL 빌더 (개별 실매물 직결 & 전세/매매 필터 연동)
 // -------------------------------------------------------------
+
+/**
+ * 개별 네이버 실매물 상세(드로어) 직결 URL 생성
+ * fin.land.naver.com/articles/{articleNo}?tradeTypes={B1|A1}
+ * - 네이버 모바일/데스크탑 모두에서 해당 매물의 사진, 가격, 동호수, 공인중개사 카드가 즉시 팝업/드로어로 펼쳐집니다.
+ * - tradeTypes 파라미터를 현재 모드(B1 전세 / A1 매매)로 엄격히 고정하여, 다른 거래유형 매물이 섞이지 않습니다.
+ */
+function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType) {
+  const currentTrade = explicitTradeType || state.tradeType || 'jeonse';
+  const tradeCode = currentTrade === 'sale' ? 'A1' : 'B1';
+  
+  if (articleNo && /^\d{6,12}$/.test(String(articleNo).trim())) {
+    return `https://fin.land.naver.com/articles/${String(articleNo).trim()}?tradeTypes=${tradeCode}`;
+  }
+  return buildNaverRealEstateUrl(complex, { tradeType: currentTrade });
+}
+
 function buildNaverRealEstateUrl(complex, options = {}) {
   if (!complex || !complex.complexId) return 'https://new.land.naver.com/';
 
   const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
 
   let articleNo = null;
+  // 거래 유형: 현재 사용자의 대시보드 모드를 최우선 존중 (전세 설정 시 b=B1, 매매 설정 시 b=A1)
   let tradeType = state.tradeType || 'jeonse';
   let pyeongType = state.pyeongType;
 
@@ -369,21 +387,25 @@ function buildNaverRealEstateUrl(complex, options = {}) {
     if (options.articleNo) articleNo = String(options.articleNo).trim();
     if (options.tradeType) tradeType = options.tradeType;
     if (options.pyeongType !== undefined) pyeongType = options.pyeongType;
-    if (options.pyeong) {
-      const p = Number(options.pyeong);
-      if (p >= 20 && p < 30) pyeongType = '20';
-      else if (p >= 30 && p < 40) pyeongType = '30';
-      else if (p >= 40) pyeongType = '40';
-    }
   }
 
   const params = new URLSearchParams();
   params.set('a', 'APT'); // 아파트
-  // 거래 유형: b=A1(매매), b=B1(전세) - 월세(B2)는 절대 노출하지 않음
+  // 거래 유형: b=A1(매매), b=B1(전세) - 절대 다른 거래 유형과 혼동되지 않도록 고정
   params.set('b', tradeType === 'sale' ? 'A1' : 'B1');
   params.set('e', 'RETAIL'); // 일반 매물
+  params.set('order', 'prc'); // 가격 낮은순 정렬
 
-  // 평형 조건
+  // 1) 특정 실매물 번호가 있는 경우:
+  // 중요: 특정 매물 조회 시에는 평형(h/i)이나 가격(f/g) 조건을 걸지 않아야
+  // 네이버에서 해당 매물이 필터에 걸려 사라지거나 매매 탭으로 튕기는 현상을 100% 방지할 수 있습니다.
+  if (articleNo && /^\d{6,12}$/.test(articleNo)) {
+    params.set('articleNo', articleNo);
+    return `${baseUrl}?${params.toString()}`;
+  }
+
+  // 2) 단지 전체 조회 시 (카드 헤더 바로보기, 6분할 창 실행 등):
+  // 사용자가 선택한 평형 및 가격 필터를 적용
   if (pyeongType === '20') {
     params.set('h', '66');
     params.set('i', '99');
@@ -396,20 +418,11 @@ function buildNaverRealEstateUrl(complex, options = {}) {
   }
 
   // 가격 조건 (만원 단위)
-  if (state.priceMin) {
+  if (typeof state.priceMin === 'number' && state.priceMin > 0) {
     params.set('f', String(state.priceMin));
   }
-  if (state.priceMax) {
+  if (typeof state.priceMax === 'number' && state.priceMax > 0) {
     params.set('g', String(state.priceMax));
-  }
-
-  // 최저가순 정렬
-  params.set('order', 'prc');
-
-  // 실제 검증된 네이버 articleNo가 있으면 매물 직결 드로어 파라미터 추가
-  // (거래유형/평형/가격 필터도 함께 유지되므로, 매물이 닫히더라도 단지 전체가 아닌 동일 조건 필터로 안전하게 유지)
-  if (articleNo && /^\d{6,12}$/.test(articleNo)) {
-    params.set('articleNo', articleNo);
   }
 
   return `${baseUrl}?${params.toString()}`;
@@ -476,9 +489,13 @@ function launchSixWindows() {
 function filterArticles(articles, complex) {
   if (!articles || !Array.isArray(articles)) return [];
 
+  const targetTrade = state.tradeType || 'jeonse';
+
   return articles.filter(item => {
-    // 1. 거래 유형 (전세 / 매매)
-    if (state.tradeType && item.tradeType && item.tradeType !== state.tradeType) {
+    // 1. 거래 유형 (전세 / 매매) - 절대 혼입 방지!
+    // 전세 모드일 때는 jeonse 매물만, 매매 모드일 때는 sale 매물만 노출
+    const itemTrade = item.tradeType || (item.id && item.id.includes('sale') ? 'sale' : 'jeonse');
+    if (itemTrade !== targetTrade) {
       return false;
     }
 
@@ -591,6 +608,7 @@ function renderAllComplexes() {
     const isFav = state.favoriteComplexIds.includes(complex.id);
     const isSolo = state.soloComplexId === complex.id;
     const naverUrl = buildNaverRealEstateUrl(complex);
+    complex.naverUrl = naverUrl;
 
     const cardElem = document.createElement('section');
     cardElem.className = `complex-card card-slot-${slotIndex + 1}`;
@@ -673,15 +691,22 @@ function renderAllComplexes() {
             ${(() => {
               const allArts = state.articles[complex.id] || [];
               const otherType = state.tradeType === 'sale' ? 'jeonse' : 'sale';
+              const otherLabel = otherType === 'sale' ? '매매' : '전세';
               const otherCount = allArts.filter(a => a.tradeType === otherType).length;
+              const otherNaverUrl = `https://new.land.naver.com/complexes/${complex.complexId}?a=APT&b=${otherType === 'sale' ? 'A1' : 'B1'}&e=RETAIL&order=prc`;
               return otherCount > 0 ? `
-                <div style="margin: 8px 0;">
-                  <span style="color: #2563eb; font-size: 0.84rem; font-weight: 700; display: block; margin-bottom: 6px;">
-                    💡 이 단지는 현재 <strong>${otherType === 'sale' ? '매매' : '전세'} ${otherCount}건</strong>이 등록되어 있습니다!
+                <div style="margin: 10px 0; padding: 10px 14px; background: rgba(37,99,235,0.06); border: 1px dashed rgba(37,99,235,0.3); border-radius: 6px;">
+                  <span style="color: #2563eb; font-size: 0.84rem; font-weight: 700; display: block; margin-bottom: 8px;">
+                    💡 이 단지는 현재 <strong>${otherLabel} ${otherCount}건</strong>이 등록되어 있습니다!
                   </span>
-                  <button type="button" class="btn-toggle-other-trade" data-target-type="${otherType}" style="padding: 6px 14px; background: #2563eb; color: #ffffff; border: none; border-radius: 4px; font-size: 0.82rem; font-weight: 800; cursor: pointer; box-shadow: 0 2px 6px rgba(37,99,235,0.3);">
-                    👉 ${otherType === 'sale' ? '매매' : '전세'} 매물 ${otherCount}건 보기
-                  </button>
+                  <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
+                    <a href="${otherNaverUrl}" target="_blank" rel="noopener noreferrer" style="padding: 6px 12px; background: #2563eb; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 0.8rem; font-weight: 700; display: inline-flex; align-items: center; gap: 4px;">
+                      네이버에서 ${otherLabel} ${otherCount}건 바로보기 ↗
+                    </a>
+                    <button type="button" class="btn-toggle-other-trade" data-target-type="${otherType}" style="padding: 6px 12px; background: #475569; color: #ffffff; border: none; border-radius: 4px; font-size: 0.8rem; font-weight: 700; cursor: pointer;">
+                      전체 화면을 [${otherLabel} 모드]로 전환
+                    </button>
+                  </div>
                 </div>
               ` : '';
             })()}
@@ -733,19 +758,23 @@ function renderListingCardHtml(complex, item) {
   else if (p >= 40) itemPyeongType = '40';
 
   // 실제 네이버 articleNo 검증
+  // 현재 사용자의 대시보드 모드(전세/매매)에 엄격히 일치
+  const activeTrade = state.tradeType || 'jeonse';
+  const tradeBadgeText = activeTrade === 'sale' ? '매매' : '전세';
+
+  // 실제 네이버 articleNo 검증
   const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
-  const naverItemUrl = buildNaverRealEstateUrl(complex, {
-    articleNo: isRealArticle ? item.articleNo : null,
-    tradeType: item.tradeType,
-    pyeong: item.pyeong
-  });
-  const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
+  
+  // 개별 실매물 네이버 직결 링크 (실매물 상세 드로어가 즉시 열리며, 전세/매매가 엄격히 고정됨)
+  const naverItemUrl = isRealArticle
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade)
+    : buildNaverRealEstateUrl(complex, { tradeType: activeTrade, pyeong: item.pyeong });
 
   return `
     <article class="listing-card ${isFresh ? 'is-new-listing' : ''}" data-complex-id="${complex.id}" data-article-id="${item.id}">
       <div class="listing-top-row">
         <div class="listing-price-group">
-          <span class="badge-trade-type ${item.tradeType === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
+          <span class="badge-trade-type ${activeTrade === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           <span class="listing-price-huge">${item.priceText}</span>
           ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
         </div>
@@ -753,7 +782,7 @@ function renderListingCardHtml(complex, item) {
           <button class="btn-listing-detail" data-complex-id="${complex.id}" data-article-id="${item.id}" title="상세 정보 및 중개사 확인">
             상세정보
           </button>
-          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link ${!isRealArticle ? 'btn-link-filter' : ''}" title="${isRealArticle ? `네이버 부동산에서 실매물 #${item.articleNo} 바로보기` : `네이버 부동산에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}">
+          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link ${!isRealArticle ? 'btn-link-filter' : ''}" title="${isRealArticle ? `네이버 부동산에서 [${tradeBadgeText}] 실매물 #${item.articleNo} 바로보기` : `네이버 부동산에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}">
             ${isRealArticle ? '네이버 확인 ↗' : '단지 검색 ↗'}
           </a>
         </div>
@@ -1666,16 +1695,19 @@ function openArticleDetailModal(complexId, articleId) {
   if (!modal || !content) return;
 
   const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
-  const naverArticleUrl = buildNaverRealEstateUrl(complex, {
-    articleNo: isRealArticle ? item.articleNo : null,
-    tradeType: item.tradeType,
-    pyeong: item.pyeong
-  });
+  const activeTrade = state.tradeType || 'jeonse';
+  const tradeBadgeText = activeTrade === 'sale' ? '매매' : '전세';
+
+  // 1) 네이버 실매물 상세 직결 URL (실제 매물 드로어 즉시 오픈, 전세/매매 필터 엄격 고정)
+  const naverArticleUrl = isRealArticle
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade)
+    : buildNaverRealEstateUrl(complex, { tradeType: activeTrade, pyeong: item.pyeong });
+
+  // 2) 네이버 단지 동일 조건 전체 매물 목록 URL (웹 PC 전용 뷰)
   const naverComplexUrl = buildNaverRealEstateUrl(complex, {
-    tradeType: item.tradeType,
+    tradeType: activeTrade,
     pyeong: item.pyeong
   });
-  const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
 
   content.innerHTML = `
     <!-- 모달 헤더 -->
@@ -1761,11 +1793,11 @@ function openArticleDetailModal(complexId, articleId) {
     <!-- 푸터 액션 -->
     <div class="article-modal-footer">
       <div class="modal-footer-links">
-        <a href="${naverArticleUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산에서 확인하기">
-          <span>${isRealArticle ? `네이버에서 이 실매물 바로보기 (#${item.articleNo})` : `네이버에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}</span> ↗
+        <a href="${naverArticleUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-huge" title="네이버 부동산에서 [${tradeBadgeText}] 실매물 확인하기">
+          <span>${isRealArticle ? `네이버에서 이 [${tradeBadgeText}] 실매물 바로보기 (#${item.articleNo})` : `네이버에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}</span> ↗
         </a>
         <a href="${naverComplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-secondary" title="네이버 부동산에서 동일 조건 단지 전체 매물 보기">
-          <span>동일 조건 단지 전체 매물</span> ↗
+          <span>동일 조건 단지 전체 [${tradeBadgeText}] 매물 (PC 웹)</span> ↗
         </a>
       </div>
       <button class="btn-close-article-modal" id="btnDismissArticleModal">닫기</button>
@@ -2046,16 +2078,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 7. 그리드 이벤트 위임 (카드 클릭 팝업, 교체, 삭제, 즐겨찾기, 빈 슬롯 추가, 조건 전환)
   document.getElementById('complexGrid').addEventListener('click', (e) => {
-    // 0) 빈 매물 상태에서 다른 거래유형 보기 (예: 매매 53건 보기 클릭)
+    // 0) 빈 매물 상태에서 다른 거래유형으로 대시보드 모드 전환
     const btnToggleOther = e.target.closest('.btn-toggle-other-trade');
     if (btnToggleOther) {
       e.stopPropagation();
       const targetType = btnToggleOther.dataset.targetType;
       if (targetType) {
         state.tradeType = targetType;
+        syncTradeTypeUI();
         applyFiltersToUI();
         renderAllComplexes();
-        showToast('거래 유형 전환', `${targetType === 'sale' ? '매매' : '전세'} 모드로 즉시 전환하여 매물을 표시합니다!`, 'info');
+        showToast('거래 유형 전환 완료', `전체 대시보드가 [${targetType === 'sale' ? '매매' : '전세'}] 모드로 안전하게 전환되었습니다.`, 'info');
       }
       return;
     }
@@ -2485,3 +2518,9 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }, 600);
 });
+
+// 전역 디버깅 및 연동 헬퍼
+window.state = state;
+window.buildNaverRealEstateUrl = buildNaverRealEstateUrl;
+window.buildNaverArticleDirectUrl = buildNaverArticleDirectUrl;
+
