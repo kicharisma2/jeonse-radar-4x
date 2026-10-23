@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>동래·연제 전세 6분할 레이더 | 부산 6대 대장아파트 실시간 전세 모니터</title>
-  <meta name="description" content="부산 동래구 및 연제구 대표 6대 대장 아파트(동래래미안아이파크, 레이카운티, 동래래미안포레스티지, 동래효성해링턴플레이스, 명륜아이파크1단지, 더샵동래)의 전세 매물(4.3억~5.5억, 30평대)을 한 화면 6분할로 실시간 모니터링하고 네이버 부동산 연동 및 신규 매물 알림을 제공하는 스마트 부동산 레이더입니다.">
-  <meta name="keywords" content="네이버부동산, 동래래미안아이파크, 레이카운티, 래미안포레스티지, 효성해링턴, 명륜아이파크, 더샵동래, 부산전세, 6분할화면, 전세알림">
-  <meta property="og:title" content="동래·연제 전세 6분할 레이더 (JeonseRadar 6X)">
-  <meta property="og:description" content="동래래미안아이파크 · 레이카운티 · 래미안포레스티지 · 효성해링턴 · 명륜아이파크1단지 · 더샵동래 6대 단지 6분할 네이버창 및 실시간 신규 매물 알림">
+  <title>스마트 부동산 6분할 레이더 | 실시간 전세·매매 대장아파트 모니터</title>
+  <meta name="description" content="전국 대장 아파트(부산 동래·연제·해운대, 서울 강남·서초·마포 등)의 전세 및 매매 실매물을 한 화면 6분할로 실시간 모니터링하고 네이버 부동산 연동, 내 컴퓨터 맞춤 설정 저장 및 신규 매물 알림을 제공하는 범용 스마트 부동산 레이더입니다.">
+  <meta name="keywords" content="네이버부동산, 아파트전세, 아파트매매, 6분할화면, 동래래미안아이파크, 레이카운티, 래미안포레스티지, 반포자이, 아크로리버파크, 실시간매물">
+  <meta property="og:title" content="스마트 부동산 6분할 레이더 (JeonseRadar 6X)">
+  <meta property="og:description" content="전국 60+ 대장 단지 자유 선택 6분할 네이버창 연동 및 실시간 전세·매매 모니터링">
   <meta property="og:type" content="website">
 
   <!-- Favicon SVG -->
@@ -19,21 +19,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261023_1">
 </head>
-<body class="theme-dark">
+<body class="theme-light">
 
   <!-- 최상단 헤더 네비게이션 -->
   <header class="app-header" id="appHeader">
     <div class="header-left">
-      <div class="brand-logo" id="brandLogo" role="button" tabindex="0" title="클릭하여 페이지 새로고침">
+      <div class="brand-logo" id="brandLogo" role="button" tabindex="0" title="클릭하여 데이터 새로고침">
         <div class="radar-pulse-icon" title="실시간 레이더 작동 중">
           <span class="pulse-ring"></span>
           <span class="pulse-dot"></span>
         </div>
         <div class="brand-text">
-          <h1 class="brand-title">동래·연제 전세 <span class="text-gradient">6분할 레이더</span></h1>
-          <p class="brand-subtitle">부산 대장 6대 단지 맞춤 전세 모니터링 시스템</p>
+          <h1 class="brand-title">스마트 부동산 <span class="text-gradient">6분할 레이더</span></h1>
+          <p class="brand-subtitle">전국 대장 아파트 실시간 전세·매매 맞춤 모니터링</p>
         </div>
       </div>
     </div>
@@ -53,11 +53,17 @@
 
     <!-- 헤더 우측: 핵심 액션 버튼군 -->
     <div class="header-right">
-      <!-- 1클릭 네이버 6분할 창 실행 버튼 (사용자 핵심 요구사항) -->
-      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="모니터 화면을 6등분하여 6개 단지 네이버 부동산 창을 동시에 팝업 실행합니다">
+      <!-- 1클릭 네이버 6분할 창 실행 버튼 -->
+      <button class="btn-action btn-four-split" id="btnLaunchFourWindows" title="화면을 6등분하여 현재 모니터링 중인 6개 아파트 네이버 부동산 창을 동시에 팝업 실행합니다">
         <span class="btn-icon">🖥️</span>
         <span class="btn-label">네이버 6창 분할 실행</span>
         <span class="badge-hot">1-CLICK</span>
+      </button>
+
+      <!-- 내 레이더 설정 & 프로필 관리 버튼 -->
+      <button class="btn-action btn-profile-settings" id="btnProfileSettings" title="내 프로필 및 컴퓨터 저장 설정 관리">
+        <span class="btn-icon">⚙️</span>
+        <span class="btn-label" id="profileNameLabel">내 설정</span>
       </button>
 
       <!-- 신규 매물 알림 토글 -->
@@ -78,9 +84,9 @@
         <span class="btn-label">알림 테스트</span>
       </button>
 
-      <!-- 테마 토글 (다크/라이트) -->
-      <button class="btn-icon-only" id="btnThemeToggle" title="테마 전환">
-        <span class="icon" id="themeIcon">☀️</span>
+      <!-- 테마 토글 (기본: 라이트모드, 클릭 시 다크모드로 전환) -->
+      <button class="btn-icon-only" id="btnThemeToggle" title="테마 전환 (어두운 화면 / 밝은 화면)">
+        <span class="icon" id="themeIcon">🌙</span>
       </button>
     </div>
   </header>
@@ -89,53 +95,46 @@
   <section class="filter-panel" id="filterPanel" aria-label="매물 검색 필터">
     <div class="filter-container">
       
-      <!-- 필터 그룹 1: 거래 유형 -->
+      <!-- 필터 그룹 1: 거래 유형 (전세 / 매매 완벽 지원) -->
       <div class="filter-group">
         <span class="filter-title">거래 유형</span>
         <div class="pill-group" role="radiogroup" aria-label="거래 유형 선택">
           <button class="pill-btn active" data-type="trade" data-value="jeonse" id="filterJeonse">
             <span class="pill-check">✓</span> 전세
           </button>
-          <button class="pill-btn disabled" data-type="trade" data-value="sale" title="전세 전용 모니터 모드입니다">
+          <button class="pill-btn" data-type="trade" data-value="sale" id="filterSale">
             매매
-          </button>
-          <button class="pill-btn disabled" data-type="trade" data-value="monthly" title="전세 전용 모니터 모드입니다">
-            월세
           </button>
         </div>
       </div>
 
-      <!-- 필터 그룹 2: 전세 보증금 범위 (사용자: 4억 3천 ~ 5억 5천) -->
+      <!-- 필터 그룹 2: 금액 범위 (전세 보증금 / 매매 가격 동적 연동) -->
       <div class="filter-group filter-price-group">
         <div class="filter-header-row">
-          <span class="filter-title">전세 보증금</span>
+          <span class="filter-title" id="priceFilterTitle">전세 보증금</span>
           <span class="filter-value-text" id="priceRangeDisplay">4억 3,000만원 ~ 5억 5,000만원</span>
         </div>
         <div class="price-slider-wrap">
           <div class="dual-range-container">
-            <input type="range" id="priceMinRange" min="30000" max="70000" step="1000" value="43000" aria-label="최소 보증금">
-            <input type="range" id="priceMaxRange" min="30000" max="70000" step="1000" value="55000" aria-label="최대 보증금">
+            <input type="range" id="priceMinRange" min="20000" max="80000" step="1000" value="43000" aria-label="최소 금액">
+            <input type="range" id="priceMaxRange" min="20000" max="80000" step="1000" value="55000" aria-label="최대 금액">
             <div class="slider-track" id="priceTrack"></div>
           </div>
-          <div class="price-quick-tags">
-            <button class="tag-btn active" data-min="43000" data-max="55000">기본 (4.3억~5.5억)</button>
-            <button class="tag-btn" data-min="43000" data-max="48000">4.3억~4.8억</button>
-            <button class="tag-btn" data-min="48000" data-max="52000">4.8억~5.2억</button>
-            <button class="tag-btn" data-min="50000" data-max="55000">5.0억~5.5억</button>
-            <button class="tag-btn" data-min="30000" data-max="70000">전체 범위</button>
+          <div class="price-quick-tags" id="priceQuickTags">
+            <!-- JS에서 전세/매매에 따라 퀵 태그 동적 렌더링 -->
           </div>
         </div>
       </div>
 
-      <!-- 필터 그룹 3: 면적 (30평대 지정) -->
+      <!-- 필터 그룹 3: 면적 (20평대, 30평대, 40평대, 전체 평형) -->
       <div class="filter-group">
-        <span class="filter-title">면적</span>
+        <span class="filter-title">면적 (평형)</span>
         <div class="pill-group" role="radiogroup" aria-label="면적 선택">
           <button class="pill-btn" data-type="pyeong" data-value="all" id="pyeongAll">전체 평형</button>
+          <button class="pill-btn" data-type="pyeong" data-value="20" id="pyeong20">20평대 (59㎡형)</button>
           <button class="pill-btn active" data-type="pyeong" data-value="30" id="pyeong30">
             <span class="pill-check">✓</span> 30평대 (84㎡형)
           </button>
-          <button class="pill-btn" data-type="pyeong" data-value="20" id="pyeong20">20평대 (59㎡형)</button>
           <button class="pill-btn" data-type="pyeong" data-value="40" id="pyeong40">40평대 이상</button>
         </div>
       </div>
@@ -144,12 +143,12 @@
       <div class="filter-group">
         <span class="filter-title">단지 조건</span>
         <div class="tag-row">
-          <span class="spec-tag active" title="선택된 4개 단지는 모두 500세대 이상입니다">
-            🏢 500세대 이상 (충족)
+          <span class="spec-tag active" title="선택된 대장 단지는 500세대 이상 프리미엄 단지입니다">
+            🏢 500세대 이상
           </span>
           <div class="dropdown-wrapper">
             <select id="selectBuildAge" class="custom-select" aria-label="사용승인연한 필터">
-              <option value="all">연식: 전체 (신축~전체)</option>
+              <option value="all">연식: 전체 (신축~구축)</option>
               <option value="within20" selected>사용승인: 20년 이내 (신축/준신축)</option>
               <option value="over20">사용승인: 20년 이상</option>
             </select>
@@ -157,9 +156,9 @@
         </div>
       </div>
 
-      <!-- 필터 그룹 5: 빠른 정렬 및 초기화 -->
+      <!-- 필터 그룹 5: 정렬 및 [적용], [기본값 저장], [초기화] 액션 버튼군 -->
       <div class="filter-group filter-group-right">
-        <span class="filter-title">정렬 및 옵션</span>
+        <span class="filter-title">정렬 및 조건 실행</span>
         <div class="action-row">
           <select id="selectSort" class="custom-select" aria-label="매물 정렬 기준">
             <option value="price_asc" selected>가격 낮은순 (최저가)</option>
@@ -167,7 +166,18 @@
             <option value="price_desc">가격 높은순</option>
             <option value="area_desc">면적 넓은순</option>
           </select>
-          <button class="btn-reset" id="btnResetFilters" title="기본 필터로 초기화">
+          
+          <!-- 사용자 핵심 요구: 적용 버튼 -->
+          <button class="btn-action-highlight btn-apply-filters" id="btnApplyFilters" title="현재 변경한 조건으로 즉시 매물을 재조회합니다">
+            <span>🔍 조건 적용</span>
+          </button>
+          
+          <!-- 사용자 핵심 요구: 설정값 저장 버튼 -->
+          <button class="btn-action-save btn-save-defaults" id="btnSaveDefaults" title="현재 설정한 조건(거래유형, 금액, 평수 등)을 내 컴퓨터 기본값으로 영구 저장합니다">
+            <span>💾 기본값 저장</span>
+          </button>
+
+          <button class="btn-reset" id="btnResetFilters" title="저장된 기본 필터값으로 초기화">
             <span>↺ 초기화</span>
           </button>
         </div>
@@ -176,119 +186,78 @@
     </div>
   </section>
 
-  <!-- 관심 아파트 추가/삭제 및 선택 바 (6개 단지 내에서 추가 및 삭제) -->
-  <section class="complex-selector-bar" id="complexSelectorBar" aria-label="관심 아파트 추가 및 삭제 관리">
+  <!-- 아파트 관리 바: 6개 단지 칩, 새 아파트 추가/교체 모달, 지역 세트 프리셋 -->
+  <section class="complex-selector-bar" id="complexSelectorBar" aria-label="모니터링 아파트 6개 관리">
     <div class="selector-container">
       <div class="selector-left">
-        <span class="selector-title">🏢 <strong>관심 아파트 관리:</strong></span>
+        <span class="selector-title">🏢 <strong>모니터링 아파트 (최대 6개):</strong></span>
         <div class="complex-chips-group" id="complexChipsGroup">
-          <!-- JS에서 6개 아파트 선택/삭제 칩 동적 렌더링 -->
+          <!-- JS에서 현재 선택된 아파트 칩 동적 렌더링 -->
         </div>
+        <!-- 새 아파트 추가/교체 모달 오픈 버튼 -->
+        <button class="btn-selector-action highlight" id="btnOpenComplexPicker" title="전국 60+개 대장 아파트 중 선택하거나 네이버 단지번호를 직접 등록합니다">
+          <span class="btn-plus-icon">+</span> 아파트 추가 / 교체
+        </button>
       </div>
+
       <div class="selector-right">
+        <!-- 인기 지역 6대 단지 세트 원클릭 선택 드롭다운 -->
+        <div class="dropdown-wrapper">
+          <select id="selectRegionPreset" class="custom-select preset-select" aria-label="인기 지역 6대 단지 세트 선택">
+            <option value="" disabled selected>⚡ 인기 지역 6대 단지 세트 ▾</option>
+            <option value="busan_dongnae">부산 동래·연제 6대 대장 (동래래미안·레이카운티·포레스티지 등)</option>
+            <option value="busan_haeundae">부산 해운대·수영 6대 대장 (엘시티·삼익비치·제니스·광안자이 등)</option>
+            <option value="seoul_gangnam">서울 강남·서초 6대 대장 (아크로리버파크·원베일리·반포자이 등)</option>
+            <option value="seoul_mapo">서울 마포·용산 6대 대장 (마래푸·한남더힐·마프자 등)</option>
+          </select>
+        </div>
+
         <button class="btn-selector-action" id="btnShowOnlyFavs" title="별표(★) 표시한 관심 아파트만 모아봅니다">
           <span class="fav-star-icon">★</span> 관심 단지만 보기
         </button>
-        <button class="btn-selector-action" id="btnShowAllComplexes" title="6개 단지를 모두 화면에 복원합니다">
-          <span>↺ 전체 6개 보기</span>
+        <button class="btn-selector-action" id="btnShowAllComplexes" title="등록된 아파트 카드를 모두 화면에 표시합니다">
+          <span>↺ 6개 전체 보기</span>
         </button>
       </div>
     </div>
   </section>
 
-  <!-- 6분할 네이버창 팝업 실행 모달/안내 배너 -->
+  <!-- 6분할 안내 배너 -->
   <div class="launcher-banner" id="launcherBanner">
     <div class="launcher-banner-content">
       <div class="banner-badge">💡 6분할 화면 꿀팁</div>
       <p class="banner-text">
-        <span class="banner-highlight-btn">[네이버 6창 분할 실행]</span> 버튼을 누르면 브라우저 화면의 6분면(3열 2행)에
-        <span class="banner-complexes">동래래미안 · 레이카운티 · 포레스티지 · 효성해링턴 · 명륜아이파크1단지 · 더샵동래</span> 네이버창이 바둑판 배열로 동시에 뜹니다.
+        <span class="banner-highlight-btn">[네이버 6창 분할 실행]</span> 버튼을 누르면 현재 모니터링 중인 6개 아파트의 네이버 부동산 페이지가 모니터 화면의 6분면(3열 2행)에 바둑판 배열로 동시에 열립니다.
       </p>
       <button class="btn-banner-action" id="btnBannerLaunch">지금 6창 분할 띄우기</button>
     </div>
   </div>
 
-  <!-- 모바일 전용 뷰 컨트롤 바 (스마트폰에서 6분할 전체 / 단지별 탭 선택) -->
+  <!-- 모바일 전용 뷰 탭 바 -->
   <nav class="mobile-view-tabs" id="mobileViewTabs" aria-label="모바일 화면 분할 및 단지 선택">
-    <div class="mobile-tab-scroll">
-      <button class="mobile-tab-btn active" data-tab="all" id="mTabAll">
-        <span>🔲 6분할 전체보기</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="dongnae_raemian" id="mTabDn">
-        <span class="tab-dot dot-dn"></span>
-        <span>동래래미안</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="ray_county" id="mTabRc">
-        <span class="tab-dot dot-rc"></span>
-        <span>레이카운티</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="raemian_forestige" id="mTabFp">
-        <span class="tab-dot dot-fp"></span>
-        <span>포레스티지</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="hyosung_harrington" id="mTabHs">
-        <span class="tab-dot dot-hs"></span>
-        <span>효성해링턴</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="myeongnyun_ipark" id="mTabMi">
-        <span class="tab-dot dot-mi"></span>
-        <span>명륜아이파크</span>
-      </button>
-      <button class="mobile-tab-btn" data-tab="thesharp_dongnae" id="mTabTd">
-        <span class="tab-dot dot-td"></span>
-        <span>더샵동래</span>
-      </button>
+    <div class="mobile-tab-scroll" id="mobileTabScroll">
+      <!-- JS에서 동적 렌더링 -->
     </div>
   </nav>
 
-  <!-- 메인 6분할 그리드 대시보드 (3열 2행) -->
+  <!-- 메인 6분할 그리드 대시보드 (3열 2행, 최대 6개 슬롯) -->
   <main class="dashboard-main" id="dashboardMain">
     <div class="grid-container" id="complexGrid">
-
-      <!-- 단지 1: 동래래미안아이파크 -->
-      <section class="complex-card card-dn" id="cardDongnaeRaemian" data-complex-id="dongnae_raemian">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
-      <!-- 단지 2: 레이카운티 -->
-      <section class="complex-card card-rc" id="cardRayCounty" data-complex-id="ray_county">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
-      <!-- 단지 3: 동래래미안포레스티지 -->
-      <section class="complex-card card-fp" id="cardRaemianForestige" data-complex-id="raemian_forestige">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
-      <!-- 단지 4: 동래효성해링턴플레이스 -->
-      <section class="complex-card card-hs" id="cardHyosungHarrington" data-complex-id="hyosung_harrington">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
-      <!-- 단지 5: 명륜아이파크1단지 (신규 추가) -->
-      <section class="complex-card card-mi" id="cardMyeongnyunIpark" data-complex-id="myeongnyun_ipark">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
-      <!-- 단지 6: 더샵동래 (신규 추가) -->
-      <section class="complex-card card-td" id="cardThesharpDongnae" data-complex-id="thesharp_dongnae">
-        <!-- JS로 동적 렌더링 -->
-      </section>
-
+      <!-- JS에서 6개 슬롯 카드 및 빈 슬롯(+ 추가 카드) 동적 렌더링 -->
     </div>
   </main>
 
-  <!-- 하단 고정 바: 빠른 이동 및 상태 요약 -->
+  <!-- 하단 고정 바 -->
   <footer class="app-footer" id="appFooter">
     <div class="footer-left">
       <span class="footer-dot"></span>
-      <span class="footer-info">모니터링 대상: 부산 6대 대장 단지 총 14,870세대 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
+      <span class="footer-info" id="footerInfoText">모니터링 대상: 6대 대장 단지 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
     </div>
     <div class="footer-center">
-      <span class="footer-tip">팁: 각 단지 카드의 <strong>[네이버 바로보기]</strong>를 누르면 해당 단지의 필터링된 네이버 지도로 즉시 이동합니다.</span>
+      <span class="footer-tip">팁: 각 단지 카드의 <strong>[네이버 바로보기]</strong>를 누르면 현재 필터 조건이 적용된 네이버 지도로 즉시 이동합니다.</span>
     </div>
     <div class="footer-right">
-      <button class="btn-footer-link" id="btnFooterOpenAll">전체 6단지 네이버창 동시열기</button>
+      <button class="btn-footer-link" id="btnFooterOpenAll">전체 네이버창 동시열기</button>
     </div>
   </footer>
 
@@ -309,15 +278,191 @@
       </div>
 
       <div class="drawer-body" id="notifListContainer">
-        <!-- 알림 리스트 아이템들이 렌더링됨 -->
         <div class="empty-notif" id="emptyNotifMsg">
           <span class="empty-icon">📭</span>
-          <p>아직 수신된 신규 매물 알림이 없습니다.</p>
-          <p class="empty-sub">새로운 전세 매물이 감지되면 즉시 이곳에 기록되고 푸시 알림이 발송됩니다.</p>
+          <p>수신된 신규 매물 알림이 없습니다.</p>
+          <p class="empty-sub">새로운 실매물이 감지되면 즉시 이곳에 기록되고 푸시 알림이 발송됩니다.</p>
         </div>
       </div>
     </div>
   </aside>
+
+  <!-- 아파트 선택 / 교체 / 신규 추가 모달 (전국 60+ 카탈로그 검색 및 단지번호 직접 등록) -->
+  <div class="modal-overlay" id="complexPickerModal">
+    <div class="modal-card modal-picker-card">
+      <div class="modal-header">
+        <div class="picker-header-title">
+          <span class="modal-icon">🏢</span>
+          <div>
+            <h3 class="modal-title">아파트 선택 및 추가 <span class="badge-slot" id="pickerTargetSlotBadge">슬롯 1</span></h3>
+            <p class="picker-sub">전국 대장 아파트를 검색하거나 네이버 단지번호를 등록해 6개 화면을 자유롭게 구성하세요.</p>
+          </div>
+        </div>
+        <button class="btn-close-modal" id="btnClosePickerModal">✕</button>
+      </div>
+
+      <!-- 모달 탭: 카탈로그 검색 / 단지번호 직접 등록 / 지역 세트 -->
+      <div class="picker-tabs">
+        <button class="picker-tab-btn active" data-tab="catalog">🔍 전국 대장 아파트 검색</button>
+        <button class="picker-tab-btn" data-tab="direct">➕ 네이버 단지번호 직접 등록</button>
+        <button class="picker-tab-btn" data-tab="presets">⚡ 인기 지역 6대 세트</button>
+      </div>
+
+      <!-- 탭 1: 카탈로그 검색 -->
+      <div class="picker-tab-pane active" id="paneCatalog">
+        <div class="picker-search-bar">
+          <span class="search-icon">🔎</span>
+          <input type="text" id="catalogSearchInput" class="picker-search-input" placeholder="아파트 이름 또는 지역 검색 (예: 동래래미안, 반포자이, 엘시티, 마포, 해운대...)">
+          <button class="btn-clear-search" id="btnClearCatalogSearch" style="display: none;">✕</button>
+        </div>
+
+        <!-- 지역 필터 칩 -->
+        <div class="picker-region-chips" id="pickerRegionChips">
+          <button class="region-chip active" data-region="all">전체 전국</button>
+          <button class="region-chip" data-region="부산 동래·연제">부산 동래·연제</button>
+          <button class="region-chip" data-region="부산 해운대·수영">부산 해운대·수영</button>
+          <button class="region-chip" data-region="부산 남구·진구·강서">부산 남구·진구</button>
+          <button class="region-chip" data-region="서울 강남·서초·송파">서울 강남·서초·송파</button>
+          <button class="region-chip" data-region="서울 마포·용산·성동">서울 마포·용산·성동</button>
+          <button class="region-chip" data-region="경기 판교·분당·과천">경기 판교·분당·과천</button>
+        </div>
+
+        <!-- 단지 결과 리스트 -->
+        <div class="picker-catalog-list" id="catalogListContainer">
+          <!-- JS로 동적 렌더링 -->
+        </div>
+      </div>
+
+      <!-- 탭 2: 네이버 단지번호 직접 등록 (전국 어떤 아파트라도 등록 가능) -->
+      <div class="picker-tab-pane" id="paneDirect">
+        <div class="direct-register-form">
+          <div class="form-tip-box">
+            💡 <strong>네이버 부동산 단지번호 찾는 법:</strong><br>
+            네이버 부동산(land.naver.com)에서 원하는 아파트 검색 시 주소창 끝부분의 숫자(예: <code>new.land.naver.com/complexes/<strong>123223</strong></code>)를 복사하여 넣으시면 됩니다.
+          </div>
+
+          <div class="form-row">
+            <div class="form-field flex-2">
+              <label for="inputDirectName">아파트 명칭 *</label>
+              <input type="text" id="inputDirectName" class="form-input" placeholder="예: 송도더샵퍼스트파크">
+            </div>
+            <div class="form-field flex-1">
+              <label for="inputDirectComplexId">네이버 단지번호 (또는 URL) *</label>
+              <input type="text" id="inputDirectComplexId" class="form-input" placeholder="예: 123443 또는 링크 붙여넣기">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field flex-2">
+              <label for="inputDirectDistrict">소재지 (주소)</label>
+              <input type="text" id="inputDirectDistrict" class="form-input" placeholder="예: 인천광역시 연수구 송도동">
+            </div>
+            <div class="form-field flex-1">
+              <label for="inputDirectMetro">인근 지하철역</label>
+              <input type="text" id="inputDirectMetro" class="form-input" placeholder="예: 인천대입구역 도보 3분">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="inputDirectHouseholds">총 세대수</label>
+              <input type="number" id="inputDirectHouseholds" class="form-input" placeholder="예: 2597">
+            </div>
+            <div class="form-field">
+              <label for="inputDirectBuildYear">준공연도</label>
+              <input type="number" id="inputDirectBuildYear" class="form-input" placeholder="예: 2020">
+            </div>
+            <div class="form-field">
+              <label for="inputDirectJeonseBase">전세 기준시세 (만원)</label>
+              <input type="number" id="inputDirectJeonseBase" class="form-input" placeholder="예: 45000 (4.5억)">
+            </div>
+            <div class="form-field">
+              <label for="inputDirectSaleBase">매매 기준시세 (만원)</label>
+              <input type="number" id="inputDirectSaleBase" class="form-input" placeholder="예: 85000 (8.5억)">
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn-modal-action primary" id="btnSubmitDirectComplex">
+              <span>🚀 등록하고 슬롯에 추가하기</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 탭 3: 지역 세트 프리셋 -->
+      <div class="picker-tab-pane" id="panePresets">
+        <div class="preset-cards-grid" id="presetCardsContainer">
+          <!-- JS로 프리셋 카드 렌더링 -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 내 레이더 설정 & 컴퓨터 저장 관리 모달 (프로필 / 백업 / 복원) -->
+  <div class="modal-overlay" id="profileSettingsModal">
+    <div class="modal-card modal-profile-card">
+      <div class="modal-header">
+        <div class="picker-header-title">
+          <span class="modal-icon">👤</span>
+          <div>
+            <h3 class="modal-title">내 레이더 프로필 및 저장 관리</h3>
+            <p class="picker-sub">모든 설정은 본인 컴퓨터(브라우저 저장소)에 안전하게 자동 보존됩니다.</p>
+          </div>
+        </div>
+        <button class="btn-close-modal" id="btnCloseProfileModal">✕</button>
+      </div>
+
+      <div class="modal-body profile-modal-body">
+        <!-- 프로필 이름 설정 -->
+        <div class="profile-section">
+          <label for="inputProfileUserName" class="profile-section-title">내 레이더 이름 / 닉네임</label>
+          <div class="profile-name-row">
+            <input type="text" id="inputProfileUserName" class="form-input" placeholder="예: 홍길동의 스마트 레이더">
+            <button class="btn-modal-action primary" id="btnSaveProfileName">저장</button>
+          </div>
+        </div>
+
+        <!-- 현재 저장된 기본 조건 요약 -->
+        <div class="profile-section">
+          <h4 class="profile-section-title">내 컴퓨터에 저장된 기본 필터값</h4>
+          <div class="saved-settings-card" id="savedSettingsSummary">
+            <!-- JS 동적 요약 -->
+          </div>
+        </div>
+
+        <!-- 백업 및 복원 (JSON) -->
+        <div class="profile-section">
+          <h4 class="profile-section-title">설정 파일 백업 & 타 기기 복원</h4>
+          <p class="profile-desc">다른 컴퓨터나 모바일에서도 내 설정을 그대로 쓰고 싶을 때 백업 파일을 다운로드하거나 불러오세요.</p>
+          <div class="backup-actions-row">
+            <button class="btn-backup-action" id="btnExportSettings">
+              <span>💾 설정 파일 내보내기 (.json)</span>
+            </button>
+            <label class="btn-backup-action secondary" for="inputImportFile">
+              <span>📂 백업 파일 불러오기</span>
+              <input type="file" id="inputImportFile" accept=".json" style="display: none;">
+            </label>
+            <button class="btn-backup-action danger" id="btnFactoryReset">
+              <span>↺ 초기 상태로 전체 리셋</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-modal-action secondary" id="btnCloseProfileModalFooter">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 매물 상세 정보 모달 팝업 -->
+  <div class="modal-overlay" id="articleDetailModal">
+    <div class="modal-card modal-article-card" id="articleModalContent">
+      <!-- JS로 동적 렌더링 -->
+    </div>
+  </div>
 
   <!-- 팝업 차단 안내 모달 -->
   <div class="modal-overlay" id="popupHelpModal">
@@ -329,7 +474,7 @@
       </div>
       <div class="modal-body">
         <p class="modal-desc">
-          한 화면에 네이버 부동산 창 4개를 동시에 분할 팝업으로 띄우려면 브라우저의 <strong>팝업 허용</strong> 권한이 필요합니다.
+          한 화면에 네이버 부동산 창 6개를 동시에 분할 팝업으로 띄우려면 브라우저의 <strong>팝업 허용</strong> 권한이 필요합니다.
         </p>
         <div class="help-steps">
           <div class="step-item">
@@ -342,21 +487,14 @@
           </div>
           <div class="step-item">
             <span class="step-num">3</span>
-            <div class="step-text">다시 아래의 <strong>[4창 분할 실행]</strong> 버튼을 누르면 화면 4분면에 창이 정렬되어 뜹니다!</div>
+            <div class="step-text">다시 <strong>[네이버 6창 분할 실행]</strong> 버튼을 누르면 화면 6분면에 창이 바둑판 정렬되어 뜹니다!</div>
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn-modal-action primary" id="btnRetryLaunch">네이버 4창 다시 열기</button>
+        <button class="btn-modal-action primary" id="btnRetryLaunch">네이버 6창 다시 열기</button>
         <button class="btn-modal-action secondary" id="btnDismissModal">닫기</button>
       </div>
-    </div>
-  </div>
-
-  <!-- 매물 상세 정보 모달 팝업 (물건 클릭 시 팝업 내용 표시) -->
-  <div class="modal-overlay" id="articleDetailModal">
-    <div class="modal-card modal-article-card" id="articleModalContent">
-      <!-- JS로 동적 렌더링 -->
     </div>
   </div>
 
@@ -364,7 +502,7 @@
   <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
   <!-- 스크립트 로드 -->
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=20261023_2"></script>
+  <script src="app.js?v=20261023_2"></script>
 </body>
 </html>
