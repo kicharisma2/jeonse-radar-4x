@@ -7,18 +7,18 @@
 // 1. 로컬 스토리지 데이터 로드 및 저장 유틸리티
 // -------------------------------------------------------------
 const STORAGE_KEYS = {
-  THEME: 'jeonseRadar_theme',
-  USER_FILTERS: 'jeonseRadar_userFilters',
-  ACTIVE_SLOTS: 'jeonseRadar_activeSlots',
-  FAVORITES: 'jeonseRadar_favoriteComplexes',
-  USER_NAME: 'jeonseRadar_userName'
+  THEME: 'jeonseRadar_theme_v5',
+  USER_FILTERS: 'jeonseRadar_userFilters_v5',
+  ACTIVE_SLOTS: 'jeonseRadar_activeSlots_v5',
+  FAVORITES: 'jeonseRadar_favoriteComplexes_v5',
+  USER_NAME: 'jeonseRadar_userName_v5'
 };
 
 // 기본 필터값 (사용자 최초 접속 시 기본값)
 const FACTORY_FILTERS = {
   tradeType: 'jeonse',
-  priceMin: 43000, // 4억 3,000만원
-  priceMax: 55000, // 5억 5,000만원
+  priceMin: 25000, // 2억 5,000만원
+  priceMax: 65000, // 6억 5,000만원
   pyeongType: '30', // 30평대 (84㎡형)
   minHouseholds: 500,
   buildAge: 'within20', // 20년 이내 (신축/준신축)
@@ -93,14 +93,17 @@ function loadSavedActiveSlots() {
 
           // 네이버 URL 파라미터 최신화
           if (c.complexId) {
-            c.naverUrl = `https://new.land.naver.com/complexes/${c.complexId}?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc`;
-            c.naverMobileUrl = `https://fin.land.naver.com/complexes/${c.complexId}?tradeTypes=B1&areaMin=99&areaMax=132`;
+            c.naverUrl = `https://new.land.naver.com/complexes/${c.complexId}?a=APT&b=B1&e=RETAIL&order=prc`;
+            c.naverMobileUrl = `https://fin.land.naver.com/complexes/${c.complexId}?tradeTypes=B1`;
           }
 
-          if (!c.initialArticles || c.initialArticles.length === 0) {
-            c.initialArticles = window.generateComprehensiveArticles 
-              ? window.generateComprehensiveArticles(c) 
-              : [];
+          // 100% 네이버 실매물 맵에서 실제 매물 데이터 연동 (더미 데이터 영구 제거)
+          const realMap = window.REAL_BUSAN_ARTICLES || {};
+          const cKey = String(c.complexId || c.id);
+          if (realMap[cKey] && Array.isArray(realMap[cKey]) && realMap[cKey].length > 0) {
+            c.initialArticles = realMap[cKey];
+          } else if (!c.initialArticles) {
+            c.initialArticles = [];
           }
           return c;
         });
@@ -230,14 +233,27 @@ function playChimeSound() {
 }
 
 // -------------------------------------------------------------
-// 4. 네이버 부동산 공식 URL 빌더 (전세/매매, 평형, 가격 파라미터 100% 정밀 연동)
+// 4. 네이버 부동산 공식 URL 빌더 (개별 실매물 직결 & 전세/매매 필터 연동)
 // -------------------------------------------------------------
 function buildNaverRealEstateUrl(complex, options = {}) {
   if (!complex || !complex.complexId) return 'https://new.land.naver.com/';
 
   const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
-  const params = new URLSearchParams();
 
+  // 1. 개별 매물 직결: 실제 네이버 articleNo가 있으면 네이버 상세 드로어로 직접 열람
+  let articleNo = null;
+  if (typeof options === 'string' || typeof options === 'number') {
+    articleNo = String(options).trim();
+  } else if (typeof options === 'object' && options && options.articleNo) {
+    articleNo = String(options.articleNo).trim();
+  }
+
+  if (articleNo) {
+    return `${baseUrl}?articleNo=${articleNo}`;
+  }
+
+  // 2. 단지 전체/필터 조회: 거래유형(전세/매매), 평형, 가격 파라미터 적용
+  const params = new URLSearchParams();
   params.set('a', 'APT'); // 아파트
   
   // 거래 유형: b=A1(매매), b=B1(전세) - 월세(B2)는 절대 노출하지 않음
@@ -275,7 +291,6 @@ function buildNaverRealEstateUrl(complex, options = {}) {
   // 최저가순 정렬
   params.set('order', 'prc');
 
-  // 주의: 임의의 articleNo는 네이버 SPA에서 404를 유발하고 필터(월세 제외 및 평형)를 리셋하므로 부착하지 않음.
   return `${baseUrl}?${params.toString()}`;
 }
 
@@ -347,7 +362,10 @@ function filterArticles(articles, complex) {
     }
 
     // 2. 가격 범위 (만원 단위)
-    if (item.price < state.priceMin || item.price > state.priceMax) {
+    if (typeof state.priceMin === 'number' && item.price < state.priceMin) {
+      return false;
+    }
+    if (typeof state.priceMax === 'number' && item.price > state.priceMax) {
       return false;
     }
 
@@ -358,17 +376,6 @@ function filterArticles(articles, complex) {
       if (item.pyeong < 30 || item.pyeong >= 40) return false;
     } else if (state.pyeongType === '40') {
       if (item.pyeong < 40) return false;
-    }
-
-    // 4. 단지 조건: 500세대 이상
-    if (complex && complex.households && complex.households < state.minHouseholds) {
-      return false;
-    }
-
-    // 5. 사용승인연한
-    if (complex && complex.ageYears) {
-      if (state.buildAge === 'within20' && complex.ageYears > 20) return false;
-      if (state.buildAge === 'over20' && complex.ageYears <= 20) return false;
     }
 
     return true;
@@ -445,11 +452,17 @@ function renderAllComplexes() {
     activeComplexCount++;
     totalHouseholds += complex.households || 0;
 
-    // 해당 단지의 매물 로드 (없으면 자동 생성)
+    // 해당 단지의 매물 로드 (실매물 맵 연동)
     if (!state.articles[complex.id]) {
-      state.articles[complex.id] = complex.initialArticles && complex.initialArticles.length > 0
-        ? [...complex.initialArticles]
-        : (window.generateComprehensiveArticles ? window.generateComprehensiveArticles(complex) : []);
+      const realMap = window.REAL_BUSAN_ARTICLES || {};
+      const cKey = String(complex.complexId || complex.id);
+      if (realMap[cKey] && Array.isArray(realMap[cKey]) && realMap[cKey].length > 0) {
+        state.articles[complex.id] = [...realMap[cKey]];
+      } else if (complex.initialArticles && complex.initialArticles.length > 0) {
+        state.articles[complex.id] = [...complex.initialArticles];
+      } else {
+        state.articles[complex.id] = [];
+      }
     }
 
     const filtered = filterArticles(state.articles[complex.id], complex);
@@ -538,10 +551,25 @@ function renderAllComplexes() {
       <!-- 카드 본문: 매물 리스트 -->
       <div class="card-body" id="list_${complex.id}">
         ${filtered.length === 0 ? `
-          <div class="empty-listings">
-            <span class="empty-listings-icon">🔍</span>
-            <p>현재 설정한 필터 조건에 맞는 ${state.tradeType === 'sale' ? '매매' : '전세'} 매물이 없습니다.</p>
-            <small>금액 범위나 평형 필터를 조금 넓혀보세요.</small>
+          <div class="empty-listings" style="padding: 24px 16px; text-align: center;">
+            <span class="empty-listings-icon" style="font-size: 2rem; display: block; margin-bottom: 8px;">🔍</span>
+            <p style="font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
+              현재 조건(${state.tradeType === 'sale' ? '매매' : '전세'} · ${getPyeongLabel(state.pyeongType)})에 일치하는 실매물이 없습니다.
+            </p>
+            ${(() => {
+              const allArts = state.articles[complex.id] || [];
+              const otherType = state.tradeType === 'sale' ? 'jeonse' : 'sale';
+              const otherCount = allArts.filter(a => a.tradeType === otherType).length;
+              return otherCount > 0 ? `
+                <p style="color: #2563eb; font-size: 0.82rem; font-weight: 600; margin: 6px 0;">
+                  💡 이 단지는 현재 <strong>${otherType === 'sale' ? '매매' : '전세'} ${otherCount}건</strong>이 등록되어 있습니다.
+                </p>
+              ` : '';
+            })()}
+            <small style="color: var(--text-muted); display: block; margin-bottom: 12px;">금액 범위나 평형 조건을 조금 넓혀보시거나 네이버 전체보기를 클릭하세요.</small>
+            <a href="${naverUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 6px 14px; background: #03c75a; color: white; text-decoration: none; border-radius: 4px; font-size: 0.78rem; font-weight: 700;">
+              네이버에서 ${complex.shortName || complex.name} 전체 매물 확인하기 ↗
+            </a>
           </div>
         ` : filtered.map(item => renderListingCardHtml(complex, item)).join('')}
       </div>
@@ -580,10 +608,8 @@ function renderListingCardHtml(complex, item) {
   else if (p >= 30 && p < 40) itemPyeongType = '30';
   else if (p >= 40) itemPyeongType = '40';
 
-  const naverItemUrl = buildNaverRealEstateUrl(complex, {
-    tradeType: item.tradeType || state.tradeType,
-    pyeongType: itemPyeongType !== 'all' ? itemPyeongType : state.pyeongType
-  });
+  // 네이버 실제 매물 직결 URL (articleNo 파라미터가 들어가 네이버 매물 상세창이 즉시 열림)
+  const naverItemUrl = buildNaverRealEstateUrl(complex, { articleNo: item.articleNo });
   const tradeBadgeText = item.tradeType === 'sale' ? '매매' : '전세';
 
   return `
@@ -598,7 +624,7 @@ function renderListingCardHtml(complex, item) {
           <button class="btn-listing-detail" data-complex-id="${complex.id}" data-article-id="${item.id}" title="상세 정보 및 중개사 확인">
             상세정보
           </button>
-          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산에서 이 매물 확인">
+          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link" title="네이버 부동산에서 매물 #${item.articleNo} 바로보기">
             네이버 확인 ↗
           </a>
         </div>
@@ -718,11 +744,13 @@ function removeComplexFromSlot(slotIndex) {
 function assignComplexToSlot(slotIndex, complexData) {
   if (slotIndex < 0 || slotIndex >= 6 || !complexData) return;
 
-  // 매물 데이터가 없으면 자동 생성
-  if (!complexData.initialArticles || complexData.initialArticles.length === 0) {
-    complexData.initialArticles = window.generateComprehensiveArticles 
-      ? window.generateComprehensiveArticles(complexData) 
-      : [];
+  // 100% 네이버 실매물 맵에서 실제 데이터 연동 (더미 데이터 제거)
+  const realMap = window.REAL_BUSAN_ARTICLES || {};
+  const cKey = String(complexData.complexId || complexData.id);
+  if (realMap[cKey] && Array.isArray(realMap[cKey]) && realMap[cKey].length > 0) {
+    complexData.initialArticles = realMap[cKey];
+  } else if (!complexData.initialArticles) {
+    complexData.initialArticles = [];
   }
 
   // 전역 articles에 등록
@@ -995,13 +1023,15 @@ function applyPresetRegion(presetId) {
     if (idx >= 6) return;
     const item = catalog.find(c => c.id === id);
     if (item) {
+      const realMap = window.REAL_BUSAN_ARTICLES || {};
+      const cKey = String(item.complexId || item.id);
+      const initialArticles = (realMap[cKey] && Array.isArray(realMap[cKey])) ? realMap[cKey] : [];
+
       const complexObj = {
         ...item,
-        naverUrl: `https://new.land.naver.com/complexes/${item.complexId}?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc`,
-        naverMobileUrl: `https://fin.land.naver.com/complexes/${item.complexId}?tradeTypes=B1&areaMin=99&areaMax=132`,
-        initialArticles: window.generateComprehensiveArticles 
-          ? window.generateComprehensiveArticles(item) 
-          : []
+        naverUrl: `https://new.land.naver.com/complexes/${item.complexId}?a=APT&b=B1&e=RETAIL&order=prc`,
+        naverMobileUrl: `https://fin.land.naver.com/complexes/${item.complexId}?tradeTypes=B1`,
+        initialArticles: initialArticles
       };
       state.articles[item.id] = [...complexObj.initialArticles];
       newSlots.push(complexObj);
@@ -1028,54 +1058,53 @@ function syncTradeTypeUI() {
 
   if (state.tradeType === 'sale') {
     if (filterTitle) filterTitle.textContent = '매매 가격 범위';
-    minSlider.min = 30000;
-    minSlider.max = 250000;
+    minSlider.min = 10000;
+    minSlider.max = 300000;
     minSlider.step = 2500;
-    maxSlider.min = 30000;
-    maxSlider.max = 250000;
+    maxSlider.min = 10000;
+    maxSlider.max = 300000;
     maxSlider.step = 2500;
 
     // 만약 전세 값에 머물러 있었다면 매매 기준 기본값으로 보정
     if (state.priceMax < 60000) {
-      state.priceMin = 70000; // 7억
-      state.priceMax = 120000; // 12억
-      minSlider.value = 70000;
-      maxSlider.value = 120000;
+      state.priceMin = 20000; // 2억
+      state.priceMax = 150000; // 15억
+      minSlider.value = 20000;
+      maxSlider.value = 150000;
     }
 
     if (quickTags) {
       quickTags.innerHTML = `
-        <button class="tag-btn active" data-min="70000" data-max="120000">기본 (7억~12억)</button>
-        <button class="tag-btn" data-min="70000" data-max="95000">7억~9.5억</button>
-        <button class="tag-btn" data-min="95000" data-max="130000">9.5억~13억</button>
-        <button class="tag-btn" data-min="130000" data-max="180000">13억~18억</button>
-        <button class="tag-btn" data-min="30000" data-max="250000">전체 범위</button>
+        <button class="tag-btn active" data-min="15000" data-max="300000">전체 매매 (1.5억~30억)</button>
+        <button class="tag-btn" data-min="15000" data-max="35000">3.5억 이하</button>
+        <button class="tag-btn" data-min="35000" data-max="70000">3.5억~7억</button>
+        <button class="tag-btn" data-min="70000" data-max="120000">7억~12억</button>
+        <button class="tag-btn" data-min="120000" data-max="300000">12억 이상</button>
       `;
     }
   } else {
     // 전세 모드
     if (filterTitle) filterTitle.textContent = '전세 보증금 범위';
-    minSlider.min = 20000;
-    minSlider.max = 80000;
+    minSlider.min = 10000;
+    minSlider.max = 120000;
     minSlider.step = 1000;
-    maxSlider.min = 20000;
-    maxSlider.max = 80000;
+    maxSlider.min = 10000;
+    maxSlider.max = 120000;
     maxSlider.step = 1000;
 
-    if (state.priceMin > 80000 || state.priceMax > 80000) {
-      state.priceMin = 43000;
-      state.priceMax = 55000;
-      minSlider.value = 43000;
-      maxSlider.value = 55000;
+    if (state.priceMin > 80000 || state.priceMax > 120000) {
+      state.priceMin = 20000;
+      state.priceMax = 65000;
+      minSlider.value = 20000;
+      maxSlider.value = 65000;
     }
 
     if (quickTags) {
       quickTags.innerHTML = `
-        <button class="tag-btn active" data-min="43000" data-max="55000">기본 (4.3억~5.5억)</button>
-        <button class="tag-btn" data-min="43000" data-max="48000">4.3억~4.8억</button>
-        <button class="tag-btn" data-min="48000" data-max="52000">4.8억~5.2억</button>
-        <button class="tag-btn" data-min="50000" data-max="55000">5.0억~5.5억</button>
-        <button class="tag-btn" data-min="20000" data-max="80000">전체 범위</button>
+        <button class="tag-btn active" data-min="10000" data-max="120000">전체 전세 (1억~12억)</button>
+        <button class="tag-btn" data-min="20000" data-max="35000">2억~3.5억</button>
+        <button class="tag-btn" data-min="35000" data-max="55000">3.5억~5.5억</button>
+        <button class="tag-btn" data-min="55000" data-max="80000">5.5억~8.0억</button>
       `;
     }
   }
@@ -1091,32 +1120,32 @@ function adaptPriceRangeToPyeong(pyeongType, tradeType) {
 
   if (tradeType === 'jeonse') {
     if (pyeongType === '20') {
-      state.priceMin = 25000; // 2.5억
-      state.priceMax = 42000; // 4.2억
+      state.priceMin = 15000; // 1.5억
+      state.priceMax = 45000; // 4.5억
     } else if (pyeongType === '30') {
-      state.priceMin = 43000; // 4.3억
-      state.priceMax = 55000; // 5.5억
+      state.priceMin = 25000; // 2.5억
+      state.priceMax = 65000; // 6.5억
     } else if (pyeongType === '40') {
-      state.priceMin = 55000; // 5.5억
-      state.priceMax = 78000; // 7.8억
+      state.priceMin = 45000; // 4.5억
+      state.priceMax = 120000; // 12.0억
     } else {
-      state.priceMin = 20000;
-      state.priceMax = 80000;
+      state.priceMin = 10000;
+      state.priceMax = 120000;
     }
   } else {
     // 매매
     if (pyeongType === '20') {
-      state.priceMin = 50000; // 5.0억
-      state.priceMax = 75000; // 7.5억
+      state.priceMin = 15000; // 1.5억
+      state.priceMax = 90000; // 9.0억
     } else if (pyeongType === '30') {
-      state.priceMin = 80000; // 8.0억
-      state.priceMax = 110000; // 11.0억
+      state.priceMin = 20000; // 2.0억
+      state.priceMax = 150000; // 15.0억
     } else if (pyeongType === '40') {
-      state.priceMin = 110000; // 11.0억
-      state.priceMax = 180000; // 18.0억
+      state.priceMin = 35000; // 3.5억
+      state.priceMax = 300000; // 30.0억
     } else {
-      state.priceMin = 40000;
-      state.priceMax = 200000;
+      state.priceMin = 15000;
+      state.priceMax = 300000;
     }
   }
 
@@ -2105,8 +2134,8 @@ document.addEventListener('DOMContentLoaded', () => {
             naverUrl: `https://new.land.naver.com/complexes/112331?a=APT&b=B1&e=RETAIL`,
             naverMobileUrl: `https://fin.land.naver.com/complexes/112331`
           };
-          customComplex.initialArticles = window.generateComprehensiveArticles 
-            ? window.generateComprehensiveArticles(customComplex) 
+          customComplex.initialArticles = (window.REAL_BUSAN_ARTICLES && window.REAL_BUSAN_ARTICLES[String(customComplex.complexId)])
+            ? window.REAL_BUSAN_ARTICLES[String(customComplex.complexId)]
             : [];
           assignComplexToSlot(state.targetSlotIndex, customComplex);
           closeComplexPickerModal();
@@ -2202,8 +2231,8 @@ document.addEventListener('DOMContentLoaded', () => {
         region: district.includes('동래') ? '부산 동래구' : (district.includes('연제') ? '부산 연제구' : (district.includes('해운대') ? '부산 해운대구' : '부산')),
         jeonseBase: jBase,
         saleBase: sBase,
-        naverUrl: `https://new.land.naver.com/complexes/${complexIdNum}?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc`,
-        naverMobileUrl: `https://fin.land.naver.com/complexes/${complexIdNum}?tradeTypes=B1&areaMin=99&areaMax=132`
+        naverUrl: `https://new.land.naver.com/complexes/${complexIdNum}?a=APT&b=B1&e=RETAIL&order=prc`,
+        naverMobileUrl: `https://fin.land.naver.com/complexes/${complexIdNum}?tradeTypes=B1`
       };
 
       assignComplexToSlot(state.targetSlotIndex, newComplex);
