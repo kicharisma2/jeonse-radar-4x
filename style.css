@@ -3968,6 +3968,370 @@ body.theme-light .btn-backup-action:hover {
   padding-top: 4px !important;
 }
 
+/* =================================================================
+   모바일 스마트폰 완벽 반응형 스타일 (화면폭 768px 이하 및 모바일 폰)
+   글자 밀림/깨짐 방지 (word-break: keep-all), 헤더 겹침 방지, 모달 모바일 최적화
+   ================================================================= */
+@media (max-width: 768px) {
+  /* 0. 한국어 단어 중간 쪼개짐 원천 방지 */
+  body, button, input, select, textarea, h1, h2, h3, h4, p, span {
+    word-break: keep-all !important;
+  }
+
+  /* 1. 최상단 헤더 모바일 레이아웃 (한 줄 완벽 정렬) */
+  .app-header-compact {
+    height: auto !important;
+    min-height: 44px !important;
+    max-height: none !important;
+    padding: 6px 10px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+  .app-header-compact::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .header-left {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    min-width: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .brand-logo {
+    gap: 5px !important;
+  }
+
+  .brand-title {
+    font-size: 0.88rem !important;
+    white-space: nowrap !important;
+  }
+
+  /* 모바일에서는 '500세대+ 전용' 뱃지 숨김 (타이틀에 이미 500세대+ 명시되어 공간 절약) */
+  .brand-condition-badge {
+    display: none !important;
+  }
+
+  /* 모바일에서 status-chip 숨겨서 브랜드 타이틀과 우측 아이콘 간 여유 공간 확보 */
+  .status-chip {
+    display: none !important;
+  }
+
+  /* 모바일 헤더 우측 공간 확보를 위해 전체 매물 뱃지 숨김 (각 카드 내에 표시됨) */
+  .stat-badge {
+    display: none !important;
+  }
+
+  .header-right {
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 모바일에서는 멀티창 6분할 버튼 숨김 (데스크탑 전용 기능) */
+  .btn-four-split {
+    display: none !important;
+  }
+
+  /* 모바일에서는 개발자 테스트 버튼 숨김 */
+  .btn-test-alert {
+    display: none !important;
+  }
+
+  /* 모바일에서는 버튼 내 텍스트 '내 설정', '알림' 숨기고 아이콘만 깔끔하게 노출 */
+  #profileNameLabel,
+  #notifyLabel {
+    display: none !important;
+  }
+
+  .btn-slim {
+    padding: 3px 7px !important;
+    font-size: 0.72rem !important;
+    height: 26px !important;
+  }
+
+  .btn-icon-only.btn-slim {
+    width: 26px !important;
+    height: 26px !important;
+  }
+
+  /* 2. 메인 필터 바 가로 스와이프 스크롤 */
+  .filter-panel-compact {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    padding: 6px 12px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+  .filter-panel-compact::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .filter-compact-row {
+    width: max-content !important;
+    min-width: 100% !important;
+    gap: 8px !important;
+  }
+
+  /* 3. 아파트 슬롯 관리 바 */
+  .complex-selector-bar-compact {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    padding: 6px 12px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+  .complex-selector-bar-compact::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .selector-container-compact {
+    width: max-content !important;
+    min-width: 100% !important;
+  }
+
+  /* 4. 메인 대시보드 및 아파트 카드 세로 1열 시원한 스크롤 */
+  .dashboard-main-expanded {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 10px 8px !important;
+  }
+
+  .grid-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    height: auto !important;
+  }
+
+  .complex-card {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 480px !important;
+    max-height: 600px !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  .complex-card .card-header {
+    height: auto !important;
+    min-height: 42px !important;
+    max-height: none !important;
+    padding: 8px 10px !important;
+    gap: 6px !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+  }
+
+  .complex-card .complex-info {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  .complex-card .complex-name {
+    font-size: 0.95rem !important;
+    max-width: none !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  /* 모바일에서는 이미 세로 1열 전체 폭이므로 단독확대(🔲) 버튼 불필요 */
+  .complex-card .btn-solo-toggle {
+    display: none !important;
+  }
+
+  /* 모바일에서 '네이버 바로보기 ↗' -> '네이버 ↗' 로 축약하여 단지명 가시성 100% 확보 */
+  .complex-card .btn-naver-direct span {
+    display: none !important;
+  }
+  .complex-card .btn-naver-direct::before {
+    content: "네이버 ";
+  }
+  .complex-card .btn-naver-direct {
+    padding: 3px 6px !important;
+    font-size: 0.72rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 5. 아파트 선택/교체 모달 팝업 모바일 최적화 (글자 두 줄 밀림 완전 해소) */
+  .modal-picker-card {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    height: 92vh !important;
+    min-height: 0 !important;
+    max-height: 94vh !important;
+    border-radius: 14px !important;
+    margin: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .modal-header {
+    padding: 12px 14px !important;
+    gap: 8px !important;
+  }
+
+  .modal-title {
+    font-size: 0.90rem !important;
+    line-height: 1.3 !important;
+    word-break: keep-all !important;
+    white-space: nowrap !important;
+  }
+
+  .picker-sub {
+    font-size: 0.74rem !important;
+    line-height: 1.35 !important;
+    word-break: keep-all !important;
+  }
+
+  .picker-slot-selector-bar {
+    padding: 8px 12px !important;
+    gap: 6px !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+  .picker-slot-selector-bar::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .picker-slot-pills {
+    gap: 5px !important;
+  }
+
+  .picker-slot-pill {
+    padding: 3px 8px !important;
+    font-size: 0.72rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 모달 탭 바 가로 스와이프 (버튼 글자 줄바꿈 원천 방지) */
+  .picker-tabs {
+    padding: 8px 12px !important;
+    gap: 6px !important;
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+    scrollbar-width: none !important;
+  }
+  .picker-tabs::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .picker-tab-btn {
+    padding: 7px 12px !important;
+    font-size: 0.78rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    word-break: keep-all !important;
+  }
+
+  .picker-tab-pane {
+    padding: 12px 10px !important;
+  }
+
+  .picker-search-bar {
+    margin-bottom: 8px !important;
+  }
+
+  .picker-search-input {
+    padding: 9px 34px 9px 36px !important;
+    font-size: 0.88rem !important;
+  }
+
+  .picker-region-chips {
+    gap: 5px !important;
+    margin-bottom: 8px !important;
+    padding-bottom: 4px !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+  .picker-region-chips::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .region-chip {
+    padding: 4px 10px !important;
+    font-size: 0.74rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 카탈로그 리스트 모바일 1열 카드 */
+  .picker-catalog-list {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+    padding-right: 2px !important;
+  }
+
+  .catalog-item-card {
+    padding: 12px 12px !important;
+    gap: 8px !important;
+  }
+
+  .item-complex-name {
+    font-size: 0.94rem !important;
+    word-break: keep-all !important;
+    line-height: 1.3 !important;
+  }
+
+  .item-meta-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px 6px !important;
+    font-size: 0.74rem !important;
+    word-break: keep-all !important;
+    color: var(--text-secondary) !important;
+  }
+
+  .item-meta-row span {
+    white-space: nowrap !important;
+  }
+
+  .item-listing-counts {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+    font-size: 0.72rem !important;
+  }
+
+  .item-listing-counts span {
+    white-space: nowrap !important;
+  }
+
+  .item-price-preview {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px 12px !important;
+    font-size: 0.78rem !important;
+  }
+
+  .item-price-preview span {
+    white-space: nowrap !important;
+  }
+
+  .btn-select-catalog-item {
+    width: 100% !important;
+    padding: 8px 12px !important;
+    font-size: 0.82rem !important;
+    text-align: center !important;
+    margin-top: 4px !important;
+  }
+}
+
 
 
 
