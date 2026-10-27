@@ -249,6 +249,21 @@ body {
   gap: 6px;
 }
 
+.brand-condition-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 4px;
+  color: #10b981;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
 .text-gradient {
   background: linear-gradient(135deg, #10b981 0%, #059669 50%, #0891b2 100%);
   -webkit-background-clip: text;
@@ -2962,13 +2977,17 @@ body.theme-light .empty-slot-card {
   background: rgba(56, 189, 248, 0.15) !important;
 }
 
-/* 모달: 아파트 선택 모달 (Universal Picker Modal) */
+/* 모달: 아파트 선택 모달 (Universal Picker Modal - 절대 크기 불변 고정형) */
 .modal-picker-card {
-  width: 960px;
-  max-width: 96vw;
-  max-height: 88vh;
+  width: 980px;
+  max-width: 95vw;
+  height: 86vh;
+  min-height: 640px;
+  max-height: 840px;
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* 검색 결과 개수에 따라 팝업 크기가 커졌다 작아졌다 하는 현상 100% 방지 */
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.75);
 }
 
 .picker-header-title {
@@ -2995,6 +3014,7 @@ body.theme-light .empty-slot-card {
 
 /* 모달 상단 6슬롯 선택 바 */
 .picker-slot-selector-bar {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -3086,6 +3106,7 @@ body.theme-light .empty-slot-card {
 }
 
 .picker-tabs {
+  flex-shrink: 0;
   display: flex;
   gap: 6px;
   padding: 12px 24px;
@@ -3116,20 +3137,35 @@ body.theme-light .empty-slot-card {
 
 .picker-tab-pane {
   display: none;
-  padding: 20px 24px;
-  overflow-y: auto;
+  padding: 16px 24px;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 .picker-tab-pane.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+#panePresets.active,
+#paneDirect.active {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 /* 카탈로그 검색 바 */
 .picker-search-bar {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .picker-search-bar .search-icon {
   position: absolute;
@@ -3163,11 +3199,12 @@ body.theme-light .empty-slot-card {
 
 /* 지역 필터 칩 */
 .picker-region-chips {
+  flex-shrink: 0;
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 12px;
-  margin-bottom: 14px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
 }
 .region-chip {
   padding: 5px 12px;
@@ -3191,14 +3228,17 @@ body.theme-light .empty-slot-card {
   border-color: #10b981;
 }
 
-/* 카탈로그 리스트 그리드 */
+/* 카탈로그 리스트 그리드 (고정 영역 안에서만 유려하게 스크롤) */
 .picker-catalog-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  align-content: start;
   gap: 12px;
-  max-height: 480px;
+  flex: 1;
+  min-height: 0;
+  max-height: none;
   overflow-y: auto;
-  padding-right: 4px;
+  padding-right: 6px;
 }
 .catalog-item-card {
   padding: 14px 16px;
@@ -3249,6 +3289,51 @@ body.theme-light .empty-slot-card {
   gap: 8px;
   font-size: 0.78rem;
   color: var(--text-secondary);
+}
+
+/* 카탈로그 카드 내 실시간 실매물 건수 뱃지 */
+.item-listing-counts {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+  font-size: 0.74rem;
+  flex-wrap: wrap;
+}
+.badge-count-jeonse {
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  font-weight: 700;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+.badge-count-sale {
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: rgba(59, 130, 246, 0.12);
+  color: #60a5fa;
+  font-weight: 700;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.badge-count-jeonse.active-mode {
+  background: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
+}
+.badge-count-sale.active-mode {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+.badge-count-zero {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(244, 63, 94, 0.12);
+  color: #f43f5e;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border: 1px solid rgba(244, 63, 94, 0.25);
 }
 .item-price-preview {
   font-size: 0.82rem;

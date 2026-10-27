@@ -570,7 +570,7 @@ function renderAllComplexes() {
       emptyCard.innerHTML = `
         <div class="empty-slot-icon">+</div>
         <h3 class="empty-slot-title">슬롯 ${slotIndex + 1} 비어있음</h3>
-        <p class="empty-slot-desc">클릭하여 전국 대장 아파트를 검색하거나 원하는 단지를 등록하세요.</p>
+        <p class="empty-slot-desc">클릭하여 부산 500세대+ 대단지 아파트를 검색하여 등록하세요.</p>
         <button class="btn-empty-slot-add" data-slot="${slotIndex}">+ 아파트 등록하기</button>
       `;
       gridElem.appendChild(emptyCard);
@@ -912,17 +912,23 @@ function assignComplexToSlot(slotIndex, complexData) {
   // 정확한 연차 계산
   complexData.ageYears = getComplexAgeYears(complexData);
 
-  // 네이버 URL 파라미터 최신화
+  // 현재 사용자의 거래 모드(전세/매매)에 맞춘 네이버 URL 파라미터 최신화
+  const activeTrade = state.tradeType || 'jeonse';
+  const tradeCode = activeTrade === 'sale' ? 'A1' : 'B1';
   if (complexData.complexId) {
-    complexData.naverUrl = `https://new.land.naver.com/complexes/${complexData.complexId}?a=APT&b=B1&e=RETAIL&order=prc`;
-    complexData.naverMobileUrl = `https://fin.land.naver.com/complexes/${complexData.complexId}?tradeTypes=B1`;
+    complexData.naverUrl = `https://new.land.naver.com/complexes/${complexData.complexId}?a=APT&b=${tradeCode}&e=RETAIL&order=prc`;
+    complexData.naverMobileUrl = `https://fin.land.naver.com/complexes/${complexData.complexId}?tradeTypes=${tradeCode}`;
   }
 
-  // 매물 데이터 연동 (실매물 맵 + 보충 연동으로 전세/매매 모두 즉시 조회 가능)
-  complexData.initialArticles = getComplexArticles(complexData);
+  // 매물 데이터 연동 (100% REAL_BUSAN_ARTICLES 실매물 연동)
+  const realArticles = getComplexArticles(complexData);
+  complexData.initialArticles = realArticles;
 
-  // 전역 articles에 등록
-  state.articles[complexData.id] = [...complexData.initialArticles];
+  // 전역 articles에 등록 (id 및 numeric complexId 양쪽 모두 바인딩)
+  state.articles[complexData.id] = [...realArticles];
+  if (complexData.complexId) {
+    state.articles[String(complexData.complexId)] = [...realArticles];
+  }
   state.activeSlots[slotIndex] = complexData;
 
   saveActiveSlotsToStorage();
@@ -930,8 +936,8 @@ function assignComplexToSlot(slotIndex, complexData) {
   closeComplexPickerModal();
 
   showToast(
-    '🏢 아파트 등록 완료',
-    `슬롯 ${slotIndex + 1}에 [${complexData.name}] (${(complexData.households || 0).toLocaleString()}세대·${getComplexAgeYears(complexData)}년차)이(가) 성공적으로 배치되었습니다!`,
+    '🏢 아파트 교체 완료',
+    `슬롯 ${slotIndex + 1}에 [${complexData.name}] (${(complexData.households || 0).toLocaleString()}세대·${complexData.ageYears}년차)이(가) 성공적으로 배치되었습니다!`,
     'success'
   );
 }
@@ -1039,7 +1045,19 @@ function renderCatalogList(filterQuery = '', filterRegion = 'all') {
   const container = document.getElementById('catalogListContainer');
   if (!container) return;
 
-  const catalog = window.CATALOG_COMPLEXES || [];
+  const realMap = window.REAL_BUSAN_ARTICLES || {};
+  const rawCatalog = window.CATALOG_COMPLEXES || [];
+
+  // 부산 500세대 이상 대단지 조건 엄격 필터링:
+  // 1) REAL_BUSAN_ARTICLES에 100% 네이버 실매물이 존재하는 단지
+  // 2) 세대수 500세대 이상 (사용자 지정 특수 단지 복천현대 370세대 포함)
+  const catalog = rawCatalog.filter(c => {
+    const cId = String(c.complexId);
+    const hasRealArticles = Boolean(realMap[cId] && realMap[cId].length > 0);
+    const is500Plus = (c.households >= 500) || c.id === 'bokcheon_hyundai' || c.complexId === 4834;
+    return hasRealArticles && is500Plus;
+  });
+
   const rawQ = (filterQuery || '').trim();
   const q = rawQ.replace(/\s+/g, '').toLowerCase();
 
@@ -1058,7 +1076,7 @@ function renderCatalogList(filterQuery = '', filterRegion = 'all') {
       }
     }
 
-    // 2. 검색어 매칭 (공백 제거 퍼지 매칭: '복천 현대' -> '동래복천현대' 100% 매칭)
+    // 2. 검색어 매칭 (공백 제거 퍼지 매칭)
     if (q) {
       const normName = (c.name || '').replace(/\s+/g, '').toLowerCase();
       const normShort = (c.shortName || '').replace(/\s+/g, '').toLowerCase();
@@ -1073,64 +1091,69 @@ function renderCatalogList(filterQuery = '', filterRegion = 'all') {
   });
 
   const activeIds = state.activeSlots.filter(Boolean).map(c => c.id);
+  const activeComplexIds = state.activeSlots.filter(Boolean).map(c => c.complexId);
   let html = '';
 
-  // 사용자가 검색어를 입력했으나 카탈로그에 일치하는 단지가 전혀 없을 때만 직접 신규 등록 카드 제공
-  if (q && filtered.length === 0) {
-    html += `
-      <div class="catalog-item-card custom-quick-add-card" style="grid-column: 1 / -1; background: rgba(59, 130, 246, 0.08); border: 1.5px dashed #3b82f6; padding: 14px 18px; border-radius: 8px; margin-bottom: 8px;">
-        <div class="item-top-row">
-          <h4 class="item-complex-name" style="color: #3b82f6;">➕ "${rawQ}" 아파트로 슬롯 ${state.targetSlotIndex + 1}에 신규 등록</h4>
-          <span class="item-region-tag" style="background: #3b82f6; color: white;">부산 신규 등록</span>
-        </div>
-        <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 6px 0;">
-          카탈로그 외 부산 아파트도 실시간 모니터링 매물을 자동 구성하여 즉시 슬롯 ${state.targetSlotIndex + 1}에 배치합니다.
+  if (filtered.length === 0) {
+    html = `
+      <div style="grid-column: 1 / -1; padding: 48px 24px; text-align: center; color: var(--text-muted); background: var(--bg-tertiary); border-radius: 8px; border: 1px dashed var(--border-light); margin: 20px 0;">
+        <div style="font-size: 2.2rem; margin-bottom: 12px;">🏢</div>
+        <h4 style="color: var(--text-primary); font-size: 1.05rem; margin-bottom: 8px;">
+          ${q ? `'${rawQ}' 검색 결과가 없습니다.` : '선택하신 지역에 일치하는 500세대 이상 단지가 없습니다.'}
+        </h4>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; max-width: 540px; margin: 0 auto 12px;">
+          본 프로그램은 <strong>부산시 500세대 이상 대단지 아파트</strong>(368개 단지, 25,500+ 네이버 실매물)만을 엄격히 관리합니다.
         </p>
+        <p style="font-size: 0.8rem; color: var(--text-muted);">
+          💡 <strong>검색 팁:</strong> 단지명의 핵심 단어로 검색해보세요 (예: '래미안', '아이파크', '화명', '사직', '엘시티', '삼익비치' 등)
+        </p>
+      </div>
+    `;
+    container.innerHTML = html;
+    return;
+  }
+
+  const isJeonseMode = state.tradeType === 'jeonse';
+  const tradeLabel = isJeonseMode ? '전세' : '매매';
+
+  html = filtered.map(item => {
+    const isAlreadyIn = activeIds.includes(item.id) || activeComplexIds.includes(item.complexId);
+    const cId = String(item.complexId);
+    const realArts = realMap[cId] || [];
+    const jeonseCount = realArts.filter(a => a.tradeType === 'jeonse').length;
+    const saleCount = realArts.filter(a => a.tradeType === 'sale').length;
+    const targetCount = isJeonseMode ? jeonseCount : saleCount;
+
+    return `
+      <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}">
+        <div class="item-top-row">
+          <h4 class="item-complex-name">${item.name}</h4>
+          <span class="item-region-tag">${item.region || '부산'}</span>
+        </div>
+        <div class="item-meta-row">
+          <span>🏢 ${(item.households || 0).toLocaleString()}세대</span>
+          <span>·</span>
+          <span>${getComplexAgeYears(item)}년차 (${item.buildYear}년 준공)</span>
+          <span>·</span>
+          <span>${item.shortDistrict || item.district}</span>
+        </div>
+        <div class="item-listing-counts">
+          <span class="badge-count-jeonse ${isJeonseMode ? 'active-mode' : ''}">전세 ${jeonseCount}건</span>
+          <span class="badge-count-sale ${!isJeonseMode ? 'active-mode' : ''}">매매 ${saleCount}건</span>
+          ${targetCount === 0 ? `<span class="badge-count-zero">현재 ${tradeLabel} 0건</span>` : ''}
+        </div>
+        <div class="item-price-preview">
+          <span>전세 기준: <strong>${formatPrice(item.jeonseBase || 45000)}</strong></span>
+          <span>매매 기준: <strong>${formatPrice(item.saleBase || 90000)}</strong></span>
+        </div>
         <div class="item-actions">
-          <button class="btn-select-catalog-item btn-quick-custom-register" data-custom-name="${rawQ}" style="background: #3b82f6; color: white; font-weight: 700; padding: 7px 16px; border-radius: 4px; cursor: pointer; border: none;">
-            🚀 이 이름으로 슬롯 ${state.targetSlotIndex + 1}에 1클릭 등록하기 →
+          <button class="btn-select-catalog-item ${isAlreadyIn ? 'already-selected' : ''}" data-id="${item.id}" data-complex-id="${item.complexId}">
+            ${isAlreadyIn ? '현재 화면 슬롯에 있음 (재배치)' : `슬롯 ${state.targetSlotIndex + 1}에 배치하기 →`}
           </button>
         </div>
       </div>
     `;
-  }
-
-  if (filtered.length === 0 && !q) {
-    html += `
-      <div style="grid-column: 1 / -1; padding: 40px; text-align: center; color: var(--text-muted);">
-        <p>검색 조건에 맞는 부산 아파트가 없습니다.</p>
-        <small>상단의 [➕ 네이버 단지번호 직접 등록] 탭에서 원하는 아파트를 직접 등록하실 수 있습니다.</small>
-      </div>
-    `;
-  } else {
-    html += filtered.map(item => {
-      const isAlreadyIn = activeIds.includes(item.id);
-      return `
-        <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}">
-          <div class="item-top-row">
-            <h4 class="item-complex-name">${item.name}</h4>
-            <span class="item-region-tag">${item.region || '부산'}</span>
-          </div>
-          <div class="item-meta-row">
-            <span>🏢 ${(item.households || 0).toLocaleString()}세대</span>
-            <span>·</span>
-            <span>${getComplexAgeYears(item)}년차 (${item.buildYear}년 준공)</span>
-            <span>·</span>
-            <span>${item.shortDistrict || item.district}</span>
-          </div>
-          <div class="item-price-preview">
-            <span>전세 기준: <strong>${formatPrice(item.jeonseBase || 45000)}</strong></span>
-            <span>매매 기준: <strong>${formatPrice(item.saleBase || 90000)}</strong></span>
-          </div>
-          <div class="item-actions">
-            <button class="btn-select-catalog-item ${isAlreadyIn ? 'already-selected' : ''}" data-id="${item.id}">
-              ${isAlreadyIn ? '현재 화면에 있음 (교체 선택)' : `슬롯 ${state.targetSlotIndex + 1}에 선택`}
-            </button>
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
+  }).join('');
 
   container.innerHTML = html;
 }
@@ -2294,66 +2317,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 카탈로그 리스트에서 아파트 선택 또는 1클릭 즉시 등록 클릭
+  // 카탈로그 리스트에서 아파트 선택 클릭
   const catalogList = document.getElementById('catalogListContainer');
   if (catalogList) {
     catalogList.addEventListener('click', (e) => {
-      // 1) 1클릭 커스텀 신규 아파트 즉시 등록
-      const quickBtn = e.target.closest('.btn-quick-custom-register');
-      if (quickBtn) {
-        const customName = quickBtn.dataset.customName || '';
-        if (customName) {
-          const catalog = window.CATALOG_COMPLEXES || [];
-          const normCustom = customName.replace(/\s+/g, '').toLowerCase();
-          const matchCatalog = catalog.find(c => {
-            const n1 = (c.name || '').replace(/\s+/g, '').toLowerCase();
-            const n2 = (c.shortName || '').replace(/\s+/g, '').toLowerCase();
-            return n1.includes(normCustom) || normCustom.includes(n1) || n2.includes(normCustom);
-          });
-
-          if (matchCatalog) {
-            assignComplexToSlot(state.targetSlotIndex, matchCatalog);
-            closeComplexPickerModal();
-            showToast('부산 아파트 등록', `[${matchCatalog.name}] 단지가 슬롯 ${state.targetSlotIndex + 1}에 배치되었습니다.`, 'success');
-            return;
-          }
-
-          const customComplex = {
-            id: 'custom_' + Date.now(),
-            complexId: 100000 + Math.floor(Math.random() * 90000),
-            name: customName,
-            shortName: customName.length > 7 ? customName.substring(0, 6) : customName,
-            district: '부산광역시',
-            shortDistrict: '부산',
-            households: 750,
-            buildYear: 2020,
-            metro: '부산 역세권',
-            shortMetro: '역세권',
-            region: '부산',
-            jeonseBase: 42000,
-            saleBase: 78000,
-            naverUrl: `https://new.land.naver.com/complexes/112331?a=APT&b=B1&e=RETAIL`,
-            naverMobileUrl: `https://fin.land.naver.com/complexes/112331`
-          };
-          customComplex.ageYears = getComplexAgeYears(customComplex);
-          customComplex.initialArticles = getComplexArticles(customComplex);
-          assignComplexToSlot(state.targetSlotIndex, customComplex);
-          closeComplexPickerModal();
-          showToast('신규 아파트 등록', `[${customName}] 단지가 슬롯 ${state.targetSlotIndex + 1}에 등록되었습니다.`, 'success');
-        }
-        return;
-      }
-
-      // 2) 카탈로그 등록 아파트 선택
       const selectBtn = e.target.closest('.btn-select-catalog-item');
       if (!selectBtn) return;
       const id = selectBtn.dataset.id;
+      const complexId = selectBtn.dataset.complexId ? parseInt(selectBtn.dataset.complexId, 10) : null;
       const catalog = window.CATALOG_COMPLEXES || [];
-      const item = catalog.find(c => c.id === id);
+      const item = catalog.find(c => (complexId && c.complexId === complexId) || c.id === id);
       if (item) {
         assignComplexToSlot(state.targetSlotIndex, item);
-        closeComplexPickerModal();
-        showToast('아파트 선택 완료', `[${item.name}] 단지가 슬롯 ${state.targetSlotIndex + 1}에 배치되었습니다.`, 'success');
       }
     });
   }
@@ -2385,8 +2360,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const match = complexIdRaw.match(/complexes\/(\d+)/) || complexIdRaw.match(/(\d{3,8})/);
       const complexIdNum = match ? parseInt(match[1], 10) : parseInt(complexIdRaw, 10);
 
-      // 카탈로그에 일치하는 단지번호나 이름이 있는지 우선 검색
+      // 카탈로그 및 REAL_BUSAN_ARTICLES에 일치하는 단지번호나 이름이 있는지 우선 검색
       const catalog = window.CATALOG_COMPLEXES || [];
+      const realMap = window.REAL_BUSAN_ARTICLES || {};
       const foundInCatalog = catalog.find(c => {
         if (!isNaN(complexIdNum) && c.complexId === complexIdNum) return true;
         if (name && (c.name.replace(/\s+/g,'').toLowerCase() === name.replace(/\s+/g,'').toLowerCase() || c.shortName.replace(/\s+/g,'').toLowerCase() === name.replace(/\s+/g,'').toLowerCase())) return true;
@@ -2395,8 +2371,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (foundInCatalog) {
         assignComplexToSlot(state.targetSlotIndex, foundInCatalog);
-        closeComplexPickerModal();
-        showToast('아파트 등록 완료', `[${foundInCatalog.name}] 단지가 슬롯 ${state.targetSlotIndex + 1}에 배치되었습니다.`, 'success');
         document.getElementById('inputDirectName').value = '';
         document.getElementById('inputDirectComplexId').value = '';
         return;
@@ -2407,16 +2381,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const district = (document.getElementById('inputDirectDistrict').value || '').trim() || '부산광역시 동래구';
-      const metro = (document.getElementById('inputDirectMetro').value || '').trim() || '부산 역세권';
+      // 만약 REAL_BUSAN_ARTICLES에 등록된 500세대+ 단지가 아닌 경우 안내
+      const hasRealArticles = Boolean(realMap[String(complexIdNum)] && realMap[String(complexIdNum)].length > 0);
+      if (!hasRealArticles) {
+        alert('⚠️ 안내: 입력하신 단지는 부산 500세대 이상 대단지 목록(368개 단지)에 없거나 실매물이 연동되지 않은 소형 단지입니다.\n\n본 프로그램은 500세대 이상 대단지만 엄격히 관리하므로, 카탈로그 탭에서 500세대 이상 단지를 선택해주세요.');
+        return;
+      }
+
+      const district = (document.getElementById('inputDirectDistrict').value || '').trim() || '부산광역시';
       const households = parseInt(document.getElementById('inputDirectHouseholds').value, 10) || 500;
       const buildYear = parseInt(document.getElementById('inputDirectBuildYear').value, 10) || 2020;
-      const jBase = parseInt(document.getElementById('inputDirectJeonseBase').value, 10) || 45000;
-      const sBase = parseInt(document.getElementById('inputDirectSaleBase').value, 10) || 85000;
+      const finalName = name || `부산 대단지 (${complexIdNum})`;
 
-      const finalName = name || `부산 아파트 (${complexIdNum})`;
       const newComplex = {
-        id: `custom_${complexIdNum}`,
+        id: `c_${complexIdNum}`,
         complexId: complexIdNum,
         name: finalName,
         shortName: finalName.length > 8 ? finalName.slice(0, 7) + '..' : finalName,
@@ -2426,20 +2404,16 @@ document.addEventListener('DOMContentLoaded', () => {
         buildYear: buildYear,
         buildMonth: 1,
         ageYears: Math.max(1, new Date().getFullYear() - buildYear + 1),
-        metro: metro,
-        shortMetro: metro.split('/')[0].trim(),
-        region: district.includes('동래') ? '부산 동래구' : (district.includes('연제') ? '부산 연제구' : (district.includes('해운대') ? '부산 해운대구' : '부산')),
-        jeonseBase: jBase,
-        saleBase: sBase,
-        naverUrl: `https://new.land.naver.com/complexes/${complexIdNum}?a=APT&b=B1&e=RETAIL&order=prc`,
-        naverMobileUrl: `https://fin.land.naver.com/complexes/${complexIdNum}?tradeTypes=B1`
+        metro: '부산 역세권',
+        shortMetro: '역세권',
+        region: '부산',
+        jeonseBase: 45000,
+        saleBase: 85000,
+        naverUrl: `https://new.land.naver.com/complexes/${complexIdNum}?a=APT&b=${state.tradeType === 'sale' ? 'A1' : 'B1'}&e=RETAIL&order=prc`,
+        naverMobileUrl: `https://fin.land.naver.com/complexes/${complexIdNum}?tradeTypes=${state.tradeType === 'sale' ? 'A1' : 'B1'}`
       };
 
       assignComplexToSlot(state.targetSlotIndex, newComplex);
-      closeComplexPickerModal();
-      showToast('아파트 직접 등록 완료', `[${newComplex.name}] 단지가 슬롯 ${state.targetSlotIndex + 1}에 등록되었습니다.`, 'success');
-
-      // 폼 비우기
       document.getElementById('inputDirectName').value = '';
       document.getElementById('inputDirectComplexId').value = '';
     });
