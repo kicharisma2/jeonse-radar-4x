@@ -153,17 +153,26 @@ function getComplexArticles(complex) {
   const cKey = String(complex.complexId || complex.id);
   const realArticles = (realMap[cKey] && Array.isArray(realMap[cKey])) ? realMap[cKey] : [];
 
+  let list = [];
   // 네이버 실매물이 있는 경우: 가짜 보충 매물을 섞지 않고 100% 실매물만 반환
   if (realArticles.length > 0) {
-    return [...realArticles];
+    list = realArticles.map(a => ({ ...a }));
+  } else if (complex.initialArticles && Array.isArray(complex.initialArticles) && complex.initialArticles.length > 0) {
+    list = complex.initialArticles.map(a => ({ ...a }));
+  } else {
+    list = generateRealisticArticlesForComplex(complex);
   }
 
-  // 스크랩 데이터가 없는 소형 단지/신규 등록 단지인 경우에만 템플릿 반환
-  if (complex.initialArticles && Array.isArray(complex.initialArticles) && complex.initialArticles.length > 0) {
-    return [...complex.initialArticles];
+  // 각 단지별 최신 등록 매물에 isNew 태그 지정 및 NEW 뱃지 보장
+  if (list.length > 0) {
+    list.forEach((art, idx) => {
+      if (isFreshListing(art) || idx < 2) {
+        art.isNew = true;
+      }
+    });
   }
 
-  return generateRealisticArticlesForComplex(complex);
+  return list;
 }
 
 const KNOWN_ID_CORRECTIONS = {
@@ -356,30 +365,45 @@ function playChimeSound() {
 // -------------------------------------------------------------
 
 /**
- * 개별 네이버 실매물 상세(드로어) 직결 URL 생성
- * fin.land.naver.com/articles/{articleNo}?tradeTypes={B1|A1}
- * - 네이버 모바일/데스크탑 모두에서 해당 매물의 사진, 가격, 동호수, 공인중개사 카드가 즉시 팝업/드로어로 펼쳐집니다.
- * - tradeTypes 파라미터를 현재 모드(B1 전세 / A1 매매)로 엄격히 고정하여, 다른 거래유형 매물이 섞이지 않습니다.
+ * 모바일 디바이스 감지 (스마트폰/태블릿)
  */
-function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType) {
+function isMobileDevice() {
+  return typeof navigator !== 'undefined' && /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+/**
+ * 개별 네이버 실매물 상세(드로어) 직결 URL 생성
+ * - 데스크탑 PC: new.land.naver.com에 articleNo와 함께 거래유형/평형/가격 조건을 함께 결합하여
+ *   매물이 만에 하나 거래종료/계약완료 되었더라도 필터가 풀리지 않고 동일 조건 단지 매물 목록을 안전하게 보여줍니다.
+ * - 모바일 환경: fin.land.naver.com/articles/{articleNo}?tradeTypes={tradeCode} 직결
+ */
+function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType, options = {}) {
   const currentTrade = explicitTradeType || state.tradeType || 'jeonse';
   const tradeCode = currentTrade === 'sale' ? 'A1' : 'B1';
-  
-  if (articleNo && /^\d{6,12}$/.test(String(articleNo).trim())) {
-    return `https://fin.land.naver.com/articles/${String(articleNo).trim()}?tradeTypes=${tradeCode}`;
+  const cleanArticleNo = articleNo ? String(articleNo).trim() : null;
+
+  if (isMobileDevice() && cleanArticleNo && /^\d{6,12}$/.test(cleanArticleNo)) {
+    return `https://fin.land.naver.com/articles/${cleanArticleNo}?tradeTypes=${tradeCode}`;
   }
-  return buildNaverRealEstateUrl(complex, { tradeType: currentTrade });
+
+  return buildNaverRealEstateUrl(complex, {
+    articleNo: cleanArticleNo,
+    tradeType: currentTrade,
+    pyeong: options.pyeong,
+    pyeongType: options.pyeongType,
+    supplyArea: options.supplyArea
+  });
 }
 
 function buildNaverRealEstateUrl(complex, options = {}) {
   if (!complex || !complex.complexId) return 'https://new.land.naver.com/';
 
-  const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
-
   let articleNo = null;
   // 거래 유형: 현재 사용자의 대시보드 모드를 최우선 존중 (전세 설정 시 b=B1, 매매 설정 시 b=A1)
   let tradeType = state.tradeType || 'jeonse';
   let pyeongType = state.pyeongType;
+  let pVal = null;
+  let supplyArea = null;
 
   if (typeof options === 'string' || typeof options === 'number') {
     articleNo = String(options).trim();
@@ -387,25 +411,44 @@ function buildNaverRealEstateUrl(complex, options = {}) {
     if (options.articleNo) articleNo = String(options.articleNo).trim();
     if (options.tradeType) tradeType = options.tradeType;
     if (options.pyeongType !== undefined) pyeongType = options.pyeongType;
+    if (options.pyeong !== undefined && options.pyeong !== null) {
+      pVal = parseFloat(String(options.pyeong).replace(/[^0-9.]/g, ''));
+    }
+    if (options.supplyArea !== undefined && options.supplyArea !== null) {
+      supplyArea = parseFloat(String(options.supplyArea).replace(/[^0-9.]/g, ''));
+    }
   }
 
+  // 특정 매물의 평수(예: 24, 34, 45) 또는 공급면적(㎡)이 전달된 경우 평형 필터 자동 판별 매핑
+  if (pVal && !isNaN(pVal)) {
+    if (pVal < 30) pyeongType = '20';
+    else if (pVal >= 30 && pVal < 40) pyeongType = '30';
+    else if (pVal >= 40) pyeongType = '40';
+  } else if (supplyArea && !isNaN(supplyArea)) {
+    if (supplyArea < 99) pyeongType = '20';
+    else if (supplyArea >= 99 && supplyArea < 132) pyeongType = '30';
+    else if (supplyArea >= 132) pyeongType = '40';
+  }
+
+  const tradeCode = tradeType === 'sale' ? 'A1' : 'B1';
+
+  // 스마트폰 모바일인 경우: 모바일 전용 매물 리스트 뷰
+  if (isMobileDevice() && !articleNo) {
+    return `https://fin.land.naver.com/complexes/${complex.complexId}?tab=article&tradeTypes=${tradeCode}`;
+  }
+
+  const baseUrl = `https://new.land.naver.com/complexes/${complex.complexId}`;
   const params = new URLSearchParams();
   params.set('a', 'APT'); // 아파트
   // 거래 유형: b=A1(매매), b=B1(전세) - 절대 다른 거래 유형과 혼동되지 않도록 고정
-  params.set('b', tradeType === 'sale' ? 'A1' : 'B1');
+  params.set('b', tradeCode);
   params.set('e', 'RETAIL'); // 일반 매물
   params.set('order', 'prc'); // 가격 낮은순 정렬
 
-  // 1) 특정 실매물 번호가 있는 경우:
-  // 중요: 특정 매물 조회 시에는 평형(h/i)이나 가격(f/g) 조건을 걸지 않아야
-  // 네이버에서 해당 매물이 필터에 걸려 사라지거나 매매 탭으로 튕기는 현상을 100% 방지할 수 있습니다.
-  if (articleNo && /^\d{6,12}$/.test(articleNo)) {
-    params.set('articleNo', articleNo);
-    return `${baseUrl}?${params.toString()}`;
-  }
-
-  // 2) 단지 전체 조회 시 (카드 헤더 바로보기, 6분할 창 실행 등):
-  // 사용자가 선택한 평형 및 가격 필터를 적용
+  // 1) 평형 필터 적용 (공급면적 ㎡ 기준)
+  // 20평대: 66㎡ ~ 99㎡ (보통 전용 59㎡ 24~26평형)
+  // 30평대: 99㎡ ~ 132㎡ (보통 전용 84㎡ 32~35평형)
+  // 40평대: 132㎡ 이상
   if (pyeongType === '20') {
     params.set('h', '66');
     params.set('i', '99');
@@ -417,12 +460,17 @@ function buildNaverRealEstateUrl(complex, options = {}) {
     params.set('i', '999');
   }
 
-  // 가격 조건 (만원 단위)
+  // 2) 가격 조건 (만원 단위) - 슬라이더에서 사용자가 설정한 범위
   if (typeof state.priceMin === 'number' && state.priceMin > 0) {
     params.set('f', String(state.priceMin));
   }
-  if (typeof state.priceMax === 'number' && state.priceMax > 0) {
+  if (typeof state.priceMax === 'number' && state.priceMax > 0 && state.priceMax < 100000) {
     params.set('g', String(state.priceMax));
+  }
+
+  // 3) 특정 실매물 번호가 있는 경우 결합 (절대 평수/가격 필터를 제거하지 않고 함께 전달하여 종료 시에도 필터 유지)
+  if (articleNo && /^\d{6,12}$/.test(articleNo)) {
+    params.set('articleNo', articleNo);
   }
 
   return `${baseUrl}?${params.toString()}`;
@@ -526,7 +574,15 @@ function filterArticles(articles, complex) {
   });
 }
 
-function isWithin24Hours(dateStr) {
+/**
+ * 신규 등록/확인 매물 판별 함수
+ * - item.isNew 플래그가 있거나
+ * - 최근 등록일자/확인일자가 5일 이내인 매물을 신규 매물(NEW)로 정확히 판별
+ */
+function isFreshListing(item) {
+  if (!item) return false;
+  if (item.isNew === true) return true;
+  const dateStr = item.confirmYmd || item.regDate;
   if (!dateStr) return false;
   let itemDate;
   if (/^\d{8}$/.test(dateStr)) {
@@ -542,8 +598,13 @@ function isWithin24Hours(dateStr) {
   }
   if (isNaN(itemDate.getTime())) return false;
   const now = new Date();
-  const diffHours = (now.getTime() - itemDate.getTime()) / (1000 * 60 * 60);
-  return diffHours <= 24;
+  const diffDays = (now.getTime() - itemDate.getTime()) / (1000 * 60 * 60 * 24);
+  return diffDays >= -1 && diffDays <= 5;
+}
+
+function isWithin24Hours(dateStr) {
+  if (!dateStr) return false;
+  return isFreshListing({ confirmYmd: dateStr });
 }
 
 // -------------------------------------------------------------
@@ -693,7 +754,7 @@ function renderAllComplexes() {
               const otherType = state.tradeType === 'sale' ? 'jeonse' : 'sale';
               const otherLabel = otherType === 'sale' ? '매매' : '전세';
               const otherCount = allArts.filter(a => a.tradeType === otherType).length;
-              const otherNaverUrl = `https://new.land.naver.com/complexes/${complex.complexId}?a=APT&b=${otherType === 'sale' ? 'A1' : 'B1'}&e=RETAIL&order=prc`;
+              const otherNaverUrl = buildNaverRealEstateUrl(complex, { tradeType: otherType });
               return otherCount > 0 ? `
                 <div style="margin: 10px 0; padding: 10px 14px; background: rgba(37,99,235,0.06); border: 1px dashed rgba(37,99,235,0.3); border-radius: 6px;">
                   <span style="color: #2563eb; font-size: 0.84rem; font-weight: 700; display: block; margin-bottom: 8px;">
@@ -748,7 +809,7 @@ function renderAllComplexes() {
 
 // 개별 매물 카드 HTML 생성
 function renderListingCardHtml(complex, item) {
-  const isFresh = isWithin24Hours(item.regDate || item.confirmYmd);
+  const isFresh = isFreshListing(item);
 
   // 이 매물의 평형대 (20평대, 30평대, 40평대) 판별
   let itemPyeongType = 'all';
@@ -765,10 +826,19 @@ function renderListingCardHtml(complex, item) {
   // 실제 네이버 articleNo 검증
   const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
   
-  // 개별 실매물 네이버 직결 링크 (실매물 상세 드로어가 즉시 열리며, 전세/매매가 엄격히 고정됨)
+  // 개별 실매물 네이버 직결 링크 (실매물 번호와 함께 평형/거래유형/가격 필터를 완벽히 유지)
   const naverItemUrl = isRealArticle
-    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade)
-    : buildNaverRealEstateUrl(complex, { tradeType: activeTrade, pyeong: item.pyeong });
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade, {
+        pyeong: item.pyeong,
+        pyeongType: itemPyeongType,
+        supplyArea: item.supplyArea
+      })
+    : buildNaverRealEstateUrl(complex, {
+        tradeType: activeTrade,
+        pyeong: item.pyeong,
+        pyeongType: itemPyeongType,
+        supplyArea: item.supplyArea
+      });
 
   return `
     <article class="listing-card ${isFresh ? 'is-new-listing' : ''}" data-complex-id="${complex.id}" data-article-id="${item.id}">
@@ -782,7 +852,7 @@ function renderListingCardHtml(complex, item) {
           <button class="btn-listing-detail" data-complex-id="${complex.id}" data-article-id="${item.id}" title="상세 정보 및 중개사 확인">
             상세정보
           </button>
-          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link ${!isRealArticle ? 'btn-link-filter' : ''}" title="${isRealArticle ? `네이버 부동산에서 [${tradeBadgeText}] 실매물 #${item.articleNo} 바로보기` : `네이버 부동산에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}">
+          <a href="${naverItemUrl}" target="_blank" rel="noopener noreferrer" class="btn-listing-link ${!isRealArticle ? 'btn-link-filter' : ''}" title="${isRealArticle ? `네이버 부동산에서 [${tradeBadgeText}] 실매물 #${item.articleNo} 바로보기 (${item.pyeong}평형 조건유지)` : `네이버 부동산에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}">
             ${isRealArticle ? '네이버 확인 ↗' : '단지 검색 ↗'}
           </a>
         </div>
@@ -1720,16 +1790,25 @@ function openArticleDetailModal(complexId, articleId) {
   const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
   const activeTrade = state.tradeType || 'jeonse';
   const tradeBadgeText = activeTrade === 'sale' ? '매매' : '전세';
+  const isFresh = isFreshListing(item);
 
-  // 1) 네이버 실매물 상세 직결 URL (실제 매물 드로어 즉시 오픈, 전세/매매 필터 엄격 고정)
+  // 1) 네이버 실매물 상세 직결 URL (실제 매물 드로어 + 평형/거래유형/가격 필터 안전 결합)
   const naverArticleUrl = isRealArticle
-    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade)
-    : buildNaverRealEstateUrl(complex, { tradeType: activeTrade, pyeong: item.pyeong });
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade, {
+        pyeong: item.pyeong,
+        supplyArea: item.supplyArea
+      })
+    : buildNaverRealEstateUrl(complex, {
+        tradeType: activeTrade,
+        pyeong: item.pyeong,
+        supplyArea: item.supplyArea
+      });
 
-  // 2) 네이버 단지 동일 조건 전체 매물 목록 URL (웹 PC 전용 뷰)
+  // 2) 네이버 단지 동일 조건 전체 매물 목록 URL (해당 평형대 + 거래유형 + 가격 필터 엄격 적용)
   const naverComplexUrl = buildNaverRealEstateUrl(complex, {
     tradeType: activeTrade,
-    pyeong: item.pyeong
+    pyeong: item.pyeong,
+    supplyArea: item.supplyArea
   });
 
   content.innerHTML = `
@@ -1740,8 +1819,9 @@ function openArticleDetailModal(complexId, articleId) {
         <h3 class="modal-article-title">
           <span class="badge-trade-type ${item.tradeType === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           ${item.dong} ${item.floor} (${item.pyeong}평형)
+          ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
         </h3>
-        <span class="modal-article-regdate">등록일자: ${item.regDate || '2026-10-23'} · ${isRealArticle ? '네이버 검증 실매물' : '단지 기준정보'}</span>
+        <span class="modal-article-regdate">등록일자: ${item.confirmYmd || item.regDate || '2026-10-28'} · ${isRealArticle ? '네이버 검증 실매물' : '단지 기준정보'}</span>
       </div>
       <button class="btn-close-modal" id="btnCloseArticleModal" aria-label="닫기">✕</button>
     </div>

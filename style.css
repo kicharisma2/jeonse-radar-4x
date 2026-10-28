@@ -4332,6 +4332,45 @@ body.theme-light .btn-backup-action:hover {
   }
 }
 
+/* =============================================================
+   신규 매물 (NEW) 전용 뱃지 & 실시간 하이라이트 스타일
+   ============================================================= */
+.badge-new-subtle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 2px 7px;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #ffffff !important;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  border-radius: 9999px;
+  box-shadow: 0 1px 4px rgba(239, 68, 68, 0.4);
+  animation: pulse-new-badge 2s infinite ease-in-out;
+  line-height: 1.2;
+  margin-left: 6px;
+  vertical-align: middle;
+}
 
+@keyframes pulse-new-badge {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 1px 4px rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.65);
+  }
+}
 
+.listing-card.is-new-listing {
+  border-left: 3.5px solid #ef4444 !important;
+  background: linear-gradient(to right, rgba(239, 68, 68, 0.03), transparent 30%);
+}
 
+.listing-card.is-new-listing:hover {
+  border-left-color: #dc2626 !important;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.12);
+}
