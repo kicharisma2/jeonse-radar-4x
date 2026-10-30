@@ -375,21 +375,15 @@ function isMobileDevice() {
 }
 
 /**
- * 개별 네이버 실매물 상세(드로어) 직결 URL 생성
- * - 데스크탑 및 모바일 환경: fin.land.naver.com/articles/{articleNo}?tradeTypes={tradeCode} 직결
- *   네이버 공식 실매물 상세 뷰(매물 상세 스펙 + 지도 + 로드뷰)로 100% 안전하게 열리며 404 오류가 원천 차단됩니다.
- * - 개별 articleNo가 없거나 만료된 경우 동일 조건 단지 목록으로 안전 연결합니다.
+ * 개별 네이버 매물 직결 URL 생성
+ * - 개별 매물번호(articleNo) 링크(fin.land.naver.com/articles/...) 사용 시
+ *   매물이 계약완료/노출종료되면 네이버가 서울 노원구 '월계동 빌딩' 기본 지도로 튕기거나
+ *   '노출이 종료된 매물' 에러가 발생하는 문제를 원천 차단합니다.
+ * - 따라서 해당 부산 아파트 단지의 동일 조건(전세/매매, 평형, 가격순) 네이버 공식 페이지로 안전하게 직결하여
+ *   항상 100% 살아있는 현재 실매물 목록을 보여줍니다.
  */
 function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType, options = {}) {
   const currentTrade = explicitTradeType || state.tradeType || 'jeonse';
-  const tradeCode = currentTrade === 'sale' ? 'A1' : 'B1';
-  const cleanArticleNo = articleNo ? String(articleNo).trim() : null;
-
-  // 네이버 실매물 상세 직결 (PC/모바일 공통 100% 무결점 링크)
-  // new.land.naver.com에 articleNo 파라미터를 넘길 때 발생하는 404 리다이렉트 원천 차단
-  if (cleanArticleNo && /^\d{6,12}$/.test(cleanArticleNo)) {
-    return `https://fin.land.naver.com/articles/${cleanArticleNo}?tradeTypes=${tradeCode}`;
-  }
 
   return buildNaverRealEstateUrl(complex, {
     tradeType: currentTrade,
@@ -632,6 +626,26 @@ function filterArticles(articles, complex) {
       if (item.pyeong < 30 || item.pyeong >= 40) return false;
     } else if (state.pyeongType === '40') {
       if (item.pyeong < 40) return false;
+    }
+
+    // 4. 노출 종료/과거 만료 매물 자동 필터링 (최근 14일 이내 유효 확인 매물만 유지)
+    // 네이버 부동산에서 14일 초과(9월 및 10월 초)된 오래된 매물은 이미 계약 완료/노출 종료되어
+    // 클릭 시 '노출이 종료된 매물' 또는 기본 지도(서울 월계동)로 튕기므로 안전하게 제외
+    const rawDate = item.confirmYmd || item.regDate;
+    if (rawDate) {
+      const ymdStr = String(rawDate).replace(/[^0-9]/g, '');
+      if (ymdStr.length === 8) {
+        const itemY = parseInt(ymdStr.slice(0, 4), 10);
+        const itemM = parseInt(ymdStr.slice(4, 6), 10) - 1;
+        const itemD = parseInt(ymdStr.slice(6, 8), 10);
+        const itemTime = new Date(itemY, itemM, itemD).getTime();
+        const now = new Date();
+        const nowTime = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+        const diffDays = Math.round((nowTime - itemTime) / (1000 * 60 * 60 * 24));
+        if (diffDays > 14) {
+          return false;
+        }
+      }
     }
 
     return true;
