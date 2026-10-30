@@ -1460,15 +1460,8 @@ body.theme-light .summary-spec-text {
 }
 
 .listing-card.highlight-new {
-  border-color: rgba(244, 63, 94, 0.6);
-  box-shadow: 0 0 12px rgba(244, 63, 94, 0.25);
-  animation: highlightPulse 2s ease-in-out;
-}
-
-@keyframes highlightPulse {
-  0% { transform: scale(1.02); }
-  50% { transform: scale(1); }
-  100% { transform: scale(1); }
+  border-color: var(--border-light);
+  box-shadow: none;
 }
 
 /* Card Top Header: 가격 & 액션 버튼 정렬 */
@@ -4333,44 +4326,51 @@ body.theme-light .btn-backup-action:hover {
 }
 
 /* =============================================================
-   신규 매물 (NEW) 전용 뱃지 & 실시간 하이라이트 스타일
+   신규 매물 (NEW) 전용 뱃지 & 실시간 하이라이트 스타일 (초소형/초저자극/차분한 미니멀 디자인)
    ============================================================= */
 .badge-new-subtle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  padding: 2px 7px;
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-  color: #ffffff !important;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  border-radius: 9999px;
-  box-shadow: 0 1px 4px rgba(239, 68, 68, 0.4);
-  animation: pulse-new-badge 2s infinite ease-in-out;
-  line-height: 1.2;
-  margin-left: 6px;
+  padding: 0 3px;
+  background: #f1f5f9;
+  color: #64748b !important;
+  border: 1px solid #cbd5e1;
+  font-size: 0.50rem !important;
+  font-weight: 600;
+  letter-spacing: 0;
+  border-radius: 2px;
+  line-height: 1.1;
+  margin-left: 4px;
   vertical-align: middle;
+  box-shadow: none !important;
+  animation: none !important;
+  opacity: 0.8;
 }
 
-@keyframes pulse-new-badge {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 1px 4px rgba(239, 68, 68, 0.4);
-  }
-  50% {
-    transform: scale(1.06);
-    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.65);
-  }
+[data-theme="dark"] .badge-new-subtle {
+  background: #1e293b;
+  color: #94a3b8 !important;
+  border-color: #334155;
 }
 
+/* 신규 매물 카드: 붉은색 좌측 하이라이트 및 배경색 완전 제거 (일반 카드와 동일한 테두리/배경 유지) */
 .listing-card.is-new-listing {
-  border-left: 3.5px solid #ef4444 !important;
-  background: linear-gradient(to right, rgba(239, 68, 68, 0.03), transparent 30%);
+  border-left: 1px solid var(--border-light) !important;
+  background: var(--bg-tertiary) !important;
+  box-shadow: none !important;
+  animation: none !important;
 }
 
 .listing-card.is-new-listing:hover {
-  border-left-color: #dc2626 !important;
-  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.12);
+  border-left-color: rgba(255, 255, 255, 0.25) !important;
 }
+
+/* 동일 매물 묶기 중개사 수 표시 뱃지 */
+.duplicate-count-pill {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-left: 3px;
+}
+

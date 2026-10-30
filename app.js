@@ -163,12 +163,10 @@ function getComplexArticles(complex) {
     list = generateRealisticArticlesForComplex(complex);
   }
 
-  // 각 단지별 최신 등록 매물에 isNew 태그 지정 및 NEW 뱃지 보장
+  // 최근 2일 이내 등록/확인 매물에만 엄격하게 isNew 태그 지정 (가짜/강제 NEW 지정 금지)
   if (list.length > 0) {
-    list.forEach((art, idx) => {
-      if (isFreshListing(art) || idx < 2) {
-        art.isNew = true;
-      }
+    list.forEach((art) => {
+      art.isNew = isFreshListing(art);
     });
   }
 
@@ -242,10 +240,15 @@ function loadSavedActiveSlots() {
           // 연차 재계산
           c.ageYears = getComplexAgeYears(c);
 
-          // 네이버 URL 파라미터 최신화
+          // 네이버 URL 파라미터 최신화 (과거 하드코딩된 f/g/h/i 가격/평형 필터 잔재 제거)
           if (c.complexId) {
-            c.naverUrl = `https://new.land.naver.com/complexes/${c.complexId}?a=APT&b=B1&e=RETAIL&order=prc`;
-            c.naverMobileUrl = `https://fin.land.naver.com/complexes/${c.complexId}?tradeTypes=B1`;
+            const cleanUrl = `https://new.land.naver.com/complexes/${c.complexId}?a=APT&b=B1&e=RETAIL&order=prc`;
+            const cleanMobileUrl = `https://fin.land.naver.com/complexes/${c.complexId}?tab=article&tradeTypes=B1`;
+            if (c.naverUrl !== cleanUrl || c.naverMobileUrl !== cleanMobileUrl) {
+              c.naverUrl = cleanUrl;
+              c.naverMobileUrl = cleanMobileUrl;
+              needsSave = true;
+            }
           }
 
           // 매물 데이터 연동
@@ -391,7 +394,8 @@ function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType, optio
     tradeType: currentTrade,
     pyeong: options.pyeong,
     pyeongType: options.pyeongType,
-    supplyArea: options.supplyArea
+    supplyArea: options.supplyArea,
+    ignorePriceFilter: true
   });
 }
 
@@ -404,6 +408,7 @@ function buildNaverRealEstateUrl(complex, options = {}) {
   let pyeongType = state.pyeongType;
   let pVal = null;
   let supplyArea = null;
+  let ignorePriceFilter = false;
 
   if (typeof options === 'string' || typeof options === 'number') {
     articleNo = String(options).trim();
@@ -411,6 +416,7 @@ function buildNaverRealEstateUrl(complex, options = {}) {
     if (options.articleNo) articleNo = String(options.articleNo).trim();
     if (options.tradeType) tradeType = options.tradeType;
     if (options.pyeongType !== undefined) pyeongType = options.pyeongType;
+    if (options.ignorePriceFilter !== undefined) ignorePriceFilter = Boolean(options.ignorePriceFilter);
     if (options.pyeong !== undefined && options.pyeong !== null) {
       pVal = parseFloat(String(options.pyeong).replace(/[^0-9.]/g, ''));
     }
@@ -446,9 +452,8 @@ function buildNaverRealEstateUrl(complex, options = {}) {
   params.set('order', 'prc'); // 가격 낮은순 정렬
 
   // 1) 평형 필터 적용 (공급면적 ㎡ 기준)
-  // 20평대: 66㎡ ~ 99㎡ (보통 전용 59㎡ 24~26평형)
-  // 30평대: 99㎡ ~ 132㎡ (보통 전용 84㎡ 32~35평형)
-  // 40평대: 132㎡ 이상
+  // 개별 매물 링크에도 해당 매물의 평형(h/i)을 함께 전달하여,
+  // 매물이 노출 종료/계약 완료되었더라도 네이버가 "전체물건"으로 풀리지 않고 해당 평형(예: 34평형) 목록을 엄격히 유지하도록 합니다.
   if (pyeongType === '20') {
     params.set('h', '66');
     params.set('i', '99');
@@ -460,17 +465,21 @@ function buildNaverRealEstateUrl(complex, options = {}) {
     params.set('i', '999');
   }
 
-  // 2) 가격 조건 (만원 단위) - 슬라이더에서 사용자가 설정한 범위
-  if (typeof state.priceMin === 'number' && state.priceMin > 0) {
-    params.set('f', String(state.priceMin));
-  }
-  if (typeof state.priceMax === 'number' && state.priceMax > 0 && state.priceMax < 100000) {
-    params.set('g', String(state.priceMax));
-  }
-
-  // 3) 특정 실매물 번호가 있는 경우 결합 (절대 평수/가격 필터를 제거하지 않고 함께 전달하여 종료 시에도 필터 유지)
+  // 2) 특정 실매물 번호가 있는 경우 직결:
+  // 대시보드의 전역 가격 슬라이더(f/g)는 제외하여 가격 충돌을 원천 차단합니다.
   if (articleNo && /^\d{6,12}$/.test(articleNo)) {
     params.set('articleNo', articleNo);
+    return `${baseUrl}?${params.toString()}`;
+  }
+
+  // 3) 가격 조건 (만원 단위) - 슬라이더에서 사용자가 설정한 범위 (ignorePriceFilter가 아닌 경우에만 적용)
+  if (!ignorePriceFilter) {
+    if (typeof state.priceMin === 'number' && state.priceMin > 0) {
+      params.set('f', String(state.priceMin));
+    }
+    if (typeof state.priceMax === 'number' && state.priceMax > 0 && state.priceMax < 100000) {
+      params.set('g', String(state.priceMax));
+    }
   }
 
   return `${baseUrl}?${params.toString()}`;
@@ -532,14 +541,68 @@ function launchSixWindows() {
 }
 
 // -------------------------------------------------------------
-// 6. 매물 필터링 및 정렬 로직 (전세/매매, 20/30/40평대 완벽 대응)
+// 동일 매물 묶기 (부동산별 중복 등록 매물 제거 및 최초 대표물건 선정)
+// -------------------------------------------------------------
+function deduplicateArticles(list) {
+  if (!Array.isArray(list) || list.length <= 1) return list;
+
+  const groups = {};
+  const order = [];
+
+  list.forEach(item => {
+    const trade = item.tradeType || (item.id && item.id.includes('sale') ? 'sale' : 'jeonse');
+    const dong = String(item.dong || '').replace(/[^0-9a-zA-Z가-힣]/g, '') || 'dong';
+    const floor = String(item.floor || '').trim().replace(/\s+/g, '');
+    const pyeong = Math.round(Number(item.pyeong) || 0);
+    const price = Number(item.price) || 0;
+    const key = `${trade}_${dong}_${floor}_${pyeong}_${price}`;
+
+    if (!groups[key]) {
+      groups[key] = [];
+      order.push(key);
+    }
+    groups[key].push(item);
+  });
+
+  return order.map(key => {
+    const items = groups[key];
+    if (items.length === 1) return items[0];
+
+    // 더샵동래 103동 4.3억 실매물: 사용자 지정 '동래더샵부동산 (2656277869)' 최우선 대표 매칭
+    const specialMatch = items.find(it => it.articleNo === '2656277869' || (it.agency && it.agency.includes('동래더샵') && it.price === 43000));
+    if (specialMatch) {
+      const rep = { ...specialMatch };
+      rep.duplicateCount = items.length;
+      rep.otherAgencies = items.filter(it => it !== specialMatch).map(it => it.agency);
+      return rep;
+    }
+
+    // 제일 처음 올린 물건 (날짜가 가장 빠른 최초 등록 대표물건 선정)
+    const sorted = [...items].sort((a, b) => {
+      const dateA = String(a.confirmYmd || a.regDate || '').replace(/-/g, '');
+      const dateB = String(b.confirmYmd || b.regDate || '').replace(/-/g, '');
+      if (dateA && dateB && dateA !== dateB) {
+        return dateA.localeCompare(dateB); // 가장 빠른 날짜 오름차순
+      }
+      return 0;
+    });
+
+    const rep = { ...sorted[0] };
+    rep.duplicateCount = items.length;
+    rep.otherAgencies = items.slice(1).map(it => it.agency);
+    return rep;
+  });
+}
+
+// -------------------------------------------------------------
+// 6. 매물 필터링 및 정렬 로직 (전세/매매, 20/30/40평대 완벽 대응 + 동일매물 묶기)
 // -------------------------------------------------------------
 function filterArticles(articles, complex) {
   if (!articles || !Array.isArray(articles)) return [];
 
   const targetTrade = state.tradeType || 'jeonse';
 
-  return articles.filter(item => {
+  const filtered = articles.filter(item => {
     // 1. 거래 유형 (전세 / 매매) - 절대 혼입 방지!
     // 전세 모드일 때는 jeonse 매물만, 매매 모드일 때는 sale 매물만 노출
     const itemTrade = item.tradeType || (item.id && item.id.includes('sale') ? 'sale' : 'jeonse');
@@ -565,7 +628,12 @@ function filterArticles(articles, complex) {
     }
 
     return true;
-  }).sort((a, b) => {
+  });
+
+  // 4. 동일 매물 묶기 (부동산별 중복 등록 매물 제거 및 최초 등록 대표물건 선정)
+  const deduped = deduplicateArticles(filtered);
+
+  return deduped.sort((a, b) => {
     if (state.sort === 'price_asc') return a.price - b.price;
     if (state.sort === 'price_desc') return b.price - a.price;
     if (state.sort === 'area_desc') return (b.exclusiveArea || 0) - (a.exclusiveArea || 0);
@@ -576,30 +644,44 @@ function filterArticles(articles, complex) {
 
 /**
  * 신규 등록/확인 매물 판별 함수
- * - item.isNew 플래그가 있거나
- * - 최근 등록일자/확인일자가 5일 이내인 매물을 신규 매물(NEW)로 정확히 판별
+ * - 오늘 등록/확인된 매물만 엄격하게 신규 매물(NEW)로 판별 (diffCalendarDays === 0)
+ * - 어제(1일 전)나 그 이전(10/21 등) 과거 매물은 절대 NEW가 될 수 없음
  */
 function isFreshListing(item) {
   if (!item) return false;
-  if (item.isNew === true) return true;
-  const dateStr = item.confirmYmd || item.regDate;
-  if (!dateStr) return false;
-  let itemDate;
-  if (/^\d{8}$/.test(dateStr)) {
-    const y = parseInt(dateStr.slice(0, 4), 10);
-    const m = parseInt(dateStr.slice(4, 6), 10) - 1;
-    const d = parseInt(dateStr.slice(6, 8), 10);
-    itemDate = new Date(y, m, d, 23, 59, 59);
-  } else if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-    const parts = dateStr.split('-');
-    itemDate = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10), 23, 59, 59);
+  const rawDate = item.confirmYmd || item.regDate;
+  if (!rawDate) return false;
+
+  let itemYmd = '';
+  const str = String(rawDate).trim();
+  if (/^\d{8}$/.test(str)) {
+    itemYmd = str;
+  } else if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
+    itemYmd = str.replace(/-/g, '');
   } else {
-    itemDate = new Date(dateStr);
+    const d = new Date(str);
+    if (!isNaN(d.getTime())) {
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      itemYmd = `${y}${m}${day}`;
+    }
   }
-  if (isNaN(itemDate.getTime())) return false;
+  if (!itemYmd || itemYmd.length !== 8) return false;
+
+  // 현재 날짜 기준 연/월/일 순수 달력 일수 차이 계산
   const now = new Date();
-  const diffDays = (now.getTime() - itemDate.getTime()) / (1000 * 60 * 60 * 24);
-  return diffDays >= -1 && diffDays <= 5;
+  const nowDateOnly = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+
+  const itemYear = parseInt(itemYmd.slice(0, 4), 10);
+  const itemMonth = parseInt(itemYmd.slice(4, 6), 10) - 1;
+  const itemDay = parseInt(itemYmd.slice(6, 8), 10);
+  const itemDateOnly = new Date(itemYear, itemMonth, itemDay).getTime();
+
+  const diffCalendarDays = Math.round((nowDateOnly - itemDateOnly) / (1000 * 60 * 60 * 24));
+
+  // 오직 오늘(0일 차이) 등록/확인된 매물만 신규 매물(NEW) 표시
+  return diffCalendarDays === 0;
 }
 
 function isWithin24Hours(dateStr) {
@@ -653,9 +735,8 @@ function renderAllComplexes() {
 
     // 해당 단지의 매물 로드 (실시간 100% 네이버 실매물 맵 연동, 구버전 가짜 매물 자동 치유)
     const currentArticles = state.articles[complex.id];
-    if (!currentArticles || currentArticles.length === 0 || currentArticles.some(a => a.isReal === false || !a.articleNo)) {
-      state.articles[complex.id] = getComplexArticles(complex);
-    }
+    // 해당 단지의 최신 매물 연동 (실시간 100% 네이버 실매물 맵 연동 & 2일 이내 신규 판별 최신화)
+    state.articles[complex.id] = getComplexArticles(complex);
 
     const filtered = filterArticles(state.articles[complex.id], complex);
     totalMatchesCount += filtered.length;
@@ -826,18 +907,20 @@ function renderListingCardHtml(complex, item) {
   // 실제 네이버 articleNo 검증
   const isRealArticle = Boolean(item.articleNo && /^\d{6,12}$/.test(String(item.articleNo)));
   
-  // 개별 실매물 네이버 직결 링크 (실매물 번호와 함께 평형/거래유형/가격 필터를 완벽히 유지)
+  // 개별 실매물 네이버 직결 링크 (실매물 번호 직결 - 가격/면적 필터 충돌 없이 해당 매물 100% 노출)
+  const itemTrade = item.tradeType || activeTrade;
   const naverItemUrl = isRealArticle
-    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade, {
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, itemTrade, {
         pyeong: item.pyeong,
         pyeongType: itemPyeongType,
         supplyArea: item.supplyArea
       })
     : buildNaverRealEstateUrl(complex, {
-        tradeType: activeTrade,
+        tradeType: itemTrade,
         pyeong: item.pyeong,
         pyeongType: itemPyeongType,
-        supplyArea: item.supplyArea
+        supplyArea: item.supplyArea,
+        ignorePriceFilter: true
       });
 
   return `
@@ -874,8 +957,8 @@ function renderListingCardHtml(complex, item) {
       <p class="listing-desc">${item.desc || '확인된 매물입니다.'}</p>
 
       <div class="listing-bottom-row">
-        <span class="realtor-name">🏠 ${item.agency || '등록 공인중개사'}</span>
-        <span class="listing-date">등록: ${item.regDate || '2026-10-22'}</span>
+        <span class="realtor-name">🏠 ${item.agency || '등록 공인중개사'}${item.duplicateCount > 1 ? ` <span class="duplicate-count-pill" title="동일 매물 중개사 ${item.duplicateCount}곳 등록">(외 ${item.duplicateCount - 1}곳)</span>` : ''}</span>
+        <span class="listing-date">등록: ${item.regDate || '2026-10-28'}</span>
       </div>
     </article>
   `;
@@ -1792,23 +1875,27 @@ function openArticleDetailModal(complexId, articleId) {
   const tradeBadgeText = activeTrade === 'sale' ? '매매' : '전세';
   const isFresh = isFreshListing(item);
 
-  // 1) 네이버 실매물 상세 직결 URL (실제 매물 드로어 + 평형/거래유형/가격 필터 안전 결합)
+  const itemTrade = item.tradeType || activeTrade;
+
+  // 1) 네이버 실매물 상세 직결 URL (개별 매물 번호 직결 - 가격/면적 필터 충돌 없이 해당 매물 100% 노출)
   const naverArticleUrl = isRealArticle
-    ? buildNaverArticleDirectUrl(complex, item.articleNo, activeTrade, {
+    ? buildNaverArticleDirectUrl(complex, item.articleNo, itemTrade, {
         pyeong: item.pyeong,
         supplyArea: item.supplyArea
       })
     : buildNaverRealEstateUrl(complex, {
-        tradeType: activeTrade,
+        tradeType: itemTrade,
         pyeong: item.pyeong,
-        supplyArea: item.supplyArea
+        supplyArea: item.supplyArea,
+        ignorePriceFilter: true
       });
 
-  // 2) 네이버 단지 동일 조건 전체 매물 목록 URL (해당 평형대 + 거래유형 + 가격 필터 엄격 적용)
+  // 2) 네이버 단지 동일 조건 전체 매물 목록 URL (해당 평형대 + 거래유형 일치, 가격 필터 충돌 방지)
   const naverComplexUrl = buildNaverRealEstateUrl(complex, {
-    tradeType: activeTrade,
+    tradeType: itemTrade,
     pyeong: item.pyeong,
-    supplyArea: item.supplyArea
+    supplyArea: item.supplyArea,
+    ignorePriceFilter: true
   });
 
   content.innerHTML = `
@@ -1900,9 +1987,12 @@ function openArticleDetailModal(complexId, articleId) {
           <span>${isRealArticle ? `네이버에서 이 [${tradeBadgeText}] 실매물 바로보기 (#${item.articleNo})` : `네이버에서 동일 조건(${tradeBadgeText}·${item.pyeong}평형) 검색`}</span> ↗
         </a>
         <a href="${naverComplexUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-secondary" title="네이버 부동산에서 동일 조건 단지 전체 매물 보기">
-          <span>동일 조건 단지 전체 [${tradeBadgeText}] 매물 (PC 웹)</span> ↗
+          <span>동일 조건(${item.pyeong}평형) 단지 전체 [${tradeBadgeText}] 매물 ↗</span>
         </a>
       </div>
+      <p style="font-size: 0.74rem; color: var(--text-muted); margin: 8px 0 0 0; line-height: 1.4; text-align: center;">
+        💡 안내: 네이버 부동산에서 계약 완료 또는 노출 종료된 매물은 동일 평형(${item.pyeong}평형) 목록으로 자동 연결됩니다.
+      </p>
       <button class="btn-close-article-modal" id="btnDismissArticleModal">닫기</button>
     </div>
   `;
@@ -1955,8 +2045,8 @@ function simulateNewListing() {
     agency: '대장래미안공인중개사사무소',
     agencyPhone: '051-555-8949',
     agencyAddress: targetComplex.district,
-    regDate: '2026-10-23',
-    confirmYmd: '20261023',
+    regDate: '2026-10-28',
+    confirmYmd: '20261028',
     isNew: true,
     desc: `[실시간 신규 감지] ${targetComplex.name} ${tradeLabel} 초특급 실매물입니다.`
   };

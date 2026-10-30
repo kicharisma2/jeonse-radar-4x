@@ -16498,7 +16498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "한양공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2657233094",
@@ -16523,7 +16523,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2657174319",
@@ -16548,7 +16548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "서울공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2652071437",
@@ -16998,7 +16998,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리집공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2656189584",
@@ -17123,7 +17123,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신용공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2657057933",
@@ -17148,7 +17148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2656745497",
@@ -17573,7 +17573,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK황금부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2657318107",
@@ -17598,7 +17598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신용공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4352-sale-2655960663",
@@ -19289,7 +19289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "주공공인중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2655142326",
@@ -19539,7 +19539,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2656906798",
@@ -19689,7 +19689,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명인공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2655570687",
@@ -19864,7 +19864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "나라부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2654606314",
@@ -20014,7 +20014,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2656100724",
@@ -20089,7 +20089,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명운공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2657146317",
@@ -20114,7 +20114,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행운공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2654404443",
@@ -20289,7 +20289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2657173809",
@@ -20314,7 +20314,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4358-sale-2656122007",
@@ -42842,7 +42842,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4834-sale-2656848925",
@@ -42892,7 +42892,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4834-sale-2655562918",
@@ -43242,7 +43242,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4834-sale-2656837803",
@@ -49132,7 +49132,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4920-sale-2653951747",
@@ -49307,7 +49307,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4920-sale-2651633537",
@@ -49557,7 +49557,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4920-sale-2656715470",
@@ -50534,7 +50534,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "1번지공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4925-sale-2653683614",
@@ -50859,7 +50859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4925-sale-2656232492",
@@ -51359,7 +51359,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스카이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4925-sale-2656835548",
@@ -51609,7 +51609,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4925-sale-2656618927",
@@ -51709,7 +51709,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4925-sale-2656835924",
@@ -51859,7 +51859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "4979": [
@@ -52036,7 +52036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "참조은공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2656950145",
@@ -52061,7 +52061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2654073974",
@@ -52261,7 +52261,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "구인공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2654737024",
@@ -52311,7 +52311,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "성안부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2654077423",
@@ -52911,7 +52911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "구인공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2656201800",
@@ -53311,7 +53311,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "벽산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4979-sale-2654783062",
@@ -55025,7 +55025,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신흥공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-jeonse-2654433717",
@@ -55225,7 +55225,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "개금행운공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-jeonse-2656873481",
@@ -55925,7 +55925,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대우공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-sale-2656246089",
@@ -56175,7 +56175,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-sale-2655192933",
@@ -56575,7 +56575,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "개금89공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-sale-2656969269",
@@ -56600,7 +56600,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-sale-2656925597",
@@ -56625,7 +56625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가나공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5024-sale-2656248242",
@@ -57277,7 +57277,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대건공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5039-jeonse-2654380071",
@@ -57402,7 +57402,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5039-sale-2656315030",
@@ -57827,7 +57827,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "개금89공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5039-sale-2654848739",
@@ -58402,7 +58402,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대우공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5039-sale-2656469660",
@@ -58777,7 +58777,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "개금행운공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5039-sale-2653159887",
@@ -59154,7 +59154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2657014858",
@@ -59179,7 +59179,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신라공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2654546675",
@@ -59229,7 +59229,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2655075968",
@@ -59379,7 +59379,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "한일부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2656599541",
@@ -60279,7 +60279,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "88공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2657206017",
@@ -60304,7 +60304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2656836381",
@@ -60604,7 +60604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5040-sale-2655039388",
@@ -73491,7 +73491,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동일공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-jeonse-2655473327",
@@ -73891,7 +73891,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "협성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2652511598",
@@ -73941,7 +73941,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2653208297",
@@ -74091,7 +74091,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장수지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2651637009",
@@ -74191,7 +74191,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "시민공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2656257402",
@@ -74791,7 +74791,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2651444198",
@@ -74891,7 +74891,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5178-sale-2655202092",
@@ -75493,7 +75493,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양정공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5214-sale-2655092236",
@@ -75793,7 +75793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5214-sale-2657113115",
@@ -75818,7 +75818,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신신공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5214-sale-2655302133",
@@ -76218,7 +76218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5214-sale-2653552491",
@@ -76343,7 +76343,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5214-sale-2655715252",
@@ -76845,7 +76845,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양정공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5220-sale-2657207940",
@@ -76870,7 +76870,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신라공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5220-sale-2657116065",
@@ -76895,7 +76895,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신신공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5220-sale-2656605805",
@@ -77395,7 +77395,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5220-sale-2656593262",
@@ -77795,7 +77795,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5220-sale-2656607183",
@@ -78120,7 +78120,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "5243": [
@@ -86372,7 +86372,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-jeonse-2657297787",
@@ -86397,7 +86397,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-jeonse-2653349385",
@@ -86597,7 +86597,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2653710615",
@@ -86672,7 +86672,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2657222003",
@@ -86697,7 +86697,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2657079788",
@@ -86722,7 +86722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2657096179",
@@ -86747,7 +86747,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2652722548",
@@ -86847,7 +86847,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2654384280",
@@ -86922,7 +86922,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2656644137",
@@ -87222,7 +87222,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2654643201",
@@ -87397,7 +87397,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2656342233",
@@ -87597,7 +87597,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2657340320",
@@ -87622,7 +87622,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2656825347",
@@ -87972,7 +87972,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2653164171",
@@ -88022,7 +88022,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린코아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5461-sale-2656992242",
@@ -88047,7 +88047,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골드공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "5463": [
@@ -99455,7 +99455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대하공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2655758318",
@@ -100155,7 +100155,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2656857865",
@@ -100230,7 +100230,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2657210491",
@@ -100255,7 +100255,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대하공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2657164974",
@@ -100280,7 +100280,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2656500973",
@@ -100330,7 +100330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림영재공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2656960841",
@@ -100355,7 +100355,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대하공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5517-sale-2655257110",
@@ -105202,7 +105202,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-jeonse-2656797736",
@@ -105627,7 +105627,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "갤러리공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-jeonse-2657265665",
@@ -105652,7 +105652,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "팔팔공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-jeonse-2657263310",
@@ -105677,7 +105677,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "카이저행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-jeonse-2656875465",
@@ -106252,7 +106252,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "갤러리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2656077716",
@@ -106302,7 +106302,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하늘공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2656784295",
@@ -106527,7 +106527,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2656815724",
@@ -106752,7 +106752,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명품합동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2655364948",
@@ -106977,7 +106977,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데카이저공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2656275191",
@@ -107352,7 +107352,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "샛별공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2657137720",
@@ -107377,7 +107377,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "새롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5536-sale-2656628375",
@@ -112462,7 +112462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2656541623",
@@ -112662,7 +112662,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2652478724",
@@ -112912,7 +112912,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2657048875",
@@ -112937,7 +112937,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2653955706",
@@ -113237,7 +113237,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2654852557",
@@ -113412,7 +113412,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태영공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2656406599",
@@ -113462,7 +113462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿈에그린공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2655955664",
@@ -113812,7 +113812,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태영공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7537-sale-2656279743",
@@ -123281,7 +123281,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-jeonse-2657060073",
@@ -123306,7 +123306,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "88공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-jeonse-2656854059",
@@ -123431,7 +123431,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-jeonse-2656891724",
@@ -123631,7 +123631,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2653587183",
@@ -124106,7 +124106,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2657254266",
@@ -124131,7 +124131,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2657252495",
@@ -124156,7 +124156,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2656965533",
@@ -124181,7 +124181,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2654706590",
@@ -124531,7 +124531,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대부동산",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2653287478",
@@ -124756,7 +124756,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2655246411",
@@ -124881,7 +124881,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부올림픽공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2657250061",
@@ -124906,7 +124906,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동부제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2657112575",
@@ -124931,7 +124931,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래도시공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7716-sale-2654868363",
@@ -132029,7 +132029,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "영진부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2657163622",
@@ -132054,7 +132054,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "성원공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2656905164",
@@ -132154,7 +132154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "합동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2656385465",
@@ -132329,7 +132329,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "비치써밋 박소장공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2657277744",
@@ -132354,7 +132354,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2656770968",
@@ -132454,7 +132454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "영진부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2653280015",
@@ -132504,7 +132504,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "다복부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2657011643",
@@ -132529,7 +132529,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "바다공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2655446713",
@@ -132754,7 +132754,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "성원공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2653254640",
@@ -132804,7 +132804,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2657264474",
@@ -132829,7 +132829,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이예스부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-jeonse-2653797068",
@@ -132979,7 +132979,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2656749673",
@@ -133029,7 +133029,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "바다공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2657192105",
@@ -133054,7 +133054,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2657082699",
@@ -133079,7 +133079,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "시티부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2655993991",
@@ -133129,7 +133129,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2655994067",
@@ -133204,7 +133204,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "합동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2655416439",
@@ -133354,7 +133354,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2656202074",
@@ -133404,7 +133404,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이우리부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2655920941",
@@ -133654,7 +133654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "영진부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2657232630",
@@ -133679,7 +133679,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "영진부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2654991053",
@@ -134179,7 +134179,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "합동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2657009589",
@@ -134204,7 +134204,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "바다공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7770-sale-2656768490",
@@ -134454,7 +134454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "7796": [
@@ -148304,7 +148304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "새부산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2657344155",
@@ -148329,7 +148329,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "지구촌공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2656733794",
@@ -148429,7 +148429,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "베스트부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2657178675",
@@ -148454,7 +148454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "화목스위첸공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2656081307",
@@ -148729,7 +148729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림탑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2656346158",
@@ -148804,7 +148804,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2653945806",
@@ -148929,7 +148929,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "지구촌공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-jeonse-2655664699",
@@ -149004,7 +149004,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "건영공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2656960765",
@@ -149029,7 +149029,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린시티부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2656428400",
@@ -149254,7 +149254,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2656390133",
@@ -149454,7 +149454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2657071813",
@@ -149479,7 +149479,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2655175444",
@@ -149704,7 +149704,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림꿈부동산공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7892-sale-2656820326",
@@ -175173,7 +175173,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대유성공인중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2656797371",
@@ -175648,7 +175648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "열린공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2657314617",
@@ -175673,7 +175673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴경남공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2657272454",
@@ -175698,7 +175698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금알공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2657119721",
@@ -175723,7 +175723,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "오렌지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2654072746",
@@ -175798,7 +175798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금알공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7925-sale-2656801459",
@@ -184571,7 +184571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2655573505",
@@ -184646,7 +184646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2657137663",
@@ -184671,7 +184671,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2656998412",
@@ -184696,7 +184696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행운공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2656043658",
@@ -184746,7 +184746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2657214382",
@@ -184771,7 +184771,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-jeonse-2656816275",
@@ -184921,7 +184921,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린다숲공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2655839993",
@@ -185046,7 +185046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "88해운대벽산부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2654513534",
@@ -185146,7 +185146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657281007",
@@ -185171,7 +185171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657280617",
@@ -185196,7 +185196,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657225308",
@@ -185221,7 +185221,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657220595",
@@ -185246,7 +185246,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린다숲공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657137588",
@@ -185271,7 +185271,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금빛공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657009888",
@@ -185296,7 +185296,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2656875240",
@@ -185746,7 +185746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657220429",
@@ -185771,7 +185771,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그린다숲공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2656013596",
@@ -186371,7 +186371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘지자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7935-sale-2657078300",
@@ -186396,7 +186396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대황금길부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "8039": [
@@ -186423,7 +186423,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8039-jeonse-2656394000",
@@ -187023,7 +187023,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LG진주부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8039-jeonse-2657085214",
@@ -187048,7 +187048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "파트너공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8039-jeonse-2656884726",
@@ -187648,7 +187648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LG신라공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8039-sale-2655434934",
@@ -188923,7 +188923,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LG공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "8453": [
@@ -188950,7 +188950,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "수정공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-jeonse-2657016624",
@@ -188975,7 +188975,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-jeonse-2656680800",
@@ -189625,7 +189625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2655560958",
@@ -189700,7 +189700,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2651603396",
@@ -189750,7 +189750,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657017924",
@@ -189775,7 +189775,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2655865666",
@@ -189875,7 +189875,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657020272",
@@ -189900,7 +189900,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657019293",
@@ -189925,7 +189925,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2656500989",
@@ -190000,7 +190000,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2656052445",
@@ -190075,7 +190075,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "수정공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657018341",
@@ -190100,7 +190100,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2656658818",
@@ -190425,7 +190425,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2653716816",
@@ -190525,7 +190525,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657054317",
@@ -190550,7 +190550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태영공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2657017423",
@@ -190575,7 +190575,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2655840002",
@@ -190625,7 +190625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2655252842",
@@ -190675,7 +190675,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8453-sale-2654082864",
@@ -212566,7 +212566,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2657042048",
@@ -212591,7 +212591,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "낙천대공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2653754099",
@@ -212666,7 +212666,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2655296539",
@@ -212841,7 +212841,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2655182058",
@@ -213166,7 +213166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2657176053",
@@ -213191,7 +213191,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2657072937",
@@ -213216,7 +213216,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대아이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2652109052",
@@ -213691,7 +213691,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "화명뜨란채공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2656376303",
@@ -213966,7 +213966,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "낙천대공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9779-sale-2655622667",
@@ -218364,7 +218364,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동원마을공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9834-sale-2656608676",
@@ -219039,7 +219039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신동원부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9834-sale-2655036895",
@@ -219089,7 +219089,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동원마을공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9834-sale-2655713739",
@@ -219164,7 +219164,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신동원부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9834-sale-2656510102",
@@ -219339,7 +219339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신동원부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9834-sale-2655971395",
@@ -224578,7 +224578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신도시합동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2654916522",
@@ -224653,7 +224653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신도시합동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2652251881",
@@ -224903,7 +224903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e대림공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2657009808",
@@ -224928,7 +224928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신일공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2655567457",
@@ -225128,7 +225128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "한빛 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2655420593",
@@ -225353,7 +225353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "한빛공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2656261555",
@@ -225778,7 +225778,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "한빛공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9889-sale-2656259779",
@@ -233104,7 +233104,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "야후센텀공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656834244",
@@ -233404,7 +233404,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "굿모닝센텀공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656764811",
@@ -233579,7 +233579,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀우리집공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2657287676",
@@ -233604,7 +233604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신도공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2657251225",
@@ -233629,7 +233629,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀복있는공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2657170027",
@@ -233654,7 +233654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "굿모닝센텀공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656968142",
@@ -233679,7 +233679,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656075031",
@@ -233729,7 +233729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대센텀부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2657287088",
@@ -233754,7 +233754,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "야후센텀공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2657040334",
@@ -233779,7 +233779,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신도공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656990548",
@@ -233804,7 +233804,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "키움부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-jeonse-2656838889",
@@ -233879,7 +233879,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "키움부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2655799332",
@@ -234279,7 +234279,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2656974726",
@@ -234304,7 +234304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀복있는공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2656110193",
@@ -234454,7 +234454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하나공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2657278407",
@@ -234479,7 +234479,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "늘봄공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2656066109",
@@ -234554,7 +234554,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀부동산뱅크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2657110384",
@@ -234579,7 +234579,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2657079362",
@@ -234604,7 +234604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하나공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10115-sale-2656833652",
@@ -235506,7 +235506,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2654445642",
@@ -235956,7 +235956,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2656690263",
@@ -236231,7 +236231,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키3.1부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2656614311",
@@ -236381,7 +236381,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동래래미안아이파크공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2657010482",
@@ -236406,7 +236406,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "고려공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2657008736",
@@ -236431,7 +236431,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "고려공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10340-sale-2656818717",
@@ -238598,7 +238598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-jeonse-2656882640",
@@ -238698,7 +238698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "소망공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2654025627",
@@ -239273,7 +239273,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2657018920",
@@ -239298,7 +239298,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2657019159",
@@ -239323,7 +239323,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "소망공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2656601952",
@@ -239573,7 +239573,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "화목공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2654258150",
@@ -239773,7 +239773,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대림쌍용공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "10430-sale-2656759396",
@@ -252928,7 +252928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2655548050",
@@ -253203,7 +253203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데마을공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2655696772",
@@ -253353,7 +253353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2656283941",
@@ -253478,7 +253478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데금샘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2656554468",
@@ -254028,7 +254028,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소(합동)",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2656843545",
@@ -254128,7 +254128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데마을공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2656071487",
@@ -254178,7 +254178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스타공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2657330502",
@@ -254203,7 +254203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소(합동)",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2657321308",
@@ -254228,7 +254228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데금샘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2656299917",
@@ -254378,7 +254378,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데마을공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11378-sale-2657196075",
@@ -254403,7 +254403,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     }
   ],
   "11379": [
@@ -255255,7 +255255,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데금샘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657271762",
@@ -255280,7 +255280,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데마을공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657283672",
@@ -255305,7 +255305,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "럭키공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657079435",
@@ -255330,7 +255330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데마을공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2656032459",
@@ -255405,7 +255405,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "구서진주공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657312501",
@@ -255430,7 +255430,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657112895",
@@ -255455,7 +255455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "민사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2656559556",
@@ -255630,7 +255630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소(합동)",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2656028605",
@@ -255730,7 +255730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "구서진주공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657313458",
@@ -255755,7 +255755,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금정공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2657262629",
@@ -255780,7 +255780,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "쌍용킹공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2656794506",
@@ -255955,7 +255955,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데금샘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2654904349",
@@ -256405,7 +256405,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소(합동)",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11379-sale-2656269094",
@@ -268143,7 +268143,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "늘봄공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2657209057",
@@ -268168,7 +268168,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀복있는공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2657079488",
@@ -268193,7 +268193,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하나공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2656987797",
@@ -268218,7 +268218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "키움부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2656950568",
@@ -268243,7 +268243,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "늘봄공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2656946826",
@@ -268268,7 +268268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "포스코부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2656806000",
@@ -268393,7 +268393,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀신용공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2655816163",
@@ -269068,7 +269068,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스타부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "12034-sale-2654552986",
@@ -287940,7 +287940,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2656806921",
@@ -288065,7 +288065,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657248812",
@@ -288090,7 +288090,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직KCC공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657188280",
@@ -288115,7 +288115,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657116628",
@@ -288140,7 +288140,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직금빛부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657056252",
@@ -288165,7 +288165,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2656845504",
@@ -288265,7 +288265,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직소향부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657325763",
@@ -288290,7 +288290,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657290940",
@@ -288315,7 +288315,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "예가공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2657078399",
@@ -288340,7 +288340,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "만세공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2656920264",
@@ -288365,7 +288365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "지성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2655363753",
@@ -288640,7 +288640,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657259092",
@@ -288665,7 +288665,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골드부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2655903360",
@@ -288915,7 +288915,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657060350",
@@ -288940,7 +288940,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2655908604",
@@ -289165,7 +289165,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657346350",
@@ -289190,7 +289190,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "1번지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657326393",
@@ -289215,7 +289215,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657187385",
@@ -289240,7 +289240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657059536",
@@ -289265,7 +289265,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2656966927",
@@ -289290,7 +289290,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "도울부동산중개법인",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2656877064",
@@ -289440,7 +289440,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2655092971",
@@ -289690,7 +289690,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "도울부동산중개법인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2657298877",
@@ -289715,7 +289715,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2656724230",
@@ -289765,7 +289765,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "쌍용공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2656568982",
@@ -311873,7 +311873,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "오륙도SK뷰부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22444-jeonse-2656805114",
@@ -312373,7 +312373,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK뷰공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22444-jeonse-2651662361",
@@ -312773,7 +312773,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK뷰공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22444-sale-2657320866",
@@ -312798,7 +312798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22444-sale-2656650304",
@@ -324660,7 +324660,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿈에그린좋은집부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2655013535",
@@ -324960,7 +324960,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿈에그린좋은집부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2657043221",
@@ -324985,7 +324985,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2656688186",
@@ -325185,7 +325185,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿈에그린공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2655013458",
@@ -326060,7 +326060,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿈에그린좋은집부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2657034592",
@@ -326085,7 +326085,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센텀그린공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24820-sale-2656547231",
@@ -344726,7 +344726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2656697477",
@@ -344801,7 +344801,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이로얄공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2656308941",
@@ -345001,7 +345001,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연산미라주공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2657009342",
@@ -345026,7 +345026,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이로공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2656894745",
@@ -345676,7 +345676,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이안부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2657123591",
@@ -345701,7 +345701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2657047023",
@@ -345726,7 +345726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "내사랑자이공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26286-sale-2656644952",
@@ -346153,7 +346153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대IPARK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2656839304",
@@ -347003,7 +347003,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린시티마린부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2655609494",
@@ -347153,7 +347153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2657101450",
@@ -347178,7 +347178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린신화아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2655605697",
@@ -347328,7 +347328,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "삼영부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2656843507",
@@ -347478,7 +347478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린신화아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-jeonse-2656603624",
@@ -347653,7 +347653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제니스마린부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2657024944",
@@ -347678,7 +347678,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2656964008",
@@ -347703,7 +347703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대IPARK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2656235250",
@@ -348153,7 +348153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제니스마린부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2654009343",
@@ -348253,7 +348253,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2657153226",
@@ -348278,7 +348278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제니스마린부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2656762590",
@@ -349053,7 +349053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스마트부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2657050667",
@@ -349078,7 +349078,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2657045942",
@@ -349103,7 +349103,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26372-sale-2656735117",
@@ -349155,7 +349155,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더제니스부동산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-jeonse-2654759059",
@@ -349355,7 +349355,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린시티공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-jeonse-2656797751",
@@ -349505,7 +349505,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린시티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-jeonse-2656798599",
@@ -350055,7 +350055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제니아이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-jeonse-2656796358",
@@ -351305,7 +351305,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "마린신화아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-sale-2654384973",
@@ -351380,7 +351380,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미소공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-sale-2656727850",
@@ -351630,7 +351630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미소공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26380-sale-2654556718",
@@ -353719,7 +353719,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세인공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2656934472",
@@ -353744,7 +353744,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장전블루밍공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2656889168",
@@ -354069,7 +354069,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장전블루밍공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2657146954",
@@ -354094,7 +354094,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2656247720",
@@ -354219,7 +354219,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스마트부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2655165762",
@@ -354319,7 +354319,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장전블루밍공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2655000264",
@@ -354444,7 +354444,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장전블루밍공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2657196059",
@@ -354469,7 +354469,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-jeonse-2655952341",
@@ -355169,7 +355169,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "쌍용킹공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2657149074",
@@ -355194,7 +355194,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세인공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2656910486",
@@ -355469,7 +355469,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대우공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2652241914",
@@ -355894,7 +355894,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "장전블루밍공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2657314542",
@@ -355919,7 +355919,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2657201620",
@@ -355944,7 +355944,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미래공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27091-sale-2656183477",
@@ -357883,7 +357883,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금두꺼비공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "101305-jeonse-2656410638",
@@ -359058,7 +359058,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연세공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "101305-jeonse-2656220361",
@@ -359683,7 +359683,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT바다뷰공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "101305-sale-2651992354",
@@ -360208,7 +360208,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐탑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "101305-sale-2655783715",
@@ -360508,7 +360508,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "참조은공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "101305-sale-2655007616",
@@ -360633,7 +360633,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT바다뷰공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "101742": [
@@ -363498,7 +363498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657321191",
@@ -363523,7 +363523,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸자이공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657308264",
@@ -363548,7 +363548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657275377",
@@ -363573,7 +363573,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657246525",
@@ -363598,7 +363598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이킹부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657047451",
@@ -363623,7 +363623,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2657019423",
@@ -363648,7 +363648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2656997617",
@@ -363673,7 +363673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2656785970",
@@ -363723,7 +363723,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대자이공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-jeonse-2656896111",
@@ -363848,7 +363848,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸자이공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656896210",
@@ -363998,7 +363998,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657127294",
@@ -364023,7 +364023,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657083745",
@@ -364048,7 +364048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "베뉴브자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657045673",
@@ -364073,7 +364073,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657030354",
@@ -364098,7 +364098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657006539",
@@ -364123,7 +364123,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656981381",
@@ -364148,7 +364148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이킹부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656801136",
@@ -364298,7 +364298,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이킹부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657100193",
@@ -364323,7 +364323,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "굿모닝자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656092315",
@@ -364548,7 +364548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657335788",
@@ -364573,7 +364573,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657322081",
@@ -364598,7 +364598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸자이공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657287521",
@@ -364623,7 +364623,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657274450",
@@ -364648,7 +364648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대자이공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657247270",
@@ -364673,7 +364673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이킹부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657049952",
@@ -364698,7 +364698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657044104",
@@ -364723,7 +364723,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657014074",
@@ -364748,7 +364748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656979518",
@@ -364773,7 +364773,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "십만평자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656880599",
@@ -365048,7 +365048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657306408",
@@ -365073,7 +365073,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657287395",
@@ -365098,7 +365098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657244667",
@@ -365123,7 +365123,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이킹부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657154993",
@@ -365148,7 +365148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸자이공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2656802713",
@@ -365298,7 +365298,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우동자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102383-sale-2657290971",
@@ -365323,7 +365323,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     }
   ],
   "102843": [
@@ -370684,9 +370684,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "에이스공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
       "id": "103343-jeonse-2657208354",
@@ -370709,9 +370707,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "강남부동산공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "103343-jeonse-2656677655",
@@ -371111,7 +371107,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "리체공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2656982064",
@@ -371136,7 +371132,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2656866177",
@@ -371436,7 +371432,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더좋은공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2657304466",
@@ -371461,7 +371457,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "에이스공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2656582197",
@@ -371511,7 +371507,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2654612660",
@@ -372061,7 +372057,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2657000045",
@@ -372086,7 +372082,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "리체공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2655382686",
@@ -372186,7 +372182,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더좋은공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2655142070",
@@ -372286,7 +372282,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더좋은공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2656157032",
@@ -372361,7 +372357,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2654494051",
@@ -377067,7 +377063,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "광안쌍용부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-jeonse-2653986387",
@@ -377342,7 +377338,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최재훈공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-jeonse-2652521142",
@@ -377442,7 +377438,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최재훈공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-jeonse-2657102404",
@@ -377467,7 +377463,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "내사랑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-jeonse-2657100691",
@@ -377492,7 +377488,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "내사랑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-jeonse-2656244854",
@@ -377892,7 +377888,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최재훈공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-sale-2655375698",
@@ -378692,7 +378688,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "광안쌍용부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-sale-2656732913",
@@ -379142,7 +379138,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최재훈공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-sale-2654757460",
@@ -379192,7 +379188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "내사랑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104037-sale-2656356986",
@@ -388080,7 +388076,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "미소공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2656970306",
@@ -388105,7 +388101,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디이스트보석공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2656908249",
@@ -388130,7 +388126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동문베스트공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2656780450",
@@ -388205,7 +388201,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동문장미공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2657308198",
@@ -388230,7 +388226,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "THE EST원탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2657288001",
@@ -388255,7 +388251,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디이스트보석공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-jeonse-2655302463",
@@ -388330,7 +388326,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "만덕동문공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2656126603",
@@ -388480,7 +388476,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "THE EST원탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2654792956",
@@ -388805,7 +388801,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디이스트보석공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2656280098",
@@ -389055,7 +389051,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "만덕동문공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2657035646",
@@ -389080,7 +389076,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "THE EST원탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2656443032",
@@ -389130,7 +389126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골드공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2657014083",
@@ -389155,7 +389151,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동문장미공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2655584990",
@@ -389655,7 +389651,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디이스트보석공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2653415414",
@@ -389705,7 +389701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동문베스트공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2657013666",
@@ -389730,7 +389726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동문장미공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "104887-sale-2655611462",
@@ -396366,7 +396362,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "손재숙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657089128",
@@ -396391,7 +396387,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신우리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657155975",
@@ -396416,7 +396412,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신김대박부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657107415",
@@ -396441,7 +396437,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657057624",
@@ -396466,7 +396462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657023307",
@@ -396491,7 +396487,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신굿모닝공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656991205",
@@ -396516,7 +396512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신에이스공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656967336",
@@ -396541,7 +396537,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신더행운부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656948828",
@@ -396566,7 +396562,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "정빈공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657061497",
@@ -396591,7 +396587,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "에쏠공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657051103",
@@ -396616,7 +396612,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657010514",
@@ -396641,7 +396637,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신푸르지오부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656995570",
@@ -396666,7 +396662,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스테이트부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656958062",
@@ -396691,7 +396687,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신태양공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2655952169",
@@ -397066,7 +397062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "정빈공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2656300570",
@@ -397591,7 +397587,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신에이스공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2657291376",
@@ -397616,7 +397612,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신더행운부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-jeonse-2653900278",
@@ -397866,7 +397862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-sale-2656633360",
@@ -398166,7 +398162,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-sale-2656633542",
@@ -398216,7 +398212,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "혁신푸르지오부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-sale-2655640343",
@@ -398916,7 +398912,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연혁신우리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105323-sale-2655541119",
@@ -400018,7 +400014,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하나더샵단지내공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105448-sale-2655605979",
@@ -400743,7 +400739,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵보석공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105448-sale-2655652173",
@@ -401293,7 +401289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵오렌지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105448-sale-2657227517",
@@ -401318,7 +401314,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵퍼스트공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105448-sale-2657027814",
@@ -401343,7 +401339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵파크시티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105448-sale-2656568512",
@@ -403160,7 +403156,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656428156",
@@ -403210,7 +403206,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656963700",
@@ -403235,7 +403231,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜모닝부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656614189",
@@ -403585,7 +403581,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "봄봄부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656797741",
@@ -403785,7 +403781,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "이강부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656238397",
@@ -403835,7 +403831,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "봄봄부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2656962789",
@@ -403860,7 +403856,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-jeonse-2655553463",
@@ -404010,7 +404006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2656361796",
@@ -404485,7 +404481,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "수정부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2656963474",
@@ -404510,7 +404506,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2657089129",
@@ -404535,7 +404531,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2656574630",
@@ -404885,7 +404881,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2651625953",
@@ -404935,7 +404931,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대파크공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2657147398",
@@ -404960,7 +404956,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "하이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2657104793",
@@ -404985,7 +404981,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2657094478",
@@ -405010,7 +405006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "감동부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105814-sale-2656367381",
@@ -405485,7 +405481,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     }
   ],
   "105939": [
@@ -416747,7 +416743,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직조아부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2654893455",
@@ -416872,7 +416868,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직조아부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2656203175",
@@ -417722,7 +417718,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "쌍용귀족부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2656805556",
@@ -418197,7 +418193,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청담부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2656424118",
@@ -418397,7 +418393,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안꿀단지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2656291138",
@@ -427057,7 +427053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W해동부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2656766711",
@@ -427432,7 +427428,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2656852821",
@@ -427882,7 +427878,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W스타공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2657251614",
@@ -427907,7 +427903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W 이룸공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2657081948",
@@ -427932,7 +427928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W센트럴공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2656972504",
@@ -427957,7 +427953,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W 이룸공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-jeonse-2656629749",
@@ -428332,7 +428328,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W더탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-sale-2656852388",
@@ -428707,7 +428703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W참공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-sale-2657029520",
@@ -428732,7 +428728,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W참공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-sale-2656993495",
@@ -428757,7 +428753,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W럭키부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108136-sale-2656845928",
@@ -436550,7 +436546,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2657192028",
@@ -436575,7 +436571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "오늘의집공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2656921448",
@@ -436600,7 +436596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "오늘의집공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2656822911",
@@ -437075,7 +437071,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제신도시선물공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2657304072",
@@ -437100,7 +437096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2656667829",
@@ -437375,7 +437371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세종공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2655932917",
@@ -437625,7 +437621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵월드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-jeonse-2656881744",
@@ -438175,7 +438171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "정애부동산공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657170783",
@@ -438200,7 +438196,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "큐브부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657026000",
@@ -438225,7 +438221,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2655339358",
@@ -438425,7 +438421,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657249185",
@@ -438450,7 +438446,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "당근부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657248279",
@@ -438475,7 +438471,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가나공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657227103",
@@ -438500,7 +438496,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강서패밀리공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657356524",
@@ -438525,7 +438521,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657298791",
@@ -438550,7 +438546,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "끌림부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657253393",
@@ -438575,7 +438571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명호공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657170054",
@@ -438600,7 +438596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "큐브부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2657060648",
@@ -438625,7 +438621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온결행정사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "108371-sale-2656718403",
@@ -448070,7 +448066,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안터존공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2657321015",
@@ -448095,7 +448091,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "월드부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2657245149",
@@ -448120,7 +448116,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안최부자공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2655725845",
@@ -448170,7 +448166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안터존공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2657312421",
@@ -448195,7 +448191,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금정공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2656153212",
@@ -448645,7 +448641,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장(553-8000)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2656557606",
@@ -448820,7 +448816,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신세계공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-jeonse-2656912261",
@@ -449370,7 +449366,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657043260",
@@ -449395,7 +449391,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2656672437",
@@ -450145,7 +450141,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657252014",
@@ -450170,7 +450166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안에이스공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657177818",
@@ -450195,7 +450191,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신세계공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657152015",
@@ -450220,7 +450216,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안리치부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2656911526",
@@ -450270,7 +450266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "수정부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2654099481",
@@ -450545,7 +450541,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안터존공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657266864",
@@ -450570,7 +450566,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안파크공인중개사사무소(합동)",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657263872",
@@ -450595,7 +450591,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안파크공인중개사사무소(합동)",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657088234",
@@ -450620,7 +450616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안 킹 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657069942",
@@ -450645,7 +450641,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안에이스공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2657040670",
@@ -450670,7 +450666,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109188-sale-2656803594",
@@ -450872,7 +450868,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가호공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657263218",
@@ -450897,7 +450893,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657195109",
@@ -450922,7 +450918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데레전드공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657153510",
@@ -450947,7 +450943,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더나은(010-9150-8656)부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657094100",
@@ -450972,7 +450968,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "좋은부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2656894341",
@@ -451172,7 +451168,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가호공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2656895207",
@@ -451197,7 +451193,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "좋은공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2656870812",
@@ -451297,7 +451293,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데킹공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657176082",
@@ -451322,7 +451318,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금천공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2656460772",
@@ -452122,7 +452118,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레전드공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2657205691",
@@ -452147,7 +452143,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대길공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2656887858",
@@ -452272,7 +452268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데킹공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-jeonse-2655716618",
@@ -452822,7 +452818,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데레전드공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-sale-2657039401",
@@ -452847,7 +452843,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데스타부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-sale-2655718446",
@@ -453422,7 +453418,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레전드공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-sale-2657206219",
@@ -453447,7 +453443,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금천공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "109359-sale-2656676852",
@@ -462670,9 +462666,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "으뜸공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
       "id": "110276-jeonse-2657189274",
@@ -462695,9 +462689,7 @@ const REAL_BUSAN_ARTICLES = {
         "고층"
       ],
       "agency": "효성해링턴부동산공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "110276-jeonse-2657189141",
@@ -462722,7 +462714,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657168326",
@@ -462747,7 +462739,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "이편한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657138504",
@@ -462772,7 +462764,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성해링턴부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657108336",
@@ -462797,7 +462789,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스카이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657105771",
@@ -462822,7 +462814,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성하나부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657105756",
@@ -462847,7 +462839,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656954699",
@@ -462872,7 +462864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴반도공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657179275",
@@ -462897,7 +462889,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "반도공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656911372",
@@ -462947,7 +462939,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사직공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2657172714",
@@ -462972,7 +462964,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656988348",
@@ -462997,7 +462989,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성해링턴대한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656892388",
@@ -463147,7 +463139,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴럭키공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656873892",
@@ -463322,7 +463314,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2656476861",
@@ -463572,7 +463564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스카이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2655987951",
@@ -463747,7 +463739,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2656842110",
@@ -463972,7 +463964,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성해링턴대한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2656885698",
@@ -464047,7 +464039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "114단지내공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657205675",
@@ -464072,7 +464064,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "도울부동산중개법인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2655907313",
@@ -464197,7 +464189,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657113513",
@@ -464222,7 +464214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657012398",
@@ -464247,7 +464239,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "효성하나부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2655689974",
@@ -465047,7 +465039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "이편한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2654784889",
@@ -465222,7 +465214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2656870765",
@@ -465472,7 +465464,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2656478851",
@@ -470076,7 +470068,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데호박부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2656883866",
@@ -470526,7 +470518,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연제롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2654096529",
@@ -470776,7 +470768,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연제롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2657173703",
@@ -470801,7 +470793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연제롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2657165973",
@@ -470826,7 +470818,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데데시앙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2657165130",
@@ -470851,7 +470843,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데데시앙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2655994002",
@@ -471251,7 +471243,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데탑부동산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2654421045",
@@ -471351,7 +471343,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데데시앙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2657146760",
@@ -471376,7 +471368,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데호박부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2656723530",
@@ -471551,7 +471543,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데비젼공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2656977039",
@@ -471576,7 +471568,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연산탑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2656948844",
@@ -471601,7 +471593,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데호박부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2655204586",
@@ -471826,7 +471818,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데탑부동산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2655862482",
@@ -478384,7 +478376,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188934",
@@ -478409,7 +478401,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657187544",
@@ -478434,7 +478426,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티(LCT)만세부동산",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657108985",
@@ -478459,7 +478451,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT신화공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657046601",
@@ -478484,7 +478476,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656918984",
@@ -478509,7 +478501,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656709806",
@@ -478659,7 +478651,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188861",
@@ -478684,7 +478676,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188860",
@@ -478709,7 +478701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657045901",
@@ -478734,7 +478726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656918098",
@@ -478759,7 +478751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656895134",
@@ -479009,7 +479001,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657242741",
@@ -479034,7 +479026,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct안녕747-0708공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657359092",
@@ -479059,7 +479051,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657192690",
@@ -479084,7 +479076,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188449",
@@ -479109,7 +479101,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188250",
@@ -479134,7 +479126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656921965",
@@ -479159,7 +479151,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656917600",
@@ -479184,7 +479176,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656788048",
@@ -479434,7 +479426,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티(LCT)만세부동산",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657189391",
@@ -479459,7 +479451,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657188445",
@@ -479484,7 +479476,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656918553",
@@ -479509,7 +479501,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656917601",
@@ -479534,7 +479526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656917262",
@@ -479559,7 +479551,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656713517",
@@ -479634,7 +479626,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657190363",
@@ -479659,7 +479651,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657189392",
@@ -479684,7 +479676,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2657187546",
@@ -479709,7 +479701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티(LCT)만세부동산",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656919588",
@@ -479734,7 +479726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-jeonse-2656709802",
@@ -479884,7 +479876,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT신화공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656597021",
@@ -479984,7 +479976,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657187578",
@@ -480009,7 +480001,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티(LCT)만세부동산",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657051327",
@@ -480034,7 +480026,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656917306",
@@ -480059,7 +480051,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916415",
@@ -480084,7 +480076,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656805869",
@@ -480259,7 +480251,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657188264",
@@ -480284,7 +480276,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657033900",
@@ -480309,7 +480301,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656973682",
@@ -480334,7 +480326,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해운대강남LCT공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916807",
@@ -480359,7 +480351,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT우주공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916407",
@@ -480384,7 +480376,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656857262",
@@ -480609,7 +480601,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct대박공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657189396",
@@ -480634,7 +480626,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "엘시티청담공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657188837",
@@ -480659,7 +480651,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657187817",
@@ -480684,7 +480676,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TheLCT행복공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657029460",
@@ -480709,7 +480701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656937567",
@@ -480734,7 +480726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916399",
@@ -480759,7 +480751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657152908",
@@ -480784,7 +480776,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "르엘예일공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656857022",
@@ -481134,7 +481126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656918104",
@@ -481159,7 +481151,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "Lct감동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916648",
@@ -481184,7 +481176,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656856987",
@@ -481309,7 +481301,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT시그니처부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2656916936",
@@ -481334,7 +481326,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "LCT탑부동산 공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "111151-sale-2657004583",
@@ -481359,7 +481351,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "위브공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     }
   ],
   "111463": [
@@ -488515,7 +488507,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "좋은날부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2657187771",
@@ -488540,7 +488532,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이유부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2656657242",
@@ -488865,7 +488857,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우주부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656426163",
@@ -489615,7 +489607,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연산더샵부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657009043",
@@ -489640,7 +489632,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우주부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656446865",
@@ -489790,7 +489782,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온누리부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656021368",
@@ -489890,7 +489882,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스위첸자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657295010",
@@ -489915,7 +489907,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이유부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657283854",
@@ -489940,7 +489932,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우주부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657260645",
@@ -489965,7 +489957,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최대박공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657187673",
@@ -489990,7 +489982,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "좋은날부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657060374",
@@ -490015,7 +490007,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연산더샵베스트공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657048367",
@@ -490040,7 +490032,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행운공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657038603",
@@ -490065,7 +490057,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "연제롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657011984",
@@ -490090,7 +490082,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿀단지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656564355",
@@ -490415,7 +490407,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온누리부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657063975",
@@ -490440,7 +490432,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데경동부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657046602",
@@ -490465,7 +490457,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "좋은날부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657005121",
@@ -490490,7 +490482,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이유부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656887808",
@@ -490640,7 +490632,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데데시앙공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657318959",
@@ -490665,7 +490657,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금손공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657256323",
@@ -490690,7 +490682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우주부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657188334",
@@ -490715,7 +490707,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스더샵부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2655811342",
@@ -490765,7 +490757,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우주부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2656994844",
@@ -490790,7 +490782,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스더샵부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2655535211",
@@ -490867,7 +490859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이탑부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-jeonse-2656143987",
@@ -491017,7 +491009,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센트럴자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-jeonse-2656585729",
@@ -491292,7 +491284,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이탑부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2655011805",
@@ -491442,7 +491434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "도울부동산중개법인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656755282",
@@ -491517,7 +491509,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이일번지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2655836493",
@@ -491767,7 +491759,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656809535",
@@ -491867,7 +491859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센트럴자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657119353",
@@ -491892,7 +491884,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "TOP탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657302698",
@@ -491917,7 +491909,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657105174",
@@ -491942,7 +491934,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이일번지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656606668",
@@ -492317,7 +492309,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656503449",
@@ -492567,7 +492559,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657301924",
@@ -492592,7 +492584,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657120752",
@@ -492617,7 +492609,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이탑부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656837471",
@@ -492717,7 +492709,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이일번지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2657369856",
@@ -492742,7 +492734,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이일번지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-jeonse-2657369868",
@@ -492767,7 +492759,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이일번지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656079642",
@@ -492917,7 +492909,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2653461991",
@@ -492967,7 +492959,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "센트럴자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112719-sale-2656582287",
@@ -500501,7 +500493,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜1번가부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-jeonse-2656449291",
@@ -500901,7 +500893,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2656338880",
@@ -501026,7 +501018,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2654793855",
@@ -501076,7 +501068,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "친절부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2656338525",
@@ -501701,7 +501693,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "이룸부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2656337448",
@@ -501926,7 +501918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2656423784",
@@ -502226,7 +502218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스테이트엄지부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2657057335",
@@ -502251,7 +502243,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵동래부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2656981795",
@@ -502276,7 +502268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "113713-sale-2655350337",
@@ -507169,7 +507161,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "114211-sale-2657036478",
@@ -507194,7 +507186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "코끼리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "114211-sale-2655813851",
@@ -507944,7 +507936,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "코끼리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "114211-sale-2656507980",
@@ -508519,7 +508511,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     }
   ],
   "114691": [
@@ -515831,7 +515823,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2657002378",
@@ -515856,7 +515848,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크일등공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656742825",
@@ -516206,7 +516198,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크일등공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656947908",
@@ -516231,7 +516223,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "까치부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656931482",
@@ -516256,7 +516248,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656796572",
@@ -516531,7 +516523,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2655845321",
@@ -516631,7 +516623,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크일등공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656997814",
@@ -516656,7 +516648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "까치부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656964009",
@@ -516681,7 +516673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "아이파크부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656939199",
@@ -516706,7 +516698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119101-sale-2656801387",
@@ -524829,7 +524821,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-jeonse-2655740763",
@@ -524954,7 +524946,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지포스코킹(051-205-5050)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-jeonse-2656909254",
@@ -524979,7 +524971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵월드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-jeonse-2657301430",
@@ -525004,7 +524996,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-jeonse-2656916428",
@@ -525029,7 +525021,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "민주공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-jeonse-2656105486",
@@ -525579,7 +525571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵월드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657320158",
@@ -525604,7 +525596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금동공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657278747",
@@ -525629,7 +525621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "글로벌시티부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657030511",
@@ -525654,7 +525646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656986345",
@@ -525679,7 +525671,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명성부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656919686",
@@ -525704,7 +525696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "글로벌시티부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656834037",
@@ -526104,7 +526096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵월드부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657149321",
@@ -526129,7 +526121,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "사과나무(010-2018-0089)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657331789",
@@ -526154,7 +526146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657306383",
@@ -526179,7 +526171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657019399",
@@ -526204,7 +526196,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "다드림공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656475963",
@@ -526554,7 +526546,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지국제KB공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657325401",
@@ -526579,7 +526571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해바라기공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657030983",
@@ -526604,7 +526596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금동공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2657026947",
@@ -526629,7 +526621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해바라기공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656987385",
@@ -526654,7 +526646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명성부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656921170",
@@ -526679,7 +526671,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지언니네복덕방공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119329-sale-2656596720",
@@ -528783,7 +528775,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지금빛부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-jeonse-2656310477",
@@ -529358,7 +529350,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명지금빛부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-jeonse-2656569241",
@@ -530333,7 +530325,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방노블랜드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2656989671",
@@ -530358,7 +530350,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "당근부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2656793686",
@@ -530433,7 +530425,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방노블랜드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2653780415",
@@ -530508,7 +530500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방노블랜드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2655870814",
@@ -530633,7 +530625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "해바라기공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2657095473",
@@ -530658,7 +530650,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방노블랜드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2655476151",
@@ -530733,7 +530725,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "초이스공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2654052496",
@@ -530808,7 +530800,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2654848194",
@@ -530883,7 +530875,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대방노블랜드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "119740-sale-2655414793",
@@ -533096,7 +533088,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "퍼스트이편한공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2657364840",
@@ -533121,7 +533113,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "천사부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2657092351",
@@ -533146,7 +533138,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴일등부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2656848784",
@@ -533271,7 +533263,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2657222070",
@@ -533296,7 +533288,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴일등부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2657032042",
@@ -533321,7 +533313,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "코끼리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2654946487",
@@ -533746,7 +533738,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "휴먼시아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2657122055",
@@ -533771,7 +533763,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "천사부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121626-sale-2656346599",
@@ -534598,7 +534590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657251342",
@@ -534623,7 +534615,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금빛SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657217167",
@@ -534648,7 +534640,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대원하나부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657210644",
@@ -534673,7 +534665,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK3차예스부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2656880669",
@@ -534823,7 +534815,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657303919",
@@ -534848,7 +534840,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657260640",
@@ -534873,7 +534865,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657220984",
@@ -534898,7 +534890,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금빛SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2657217384",
@@ -534923,7 +534915,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대원하나부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2656967190",
@@ -534948,7 +534940,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK3차예스부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2656950582",
@@ -534973,7 +534965,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2656822174",
@@ -534998,7 +534990,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2656828222",
@@ -535198,7 +535190,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2657226748",
@@ -535223,7 +535215,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금빛SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2657037296",
@@ -535248,7 +535240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "프로공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2656543291",
@@ -535323,7 +535315,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2657300435",
@@ -535348,7 +535340,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2657218245",
@@ -535373,7 +535365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대원하나부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2655941711",
@@ -535548,7 +535540,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2656778600",
@@ -535723,7 +535715,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2657228030",
@@ -535748,7 +535740,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금빛SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2656744997",
@@ -536173,7 +536165,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천SK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2656961223",
@@ -536198,7 +536190,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "SK3차예스부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2655225786",
@@ -540940,9 +540932,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "황금탑공인중개사사무소",
-      "confirmYmd": "20261021",
-      "regDate": "2026-10-21",
-      "isNew": false
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
       "id": "123223-jeonse-2656554644",
@@ -540965,9 +540955,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "황금탑부동산공인중개사사무소",
-      "confirmYmd": "20261020",
-      "regDate": "2026-10-20",
-      "isNew": false
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "123223-jeonse-2657299206",
@@ -540992,7 +540980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리동래공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657134684",
@@ -541017,7 +541005,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹덤부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657003217",
@@ -541042,7 +541030,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2656917355",
@@ -541067,7 +541055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹덤부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2656878832",
@@ -541717,7 +541705,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "@현대부동산중개153",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657355554",
@@ -541742,7 +541730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹덤부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657317227",
@@ -541767,7 +541755,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657315328",
@@ -541792,7 +541780,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리동래공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657230141",
@@ -541817,7 +541805,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹덤부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657219051",
@@ -541842,7 +541830,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안비젼부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657218031",
@@ -541867,7 +541855,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안비젼부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657165104",
@@ -541892,7 +541880,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안모든부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657139180",
@@ -541917,7 +541905,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "킹덤부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657123538",
@@ -541942,7 +541930,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "삼성명가부동산공인중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657121540",
@@ -541967,7 +541955,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "비젼래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657120040",
@@ -541992,7 +541980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리동래공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657102446",
@@ -542017,7 +542005,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태경부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657100493",
@@ -542042,7 +542030,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "단지내한마음부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657078965",
@@ -542067,7 +542055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "드림공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657065484",
@@ -542092,7 +542080,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모든래미안부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657061514",
@@ -542117,7 +542105,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "114단지내공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2656917363",
@@ -542142,7 +542130,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안아이파크공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657121933",
@@ -542167,7 +542155,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리동래공인중개사 사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2656898152",
@@ -542442,7 +542430,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656996347",
@@ -542467,7 +542455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656667284",
@@ -542817,7 +542805,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656826973",
@@ -542942,7 +542930,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동래아부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2655101759",
@@ -543142,7 +543130,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동래아부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656999698",
@@ -543167,7 +543155,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2657221957",
@@ -543192,7 +543180,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안비젼부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656577569",
@@ -543367,7 +543355,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "@현대부동산중개153",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2657077504",
@@ -543392,7 +543380,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "@현대부동산중개153",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656664315",
@@ -543467,7 +543455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "드림공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656403882",
@@ -543617,7 +543605,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2657165807",
@@ -543642,7 +543630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2655949910",
@@ -543742,7 +543730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모든래미안부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656993869",
@@ -543767,7 +543755,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656903125",
@@ -543792,7 +543780,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "복드림부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2652077071",
@@ -543942,7 +543930,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656997605",
@@ -543967,7 +543955,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656683475",
@@ -544117,7 +544105,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2652077306",
@@ -544467,7 +544455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리동래공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657065365",
@@ -544492,7 +544480,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모든래미안부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657000674",
@@ -544517,7 +544505,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "제이(555-5559)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2656891838",
@@ -545442,7 +545430,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안행복한부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2657123131",
@@ -545467,7 +545455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "삼성명가공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2657047429",
@@ -545492,7 +545480,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안골드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656067102",
@@ -545642,7 +545630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴럭키공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2655706459",
@@ -545891,10 +545879,8 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개",
         "중층"
       ],
-      "agency": "동래더샵부동산중개사무소",
-      "confirmYmd": "20261019",
-      "regDate": "2026-10-19",
-      "isNew": false
+      "agency": "동래더샵부동산 (부동산뱅크)",
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
       "id": "123443-jeonse-2656224493",
@@ -545917,9 +545903,7 @@ const REAL_BUSAN_ARTICLES = {
         "중층"
       ],
       "agency": "금빛SK부동산공인중개사사무소",
-      "confirmYmd": "20261019",
-      "regDate": "2026-10-19",
-      "isNew": false
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "123443-jeonse-2655834661",
@@ -546144,7 +546128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2657213848",
@@ -546169,7 +546153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "친절부동산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2656802786",
@@ -546369,7 +546353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵동래부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2656932377",
@@ -546394,7 +546378,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜트라디움부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2656263614",
@@ -546694,7 +546678,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2657156622",
@@ -546719,7 +546703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵동래부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2656278771",
@@ -546844,7 +546828,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵제일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2657156880",
@@ -546869,7 +546853,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵동래부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2657006485",
@@ -546894,7 +546878,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "더샵정문부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2656821343",
@@ -547194,7 +547178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2656501438",
@@ -547544,7 +547528,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "친절부동산공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2655839401",
@@ -547594,7 +547578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동래더샵부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2655735455",
@@ -559552,7 +559536,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657310667",
@@ -559577,7 +559561,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜온나부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657305531",
@@ -559602,7 +559586,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜대표공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657249315",
@@ -559627,7 +559611,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "채움공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657201615",
@@ -559652,7 +559636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜트라디움부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657186182",
@@ -559677,7 +559661,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스테이트엄지부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657159407",
@@ -559702,7 +559686,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "성광디앤씨부동산중개법인",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657157093",
@@ -559727,7 +559711,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스테이트공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657157038",
@@ -559752,7 +559736,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2657156643",
@@ -559777,7 +559761,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-jeonse-2654687843",
@@ -559827,7 +559811,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656876005",
@@ -560227,7 +560211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657219595",
@@ -560252,7 +560236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜트라디움부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657204999",
@@ -560277,7 +560261,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "채움공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657135527",
@@ -560302,7 +560286,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜대표공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656625191",
@@ -560627,7 +560611,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657201425",
@@ -560652,7 +560636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "채움공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656616577",
@@ -560877,7 +560861,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657135362",
@@ -560902,7 +560886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜대표공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656946566",
@@ -560927,7 +560911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "채움공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2655296727",
@@ -561102,7 +561086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜트라디움부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657340943",
@@ -561127,7 +561111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "드림힐스공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657318649",
@@ -561152,7 +561136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657103457",
@@ -561177,7 +561161,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657102426",
@@ -561202,7 +561186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명륜힐스트라디움부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2657023056",
@@ -561227,7 +561211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "채움공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656981050",
@@ -561252,7 +561236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "힐스에비뉴공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "125831-sale-2656903255",
@@ -564551,7 +564535,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안스타공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-jeonse-2656469867",
@@ -564626,7 +564610,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "봄봄공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-jeonse-2656664043",
@@ -564776,7 +564760,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "시민공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-jeonse-2654321762",
@@ -565151,7 +565135,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657038230",
@@ -565176,7 +565160,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "봄봄공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2656695429",
@@ -565701,7 +565685,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2655634528",
@@ -565776,7 +565760,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657153279",
@@ -565801,7 +565785,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "언니네포레나공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2656106381",
@@ -566001,7 +565985,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복래미안부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657018497",
@@ -566026,7 +566010,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2656803367",
@@ -566151,7 +566135,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657165725",
@@ -566176,7 +566160,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657156823",
@@ -566201,7 +566185,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "언니네래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657149042",
@@ -566226,7 +566210,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자공인중개사",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657164736",
@@ -566251,7 +566235,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "W해동부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2657155256",
@@ -566276,7 +566260,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "언니네포레나공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "126473-sale-2656382705",
@@ -566378,7 +566362,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데출입구부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2657005558",
@@ -566403,7 +566387,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데베스트부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2656986063",
@@ -566428,7 +566412,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가야롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2657366166",
@@ -566453,7 +566437,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이레인보우공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2657126698",
@@ -566478,7 +566462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청솔공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2657066405",
@@ -566503,7 +566487,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데출입구부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2656980925",
@@ -566528,7 +566512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가야롯데공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2656893355",
@@ -566603,7 +566587,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "카카오부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-jeonse-2656956588",
@@ -566628,7 +566612,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데캐슬골드아너공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-sale-2654493209",
@@ -566703,7 +566687,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가야롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-sale-2656595118",
@@ -568028,7 +568012,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데동원부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127003-sale-2656522140",
@@ -568180,7 +568164,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "프레스티지에이스공인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-jeonse-2657153558",
@@ -568205,7 +568189,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "성원공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-jeonse-2656964322",
@@ -568230,7 +568214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천탑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-jeonse-2656640405",
@@ -568630,7 +568614,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천탑공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-jeonse-2657236148",
@@ -568655,7 +568639,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "프레스티지에이스공인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-jeonse-2656835346",
@@ -568880,7 +568864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "동행공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-sale-2656535018",
@@ -569430,7 +569414,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부자부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-sale-2655583485",
@@ -569730,7 +569714,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "프레스티지에이스공인",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-sale-2655959057",
@@ -569855,7 +569839,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천탑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127133-sale-2656635312",
@@ -570355,7 +570339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "프레스티지에이스공인",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     }
   ],
   "127321": [
@@ -573953,7 +573937,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "신세계공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2656913711",
@@ -574003,7 +573987,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "돈되는부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657074576",
@@ -574028,7 +574012,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "탑부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2656444316",
@@ -574128,7 +574112,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "돈되는부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657286925",
@@ -574153,7 +574137,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "데시앙예가공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2656374400",
@@ -574328,7 +574312,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "돈되는부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2654900438",
@@ -574553,7 +574537,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "모모공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2655736349",
@@ -574853,7 +574837,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "탑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2655334844",
@@ -586121,7 +586105,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데강남공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "134851-jeonse-2657306437",
@@ -586146,7 +586130,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "스마일공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "134851-jeonse-2657103611",
@@ -586171,7 +586155,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "시민공원비스타동원공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "134851-jeonse-2656049778",
@@ -587221,7 +587205,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "부암롯데공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "134851-jeonse-2653147531",
@@ -587571,7 +587555,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "롯데코너부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "134851-sale-2651724619",
@@ -588951,8 +588935,8 @@ const REAL_BUSAN_ARTICLES = {
   ],
   "136343": [
     {
-      "id": "136343-jeonse-2657271834",
-      "articleNo": "2657271834",
+      "id": "136343-jeonse-2658021081",
+      "articleNo": "2658021081",
       "tradeType": "jeonse",
       "dong": "310동",
       "floor": "고/29",
@@ -588971,13 +588955,11 @@ const REAL_BUSAN_ARTICLES = {
         "방세개"
       ],
       "agency": "레이조아공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
-      "id": "136343-jeonse-2657267490",
-      "articleNo": "2657267490",
+      "id": "136343-jeonse-2657832812",
+      "articleNo": "2657832812",
       "tradeType": "jeonse",
       "dong": "310동",
       "floor": "고/29",
@@ -588996,9 +588978,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "레이드림공인중개사사무소",
-      "confirmYmd": "20261023",
-      "regDate": "2026-10-23",
-      "isNew": true
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "136343-jeonse-2657246185",
@@ -589023,7 +589003,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복한부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657207756",
@@ -589048,7 +589028,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657195268",
@@ -589073,7 +589053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657177789",
@@ -589098,7 +589078,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이802공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657179650",
@@ -589123,7 +589103,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "알파공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657037191",
@@ -589148,7 +589128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656971913",
@@ -589173,7 +589153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656951436",
@@ -589198,7 +589178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656933107",
@@ -589223,7 +589203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656840180",
@@ -589873,7 +589853,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657240517",
@@ -589898,7 +589878,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657217365",
@@ -589923,7 +589903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657210619",
@@ -589948,7 +589928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657210592",
@@ -589973,7 +589953,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657208921",
@@ -589998,7 +589978,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657195245",
@@ -590023,7 +590003,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657179657",
@@ -590048,7 +590028,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "알파공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657154324",
@@ -590073,7 +590053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657139236",
@@ -590098,7 +590078,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "안심부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657129195",
@@ -590123,7 +590103,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "따뜻한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657090736",
@@ -590148,7 +590128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태영공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657036291",
@@ -590173,7 +590153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657013551",
@@ -590198,7 +590178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656975334",
@@ -590223,7 +590203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656953617",
@@ -590248,7 +590228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656933563",
@@ -590273,7 +590253,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656911016",
@@ -590498,7 +590478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656013609",
@@ -590598,7 +590578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657210674",
@@ -590623,7 +590603,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "선경레이카운티부동산중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657195632",
@@ -590648,7 +590628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657040681",
@@ -590673,7 +590653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656940654",
@@ -590698,7 +590678,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656933742",
@@ -590723,7 +590703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656482650",
@@ -591373,7 +591353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657240277",
@@ -591398,7 +591378,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656933398",
@@ -591423,7 +591403,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656832295",
@@ -591673,7 +591653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657201022",
@@ -591698,7 +591678,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명당(明堂)공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657087234",
@@ -591723,7 +591703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "국민부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656337739",
@@ -591971,9 +591951,9 @@ const REAL_BUSAN_ARTICLES = {
         "방세개"
       ],
       "agency": "양지공인중개사사무소",
-      "confirmYmd": "20261020",
-      "regDate": "2026-10-20",
-      "isNew": false
+      "confirmYmd": "20261028",
+      "regDate": "2026-10-28",
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2656331953",
@@ -592073,7 +592053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이부자공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657265390",
@@ -592098,7 +592078,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657256608",
@@ -592123,7 +592103,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "안심부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657242573",
@@ -592148,7 +592128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657218487",
@@ -592173,7 +592153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657209818",
@@ -592198,7 +592178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657208608",
@@ -592223,7 +592203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657195222",
@@ -592248,7 +592228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657172393",
@@ -592273,7 +592253,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이802공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657149365",
@@ -592298,7 +592278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "알파공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657143674",
@@ -592323,7 +592303,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "따뜻한공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657036951",
@@ -592348,7 +592328,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657022548",
@@ -592373,7 +592353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657013567",
@@ -592398,7 +592378,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656969661",
@@ -592423,7 +592403,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2656953728",
@@ -592448,7 +592428,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657258249",
@@ -592473,7 +592453,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이스타공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657255422",
@@ -592498,7 +592478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657238784",
@@ -592523,7 +592503,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "1등레이쌍용부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657230968",
@@ -592548,7 +592528,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "강남부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657217770",
@@ -592573,7 +592553,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657216088",
@@ -592598,7 +592578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657201361",
@@ -592623,7 +592603,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657195536",
@@ -592648,7 +592628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이802공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656982341",
@@ -592673,7 +592653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656981048",
@@ -592698,7 +592678,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656940585",
@@ -592723,7 +592703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656933495",
@@ -592748,7 +592728,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656922099",
@@ -592773,7 +592753,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656762620",
@@ -592973,7 +592953,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "늘푸른공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2653150681",
@@ -593073,7 +593053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657261883",
@@ -593098,7 +593078,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657254914",
@@ -593123,7 +593103,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "베스트공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657201389",
@@ -593148,7 +593128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657124430",
@@ -593173,7 +593153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657117860",
@@ -593198,7 +593178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657087194",
@@ -593223,7 +593203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "국민부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657042543",
@@ -593248,7 +593228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이스타공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657020736",
@@ -593273,7 +593253,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "레이조아공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2657008103",
@@ -593298,7 +593278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안카운티공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656927401",
@@ -593323,7 +593303,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금성공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656922151",
@@ -593348,7 +593328,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양지공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2656881418",
@@ -600783,9 +600763,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "래미안금나라공인중개사사무소",
-      "confirmYmd": "20261013",
-      "regDate": "2026-10-13",
-      "isNew": false
+      "confirmYmd": "20261028",      "regDate": "2026-10-28",      "isNew": true
     },
     {
       "id": "146548-jeonse-2655046303",
@@ -600808,9 +600786,7 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "금나라부동산공인중개사사무소(합동)",
-      "confirmYmd": "20261013",
-      "regDate": "2026-10-13",
-      "isNew": false
+      "confirmYmd": "20261027",      "regDate": "2026-10-27",      "isNew": true
     },
     {
       "id": "146548-jeonse-2657059824",
@@ -600835,7 +600811,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안대운부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656877264",
@@ -600910,7 +600886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림T555-9982부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657297853",
@@ -600935,7 +600911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657294144",
@@ -600960,7 +600936,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657221948",
@@ -600985,7 +600961,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657217084",
@@ -601010,7 +600986,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657175520",
@@ -601035,7 +601011,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명품부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657178669",
@@ -601060,7 +601036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안스타T552-0077부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657166909",
@@ -601085,7 +601061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장(553-8000)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657155080",
@@ -601110,7 +601086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명품부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657130412",
@@ -601135,7 +601111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안24시부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657061234",
@@ -601160,7 +601136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안대운부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656991497",
@@ -601185,7 +601161,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "똑똑공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656989968",
@@ -601210,7 +601186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656951242",
@@ -601235,7 +601211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656946504",
@@ -601260,7 +601236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안스타T552-0077부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656930283",
@@ -601285,7 +601261,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656841128",
@@ -601885,7 +601861,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림(555-3777)공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657311620",
@@ -601910,7 +601886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천명문래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657308113",
@@ -601935,7 +601911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천명문래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657299496",
@@ -601960,7 +601936,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657297843",
@@ -601985,7 +601961,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657295453",
@@ -602010,7 +601986,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657292826",
@@ -602035,7 +602011,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림(555-3777)공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657282486",
@@ -602060,7 +602036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "세인공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657201563",
@@ -602085,7 +602061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금손래미안(556-3999)부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657178679",
@@ -602110,7 +602086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안스타T552-0077부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657170006",
@@ -602135,7 +602111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장(553-8000)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657154225",
@@ -602160,7 +602136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657146089",
@@ -602185,7 +602161,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안24시부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657144513",
@@ -602210,7 +602186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안24시부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657143873",
@@ -602235,7 +602211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명품부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657142845",
@@ -602260,7 +602236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명가공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656739882",
@@ -602735,7 +602711,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2655333233",
@@ -602785,7 +602761,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2655434294",
@@ -602910,7 +602886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656840878",
@@ -603385,7 +603361,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명가공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657362302",
@@ -603410,7 +603386,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천명문공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657127981",
@@ -603435,7 +603411,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림T555-9982부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656936762",
@@ -603460,7 +603436,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림T555-9982부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656798300",
@@ -603785,7 +603761,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안꿀단지부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657174587",
@@ -603810,7 +603786,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림(555-3777)공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657147723",
@@ -603835,7 +603811,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금손래미안(010-9287-4502)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656856270",
@@ -604085,7 +604061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657297806",
@@ -604110,7 +604086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657274601",
@@ -604135,7 +604111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림(555-3777)공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657205464",
@@ -604160,7 +604136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안숲부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657010590",
@@ -604185,7 +604161,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "온천장부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656963009",
@@ -604210,7 +604186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656958879",
@@ -604235,7 +604211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림(555-3777)공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656952623",
@@ -604260,7 +604236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안993-2401공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656855861",
@@ -604310,7 +604286,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림T555-9982부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657297835",
@@ -604335,7 +604311,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657081692",
@@ -604360,7 +604336,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "중앙공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656989890",
@@ -604385,7 +604361,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안OK공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656957130",
@@ -604410,7 +604386,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "명가공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2656812838",
@@ -604560,7 +604536,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안대운부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656936143",
@@ -604585,7 +604561,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "뉴화림T555-9982부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657212473",
@@ -604610,7 +604586,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "래미안포레공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657208829",
@@ -604635,7 +604611,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안993-2401공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656951246",
@@ -604660,7 +604636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리래미안공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2656577916",
@@ -612451,7 +612427,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이부자공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2655319358",
@@ -612951,7 +612927,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금손공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657284965",
@@ -612976,7 +612952,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양정자이롯데부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657263752",
@@ -613001,7 +612977,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "행복한자이공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657349682",
@@ -613026,7 +613002,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최대박공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657182472",
@@ -613051,7 +613027,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그랑자이롯데금빛채움공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657124784",
@@ -613076,7 +613052,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "으뜸공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2655614026",
@@ -613151,7 +613127,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657360119",
@@ -613176,7 +613152,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양정 스위첸 골드 공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657291350",
@@ -613201,7 +613177,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "양정자이롯데부동산중개",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657243594",
@@ -613226,7 +613202,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이레인보우공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2657023500",
@@ -613251,7 +613227,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그랑자이롯데금빛채움공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2656998512",
@@ -613276,7 +613252,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이해든부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2656864775",
@@ -613801,7 +613777,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "최대박공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-jeonse-2656286764",
@@ -613976,7 +613952,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "캐슬자이공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2656359960",
@@ -614351,7 +614327,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸른별공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2656794159",
@@ -614901,7 +614877,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "자이레인보우공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2657049667",
@@ -614926,7 +614902,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그랑자이롯데금빛채움공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2657038463",
@@ -614951,7 +614927,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "그랑자이롯데금빛채움공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2656952146",
@@ -614976,7 +614952,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "우리공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2656786110",
@@ -615201,7 +615177,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "퀸즈공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2657077519",
@@ -615226,7 +615202,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "조은부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2657167148",
@@ -615251,7 +615227,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "카오소장부동산중개",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152746-sale-2656859628",
@@ -615453,7 +615429,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천어울림공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-jeonse-2656895173",
@@ -615728,7 +615704,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골든비치공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-jeonse-2657130775",
@@ -615753,7 +615729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "골든비치공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-jeonse-2654596508",
@@ -616453,7 +616429,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "GS자이부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2655827362",
@@ -616703,7 +616679,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천다온부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2657309006",
@@ -616728,7 +616704,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "남천다온부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2656976071",
@@ -616753,7 +616729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "금호부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2656780531",
@@ -617003,7 +616979,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2657180127",
@@ -617028,7 +617004,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "현대부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2656850967",
@@ -617303,7 +617279,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "태양부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "154302-sale-2656461905",
@@ -622595,7 +622571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "summit삼신부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657271741",
@@ -622620,7 +622596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657163927",
@@ -622645,7 +622621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2655684305",
@@ -622770,7 +622746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657248304",
@@ -622795,7 +622771,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋행운공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657201312",
@@ -622820,7 +622796,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656983219",
@@ -622845,7 +622821,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋탑푸르지오부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656838764",
@@ -623095,7 +623071,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657254578",
@@ -623120,7 +623096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋사랑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657247241",
@@ -623145,7 +623121,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋행운공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657201056",
@@ -623170,7 +623146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657126965",
@@ -623195,7 +623171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "summit삼신부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657105752",
@@ -623220,7 +623196,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656996490",
@@ -623245,7 +623221,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656982400",
@@ -623270,7 +623246,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋탑푸르지오부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656844068",
@@ -623520,7 +623496,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋좋은공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2652466110",
@@ -623595,7 +623571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657088264",
@@ -623620,7 +623596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "일등푸르지오써밋부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656853726",
@@ -623670,7 +623646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "비치써밋 박소장공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657272816",
@@ -623695,7 +623671,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2657163997",
@@ -623720,7 +623696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656793273",
@@ -623870,7 +623846,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-jeonse-2656829001",
@@ -624045,7 +624021,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657094761",
@@ -624070,7 +624046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "summit삼신부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657284082",
@@ -624095,7 +624071,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657228945",
@@ -624120,7 +624096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋사랑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657201408",
@@ -624145,7 +624121,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657006776",
@@ -624170,7 +624146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋청담부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657148643",
@@ -624195,7 +624171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2654102258",
@@ -624370,7 +624346,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657201066",
@@ -624395,7 +624371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657148798",
@@ -624420,7 +624396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2656808087",
@@ -624745,7 +624721,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2656824119",
@@ -624970,7 +624946,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657163933",
@@ -624995,7 +624971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657149179",
@@ -625020,7 +624996,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2654020858",
@@ -625170,7 +625146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋사랑부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657270070",
@@ -625195,7 +625171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "푸르지오써밋스카이부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657246056",
@@ -625220,7 +625196,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋행운공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657201350",
@@ -625245,7 +625221,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657127233",
@@ -625270,7 +625246,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "summit삼신부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2655443167",
@@ -625320,7 +625296,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋청담부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657331302",
@@ -625345,7 +625321,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋행운공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2657150583",
@@ -625370,7 +625346,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋일번지부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2656976346",
@@ -625395,7 +625371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "써밋까사공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "161501-sale-2656823792",
@@ -625547,7 +625523,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연디아이엘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657175447",
@@ -625572,7 +625548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "초롱부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657124210",
@@ -625597,7 +625573,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가호공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657088788",
@@ -625622,7 +625598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연아너스부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656284654",
@@ -625672,7 +625648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿀벌디아이엘부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657219175",
@@ -625697,7 +625673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연디아이엘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657161042",
@@ -625722,7 +625698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "황금디아이엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656804957",
@@ -625997,7 +625973,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가호공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656860822",
@@ -626122,7 +626098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "복디아이엘부동산중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656793533",
@@ -626747,7 +626723,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "복디아이엘부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2657263697",
@@ -626772,7 +626748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "꿀벌디아이엘부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656912698",
@@ -626797,7 +626773,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "대연아너스부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-jeonse-2656878728",
@@ -627397,7 +627373,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디아이엘오름부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-sale-2656141661",
@@ -628122,7 +628098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디아이엘푸른별부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-sale-2655546826",
@@ -628297,7 +628273,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "정다운부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-sale-2657177924",
@@ -628322,7 +628298,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "초롱부동산중개사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-sale-2656338199",
@@ -628447,7 +628423,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "디아이엘푸른별부동산공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "162757-sale-2654371245",
@@ -648662,7 +648638,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한르엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2655245135",
@@ -648837,7 +648813,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "다온부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2657339442",
@@ -648862,7 +648838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "가윤디아이엘공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2657124918",
@@ -648887,7 +648863,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한르엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2656232471",
@@ -649187,7 +649163,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한르엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2654009312",
@@ -649237,7 +649213,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한르엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2656032693",
@@ -649337,7 +649313,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "다온부동산중개사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2657152748",
@@ -649362,7 +649338,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "르엘예일공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2654529081",
@@ -649737,7 +649713,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한르엘부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "189517-sale-2656274674",
@@ -656587,7 +656563,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "충렬공인중개사사무소",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "198018-sale-2657229101",
@@ -656612,7 +656588,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "다숲공인중개사",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "198018-sale-2655808421",
@@ -656862,7 +656838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "충렬공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "198018-sale-2656896141",
@@ -656887,7 +656863,7 @@ const REAL_BUSAN_ARTICLES = {
       "agency": "e편한세상골드부동산공인중개사사무소",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "198018-sale-2654275211",
@@ -664644,8 +664620,8 @@ const DEFAULT_COMPLEXES = [
     "metro": "미남역(3·4호선) / 동래역(1·4호선)",
     "shortMetro": "미남역·동래역",
     "region": "부산 동래구",
-    "naverUrl": "https://new.land.naver.com/complexes/123223?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/123223?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/123223?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/123223?tab=article&tradeTypes=B1",
     "badge": "대장 단지",
     "ageYears": 5,
     "initialArticles": [
@@ -664722,7 +664698,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리동래공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657134684",
@@ -664747,7 +664723,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "킹덤부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657003217",
@@ -664772,7 +664748,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2656917355",
@@ -664797,7 +664773,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "킹덤부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2656878832",
@@ -665447,7 +665423,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "@현대부동산중개153",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657355554",
@@ -665472,7 +665448,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "킹덤부동산중개사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657317227",
@@ -665497,7 +665473,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "부자부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657315328",
@@ -665522,7 +665498,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리동래공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657230141",
@@ -665547,7 +665523,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "킹덤부동산중개사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657219051",
@@ -665572,7 +665548,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안비젼부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657218031",
@@ -665597,7 +665573,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안비젼부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657165104",
@@ -665622,7 +665598,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안모든부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657139180",
@@ -665647,7 +665623,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "킹덤부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657123538",
@@ -665672,7 +665648,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "삼성명가부동산공인중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657121540",
@@ -665697,7 +665673,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "비젼래미안공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657120040",
@@ -665722,7 +665698,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리동래공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657102446",
@@ -665747,7 +665723,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태경부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657100493",
@@ -665772,7 +665748,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "단지내한마음부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657078965",
@@ -665797,7 +665773,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "드림공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657065484",
@@ -665822,7 +665798,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "모든래미안부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657061514",
@@ -665847,7 +665823,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "114단지내공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2656917363",
@@ -665872,7 +665848,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안아이파크공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657121933",
@@ -665897,7 +665873,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리동래공인중개사 사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2656898152",
@@ -666172,7 +666148,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656996347",
@@ -666197,7 +666173,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656667284",
@@ -666547,7 +666523,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656826973",
@@ -666672,7 +666648,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "동래아부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2655101759",
@@ -666872,7 +666848,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "동래아부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656999698",
@@ -666897,7 +666873,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2657221957",
@@ -666922,7 +666898,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안비젼부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656577569",
@@ -667097,7 +667073,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "@현대부동산중개153",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2657077504",
@@ -667122,7 +667098,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "@현대부동산중개153",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656664315",
@@ -667197,7 +667173,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "드림공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656403882",
@@ -667347,7 +667323,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "황금탑공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2657165807",
@@ -667372,7 +667348,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "황금탑공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2655949910",
@@ -667472,7 +667448,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "모든래미안부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656993869",
@@ -667497,7 +667473,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656903125",
@@ -667522,7 +667498,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "복드림부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2652077071",
@@ -667672,7 +667648,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656997605",
@@ -667697,7 +667673,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656683475",
@@ -667847,7 +667823,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "황금탑공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2652077306",
@@ -668197,7 +668173,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리동래공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657065365",
@@ -668222,7 +668198,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "모든래미안부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657000674",
@@ -668247,7 +668223,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "제이(555-5559)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2656891838",
@@ -669172,7 +669148,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안행복한부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2657123131",
@@ -669197,7 +669173,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "삼성명가공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2657047429",
@@ -669222,7 +669198,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안골드부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656067102",
@@ -669372,7 +669348,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴럭키공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2655706459",
@@ -669613,14 +669589,14 @@ const DEFAULT_COMPLEXES = [
     "metro": "종합운동장역(3호선) / 거제역(동해선)",
     "shortMetro": "종합운동장역",
     "region": "부산 연제구",
-    "naverUrl": "https://new.land.naver.com/complexes/136343?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/136343?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/136343?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/136343?tab=article&tradeTypes=B1",
     "badge": "신축 대단지",
     "ageYears": 3,
     "initialArticles": [
       {
-        "id": "136343-jeonse-2657271834",
-        "articleNo": "2657271834",
+        "id": "136343-jeonse-2658021081",
+        "articleNo": "2658021081",
         "tradeType": "jeonse",
         "dong": "310동",
         "floor": "고/29",
@@ -669641,11 +669617,11 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
-        "id": "136343-jeonse-2657267490",
-        "articleNo": "2657267490",
+        "id": "136343-jeonse-2657832812",
+        "articleNo": "2657832812",
         "tradeType": "jeonse",
         "dong": "310동",
         "floor": "고/29",
@@ -669666,7 +669642,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이드림공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657246185",
@@ -669691,7 +669667,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "행복한부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657207756",
@@ -669716,7 +669692,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657195268",
@@ -669741,7 +669717,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657177789",
@@ -669766,7 +669742,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이802공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657179650",
@@ -669791,7 +669767,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "알파공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657037191",
@@ -669816,7 +669792,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "청담부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656971913",
@@ -669841,7 +669817,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이스타공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656951436",
@@ -669866,7 +669842,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656933107",
@@ -669891,7 +669867,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656840180",
@@ -670541,7 +670517,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657240517",
@@ -670566,7 +670542,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657217365",
@@ -670591,7 +670567,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657210619",
@@ -670616,7 +670592,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657210592",
@@ -670641,7 +670617,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657208921",
@@ -670666,7 +670642,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657195245",
@@ -670691,7 +670667,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657179657",
@@ -670716,7 +670692,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "알파공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657154324",
@@ -670741,7 +670717,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657139236",
@@ -670766,7 +670742,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "안심부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657129195",
@@ -670791,7 +670767,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "따뜻한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657090736",
@@ -670816,7 +670792,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태영공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657036291",
@@ -670841,7 +670817,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "청담부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657013551",
@@ -670866,7 +670842,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656975334",
@@ -670891,7 +670867,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이스타공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656953617",
@@ -670916,7 +670892,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이부자공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656933563",
@@ -670941,7 +670917,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656911016",
@@ -671166,7 +671142,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656013609",
@@ -671266,7 +671242,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657210674",
@@ -671291,7 +671267,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "선경레이카운티부동산중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657195632",
@@ -671316,7 +671292,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657040681",
@@ -671341,7 +671317,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656940654",
@@ -671366,7 +671342,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656933742",
@@ -671391,7 +671367,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656482650",
@@ -672041,7 +672017,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657240277",
@@ -672066,7 +672042,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656933398",
@@ -672091,7 +672067,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656832295",
@@ -672341,7 +672317,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657201022",
@@ -672366,7 +672342,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명당(明堂)공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657087234",
@@ -672391,7 +672367,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "국민부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656337739",
@@ -672741,7 +672717,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이부자공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657265390",
@@ -672766,7 +672742,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657256608",
@@ -672791,7 +672767,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "안심부동산중개사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657242573",
@@ -672816,7 +672792,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657218487",
@@ -672841,7 +672817,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657209818",
@@ -672866,7 +672842,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657208608",
@@ -672891,7 +672867,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657195222",
@@ -672916,7 +672892,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657172393",
@@ -672941,7 +672917,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이802공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657149365",
@@ -672966,7 +672942,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "알파공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657143674",
@@ -672991,7 +672967,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "따뜻한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657036951",
@@ -673016,7 +672992,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "청담부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657022548",
@@ -673041,7 +673017,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657013567",
@@ -673066,7 +673042,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656969661",
@@ -673091,7 +673067,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이스타공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2656953728",
@@ -673116,7 +673092,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이부자공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657258249",
@@ -673141,7 +673117,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이스타공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657255422",
@@ -673166,7 +673142,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657238784",
@@ -673191,7 +673167,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "1등레이쌍용부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657230968",
@@ -673216,7 +673192,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657217770",
@@ -673241,7 +673217,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657216088",
@@ -673266,7 +673242,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657201361",
@@ -673291,7 +673267,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657195536",
@@ -673316,7 +673292,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이802공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656982341",
@@ -673341,7 +673317,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656981048",
@@ -673366,7 +673342,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656940585",
@@ -673391,7 +673367,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656933495",
@@ -673416,7 +673392,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656922099",
@@ -673441,7 +673417,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656762620",
@@ -673641,7 +673617,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "늘푸른공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2653150681",
@@ -673741,7 +673717,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657261883",
@@ -673766,7 +673742,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657254914",
@@ -673791,7 +673767,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "베스트공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657201389",
@@ -673816,7 +673792,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657124430",
@@ -673841,7 +673817,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이부자공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657117860",
@@ -673866,7 +673842,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657087194",
@@ -673891,7 +673867,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "국민부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657042543",
@@ -673916,7 +673892,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이스타공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657020736",
@@ -673941,7 +673917,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "레이조아공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2657008103",
@@ -673966,7 +673942,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안카운티공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656927401",
@@ -673991,7 +673967,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656922151",
@@ -674016,7 +673992,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "양지공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2656881418",
@@ -674232,8 +674208,8 @@ const DEFAULT_COMPLEXES = [
     "metro": "온천장역(1호선)",
     "shortMetro": "온천장역",
     "region": "부산 동래구",
-    "naverUrl": "https://new.land.naver.com/complexes/146548?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/146548?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/146548?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/146548?tab=article&tradeTypes=B1",
     "badge": "2024 최신축",
     "ageYears": 2,
     "initialArticles": [
@@ -674310,7 +674286,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안대운부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656877264",
@@ -674385,7 +674361,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림T555-9982부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657297853",
@@ -674410,7 +674386,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657294144",
@@ -674435,7 +674411,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천장부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657221948",
@@ -674460,7 +674436,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657217084",
@@ -674485,7 +674461,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657175520",
@@ -674510,7 +674486,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명품부동산중개사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657178669",
@@ -674535,7 +674511,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안스타T552-0077부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657166909",
@@ -674560,7 +674536,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천장(553-8000)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657155080",
@@ -674585,7 +674561,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명품부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657130412",
@@ -674610,7 +674586,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안24시부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657061234",
@@ -674635,7 +674611,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안대운부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656991497",
@@ -674660,7 +674636,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "똑똑공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656989968",
@@ -674685,7 +674661,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656951242",
@@ -674710,7 +674686,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656946504",
@@ -674735,7 +674711,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안스타T552-0077부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656930283",
@@ -674760,7 +674736,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656841128",
@@ -675360,7 +675336,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림(555-3777)공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657311620",
@@ -675385,7 +675361,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천명문래미안공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657308113",
@@ -675410,7 +675386,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천명문래미안공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657299496",
@@ -675435,7 +675411,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657297843",
@@ -675460,7 +675436,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657295453",
@@ -675485,7 +675461,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천장부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657292826",
@@ -675510,7 +675486,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림(555-3777)공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657282486",
@@ -675535,7 +675511,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "세인공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657201563",
@@ -675560,7 +675536,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금손래미안(556-3999)부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657178679",
@@ -675585,7 +675561,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안스타T552-0077부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657170006",
@@ -675610,7 +675586,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천장(553-8000)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657154225",
@@ -675635,7 +675611,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657146089",
@@ -675660,7 +675636,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안24시부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657144513",
@@ -675685,7 +675661,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안24시부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657143873",
@@ -675710,7 +675686,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명품부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657142845",
@@ -675735,7 +675711,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명가공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656739882",
@@ -676210,7 +676186,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태양부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2655333233",
@@ -676260,7 +676236,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태양부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2655434294",
@@ -676385,7 +676361,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656840878",
@@ -676860,7 +676836,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명가공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657362302",
@@ -676885,7 +676861,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천명문공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657127981",
@@ -676910,7 +676886,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림T555-9982부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656936762",
@@ -676935,7 +676911,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림T555-9982부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656798300",
@@ -677260,7 +677236,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안꿀단지부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657174587",
@@ -677285,7 +677261,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림(555-3777)공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657147723",
@@ -677310,7 +677286,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "금손래미안(010-9287-4502)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656856270",
@@ -677560,7 +677536,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657297806",
@@ -677585,7 +677561,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657274601",
@@ -677610,7 +677586,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림(555-3777)공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657205464",
@@ -677635,7 +677611,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안숲부동산중개사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657010590",
@@ -677660,7 +677636,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "온천장부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656963009",
@@ -677685,7 +677661,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656958879",
@@ -677710,7 +677686,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림(555-3777)공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656952623",
@@ -677735,7 +677711,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안993-2401공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656855861",
@@ -677785,7 +677761,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림T555-9982부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657297835",
@@ -677810,7 +677786,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657081692",
@@ -677835,7 +677811,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "중앙공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656989890",
@@ -677860,7 +677836,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안OK공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656957130",
@@ -677885,7 +677861,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명가공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2656812838",
@@ -678035,7 +678011,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안대운부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656936143",
@@ -678060,7 +678036,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴화림T555-9982부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657212473",
@@ -678085,7 +678061,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "래미안포레공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657208829",
@@ -678110,7 +678086,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안993-2401공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656951246",
@@ -678135,7 +678111,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "우리래미안공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2656577916",
@@ -678526,8 +678502,8 @@ const DEFAULT_COMPLEXES = [
     "metro": "미남역 직통(3·4호선)",
     "shortMetro": "미남역 직통",
     "region": "부산 동래구",
-    "naverUrl": "https://new.land.naver.com/complexes/110276?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/110276?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/110276?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/110276?tab=article&tradeTypes=B1",
     "badge": "초역세권",
     "ageYears": 7,
     "initialArticles": [
@@ -678554,7 +678530,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "으뜸공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657189274",
@@ -678579,7 +678555,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성해링턴부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657189141",
@@ -678604,7 +678580,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657168326",
@@ -678629,7 +678605,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "이편한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657138504",
@@ -678654,7 +678630,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성해링턴부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657108336",
@@ -678679,7 +678655,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "스카이공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657105771",
@@ -678704,7 +678680,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성하나부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657105756",
@@ -678729,7 +678705,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656954699",
@@ -678754,7 +678730,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴반도공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657179275",
@@ -678779,7 +678755,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "반도공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656911372",
@@ -678829,7 +678805,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "사직공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2657172714",
@@ -678854,7 +678830,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "으뜸공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656988348",
@@ -678879,7 +678855,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성해링턴대한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656892388",
@@ -679029,7 +679005,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "뉴럭키공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656873892",
@@ -679204,7 +679180,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2656476861",
@@ -679454,7 +679430,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "스카이공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2655987951",
@@ -679629,7 +679605,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "으뜸공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2656842110",
@@ -679854,7 +679830,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성해링턴대한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2656885698",
@@ -679929,7 +679905,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "114단지내공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657205675",
@@ -679954,7 +679930,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "도울부동산중개법인",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2655907313",
@@ -680079,7 +680055,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "현대탑부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657113513",
@@ -680104,7 +680080,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657012398",
@@ -680129,7 +680105,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "효성하나부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2655689974",
@@ -680929,7 +680905,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "이편한공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2654784889",
@@ -681104,7 +681080,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태양부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2656870765",
@@ -681354,7 +681330,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태양부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2656478851",
@@ -681445,8 +681421,8 @@ const DEFAULT_COMPLEXES = [
     "metro": "명륜역(1호선) / 동래역(1·4호선)",
     "shortMetro": "명륜역·동래역",
     "region": "부산 동래구",
-    "naverUrl": "https://new.land.naver.com/complexes/103343?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/103343?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/103343?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/103343?tab=article&tradeTypes=B1",
     "badge": "학군 프리미엄",
     "ageYears": 13,
     "initialArticles": [
@@ -681473,7 +681449,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "에이스공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2657208354",
@@ -681498,7 +681474,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2656677655",
@@ -681898,7 +681874,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "리체공인중개사",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2656982064",
@@ -681923,7 +681899,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2656866177",
@@ -682223,7 +682199,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더좋은공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2657304466",
@@ -682248,7 +682224,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "에이스공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2656582197",
@@ -682298,7 +682274,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2654612660",
@@ -682848,7 +682824,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2657000045",
@@ -682873,7 +682849,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "리체공인중개사",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2655382686",
@@ -682973,7 +682949,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더좋은공인중개사",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2655142070",
@@ -683073,7 +683049,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더좋은공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2656157032",
@@ -683148,7 +683124,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "강남부동산공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2654494051",
@@ -683989,8 +683965,8 @@ const DEFAULT_COMPLEXES = [
     "metro": "동래역(1·4호선) 초역세권",
     "shortMetro": "동래역 초역세권",
     "region": "부산 동래구",
-    "naverUrl": "https://new.land.naver.com/complexes/123443?a=APT&b=B1&e=RETAIL&f=43000&g=55000&h=99&i=132&order=prc",
-    "naverMobileUrl": "https://fin.land.naver.com/complexes/123443?tradeTypes=B1&areaMin=99&areaMax=132",
+    "naverUrl": "https://new.land.naver.com/complexes/123443?a=APT&b=B1&e=RETAIL&order=prc",
+    "naverMobileUrl": "https://fin.land.naver.com/complexes/123443?tab=article&tradeTypes=B1",
     "badge": "신축 랜드마크",
     "ageYears": 3,
     "initialArticles": [
@@ -684014,7 +683990,7 @@ const DEFAULT_COMPLEXES = [
           "화장실두개",
           "중층"
         ],
-        "agency": "동래더샵부동산중개사무소",
+        "agency": "동래더샵부동산 (부동산뱅크)",
         "confirmYmd": "20261019",
         "regDate": "2026-10-19",
         "isNew": false
@@ -684267,7 +684243,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵제일공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2657213848",
@@ -684292,7 +684268,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "친절부동산공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2656802786",
@@ -684492,7 +684468,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵동래부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2656932377",
@@ -684517,7 +684493,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "명륜트라디움부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2656263614",
@@ -684817,7 +684793,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵제일공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2657156622",
@@ -684842,7 +684818,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵동래부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2656278771",
@@ -684967,7 +684943,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵제일공인중개사사무소",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2657156880",
@@ -684992,7 +684968,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵동래부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2657006485",
@@ -685017,7 +684993,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "더샵정문부동산중개",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2656821343",
@@ -685317,7 +685293,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "태양부동산공인중개사사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2656501438",
@@ -685667,7 +685643,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "친절부동산공인중개사",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2655839401",
@@ -685717,7 +685693,7 @@ const DEFAULT_COMPLEXES = [
         "agency": "동래더샵부동산중개사무소",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2655735455",
