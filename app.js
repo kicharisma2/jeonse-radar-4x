@@ -383,8 +383,15 @@ function isMobileDevice() {
  *   항상 100% 살아있는 현재 실매물 목록을 보여줍니다.
  */
 function buildNaverArticleDirectUrl(complex, articleNo, explicitTradeType, options = {}) {
-  const currentTrade = explicitTradeType || state.tradeType || 'jeonse';
+  const cleanNo = articleNo ? String(articleNo).trim() : '';
 
+  // 네이버 실매물 번호가 있는 경우: 해당 매물 상세 페이지로 100% 직결! (전체 목록이 아닌 그 물건 바로 열기)
+  if (cleanNo && /^\d{6,12}$/.test(cleanNo)) {
+    return `https://fin.land.naver.com/articles/${cleanNo}`;
+  }
+
+  // 실매물 번호가 없거나 단지 기준인 경우: 해당 조건 목록
+  const currentTrade = explicitTradeType || state.tradeType || 'jeonse';
   return buildNaverRealEstateUrl(complex, {
     tradeType: currentTrade,
     pyeong: options.pyeong,
@@ -663,7 +670,9 @@ function filterArticles(articles, complex) {
         const now = new Date();
         const nowTime = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
         const diffDays = Math.round((nowTime - itemTime) / (1000 * 60 * 60 * 24));
-        if (diffDays > 14) {
+        // 네이버 부동산은 통상 1주일(7일) 단위로 매물이 갱신되므로,
+        // 7일 초과된 과거 매물(이미 거래 완료되거나 노출 종료된 유령 매물)은 깔끔하게 자동 필터링
+        if (diffDays > 7) {
           return false;
         }
       }
