@@ -528,7 +528,7 @@ function launchSixWindows() {
 }
 
 // -------------------------------------------------------------
-// 동일 매물 묶기 (부동산별 중복 등록 매물 제거 및 최초 대표물건 선정)
+// 동일 매물 묶기 (부동산별 중복 등록 매물 제거 & 최신 감액 최저가 대표물건 선정)
 // -------------------------------------------------------------
 function deduplicateArticles(list) {
   if (!Array.isArray(list) || list.length <= 1) return list;
@@ -541,8 +541,8 @@ function deduplicateArticles(list) {
     const dong = String(item.dong || '').replace(/[^0-9a-zA-Z가-힣]/g, '') || 'dong';
     const floor = String(item.floor || '').trim().replace(/\s+/g, '');
     const pyeong = Math.round(Number(item.pyeong) || 0);
-    const price = Number(item.price) || 0;
-    const key = `${trade}_${dong}_${floor}_${pyeong}_${price}`;
+    // [핵심 보완] 동일 동·층·평형이면 가격이 달라져도(예: 5억 -> 4.5억 감액) 동일한 집으로 인식하여 통합
+    const key = `${trade}_${dong}_${floor}_${pyeong}`;
 
     if (!groups[key]) {
       groups[key] = [];
@@ -573,24 +573,45 @@ function deduplicateArticles(list) {
       return rep;
     }
 
-    // 제일 처음 올린 물건 (날짜가 가장 빠른/오래된 최초 등록 대표물건 선정 - 네이버 묶음 리스트 최하단 매물)
-    const sorted = [...items].sort((a, b) => {
-      const dateA = String(a.confirmYmd || a.regDate || '').replace(/-/g, '');
-      const dateB = String(b.confirmYmd || b.regDate || '').replace(/-/g, '');
-      if (dateA && dateB && dateA !== dateB) {
-        return dateA.localeCompare(dateB); // 가장 빠른 날짜 오름차순 (오래된 날짜 우선)
+    // [핵심 개선] 감액(가격 인하) 감지 & 최신 최저가 매물 우선 선정
+    const prices = items.map(it => Number(it.price) || 0).filter(p => p > 0);
+    const minPrice = Math.min(...prices);
+    const maxPrice = Math.max(...prices);
+    const isPriceCut = (maxPrice > minPrice);
+
+    // 전체 중복 매물 중 가장 최신 확인일자 탐색 (과거 날짜 때문에 14일 초과로 삭제되는 참사 방지)
+    const dates = items.map(it => String(it.confirmYmd || it.regDate || '').replace(/[^0-9]/g, '')).filter(d => d.length === 8);
+    dates.sort((a, b) => b.localeCompare(a));
+    const latestDate = dates[0] || '';
+
+    // 실거래자 입장에서 가장 유리한 최저가(감액된 가격) 매물들 중 최신순 정렬
+    const candidateItems = items.filter(it => (Number(it.price) || 0) === minPrice);
+    candidateItems.sort((a, b) => {
+      const dateA = String(a.confirmYmd || a.regDate || '').replace(/[^0-9]/g, '');
+      const dateB = String(b.confirmYmd || b.regDate || '').replace(/[^0-9]/g, '');
+      if (dateA !== dateB) {
+        return dateB.localeCompare(dateA); // 최신 확인일자 우선
       }
       const noA = Number(a.articleNo) || 0;
       const noB = Number(b.articleNo) || 0;
-      if (noA && noB && noA !== noB) {
-        return noA - noB; // 더 먼저 생성된 매물번호 우선
-      }
-      return 0;
+      return noB - noA; // 최신 매물번호 우선
     });
 
-    const rep = { ...sorted[0] };
+    const rep = { ...candidateItems[0] };
+    rep.price = minPrice;
+    if (latestDate) {
+      rep.confirmYmd = latestDate;
+      rep.regDate = `${latestDate.slice(0, 4)}-${latestDate.slice(4, 6)}-${latestDate.slice(6, 8)}`;
+    }
     rep.duplicateCount = items.length;
-    rep.otherAgencies = sorted.slice(1).map(it => it.agency);
+    rep.otherAgencies = items.filter(it => it.articleNo !== rep.articleNo).map(it => it.agency);
+
+    if (isPriceCut) {
+      rep.isPriceCut = true;
+      rep.previousPrice = maxPrice;
+      rep.priceCutAmount = maxPrice - minPrice;
+    }
+
     return rep;
   });
 }
@@ -950,6 +971,7 @@ function renderListingCardHtml(complex, item) {
         <div class="listing-price-group">
           <span class="badge-trade-type ${activeTrade === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           <span class="listing-price-huge">${item.priceText}</span>
+          ${item.isPriceCut ? `<span class="badge-price-cut" title="이전 최고 호가 ${formatPrice(item.previousPrice)} 대비 ${formatPrice(item.priceCutAmount)} 감액">🔻 ${formatPrice(item.priceCutAmount)} 인하</span>` : ''}
           ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
         </div>
         <div class="listing-actions">
@@ -1927,6 +1949,7 @@ function openArticleDetailModal(complexId, articleId) {
         <h3 class="modal-article-title">
           <span class="badge-trade-type ${item.tradeType === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           ${item.dong} ${item.floor} (${item.pyeong}평형)
+          ${item.isPriceCut ? `<span class="badge-price-cut">🔻 ${formatPrice(item.priceCutAmount)} 인하 (${formatPrice(item.previousPrice)} → ${item.priceText})</span>` : ''}
           ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
         </h3>
         <span class="modal-article-regdate">등록일자: ${item.confirmYmd || item.regDate || '2026-10-28'} · ${isRealArticle ? '네이버 검증 실매물' : '단지 기준정보'}</span>
