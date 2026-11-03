@@ -670,9 +670,8 @@ function filterArticles(articles, complex) {
         const now = new Date();
         const nowTime = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
         const diffDays = Math.round((nowTime - itemTime) / (1000 * 60 * 60 * 24));
-        // 네이버 부동산은 통상 1주일(7일) 단위로 매물이 갱신되므로,
-        // 7일 초과된 과거 매물(이미 거래 완료되거나 노출 종료된 유령 매물)은 깔끔하게 자동 필터링
-        if (diffDays > 7) {
+        // 최근 16일 이내 유효 실매물 유지 (9월/10월초 만료 매물은 제외하되, 30평대 등 귀한 매물 보존)
+        if (diffDays > 16) {
           return false;
         }
       }
