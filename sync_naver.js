@@ -228,24 +228,23 @@ async function runAutoSync() {
     // 우선 기본 화면에 바로 표시되는 6대 대장단지 및 주요 단지 30개를 즉시 갱신
     // (이후 전체 단지까지 확장)
     const priorityComplexes = [
-      { id: 17246, name: '사직쌍용예가' },
-      { id: 26462, name: '사직쌍용예가2차' },
-      { id: 110733, name: '연제롯데캐슬앤데시앙' },
-      { id: 127894, name: '데시앙해링턴플레이스파크시티' },
-      { id: 107577, name: '사직롯데캐슬더클래식' },
-      { id: 121631, name: '동래3차SK뷰(주상복합)' },
-      { id: 136343, name: '레이카운티' },
       { id: 123223, name: '동래래미안아이파크' },
+      { id: 136343, name: '레이카운티' },
       { id: 146548, name: '래미안포레스티지' },
+      { id: 17246, name: '사직쌍용예가' },
+      { id: 110733, name: '연제롯데캐슬앤데시앙' },
+      { id: 121631, name: '동래3차SK뷰(주상복합)' },
       { id: 123443, name: '더샵동래(주상복합)' },
       { id: 110276, name: '동래효성해링턴플레이스' },
       { id: 103343, name: '명륜아이파크1단지' },
+      { id: 107577, name: '사직롯데캐슬더클래식' },
+      { id: 26462, name: '사직쌍용예가2차' },
+      { id: 127894, name: '데시앙해링턴플레이스파크시티' },
       { id: 103344, name: '명륜아이파크2단지' },
       { id: 112331, name: '힐스테이트명륜' },
       { id: 119860, name: '힐스테이트명륜트라디움' },
       { id: 110243, name: '명륜자이' },
       { id: 111100, name: '온천삼정그린코아더베스트' },
-      { id: 106427, name: '사직롯데캐슬더클래식' },
       { id: 104085, name: '연산자이' },
       { id: 121287, name: 'e편한세상동래온천' },
       { id: 120537, name: '연산더샵' },
@@ -260,8 +259,8 @@ async function runAutoSync() {
       }
     }
 
-    const BATCH_SIZE = 5;
-    const MAX_BATCHES = 10; // 1회 실행 시 상위 50개 단지 우선 고속 갱신 (네이버 과부하 방지)
+    const BATCH_SIZE = 3;
+    const MAX_BATCHES = 8; // 1회 실행 시 상위 24개 대장 단지 평형별 전수 집중 수집
 
     for (let b = 0; b < Math.min(MAX_BATCHES, Math.ceil(syncList.length / BATCH_SIZE)); b++) {
       const batch = syncList.slice(b * BATCH_SIZE, (b + 1) * BATCH_SIZE);
@@ -276,21 +275,43 @@ async function runAutoSync() {
           for (const item of batch) {
             try {
               const fetchType = async (tradeType) => {
-                let list = [];
-                for (let p = 1; p <= 3; p++) {
-                  try {
-                    const url = '/api/articles/complex/' + item.id + '?realEstateType=APT&tradeType=' + tradeType + '&priceType=RETAIL&page=' + p + '&type=list&order=prc';
-                    const r = await fetch(url, {
-                      headers: {
-                        'Authorization': 'Bearer ' + token,
-                        'Content-Type': 'application/json'
+                const list = [];
+                const seenNos = new Set();
+
+                // 20평대 저가 매물 편중으로 인한 30·40평대 누락 원천 차단!
+                // 1) 전체 최저가 (1~2p)
+                // 2) 30평대(84㎡ 국민평형) 전용 집중 수집 (1~3p)
+                // 3) 40평대 이상 대형 전용 수집 (1~2p)
+                const queries = [
+                  '',                        // 전체 기본
+                  '&areaMin=99&areaMax=132', // 30평대(84㎡) 필수 보장
+                  '&areaMin=132&areaMax=999' // 40평대 이상 필수 보장
+                ];
+
+                for (const q of queries) {
+                  const maxP = q === '' ? 2 : (q.includes('99&areaMax=132') ? 3 : 2);
+                  for (let p = 1; p <= maxP; p++) {
+                    try {
+                      const url = '/api/articles/complex/' + item.id + '?realEstateType=APT&tradeType=' + tradeType + '&priceType=RETAIL&page=' + p + '&type=list&order=prc' + q;
+                      const r = await fetch(url, {
+                        headers: {
+                          'Authorization': 'Bearer ' + token,
+                          'Content-Type': 'application/json'
+                        }
+                      });
+                      if (!r.ok) break;
+                      const d = await r.json();
+                      if (d.articleList && d.articleList.length > 0) {
+                        for (const a of d.articleList) {
+                          if (!seenNos.has(a.articleNo)) {
+                            seenNos.add(a.articleNo);
+                            list.push(a);
+                          }
+                        }
                       }
-                    });
-                    if (!r.ok) break;
-                    const d = await r.json();
-                    if (d.articleList && d.articleList.length > 0) list.push(...d.articleList);
-                    if (!d.isMoreData) break;
-                  } catch { break; }
+                      if (!d.isMoreData) break;
+                    } catch { break; }
+                  }
                 }
                 return list;
               };
