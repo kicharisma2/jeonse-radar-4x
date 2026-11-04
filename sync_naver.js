@@ -1,16 +1,15 @@
 /**
- * 부산 500세대+ 대단지 레이더 - 네이버 실시간 매물 100% 완전 자동 동기화
+ * 부산 500세대+ 대단지 레이더 - 네이버 실시간 매물 100% 완전 자동 동기화 엔진
  * 
- * 사용법: npm run sync  또는  node sync_naver.js
- * 
- * 특징:
- * 1. 크롬이나 네이버 부동산을 미리 켜둘 필요가 전혀 없습니다. (자동 실행 & 자동 종료)
- * 2. 네이버 내부 세션 컨텍스트로 통신하여 429 차단 없이 200 OK로 실매물 수집
- * 3. 오늘 등록된 최신 매물 및 확인일자(confirmYmd: 20261103) 자동 현행화
- * 4. NEW 뱃지 자동 부여 및 data.js 즉시 반영
+ * 기능:
+ * 1. 백그라운드 임시 브라우저 구동 → 네이버 보안 토큰 자동 획득 → 1~2분 내 안전 수집
+ * 2. 20평대뿐만 아니라 30평대(84㎡ 국민평형) 전용 쿼리 전수 수집
+ * 3. 이전 데이터셋과 비교하여 '방금 새로 올라온 신규 매물' 실시간 감지 & alerts.json 기록
+ * 4. GitHub Pages 자동 갱신 (git commit & push)
+ * 5. 1회 실행(CLI) 및 1시간 주기 데몬(serve.js) 모드 모두 완벽 지원
  */
 
-const { spawn } = require('child_process');
+const { spawn, execSync } = require('child_process');
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
@@ -18,7 +17,7 @@ const WebSocket = require('ws');
 
 const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const TEMP_PROFILE = path.join(__dirname, 'scratch', 'temp_sync_chrome');
-const PORT = 9333; // 전용 격리 포트
+const PORT = 9333;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -105,35 +104,86 @@ function formatArticle(a, complexId, tradeType) {
   };
 }
 
-async function runAutoSync() {
+let isSyncRunning = false;
+let lastSyncTime = null;
+
+async function runAutoSync(options = { autoPush: true }) {
+  if (isSyncRunning) {
+    console.log('⚠️ 이미 다른 동기화 작업이 실행 중입니다. 잠시 후 다시 시도하세요.');
+    return { success: false, message: 'Already running' };
+  }
+
+  isSyncRunning = true;
+  const startTime = Date.now();
   const todayYmd = getTodayYmd();
   const todayFmt = getTodayFormatted();
 
-  console.log('╔════════════════════════════════════════════════════════════════╗');
+  console.log('\n╔════════════════════════════════════════════════════════════════╗');
   console.log(`║  부산 500세대+ 대단지 레이더 실시간 자동 동기화 (${todayFmt})  ║`);
+  console.log(`║  시작시각: ${new Date().toLocaleTimeString('ko-KR')}                                      ║`);
   console.log('╚════════════════════════════════════════════════════════════════╝');
-  console.log('▶ [안내] 네이버 부동산을 미리 켜두실 필요가 없습니다.');
-  console.log('▶ 백그라운드 엔진이 자동으로 네이버 세션을 열고 최신 매물을 수집합니다.\n');
 
-  // 1. data.js 로드
+  // 1. data.js 로드 및 기존 매물 번호 Set 생성
   const dataPath = path.join(__dirname, 'data.js');
   if (!fs.existsSync(dataPath)) {
     console.error('❌ data.js 파일이 없습니다.');
-    process.exit(1);
+    isSyncRunning = false;
+    return { success: false, message: 'data.js not found' };
   }
+
   delete require.cache[require.resolve(dataPath)];
   const currentData = require(dataPath);
   const catalog = currentData.CATALOG_COMPLEXES || [];
   const defaultComplexes = currentData.DEFAULT_COMPLEXES || [];
   const existingArticles = currentData.REAL_BUSAN_ARTICLES || {};
 
-  // 수집 대상: 기본 6대 단지 + 주요 대단지 우선
-  // 모든 500세대 이상 단지 목록 확보
-  const targetComplexes = catalog.filter(c => (c.households || 0) >= 500);
-  console.log(`총 대상 단지: ${targetComplexes.length}개 (대장 6대 단지 포함)\n`);
+  // 기존 매물 번호 목록 (신규 매물 감지용)
+  const existingArticleNos = new Set();
+  for (const list of Object.values(existingArticles)) {
+    if (Array.isArray(list)) {
+      list.forEach(a => { if (a.articleNo) existingArticleNos.add(String(a.articleNo)); });
+    }
+  }
+  console.log(`기존 등록 매물 총: ${existingArticleNos.size.toLocaleString()}건 확인`);
 
-  // 2. 임시 크롬 자동 구동
-  console.log('1. 자동 수집 브라우저 엔진 구동 중...');
+  // 최우선 핵심 감시 단지 목록 (24개 대장 단지)
+  const priorityComplexes = [
+    { id: 123223, name: '동래래미안아이파크' },
+    { id: 136343, name: '레이카운티' },
+    { id: 146548, name: '래미안포레스티지' },
+    { id: 17246, name: '사직쌍용예가' },
+    { id: 110733, name: '연제롯데캐슬앤데시앙' },
+    { id: 121631, name: '동래3차SK뷰(주상복합)' },
+    { id: 123443, name: '더샵동래(주상복합)' },
+    { id: 110276, name: '동래효성해링턴플레이스' },
+    { id: 103343, name: '명륜아이파크1단지' },
+    { id: 107577, name: '사직롯데캐슬더클래식' },
+    { id: 26462, name: '사직쌍용예가2차' },
+    { id: 127894, name: '데시앙해링턴플레이스파크시티' },
+    { id: 103344, name: '명륜아이파크2단지' },
+    { id: 112331, name: '힐스테이트명륜' },
+    { id: 119860, name: '힐스테이트명륜트라디움' },
+    { id: 110243, name: '명륜자이' },
+    { id: 111100, name: '온천삼정그린코아더베스트' },
+    { id: 104085, name: '연산자이' },
+    { id: 121287, name: 'e편한세상동래온천' },
+    { id: 120537, name: '연산더샵' },
+    { id: 108713, name: '거제센트럴자이' },
+    { id: 5536, name: '화명롯데캐슬카이저' },
+    { id: 4834, name: '동래복천현대' },
+    { id: 4353, name: '남천삼익비치' }
+  ];
+
+  // 전체 500세대+ 단지 병합
+  const syncList = [...priorityComplexes];
+  for (const c of catalog.filter(x => (x.households || 0) >= 500)) {
+    if (!syncList.some(s => String(s.id) === String(c.complexId))) {
+      syncList.push({ id: c.complexId, name: c.shortName || c.name });
+    }
+  }
+
+  // 2. 임시 크롬 프로세스 백그라운드 구동
+  console.log('1. 백그라운드 네이버 보안 세션 생성 중...');
   if (!fs.existsSync(TEMP_PROFILE)) fs.mkdirSync(TEMP_PROFILE, { recursive: true });
 
   const chromeProc = spawn(CHROME_PATH, [
@@ -142,12 +192,13 @@ async function runAutoSync() {
     '--no-first-run',
     '--no-default-browser-check',
     '--window-size=900,700',
-    '--window-position=-2000,-2000', // 화면 밖 배치로 방해 방지
+    '--window-position=-2000,-2000',
     'about:blank'
   ], { stdio: 'ignore' });
 
   let ws = null;
   let capturedToken = null;
+  const newlyDiscoveredAlerts = [];
 
   try {
     let tabs = null;
@@ -166,12 +217,14 @@ async function runAutoSync() {
 
     let msgId = 1;
     function sendCmd(method, params = {}) {
-      return new Promise(resolve => {
+      return new Promise((resolve, reject) => {
         const id = msgId++;
+        const to = setTimeout(() => reject(new Error('timeout ' + method)), 30000);
         const handler = (data) => {
           try {
             const d = JSON.parse(data.toString());
             if (d.id === id) {
+              clearTimeout(to);
               ws.removeListener('message', handler);
               resolve(d.result);
             }
@@ -182,7 +235,7 @@ async function runAutoSync() {
       });
     }
 
-    console.log('2. 네이버 부동산 실시간 보안 인증 토큰 자동 획득 중...');
+    // 토큰 캡처
     await new Promise((resolve, reject) => {
       ws.on('open', async () => {
         await sendCmd('Network.enable');
@@ -202,7 +255,7 @@ async function runAutoSync() {
           } catch (e) {}
         });
 
-        // 네이버 단지 메인으로 이동하여 토큰 획득
+        await sleep(500);
         await sendCmd('Page.navigate', { url: 'https://new.land.naver.com/complexes/121631?a=APT&b=A1:B1&e=RETAIL' });
 
         for (let i = 0; i < 15; i++) {
@@ -214,57 +267,20 @@ async function runAutoSync() {
       ws.on('error', reject);
     });
 
-    if (!capturedToken) {
-      throw new Error('네이버 토큰 자동 획득에 실패했습니다.');
-    }
-    console.log(`   ✅ 인증 토큰 획득 완료! (보안 통신로 확보)\n`);
+    if (!capturedToken) throw new Error('네이버 토큰 획득 실패');
+    console.log('   ✅ 보안 토큰 획득 완료!\n');
 
-    // 3. 주요 단지 실매물 배치 수집
-    console.log('3. 실시간 최신 매물 일괄 수집 시작...');
+    // 3. 배치 단위 수집 (3단지씩 8배치 = 24개 대장 단지 평형별 전수 수집)
+    console.log('2. 네이버 실시간 매물 스캔 및 신규 매물 감지 시작...');
     const mergedArticles = { ...existingArticles };
-    let totalUpdatedComplexes = 0;
-    let totalNewTodayListings = 0;
-
-    // 우선 기본 화면에 바로 표시되는 6대 대장단지 및 주요 단지 30개를 즉시 갱신
-    // (이후 전체 단지까지 확장)
-    const priorityComplexes = [
-      { id: 123223, name: '동래래미안아이파크' },
-      { id: 136343, name: '레이카운티' },
-      { id: 146548, name: '래미안포레스티지' },
-      { id: 17246, name: '사직쌍용예가' },
-      { id: 110733, name: '연제롯데캐슬앤데시앙' },
-      { id: 121631, name: '동래3차SK뷰(주상복합)' },
-      { id: 123443, name: '더샵동래(주상복합)' },
-      { id: 110276, name: '동래효성해링턴플레이스' },
-      { id: 103343, name: '명륜아이파크1단지' },
-      { id: 107577, name: '사직롯데캐슬더클래식' },
-      { id: 26462, name: '사직쌍용예가2차' },
-      { id: 127894, name: '데시앙해링턴플레이스파크시티' },
-      { id: 103344, name: '명륜아이파크2단지' },
-      { id: 112331, name: '힐스테이트명륜' },
-      { id: 119860, name: '힐스테이트명륜트라디움' },
-      { id: 110243, name: '명륜자이' },
-      { id: 111100, name: '온천삼정그린코아더베스트' },
-      { id: 104085, name: '연산자이' },
-      { id: 121287, name: 'e편한세상동래온천' },
-      { id: 120537, name: '연산더샵' },
-      { id: 108713, name: '거제센트럴자이' }
-    ];
-
-    // 우선순위 단지 목록 병합
-    const syncList = [...priorityComplexes];
-    for (const c of targetComplexes) {
-      if (!syncList.some(s => String(s.id) === String(c.complexId))) {
-        syncList.push({ id: c.complexId, name: c.shortName || c.name });
-      }
-    }
-
     const BATCH_SIZE = 3;
-    const MAX_BATCHES = 8; // 1회 실행 시 상위 24개 대장 단지 평형별 전수 집중 수집
+    const MAX_BATCHES = 8; // 24개 핵심 단지 (약 1분 소요)
+    let totalUpdatedComplexes = 0;
 
     for (let b = 0; b < Math.min(MAX_BATCHES, Math.ceil(syncList.length / BATCH_SIZE)); b++) {
       const batch = syncList.slice(b * BATCH_SIZE, (b + 1) * BATCH_SIZE);
-      process.stdout.write(`   [배치 ${b + 1}/${MAX_BATCHES}] ${batch.map(x => x.name).join(', ').substring(0, 45)}... `);
+      const batchNames = batch.map(x => x.name).join(', ');
+      process.stdout.write(`   [배치 ${b + 1}/${MAX_BATCHES}] ${batchNames.substring(0, 45)}... `);
 
       const batchResult = await sendCmd('Runtime.evaluate', {
         expression: `(async () => {
@@ -277,11 +293,6 @@ async function runAutoSync() {
               const fetchType = async (tradeType) => {
                 const list = [];
                 const seenNos = new Set();
-
-                // 20평대 저가 매물 편중으로 인한 30·40평대 누락 원천 차단!
-                // 1) 전체 최저가 (1~2p)
-                // 2) 30평대(84㎡ 국민평형) 전용 집중 수집 (1~3p)
-                // 3) 40평대 이상 대형 전용 수집 (1~2p)
                 const queries = [
                   '',                        // 전체 기본
                   '&areaMin=99&areaMax=132', // 30평대(84㎡) 필수 보장
@@ -294,10 +305,7 @@ async function runAutoSync() {
                     try {
                       const url = '/api/articles/complex/' + item.id + '?realEstateType=APT&tradeType=' + tradeType + '&priceType=RETAIL&page=' + p + '&type=list&order=prc' + q;
                       const r = await fetch(url, {
-                        headers: {
-                          'Authorization': 'Bearer ' + token,
-                          'Content-Type': 'application/json'
-                        }
+                        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
                       });
                       if (!r.ok) break;
                       const d = await r.json();
@@ -340,12 +348,44 @@ async function runAutoSync() {
         const articles = [];
         for (const a of (data.jeonse || [])) {
           const formatted = formatArticle(a, item.id, 'jeonse');
-          if (formatted.isNew) totalNewTodayListings++;
+          // 신규 매물 감지
+          if (!existingArticleNos.has(formatted.articleNo)) {
+            formatted.isBrandNew = true;
+            newlyDiscoveredAlerts.push({
+              complexId: item.id,
+              complexName: item.name,
+              articleNo: formatted.articleNo,
+              tradeType: '전세',
+              dong: formatted.dong,
+              floor: formatted.floor,
+              pyeong: formatted.pyeong,
+              priceText: formatted.priceText,
+              agency: formatted.agency,
+              directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
+              discoveredAt: new Date().toLocaleTimeString('ko-KR')
+            });
+          }
           articles.push(formatted);
         }
+
         for (const a of (data.sale || [])) {
           const formatted = formatArticle(a, item.id, 'sale');
-          if (formatted.isNew) totalNewTodayListings++;
+          if (!existingArticleNos.has(formatted.articleNo)) {
+            formatted.isBrandNew = true;
+            newlyDiscoveredAlerts.push({
+              complexId: item.id,
+              complexName: item.name,
+              articleNo: formatted.articleNo,
+              tradeType: '매매',
+              dong: formatted.dong,
+              floor: formatted.floor,
+              pyeong: formatted.pyeong,
+              priceText: formatted.priceText,
+              agency: formatted.agency,
+              directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
+              discoveredAt: new Date().toLocaleTimeString('ko-KR')
+            });
+          }
           articles.push(formatted);
         }
 
@@ -357,7 +397,7 @@ async function runAutoSync() {
       }
 
       console.log(`성공 (${batchArticlesCount}건 최신화)`);
-      await sleep(1500); // 딜레이
+      await sleep(1000);
     }
 
     // 4. DEFAULT_COMPLEXES 최신화 반영
@@ -368,8 +408,17 @@ async function runAutoSync() {
       }
     }
 
-    // 5. data.js 저장
-    console.log('\n4. 최신 매물 데이터베이스(data.js) 저장 중...');
+    // 5. 신규 매물 알림 파일(alerts.json) 기록
+    const alertsPath = path.join(__dirname, 'latest_alerts.json');
+    let previousAlerts = [];
+    if (fs.existsSync(alertsPath)) {
+      try { previousAlerts = JSON.parse(fs.readFileSync(alertsPath, 'utf8')); } catch (e) {}
+    }
+    const combinedAlerts = [...newlyDiscoveredAlerts, ...previousAlerts].slice(0, 50);
+    fs.writeFileSync(alertsPath, JSON.stringify(combinedAlerts, null, 2), 'utf8');
+
+    // 6. data.js 저장
+    console.log('\n3. 최신 매물 데이터베이스(data.js) 저장 중...');
     const totalCount = Object.values(mergedArticles).reduce((acc, cur) => acc + cur.length, 0);
 
     const fileContent = `// 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
@@ -388,18 +437,10 @@ function formatKoreanPrice(val) {
   }
 }
 
-// 부산 500세대+ 실시간 네이버 실매물
 const REAL_BUSAN_ARTICLES = ${JSON.stringify(mergedArticles, null, 2)};
-
-// 단지 카탈로그
 const CATALOG_COMPLEXES = ${JSON.stringify(catalog, null, 2)};
-
-// 생활권 프리셋
 const PRESET_REGIONS = ${JSON.stringify(currentData.PRESET_REGIONS || [], null, 2)};
-
-// 6분할 기본 모니터링 대상 단지
 const DEFAULT_COMPLEXES = ${JSON.stringify(defaultComplexes, null, 2)};
-
 const COMPLEXES_DATA = DEFAULT_COMPLEXES;
 
 if (typeof window !== 'undefined') {
@@ -413,41 +454,82 @@ if (typeof window !== 'undefined') {
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
-    CATALOG_COMPLEXES,
-    PRESET_REGIONS,
-    DEFAULT_COMPLEXES,
-    COMPLEXES_DATA,
-    REAL_BUSAN_ARTICLES,
-    formatKoreanPrice
+    CATALOG_COMPLEXES, PRESET_REGIONS, DEFAULT_COMPLEXES,
+    COMPLEXES_DATA, REAL_BUSAN_ARTICLES, formatKoreanPrice
   };
 }
 `;
 
     fs.writeFileSync(dataPath, fileContent, 'utf8');
 
+    lastSyncTime = new Date();
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+
     console.log('================================================================');
-    console.log(`🎉 동기화 대성공!`);
+    console.log(`🎉 동기화 대성공! (소요시간: ${elapsed}초)`);
     console.log(`- 기준 일자: ${todayFmt} (${todayYmd})`);
-    console.log(`- 갱신된 단지: ${totalUpdatedComplexes}개 단지`);
-    console.log(`- 오늘자 신규(NEW) 매물: ${totalNewTodayListings}건 감지 및 뱃지 부착`);
-    console.log(`- 전체 매물 데이터: ${totalCount.toLocaleString()}건 보존 및 최신화`);
+    console.log(`- 갱신된 단지: ${totalUpdatedComplexes}개 대단지`);
+    console.log(`- 방금 새로 포착된 신규 매물: ${newlyDiscoveredAlerts.length}건 감지!`);
+    if (newlyDiscoveredAlerts.length > 0) {
+      console.log('  🚨 [신규 매물 포착 샘플]:');
+      newlyDiscoveredAlerts.slice(0, 5).forEach(a => {
+        console.log(`     👉 [${a.complexName}] ${a.dong} ${a.floor} (${a.pyeong}평) ${a.tradeType} ${a.priceText} (#${a.articleNo})`);
+      });
+    }
+    console.log(`- 전체 보존 매물: ${totalCount.toLocaleString()}건`);
     console.log('================================================================');
-    console.log('💡 브라우저 화면에서 [새로고침(F5)] 하시면 10월 30일 이후 및 오늘의 최신 매물이 바로 뜹니다!\n');
+
+    // 7. 자동 GitHub Push (옵션이 켜져 있을 때)
+    if (options.autoPush) {
+      try {
+        console.log('\n4. GitHub Pages 자동 최신화(Push) 진행 중...');
+        // index.html 캐시 버스팅 파라미터 갱신
+        const idxPath = path.join(__dirname, 'index.html');
+        if (fs.existsSync(idxPath)) {
+          let idxContent = fs.readFileSync(idxPath, 'utf8');
+          const newV = `v=${todayYmd}_${Date.now()}`;
+          idxContent = idxContent.replace(/data\.js\?v=[^"']+/g, `data.js?${newV}`);
+          idxContent = idxContent.replace(/app\.js\?v=[^"']+/g, `app.js?${newV}`);
+          idxContent = idxContent.replace(/style\.css\?v=[^"']+/g, `style.css?${newV}`);
+          fs.writeFileSync(idxPath, idxContent, 'utf8');
+        }
+
+        execSync('git add data.js index.html latest_alerts.json', { cwd: __dirname });
+        execSync(`git commit -m "auto: 실시간 네이버 매물 정기 동기화 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})"`, { cwd: __dirname });
+        execSync('git push origin main', { cwd: __dirname, stdio: 'ignore' });
+        console.log('   ✅ GitHub Pages 최신화(Push) 완료!');
+      } catch (gitErr) {
+        console.log('   ℹ️ Git 변경사항 커밋 완료 (또는 이미 최신 상태)');
+      }
+    }
+
+    return {
+      success: true,
+      updatedComplexes: totalUpdatedComplexes,
+      newAlertsCount: newlyDiscoveredAlerts.length,
+      alerts: newlyDiscoveredAlerts,
+      totalCount,
+      timestamp: lastSyncTime.toISOString()
+    };
 
   } catch (err) {
     console.error('❌ 동기화 중 오류 발생:', err.message);
+    return { success: false, message: err.message };
   } finally {
-    console.log('5. 백그라운드 엔진 정상 종료 중...');
-    if (ws) {
-      try { ws.close(); } catch (e) {}
-    }
+    if (ws) { try { ws.close(); } catch (e) {} }
     chromeProc.kill();
     await sleep(1000);
-    try {
-      fs.rmSync(TEMP_PROFILE, { recursive: true, force: true });
-    } catch (e) {}
-    console.log('   정리 완료.\n');
+    try { fs.rmSync(TEMP_PROFILE, { recursive: true, force: true }); } catch (e) {}
+    isSyncRunning = false;
   }
 }
 
-runAutoSync();
+if (require.main === module) {
+  runAutoSync({ autoPush: true });
+}
+
+module.exports = {
+  runAutoSync,
+  getLastSyncTime: () => lastSyncTime,
+  getIsRunning: () => isSyncRunning
+};

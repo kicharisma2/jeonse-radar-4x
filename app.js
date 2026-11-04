@@ -730,8 +730,8 @@ function isFreshListing(item) {
 
   const diffCalendarDays = Math.round((nowDateOnly - itemDateOnly) / (1000 * 60 * 60 * 24));
 
-  // 오직 오늘(0일 차이) 등록/확인된 매물만 신규 매물(NEW) 표시
-  return diffCalendarDays === 0;
+  // 오늘(0일) 또는 어제(1일) 등록/확인된 매물 또는 신규 플래그 매물
+  return diffCalendarDays <= 1 || item.isBrandNew === true || item.isNew === true;
 }
 
 function isWithin24Hours(dateStr) {
@@ -980,7 +980,7 @@ function renderListingCardHtml(complex, item) {
           <span class="badge-trade-type ${activeTrade === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           <span class="listing-price-huge">${item.priceText}</span>
           ${item.isPriceCut ? `<span class="badge-price-cut" title="이전 최고 호가 ${formatPrice(item.previousPrice)} 대비 ${formatPrice(item.priceCutAmount)} 감액">🔻 ${formatPrice(item.priceCutAmount)} 인하</span>` : ''}
-          ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
+          ${(isFresh || item.isBrandNew) ? `<span class="badge-new-pulsing" title="최신 확인된 실매물">🔥 신규 ${(item.confirmYmd || '').slice(4,6) ? (item.confirmYmd).slice(4,6)+'.'+(item.confirmYmd).slice(6,8) : 'NEW'}</span>` : ''}
         </div>
         <div class="listing-actions">
           <button class="btn-listing-detail" data-complex-id="${complex.id}" data-article-id="${item.id}" title="상세 정보 및 중개사 확인">
@@ -1958,7 +1958,7 @@ function openArticleDetailModal(complexId, articleId) {
           <span class="badge-trade-type ${item.tradeType === 'sale' ? 'badge-sale' : ''}">${tradeBadgeText}</span>
           ${item.dong} ${item.floor} (${item.pyeong}평형)
           ${item.isPriceCut ? `<span class="badge-price-cut">🔻 ${formatPrice(item.priceCutAmount)} 인하 (${formatPrice(item.previousPrice)} → ${item.priceText})</span>` : ''}
-          ${isFresh ? '<span class="badge-new-subtle">NEW</span>' : ''}
+          ${(isFresh || item.isBrandNew) ? `<span class="badge-new-pulsing" title="최신 확인된 실매물">🔥 신규 ${(item.confirmYmd || '').slice(4,6) ? (item.confirmYmd).slice(4,6)+'.'+(item.confirmYmd).slice(6,8) : 'NEW'}</span>` : ''}
         </h3>
         <span class="modal-article-regdate">등록일자: ${item.confirmYmd || item.regDate || '2026-10-28'} · ${isRealArticle ? '네이버 검증 실매물' : '단지 기준정보'}</span>
       </div>
@@ -2172,7 +2172,7 @@ function renderNotificationFeed() {
   }
 
   container.innerHTML = state.notifications.map(item => `
-    <div class="notif-feed-item ${item.isUnread ? 'unread' : ''}">
+    <div class="notif-feed-item ${item.isUnread ? 'unread' : ''} ${item.directUrl ? 'live-alert' : ''}">
       <div class="notif-feed-header">
         <span class="notif-feed-title">${item.title}</span>
         <span class="notif-feed-time">${item.time}</span>
@@ -2181,9 +2181,15 @@ function renderNotificationFeed() {
         ${item.body}
       </div>
       <div class="notif-feed-footer">
-        <button class="btn-drawer-small primary" onclick="openArticleDetailModal('${item.complexId}', '${item.articleId}'); document.getElementById('drawerOverlay').classList.remove('active');">
-          매물 바로보기 →
-        </button>
+        ${item.directUrl ? `
+          <a href="${item.directUrl}" target="_blank" rel="noopener noreferrer" class="btn-naver-direct" onclick="document.getElementById('drawerOverlay').classList.remove('active');">
+            네이버 확인매물 바로가기 ↗
+          </a>
+        ` : `
+          <button class="btn-drawer-small primary" onclick="openArticleDetailModal('${item.complexId}', '${item.articleId}'); document.getElementById('drawerOverlay').classList.remove('active');">
+            매물 바로보기 →
+          </button>
+        `}
       </div>
     </div>
   `).join('');
@@ -2697,29 +2703,204 @@ document.addEventListener('DOMContentLoaded', () => {
     launchSixWindows();
   });
 
-  // 14. 실시간 레이더 펄스 타이머
-  const timerElem = document.getElementById('nextCheckTimer');
-  setInterval(() => {
-    state.nextCheckSeconds--;
-    if (state.nextCheckSeconds <= 0) {
-      state.nextCheckSeconds = 25;
-      const pulseDot = document.querySelector('.pulse-dot');
-      if (pulseDot) {
-        pulseDot.style.transform = 'scale(1.5)';
-        setTimeout(() => pulseDot.style.transform = 'scale(1)', 400);
-      }
-    }
-    if (timerElem) timerElem.textContent = `다음 감시: ${state.nextCheckSeconds}초`;
-  }, 1000);
+  // 14. 1시간 정기 자동 동기화 & 실시간 신규 매물 감지 엔진 (서버 연동 & 브라우저 푸시)
+  initLiveSyncEngine();
 
   // 초기 안내 토스트
   setTimeout(() => {
     showToast(
-      '🏢 스마트 부동산 6분할 레이더 준비 완료',
-      '기본 밝은 화면 모드로 실행되었습니다. 거래유형(전세/매매) 및 평형(20·30·40평대)을 선택하고 [🔍 조건 적용] 또는 [💾 기본값 저장]을 이용해보세요.'
+      '🏢 스마트 부동산 6분할 레이더 가동',
+      '네이버 1시간 정기 자동 수집 및 실시간 신규 매물 감지가 활성화되었습니다. 신규 매물이 나오면 소리와 알림으로 즉시 안내해 드립니다.',
+      'success'
     );
   }, 600);
 });
+
+// -------------------------------------------------------------
+// 19. 실시간 자동 동기화 데몬 & 신규 매물 감지 엔진
+// -------------------------------------------------------------
+function initLiveSyncEngine() {
+  const statusLabel = document.getElementById('monitoringStatusLabel');
+  const timerElem = document.getElementById('nextCheckTimer');
+  const btnSyncNow = document.getElementById('btnSyncNow');
+  const syncNowLabel = document.getElementById('syncNowLabel');
+  let wasSyncing = false;
+
+  // 1) 즉시 수집 버튼 바인딩
+  if (btnSyncNow) {
+    btnSyncNow.addEventListener('click', async () => {
+      try {
+        btnSyncNow.classList.add('is-syncing');
+        if (syncNowLabel) syncNowLabel.textContent = '수집 요청 중...';
+        showToast('⚡ 실시간 네이버 수집 시작', '백그라운드에서 실시간 네이버 최신 매물 스캔을 시작했습니다. (약 1분 소요)', 'info');
+
+        const res = await fetch('/api/sync-now', { method: 'POST' });
+        const data = await res.json();
+        if (!data.success) {
+          showToast('알림', data.message || '이미 수집 작업이 진행 중입니다.', 'warning');
+        }
+      } catch (err) {
+        // 정적 호스팅(GitHub Pages)일 때 안내
+        showToast('로컬 서버 필요', '즉시 수집은 내 컴퓨터의 로컬 서버(serve.js)에서 지원됩니다. 화면을 새로고침합니다.', 'warning');
+        setTimeout(() => window.location.reload(), 1500);
+      }
+    });
+  }
+
+  // 2) 서버 동기화 상태 정기 폴링 (/api/status, 2초 간격)
+  async function pollSyncStatus() {
+    try {
+      const res = await fetch('/api/status', { cache: 'no-store' });
+      if (!res.ok) throw new Error('Status endpoint not ok');
+      const data = await res.json();
+
+      if (data.isSyncing) {
+        wasSyncing = true;
+        if (statusLabel) statusLabel.textContent = '네이버 실시간 수집 중...';
+        if (timerElem) timerElem.textContent = '약 1분 소요';
+        if (btnSyncNow) btnSyncNow.classList.add('is-syncing');
+        if (syncNowLabel) syncNowLabel.textContent = '수집 진행 중...';
+      } else {
+        if (wasSyncing) {
+          wasSyncing = false;
+          if (btnSyncNow) btnSyncNow.classList.remove('is-syncing');
+          if (syncNowLabel) syncNowLabel.textContent = '지금 즉시 수집';
+          showToast('🎉 네이버 실시간 매물 현행화 완료', '최신 매물이 안전하게 갱신되었습니다. 화면을 새로고침합니다.', 'success');
+          setTimeout(() => window.location.reload(), 1500);
+          return;
+        }
+
+        if (btnSyncNow) btnSyncNow.classList.remove('is-syncing');
+        if (syncNowLabel) syncNowLabel.textContent = '지금 즉시 수집';
+        if (statusLabel) statusLabel.textContent = '1시간 정기 수집';
+
+        if (data.nextSyncTime && timerElem) {
+          const diffMs = new Date(data.nextSyncTime).getTime() - Date.now();
+          if (diffMs > 0) {
+            const m = Math.floor(diffMs / 60000);
+            const s = Math.floor((diffMs % 60000) / 1000);
+            timerElem.textContent = `다음 수집: ${m}분 ${String(s).padStart(2, '0')}초`;
+          } else {
+            timerElem.textContent = '수집 준비 중...';
+          }
+        }
+      }
+    } catch (e) {
+      // 로컬 API가 없는 경우 (GitHub Pages 정적 서빙 모드)
+      if (statusLabel) statusLabel.textContent = '1시간 정기 자동수집';
+      if (timerElem) timerElem.textContent = '실시간 연동 중';
+    }
+  }
+
+  // 3) 신규 매물 실시간 감지 및 푸시 알림 (/api/alerts 또는 latest_alerts.json)
+  let seenAlertNos = [];
+  try {
+    seenAlertNos = JSON.parse(localStorage.getItem('RADAR_SEEN_ALERT_NOS') || '[]');
+  } catch (e) { seenAlertNos = []; }
+
+  async function pollAlerts() {
+    try {
+      let alerts = [];
+      try {
+        const res = await fetch('/api/alerts', { cache: 'no-store' });
+        if (res.ok) {
+          const d = await res.json();
+          alerts = d.alerts || [];
+        }
+      } catch (apiErr) {
+        // fallback to latest_alerts.json
+        const res2 = await fetch('latest_alerts.json?t=' + Date.now(), { cache: 'no-store' });
+        if (res2.ok) alerts = await res2.json();
+      }
+
+      if (!Array.isArray(alerts) || alerts.length === 0) return;
+
+      // 최초 실행 시: 알림 피드에 기존 알림 목록을 안전하게 프리로드
+      if (!window.__radarAlertsInitialized) {
+        window.__radarAlertsInitialized = true;
+        const recentAlerts = alerts.slice(0, 30);
+        recentAlerts.forEach(a => {
+          state.notifications.push({
+            id: 'alert-' + a.articleNo,
+            complexId: a.complexId,
+            complexName: a.complexName,
+            articleId: a.articleNo,
+            directUrl: a.directUrl || `https://fin.land.naver.com/articles/${a.articleNo}`,
+            title: `🚨 [${a.complexName}] 신규 ${a.tradeType} ${a.priceText}`,
+            body: `${a.dong} ${a.floor} (${a.pyeong}평형) | 중개사: ${a.agency}`,
+            time: a.discoveredAt || '방금 전',
+            isUnread: true
+          });
+          if (!seenAlertNos.includes(String(a.articleNo))) {
+            seenAlertNos.push(String(a.articleNo));
+          }
+        });
+        localStorage.setItem('RADAR_SEEN_ALERT_NOS', JSON.stringify(seenAlertNos.slice(0, 300)));
+        updateUnreadCount();
+        renderNotificationFeed();
+        return;
+      }
+
+      // 2회차 이후 폴링: 새로 감지된 신규 매물 선별
+      const brandNewListings = alerts.filter(a => !seenAlertNos.includes(String(a.articleNo)));
+      if (brandNewListings.length > 0) {
+        // 1. 소리 알림
+        playChimeSound();
+
+        // 2. 신규 매물별 브라우저 푸시 & 인앱 토스트
+        brandNewListings.forEach(a => {
+          seenAlertNos.push(String(a.articleNo));
+          const directLink = a.directUrl || `https://fin.land.naver.com/articles/${a.articleNo}`;
+          const title = `🚨 [${a.complexName}] 신규 ${a.tradeType} ${a.priceText}!`;
+          const body = `${a.dong} ${a.floor} (${a.pyeong}평형) | 중개사: ${a.agency}`;
+
+          // 네이티브 데스크탑 푸시
+          if (state.notificationsEnabled && 'Notification' in window && Notification.permission === 'granted') {
+            try {
+              const notif = new Notification(title, {
+                body: body,
+                tag: 'naver-' + a.articleNo,
+                icon: 'https://ssl.pstatic.net/static.land/static/space/20231122/img/common/favicon.ico'
+              });
+              notif.onclick = () => {
+                window.focus();
+                window.open(directLink, '_blank');
+              };
+            } catch (e) {}
+          }
+
+          // 인앱 토스트 알림
+          showToast(title, `${body} <br><b style="color:#03c75a;">[클릭 시 네이버 실매물 즉시 연결]</b>`, 'listing', () => {
+            window.open(directLink, '_blank');
+          });
+
+          // 알림 드로어 피드에 추가
+          state.notifications.unshift({
+            id: 'alert-' + a.articleNo,
+            complexId: a.complexId,
+            complexName: a.complexName,
+            articleId: a.articleNo,
+            directUrl: directLink,
+            title: title,
+            body: body,
+            time: a.discoveredAt || new Date().toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
+            isUnread: true
+          });
+        });
+
+        localStorage.setItem('RADAR_SEEN_ALERT_NOS', JSON.stringify(seenAlertNos.slice(0, 300)));
+        updateUnreadCount();
+        renderNotificationFeed();
+      }
+    } catch (e) {}
+  }
+
+  // 타이머 실행 (상태 1초마다, 알림 5초마다)
+  setInterval(pollSyncStatus, 1000);
+  setInterval(pollAlerts, 5000);
+  pollSyncStatus();
+  pollAlerts();
+}
 
 // 전역 디버깅 및 연동 헬퍼
 window.state = state;

@@ -4398,4 +4398,121 @@ body.theme-light .btn-backup-action:hover {
   border-color: rgba(239, 68, 68, 0.35);
 }
 
+/* ============================================================= */
+/* 2026-11-04 1시간 정기 자동 동기화 & 실시간 신규 매물 알림 스타일 */
+/* ============================================================= */
+
+/* 실시간 즉시 수집 버튼 */
+.btn-sync-now {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px !important;
+  border-radius: 20px;
+  font-size: 0.78rem !important;
+  height: 26px !important;
+}
+
+.btn-sync-now:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-sync-now.is-syncing {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+  pointer-events: none;
+  cursor: wait;
+}
+
+.btn-sync-now.is-syncing .btn-icon {
+  animation: spin-icon 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin-icon {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 실시간 신규 매물 알림 버튼 */
+.btn-live-alerts {
+  background: rgba(239, 68, 68, 0.08) !important;
+  border: 1px solid rgba(239, 68, 68, 0.35) !important;
+  color: #ef4444 !important;
+  font-weight: 700 !important;
+  position: relative;
+}
+
+.btn-live-alerts:hover {
+  background: rgba(239, 68, 68, 0.16) !important;
+  border-color: #ef4444 !important;
+}
+
+.btn-live-alerts .badge-counter {
+  background: #ef4444 !important;
+  color: #fff !important;
+  font-size: 0.68rem !important;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+/* 오늘 신규 매물 펄스 뱃지 */
+.badge-new-pulsing {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+  color: #ffffff !important;
+  font-size: 0.68rem !important;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 4px;
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.6);
+  animation: badge-pulse 2s infinite ease-in-out;
+  vertical-align: middle;
+}
+
+@keyframes badge-pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  50% { transform: scale(1.05); box-shadow: 0 0 0 4px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* 알림 드로어 내 신규 매물 카드 */
+.notif-feed-item.live-alert {
+  border-left: 3px solid #ef4444 !important;
+  background: rgba(239, 68, 68, 0.03);
+}
+
+.notif-feed-item.live-alert .btn-naver-direct {
+  background: #03c75a;
+  color: #fff !important;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: background 0.15s ease;
+}
+
+.notif-feed-item.live-alert .btn-naver-direct:hover {
+  background: #02b150;
+}
+
+
 

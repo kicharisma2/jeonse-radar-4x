@@ -35,11 +35,15 @@
           <h1 class="brand-title">부산 500세대+ <span class="text-gradient">대단지 레이더</span> <span class="brand-condition-badge">500세대+ 전용</span></h1>
         </div>
       </div>
-      <div class="status-chip" id="monitoringStatusChip">
+      <div class="status-chip" id="monitoringStatusChip" title="네이버 매물 1시간 주기 실시간 자동 수집">
         <span class="live-beacon"></span>
-        <span class="status-label">부산 실시간 감시</span>
-        <span class="status-timer" id="nextCheckTimer">25초</span>
+        <span class="status-label" id="monitoringStatusLabel">1시간 정기 수집</span>
+        <span class="status-timer" id="nextCheckTimer">계산 중...</span>
       </div>
+      <button class="btn-action btn-sync-now btn-slim" id="btnSyncNow" title="지금 즉시 네이버에서 최신 매물을 직접 수집합니다">
+        <span class="btn-icon" id="syncNowIcon">⚡</span>
+        <span class="btn-label" id="syncNowLabel">지금 즉시 수집</span>
+      </button>
       <div class="stat-badge" id="totalMatchesBadge">
         <span class="stat-num" id="totalMatchesCount">0</span>
         <span class="stat-txt">매물</span>
@@ -54,24 +58,20 @@
         <span class="badge-hot">1-CLICK</span>
       </button>
 
+      <button class="btn-action btn-live-alerts btn-slim" id="btnOpenNotificationCenter" title="실시간 포착된 신규 매물 피드 열기">
+        <span class="btn-icon">🚨</span>
+        <span class="btn-label">신규 매물 알림</span>
+        <span class="badge-counter badge-hot" id="unreadNotifCount" style="display: none;">0</span>
+      </button>
+
+      <button class="btn-action btn-notify-toggle btn-slim" id="btnNotifyToggle" title="새 매물 데스크탑 푸시 및 소리 알림 켜기/끄기">
+        <span class="btn-icon" id="notifyIcon">🔔</span>
+        <span class="btn-label" id="notifyLabel">소리/알림</span>
+      </button>
+
       <button class="btn-action btn-profile-settings btn-slim" id="btnProfileSettings" title="내 프로필 및 컴퓨터 저장 설정 관리">
         <span class="btn-icon">⚙️</span>
         <span class="btn-label" id="profileNameLabel">내 설정</span>
-      </button>
-
-      <button class="btn-action btn-notify-toggle btn-slim" id="btnNotifyToggle" title="새 매물 데스크탑 알림 토글">
-        <span class="btn-icon" id="notifyIcon">🔔</span>
-        <span class="btn-label" id="notifyLabel">알림</span>
-      </button>
-
-      <button class="btn-icon-only btn-slim" id="btnOpenNotificationCenter" title="알림 피드">
-        <span class="icon">📫</span>
-        <span class="badge-counter" id="unreadNotifCount" style="display: none;">0</span>
-      </button>
-
-      <button class="btn-action btn-test-alert btn-slim" id="btnSimulateNewListing" title="새 매물 알림 테스트">
-        <span class="btn-icon">🧪</span>
-        <span class="btn-label">테스트</span>
       </button>
 
       <button class="btn-icon-only btn-slim" id="btnThemeToggle" title="테마 전환 (어두운 화면 / 밝은 화면)">
