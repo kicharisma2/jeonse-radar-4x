@@ -101,6 +101,17 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // API 4: 서버 안전 종료 (/api/shutdown)
+  if (reqPath === '/api/shutdown') {
+    res.writeHead(200, {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Access-Control-Allow-Origin': '*'
+    });
+    res.end(JSON.stringify({ success: true, message: '레이더 서버를 종료합니다.' }));
+    setTimeout(() => process.exit(0), 300);
+    return;
+  }
+
   // 정적 파일 서빙 (외부 폴더 파일 우선, 없으면 번들 파일)
   let filePath = path.join(ROOT_DIR, reqPath === '/' ? '/index.html' : reqPath);
   if (!fs.existsSync(filePath)) {
