@@ -1329,7 +1329,7 @@ function renderCatalogList(filterQuery = '', filterRegion = 'all') {
     const targetCount = isJeonseMode ? jeonseCount : saleCount;
 
     return `
-      <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}">
+      <div class="catalog-item-card ${isAlreadyIn ? 'is-active-slot' : ''}" data-id="${item.id}" data-complex-id="${item.complexId}" style="cursor: pointer;" title="클릭하여 슬롯 ${state.targetSlotIndex + 1}에 이 아파트 배치">
         <div class="item-top-row">
           <h4 class="item-complex-name">${item.name}</h4>
           <span class="item-region-tag">${item.region || '부산'}</span>
@@ -2296,42 +2296,59 @@ document.addEventListener('DOMContentLoaded', () => {
     state.notifications.forEach(n => n.isUnread = false);
     updateUnreadCount();
   });
-  document.getElementById('btnCloseDrawer').addEventListener('click', () => {
-    drawerOverlay.classList.remove('active');
-  });
-  drawerOverlay.addEventListener('click', (e) => {
-    if (e.target === drawerOverlay) drawerOverlay.classList.remove('active');
-  });
-  document.getElementById('btnClearNotifs').addEventListener('click', () => {
-    state.notifications = [];
-    renderNotificationFeed();
-    updateUnreadCount();
-  });
-  document.getElementById('btnTestNotifInDrawer').addEventListener('click', simulateNewListing);
-  document.getElementById('btnSimulateNewListing').addEventListener('click', simulateNewListing);
+  const btnCloseDrawer = document.getElementById('btnCloseDrawer');
+  if (btnCloseDrawer) {
+    btnCloseDrawer.addEventListener('click', () => {
+      drawerOverlay.classList.remove('active');
+    });
+  }
+  if (drawerOverlay) {
+    drawerOverlay.addEventListener('click', (e) => {
+      if (e.target === drawerOverlay) drawerOverlay.classList.remove('active');
+    });
+  }
+  const btnClearNotifs = document.getElementById('btnClearNotifs');
+  if (btnClearNotifs) {
+    btnClearNotifs.addEventListener('click', () => {
+      state.notifications = [];
+      renderNotificationFeed();
+      updateUnreadCount();
+    });
+  }
+  const btnTestDrawer = document.getElementById('btnTestNotifInDrawer');
+  if (btnTestDrawer) btnTestDrawer.addEventListener('click', simulateNewListing);
+  const btnSimListing = document.getElementById('btnSimulateNewListing');
+  if (btnSimListing) btnSimListing.addEventListener('click', simulateNewListing);
 
   // 푸시 알림 토글
-  document.getElementById('btnNotifyToggle').addEventListener('click', async () => {
-    if (!('Notification' in window)) {
-      showToast('알림 미지원', '브라우저가 데스크탑 알림을 지원하지 않습니다.', 'warning');
-      return;
-    }
-    if (Notification.permission === 'granted') {
-      state.notificationsEnabled = !state.notificationsEnabled;
-      document.getElementById('notifyIcon').textContent = state.notificationsEnabled ? '🔔' : '🔕';
-      document.getElementById('notifyLabel').textContent = state.notificationsEnabled ? '알림 켜짐' : '알림 켜기';
-      showToast(state.notificationsEnabled ? '🔔 알림 활성화' : '🔕 알림 끔', '');
-    } else {
-      const perm = await Notification.requestPermission();
-      if (perm === 'granted') {
-        state.notificationsEnabled = true;
-        document.getElementById('notifyIcon').textContent = '🔔';
-        document.getElementById('notifyLabel').textContent = '알림 켜짐';
-        showToast('🎉 알림 허용 완료', '신규 매물이 등록되면 데스크탑 푸시를 보내드립니다.', 'success');
-        playChimeSound();
+  const btnNotifyToggle = document.getElementById('btnNotifyToggle');
+  if (btnNotifyToggle) {
+    btnNotifyToggle.addEventListener('click', async () => {
+      if (!('Notification' in window)) {
+        showToast('알림 미지원', '브라우저가 데스크탑 알림을 지원하지 않습니다.', 'warning');
+        return;
       }
-    }
-  });
+      if (Notification.permission === 'granted') {
+        state.notificationsEnabled = !state.notificationsEnabled;
+        const icon = document.getElementById('notifyIcon');
+        const label = document.getElementById('notifyLabel');
+        if (icon) icon.textContent = state.notificationsEnabled ? '🔔' : '🔕';
+        if (label) label.textContent = state.notificationsEnabled ? '알림 켜짐' : '알림 켜기';
+        showToast(state.notificationsEnabled ? '🔔 알림 활성화' : '🔕 알림 끔', '');
+      } else {
+        const perm = await Notification.requestPermission();
+        if (perm === 'granted') {
+          state.notificationsEnabled = true;
+          const icon = document.getElementById('notifyIcon');
+          const label = document.getElementById('notifyLabel');
+          if (icon) icon.textContent = '🔔';
+          if (label) label.textContent = '알림 켜짐';
+          showToast('🎉 알림 허용 완료', '신규 매물이 등록되면 데스크탑 푸시를 보내드립니다.', 'success');
+          playChimeSound();
+        }
+      }
+    });
+  }
 
   // 7. 그리드 이벤트 위임 (카드 클릭 팝업, 교체, 삭제, 즐겨찾기, 빈 슬롯 추가, 조건 전환)
   document.getElementById('complexGrid').addEventListener('click', (e) => {
@@ -2501,7 +2518,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 9. 아파트 선택 모달 (Complex Picker Modal) 이벤트
-  document.getElementById('btnClosePickerModal').addEventListener('click', closeComplexPickerModal);
+  const btnClosePicker = document.getElementById('btnClosePickerModal');
+  if (btnClosePicker) btnClosePicker.addEventListener('click', closeComplexPickerModal);
+  const pickerModal = document.getElementById('complexPickerModal');
+  if (pickerModal) {
+    pickerModal.addEventListener('click', (e) => {
+      if (e.target === pickerModal) closeComplexPickerModal();
+    });
+  }
   
   // 모달 탭 전환
   document.querySelectorAll('.picker-tab-btn').forEach(btn => {
@@ -2555,12 +2579,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const catalogList = document.getElementById('catalogListContainer');
   if (catalogList) {
     catalogList.addEventListener('click', (e) => {
-      const selectBtn = e.target.closest('.btn-select-catalog-item');
-      if (!selectBtn) return;
-      const id = selectBtn.dataset.id;
-      const complexId = selectBtn.dataset.complexId ? parseInt(selectBtn.dataset.complexId, 10) : null;
+      const selectCard = e.target.closest('.catalog-item-card');
+      if (!selectCard) return;
+      const selectBtn = selectCard.querySelector('.btn-select-catalog-item');
+      const id = selectCard.dataset.id || (selectBtn ? selectBtn.dataset.id : null);
+      const rawCId = selectCard.dataset.complexId || (selectBtn ? selectBtn.dataset.complexId : null);
+      const complexId = rawCId ? parseInt(rawCId, 10) : null;
       const catalog = window.CATALOG_COMPLEXES || [];
-      const item = catalog.find(c => (complexId && c.complexId === complexId) || c.id === id);
+      const item = catalog.find(c => (complexId && c.complexId === complexId) || (id && c.id === id));
       if (item) {
         assignComplexToSlot(state.targetSlotIndex, item);
       }

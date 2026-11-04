@@ -177,10 +177,27 @@ function startServer(port) {
     console.log('          종료하시려면 이 창을 닫으시면 됩니다.');
     console.log('================================================================\n');
 
-    // 웹 브라우저 자동 오픈
-    try {
-      exec(`start http://localhost:${port}/`);
-    } catch (e) {}
+    // 웹 브라우저 자동 오픈 (깔끔한 독립 앱 창 --app 모드 실행)
+    if (process.env.JEONSE_RADAR_GUI !== '1') {
+      try {
+        const candidateBrowsers = [
+          'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+          'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+          path.join(process.env.LOCALAPPDATA || '', 'Google\\Chrome\\Application\\chrome.exe'),
+          'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+          'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe'
+        ];
+        const browser = candidateBrowsers.find(b => fs.existsSync(b));
+        if (browser) {
+          const { spawn } = require('child_process');
+          spawn(browser, [`--app=http://localhost:${port}/`, '--window-size=1600,1000'], { detached: true, stdio: 'ignore' }).unref();
+        } else {
+          exec(`start http://localhost:${port}/`);
+        }
+      } catch (e) {
+        exec(`start http://localhost:${port}/`);
+      }
+    }
 
     // 1시간 주기 정기 스케줄러 등록
     setInterval(async () => {
