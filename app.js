@@ -2790,14 +2790,14 @@ function initLiveSyncEngine() {
         if (wasSyncing) {
           wasSyncing = false;
           if (btnSyncNow) btnSyncNow.classList.remove('is-syncing');
-          if (syncNowLabel) syncNowLabel.textContent = '지금 즉시 수집';
+          if (syncNowLabel) syncNowLabel.textContent = '실시간 수집';
           showToast('🎉 네이버 실시간 매물 현행화 완료', '최신 매물이 안전하게 갱신되었습니다. 화면을 새로고침합니다.', 'success');
           setTimeout(() => window.location.reload(), 1500);
           return;
         }
 
         if (btnSyncNow) btnSyncNow.classList.remove('is-syncing');
-        if (syncNowLabel) syncNowLabel.textContent = '지금 즉시 수집';
+        if (syncNowLabel) syncNowLabel.textContent = '실시간 수집';
         if (statusLabel) statusLabel.textContent = '1시간 정기 수집';
 
         if (data.nextSyncTime && timerElem) {

@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-  <link rel="stylesheet" href="style.css?v=20261104_1793757230735">
+  <link rel="stylesheet" href="style.css?v=20261104_v12">
 </head>
 <body class="theme-light">
 
@@ -42,7 +42,7 @@
       </div>
       <button class="btn-action btn-sync-now btn-slim" id="btnSyncNow" title="지금 즉시 네이버에서 최신 매물을 직접 수집합니다">
         <span class="btn-icon" id="syncNowIcon">⚡</span>
-        <span class="btn-label" id="syncNowLabel">지금 즉시 수집</span>
+        <span class="btn-label" id="syncNowLabel">실시간 수집</span>
       </button>
       <div class="stat-badge" id="totalMatchesBadge">
         <span class="stat-num" id="totalMatchesCount">0</span>
@@ -54,13 +54,13 @@
     <div class="header-right">
       <button class="btn-action btn-four-split btn-slim" id="btnLaunchFourWindows" title="화면을 6등분하여 6개 아파트 네이버 부동산 창을 동시에 팝업 실행합니다">
         <span class="btn-icon">🖥️</span>
-        <span class="btn-label">네이버 6창 분할 실행</span>
+        <span class="btn-label" id="splitWindowsLabel">네이버 6창 분할</span>
         <span class="badge-hot">1-CLICK</span>
       </button>
 
       <button class="btn-action btn-live-alerts btn-slim" id="btnOpenNotificationCenter" title="실시간 포착된 신규 매물 피드 열기">
         <span class="btn-icon">🚨</span>
-        <span class="btn-label">신규 매물 알림</span>
+        <span class="btn-label" id="liveAlertsLabel">신규 알림</span>
         <span class="badge-counter badge-hot" id="unreadNotifCount" style="display: none;">0</span>
       </button>
 
@@ -461,8 +461,8 @@
   <!-- 토스트 알림 컨테이너 -->
   <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
-  <!-- 스크립트 로드 (v11: 아파트 교체 버튼 및 단일 전용 앱 창 완벽 지원) -->
-  <script src="data.js?v=20261104_v11"></script>
-  <script src="app.js?v=20261104_v11"></script>
+  <!-- 스크립트 로드 (v12: 텍스트 줄바꿈 방지 및 모바일/PC 반응형 레이아웃 최적화) -->
+  <script src="data.js?v=20261104_v12"></script>
+  <script src="app.js?v=20261104_v12"></script>
 </body>
 </html>
