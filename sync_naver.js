@@ -154,10 +154,12 @@ async function runAutoSync(options = { autoPush: true }) {
   console.log('╚════════════════════════════════════════════════════════════════╝');
 
   // 1. data.js 로드 및 기존 매물 번호 Set 생성
-  let dataPath = path.join(ROOT_DIR, 'data.js');
-  if (!fs.existsSync(dataPath)) {
-    dataPath = path.join(__dirname, 'data.js');
+  const diskDataPath = path.join(ROOT_DIR, 'data.js');
+  const bundledDataPath = path.join(__dirname, 'data.js');
+  if (!fs.existsSync(diskDataPath) && fs.existsSync(bundledDataPath)) {
+    try { fs.copyFileSync(bundledDataPath, diskDataPath); } catch (e) {}
   }
+  let dataPath = fs.existsSync(diskDataPath) ? diskDataPath : bundledDataPath;
   if (!fs.existsSync(dataPath)) {
     console.error('❌ data.js 파일이 없습니다.');
     isSyncRunning = false;
@@ -497,7 +499,8 @@ if (typeof module !== 'undefined' && module.exports) {
 }
 `;
 
-    fs.writeFileSync(dataPath, fileContent, 'utf8');
+    const targetSavePath = path.join(ROOT_DIR, 'data.js');
+    fs.writeFileSync(targetSavePath, fileContent, 'utf8');
 
     lastSyncTime = new Date();
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);

@@ -19,6 +19,42 @@ const MIME_TYPES = {
   '.svg': 'image/svg+xml'
 };
 
+// =============================================================
+// 단일 파일 독립 실행 보장 (Standalone Self-Contained Assets)
+// 단일 .exe 파일만 복사해서 어디서 실행하든 자체 내장 리소스를 자동 동기화합니다.
+// =============================================================
+function ensureStandaloneAssets() {
+  if (typeof process.pkg === 'undefined') return;
+
+  const appAssets = ['index.html', 'style.css', 'app.js', 'data.js', 'latest_alerts.json'];
+  for (const asset of appAssets) {
+    const diskPath = path.join(ROOT_DIR, asset);
+    const bundledPath = path.join(__dirname, asset);
+
+    if (fs.existsSync(bundledPath)) {
+      // index.html, style.css, app.js는 최신 버전 바이너리일 경우 항상 디스크로 덮어쓰기 동기화
+      if (asset === 'index.html' || asset === 'style.css' || asset === 'app.js') {
+        try {
+          fs.copyFileSync(bundledPath, diskPath);
+        } catch (e) {
+          console.warn(`[Asset Sync] ${asset} 갱신 실패:`, e.message);
+        }
+      } else {
+        // data.js, latest_alerts.json은 기존 수집 데이터가 없을 때만 번들에서 초기 추출
+        if (!fs.existsSync(diskPath)) {
+          try {
+            fs.copyFileSync(bundledPath, diskPath);
+            console.log(`[Asset Init] ${asset} 초기 데이터 추출 완료.`);
+          } catch (e) {
+            console.warn(`[Asset Init] ${asset} 추출 실패:`, e.message);
+          }
+        }
+      }
+    }
+  }
+}
+ensureStandaloneAssets();
+
 const server = http.createServer((req, res) => {
   const urlParts = req.url.split('?');
   const reqPath = urlParts[0];
