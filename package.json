@@ -1,9 +1,20 @@
 {
   "name": "jeonse-radar-4x",
   "version": "1.0.0",
+  "bin": "serve.js",
   "scripts": {
     "sync": "node sync_naver.js",
-    "start": "node serve.js"
+    "start": "node serve.js",
+    "build:exe": "pkg . -t node18-win-x64 -o 부산대단지레이더.exe"
+  },
+  "pkg": {
+    "assets": [
+      "index.html",
+      "style.css",
+      "app.js",
+      "data.js",
+      "latest_alerts.json"
+    ]
   },
   "dependencies": {
     "lz-string": "^1.5.0",

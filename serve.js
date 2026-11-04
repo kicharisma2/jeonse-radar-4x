@@ -1,8 +1,10 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
 const { runAutoSync, getLastSyncTime, getIsRunning } = require('./sync_naver');
 
+const ROOT_DIR = (typeof process.pkg !== 'undefined') ? path.dirname(process.execPath) : __dirname;
 const PORT = 3000;
 const SYNC_INTERVAL_MS = 60 * 60 * 1000; // 1시간 주기 자동 수집
 let nextSyncTime = Date.now() + SYNC_INTERVAL_MS;
@@ -23,7 +25,8 @@ const server = http.createServer((req, res) => {
 
   // API 1: 실시간 동기화 상태 조회 (/api/status)
   if (reqPath === '/api/status' && req.method === 'GET') {
-    const alertsPath = path.join(__dirname, 'latest_alerts.json');
+    let alertsPath = path.join(ROOT_DIR, 'latest_alerts.json');
+    if (!fs.existsSync(alertsPath)) alertsPath = path.join(__dirname, 'latest_alerts.json');
     let alertsCount = 0;
     if (fs.existsSync(alertsPath)) {
       try {
@@ -50,7 +53,8 @@ const server = http.createServer((req, res) => {
 
   // API 2: 최신 포착된 신규 매물 목록 (/api/alerts)
   if (reqPath === '/api/alerts' && req.method === 'GET') {
-    const alertsPath = path.join(__dirname, 'latest_alerts.json');
+    let alertsPath = path.join(ROOT_DIR, 'latest_alerts.json');
+    if (!fs.existsSync(alertsPath)) alertsPath = path.join(__dirname, 'latest_alerts.json');
     let alerts = [];
     if (fs.existsSync(alertsPath)) {
       try {
@@ -97,8 +101,11 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // 정적 파일 서빙
-  let filePath = path.join(__dirname, reqPath === '/' ? '/index.html' : reqPath);
+  // 정적 파일 서빙 (외부 폴더 파일 우선, 없으면 번들 파일)
+  let filePath = path.join(ROOT_DIR, reqPath === '/' ? '/index.html' : reqPath);
+  if (!fs.existsSync(filePath)) {
+    filePath = path.join(__dirname, reqPath === '/' ? '/index.html' : reqPath);
+  }
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
@@ -123,11 +130,16 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log('\n================================================================');
-  console.log(`🚀 [부산 500세대+ 대단지 레이더 서버] 가동 완료!`);
+  console.log(`🚀 [부산 500세대+ 대단지 레이더] 가동 완료!`);
   console.log(`📡 웹 대시보드 주소: http://localhost:${PORT}/`);
   console.log(`⏱️ 1시간 주기 실시간 네이버 자동 수집 및 신규 매물 감지가 활성화되었습니다.`);
   console.log(`   - 다음 자동 수집 예정시각: ${new Date(nextSyncTime).toLocaleTimeString('ko-KR')}`);
   console.log('================================================================\n');
+
+  // 웹 브라우저 자동 오픈
+  try {
+    exec(`start http://localhost:${PORT}/`);
+  } catch (e) {}
 
   // 1시간 주기 정기 스케줄러 등록
   setInterval(async () => {

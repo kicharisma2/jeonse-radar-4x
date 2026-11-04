@@ -4,3 +4,6 @@ scratch/
 *.log
 .DS_Store
 Thumbs.db
+*.exe
+*.zip
+부산_500세대_대단지_레이더_포터블/

@@ -15,9 +15,39 @@ const path = require('path');
 const fs = require('fs');
 const WebSocket = require('ws');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-const TEMP_PROFILE = path.join(__dirname, 'scratch', 'temp_sync_chrome');
+const ROOT_DIR = (typeof process.pkg !== 'undefined') ? path.dirname(process.execPath) : __dirname;
+const TEMP_PROFILE = path.join(ROOT_DIR, 'scratch', 'temp_sync_chrome');
 const PORT = 9333;
+
+function getBrowserPath() {
+  const candidatePaths = [
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+    path.join(process.env.LOCALAPPDATA || '', 'Google\\Chrome\\Application\\chrome.exe'),
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+    path.join(process.env.LOCALAPPDATA || '', 'Microsoft\\Edge\\Application\\msedge.exe')
+  ];
+  for (const p of candidatePaths) {
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
+function loadDataFile(targetPath) {
+  if (!fs.existsSync(targetPath)) return null;
+  try {
+    const code = fs.readFileSync(targetPath, 'utf8');
+    const fakeModule = { exports: {} };
+    const fakeWindow = {};
+    const runner = new Function('module', 'exports', 'window', code);
+    runner(fakeModule, fakeModule.exports, fakeWindow);
+    return fakeModule.exports;
+  } catch (e) {
+    console.error('loadDataFile error:', e);
+    return null;
+  }
+}
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -124,15 +154,17 @@ async function runAutoSync(options = { autoPush: true }) {
   console.log('╚════════════════════════════════════════════════════════════════╝');
 
   // 1. data.js 로드 및 기존 매물 번호 Set 생성
-  const dataPath = path.join(__dirname, 'data.js');
+  let dataPath = path.join(ROOT_DIR, 'data.js');
+  if (!fs.existsSync(dataPath)) {
+    dataPath = path.join(__dirname, 'data.js');
+  }
   if (!fs.existsSync(dataPath)) {
     console.error('❌ data.js 파일이 없습니다.');
     isSyncRunning = false;
     return { success: false, message: 'data.js not found' };
   }
 
-  delete require.cache[require.resolve(dataPath)];
-  const currentData = require(dataPath);
+  const currentData = loadDataFile(dataPath) || {};
   const catalog = currentData.CATALOG_COMPLEXES || [];
   const defaultComplexes = currentData.DEFAULT_COMPLEXES || [];
   const existingArticles = currentData.REAL_BUSAN_ARTICLES || {};
@@ -182,11 +214,16 @@ async function runAutoSync(options = { autoPush: true }) {
     }
   }
 
-  // 2. 임시 크롬 프로세스 백그라운드 구동
-  console.log('1. 백그라운드 네이버 보안 세션 생성 중...');
+  // 2. 임시 브라우저 프로세스 백그라운드 구동 (Chrome 또는 Edge 자동 감지)
+  const browserPath = getBrowserPath();
+  if (!browserPath) {
+    throw new Error('Chrome 또는 Microsoft Edge 브라우저를 찾을 수 없습니다.');
+  }
+  const isEdge = browserPath.toLowerCase().includes('edge');
+  console.log(`1. 백그라운드 네이버 보안 세션 생성 중 (${isEdge ? 'Microsoft Edge' : 'Google Chrome'})...`);
   if (!fs.existsSync(TEMP_PROFILE)) fs.mkdirSync(TEMP_PROFILE, { recursive: true });
 
-  const chromeProc = spawn(CHROME_PATH, [
+  const chromeProc = spawn(browserPath, [
     `--remote-debugging-port=${PORT}`,
     `--user-data-dir=${TEMP_PROFILE}`,
     '--no-first-run',
@@ -409,7 +446,7 @@ async function runAutoSync(options = { autoPush: true }) {
     }
 
     // 5. 신규 매물 알림 파일(alerts.json) 기록
-    const alertsPath = path.join(__dirname, 'latest_alerts.json');
+    const alertsPath = path.join(ROOT_DIR, 'latest_alerts.json');
     let previousAlerts = [];
     if (fs.existsSync(alertsPath)) {
       try { previousAlerts = JSON.parse(fs.readFileSync(alertsPath, 'utf8')); } catch (e) {}
@@ -479,12 +516,13 @@ if (typeof module !== 'undefined' && module.exports) {
     console.log(`- 전체 보존 매물: ${totalCount.toLocaleString()}건`);
     console.log('================================================================');
 
-    // 7. 자동 GitHub Push (옵션이 켜져 있을 때)
+    // 7. 자동 GitHub Push (Git이 설치 및 설정되어 있을 때만 수행)
     if (options.autoPush) {
       try {
-        console.log('\n4. GitHub Pages 자동 최신화(Push) 진행 중...');
+        console.log('\n4. GitHub Pages 자동 최신화(Push) 시도 중...');
+        execSync('git --version', { stdio: 'ignore' });
         // index.html 캐시 버스팅 파라미터 갱신
-        const idxPath = path.join(__dirname, 'index.html');
+        const idxPath = path.join(ROOT_DIR, 'index.html');
         if (fs.existsSync(idxPath)) {
           let idxContent = fs.readFileSync(idxPath, 'utf8');
           const newV = `v=${todayYmd}_${Date.now()}`;
@@ -494,12 +532,12 @@ if (typeof module !== 'undefined' && module.exports) {
           fs.writeFileSync(idxPath, idxContent, 'utf8');
         }
 
-        execSync('git add data.js index.html latest_alerts.json', { cwd: __dirname });
-        execSync(`git commit -m "auto: 실시간 네이버 매물 정기 동기화 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})"`, { cwd: __dirname });
-        execSync('git push origin main', { cwd: __dirname, stdio: 'ignore' });
+        execSync('git add data.js index.html latest_alerts.json', { cwd: ROOT_DIR, stdio: 'ignore' });
+        execSync(`git commit -m "auto: 실시간 네이버 매물 정기 동기화 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})"`, { cwd: ROOT_DIR, stdio: 'ignore' });
+        execSync('git push origin main', { cwd: ROOT_DIR, stdio: 'ignore' });
         console.log('   ✅ GitHub Pages 최신화(Push) 완료!');
       } catch (gitErr) {
-        console.log('   ℹ️ Git 변경사항 커밋 완료 (또는 이미 최신 상태)');
+        console.log('   ℹ️ 로컬 최신 데이터 저장 완료 (외부 PC 또는 오프라인 모드)');
       }
     }
 
