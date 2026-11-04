@@ -128,28 +128,72 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log('\n================================================================');
-  console.log(`🚀 [부산 500세대+ 대단지 레이더] 가동 완료!`);
-  console.log(`📡 웹 대시보드 주소: http://localhost:${PORT}/`);
-  console.log(`⏱️ 1시간 주기 실시간 네이버 자동 수집 및 신규 매물 감지가 활성화되었습니다.`);
-  console.log(`   - 다음 자동 수집 예정시각: ${new Date(nextSyncTime).toLocaleTimeString('ko-KR')}`);
-  console.log('================================================================\n');
-
-  // 웹 브라우저 자동 오픈
+function keepWindowOpen() {
+  console.log('\n창을 닫으려면 아무 키나 누르세요...');
   try {
-    exec(`start http://localhost:${PORT}/`);
+    const readline = require('readline').createInterface({ input: process.stdin, output: process.stdout });
+    readline.question('', () => process.exit(1));
   } catch (e) {}
+}
 
-  // 1시간 주기 정기 스케줄러 등록
-  setInterval(async () => {
-    console.log(`\n⏰ [1시간 주기 정기 수집 가동] ${new Date().toLocaleTimeString('ko-KR')}`);
-    try {
-      await runAutoSync({ autoPush: true });
-      nextSyncTime = Date.now() + SYNC_INTERVAL_MS;
-      console.log(`다음 자동 수집 예정시각: ${new Date(nextSyncTime).toLocaleTimeString('ko-KR')}`);
-    } catch (e) {
-      console.error('정기 자동 수집 중 오류:', e);
-    }
-  }, SYNC_INTERVAL_MS);
+process.on('uncaughtException', (err) => {
+  console.error('\n❌ 실행 중 예기치 않은 오류가 발생했습니다:');
+  console.error(err);
+  keepWindowOpen();
 });
+
+let currentPort = 3000;
+const MAX_PORT = 3010;
+
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    if (currentPort < MAX_PORT) {
+      currentPort++;
+      console.log(`⚠️ 포트 ${currentPort - 1}번이 이미 사용 중입니다. 포트 ${currentPort}번으로 자동 전환합니다...`);
+      setTimeout(() => startServer(currentPort), 200);
+    } else {
+      console.error(`❌ 포트 3000~${MAX_PORT}번이 모두 사용 중입니다. 기존에 실행 중인 레이더 창을 닫고 다시 켜주세요.`);
+      keepWindowOpen();
+    }
+  } else {
+    console.error('❌ 서버 실행 오류:', err);
+    keepWindowOpen();
+  }
+});
+
+function startServer(port) {
+  server.listen(port, () => {
+    currentPort = port;
+    console.log('\n================================================================');
+    console.log(`🏢 [부산 500세대+ 대단지 레이더] 가동 성공!`);
+    console.log(`📡 웹 대시보드 주소: http://localhost:${port}/`);
+    if (port !== 3000) {
+      console.log(`ℹ️ 기본 포트(3000)가 다른 프로그램에서 사용 중이어서 ${port}번으로 안전하게 연결되었습니다.`);
+    }
+    console.log(`⏱️ 1시간 주기 실시간 네이버 자동 수집 및 신규 매물 감지 엔진 가동 중`);
+    console.log(`   - 다음 자동 수집 예정시각: ${new Date(nextSyncTime).toLocaleTimeString('ko-KR')}`);
+    console.log('----------------------------------------------------------------');
+    console.log('💡 [안내] 이 창을 최소화해 두시면 1시간마다 최신 매물이 자동으로 수집됩니다.');
+    console.log('          종료하시려면 이 창을 닫으시면 됩니다.');
+    console.log('================================================================\n');
+
+    // 웹 브라우저 자동 오픈
+    try {
+      exec(`start http://localhost:${port}/`);
+    } catch (e) {}
+
+    // 1시간 주기 정기 스케줄러 등록
+    setInterval(async () => {
+      console.log(`\n⏰ [1시간 주기 정기 수집 가동] ${new Date().toLocaleTimeString('ko-KR')}`);
+      try {
+        await runAutoSync({ autoPush: true });
+        nextSyncTime = Date.now() + SYNC_INTERVAL_MS;
+        console.log(`다음 자동 수집 예정시각: ${new Date(nextSyncTime).toLocaleTimeString('ko-KR')}`);
+      } catch (e) {
+        console.error('정기 자동 수집 중 오류:', e);
+      }
+    }, SYNC_INTERVAL_MS);
+  });
+}
+
+startServer(currentPort);
