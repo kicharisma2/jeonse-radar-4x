@@ -630208,6 +630208,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "146548-sale-2659908931",
+      "articleNo": "2659908931",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/27",
+      "price": 87000,
+      "priceText": "8억 7,000만원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 72,
+      "type": "102㎡ (전용 72㎡)",
+      "direction": "남동향",
+      "desc": "I 30p 선호하는 판상형 I 맨 앞동 시원하게 탁트인 뷰, 붙박이장",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "146548-sale-2659763004",
       "articleNo": "2659763004",
       "tradeType": "sale",
@@ -630283,32 +630310,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": false
-    },
-    {
-      "id": "146548-sale-2657147723",
-      "articleNo": "2657147723",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "저/27",
-      "price": 87000,
-      "priceText": "8억 7,000만원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남동향",
-      "desc": "I 30p 선호하는 판상형 I 맨 앞동 시원하게 탁트인 뷰, 붙박이장",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "금손래미안(010-9287-4502)공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261022",
-      "regDate": "2026-10-22",
       "isNew": false
     },
     {
@@ -630492,6 +630493,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261009",
       "regDate": "2026-10-09",
       "isNew": false
+    },
+    {
+      "id": "146548-sale-2659909025",
+      "articleNo": "2659909025",
+      "tradeType": "sale",
+      "dong": "305동",
+      "floor": "17/35",
+      "price": 88000,
+      "priceText": "8억 8,000만원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 72,
+      "type": "102㎡ (전용 72㎡)",
+      "direction": "남서향",
+      "desc": "I  30p 판상형  I 금정산 뷰, 대형 펜트리, 대형 드레스룸",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "대형평수",
+        "방세개"
+      ],
+      "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "146548-sale-2659567365",
@@ -630933,32 +630961,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261029",
       "regDate": "2026-10-29",
-      "isNew": false
-    },
-    {
-      "id": "146548-sale-2657929084",
-      "articleNo": "2657929084",
-      "tradeType": "sale",
-      "dong": "305동",
-      "floor": "17/35",
-      "price": 88000,
-      "priceText": "8억 8,000만원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남서향",
-      "desc": "I  30p 판상형  I 금정산 뷰, 대형 펜트리, 대형 드레스룸",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "대형평수",
-        "방세개"
-      ],
-      "agency": "금손래미안(010-9287-4502)공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261027",
-      "regDate": "2026-10-27",
       "isNew": false
     },
     {
@@ -709537,6 +709539,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "146548-sale-2659908931",
+        "articleNo": "2659908931",
+        "tradeType": "sale",
+        "dong": "101동",
+        "floor": "저/27",
+        "price": 87000,
+        "priceText": "8억 7,000만원",
+        "pyeong": 31,
+        "supplyArea": 102,
+        "exclusiveArea": 72,
+        "type": "102㎡ (전용 72㎡)",
+        "direction": "남동향",
+        "desc": "I 30p 선호하는 판상형 I 맨 앞동 시원하게 탁트인 뷰, 붙박이장",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261105",
+        "regDate": "2026-11-05",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "146548-sale-2659763004",
         "articleNo": "2659763004",
         "tradeType": "sale",
@@ -709612,32 +709641,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": false
-      },
-      {
-        "id": "146548-sale-2657147723",
-        "articleNo": "2657147723",
-        "tradeType": "sale",
-        "dong": "101동",
-        "floor": "저/27",
-        "price": 87000,
-        "priceText": "8억 7,000만원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남동향",
-        "desc": "I 30p 선호하는 판상형 I 맨 앞동 시원하게 탁트인 뷰, 붙박이장",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "금손래미안(010-9287-4502)공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261022",
-        "regDate": "2026-10-22",
         "isNew": false
       },
       {
@@ -709821,6 +709824,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261009",
         "regDate": "2026-10-09",
         "isNew": false
+      },
+      {
+        "id": "146548-sale-2659909025",
+        "articleNo": "2659909025",
+        "tradeType": "sale",
+        "dong": "305동",
+        "floor": "17/35",
+        "price": 88000,
+        "priceText": "8억 8,000만원",
+        "pyeong": 31,
+        "supplyArea": 102,
+        "exclusiveArea": 72,
+        "type": "102㎡ (전용 72㎡)",
+        "direction": "남서향",
+        "desc": "I  30p 판상형  I 금정산 뷰, 대형 펜트리, 대형 드레스룸",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "대형평수",
+          "방세개"
+        ],
+        "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261105",
+        "regDate": "2026-11-05",
+        "isNew": true,
+        "isBrandNew": true
       },
       {
         "id": "146548-sale-2659567365",
@@ -710262,32 +710292,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261029",
         "regDate": "2026-10-29",
-        "isNew": false
-      },
-      {
-        "id": "146548-sale-2657929084",
-        "articleNo": "2657929084",
-        "tradeType": "sale",
-        "dong": "305동",
-        "floor": "17/35",
-        "price": 88000,
-        "priceText": "8억 8,000만원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남서향",
-        "desc": "I  30p 판상형  I 금정산 뷰, 대형 펜트리, 대형 드레스룸",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "대형평수",
-          "방세개"
-        ],
-        "agency": "금손래미안(010-9287-4502)공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261027",
-        "regDate": "2026-10-27",
         "isNew": false
       },
       {

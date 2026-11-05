@@ -1,5 +1,31 @@
 [
   {
+    "complexId": 146548,
+    "complexName": "래미안포레스티지",
+    "articleNo": "2659908931",
+    "tradeType": "매매",
+    "dong": "101동",
+    "floor": "저/27",
+    "pyeong": 31,
+    "priceText": "8억 7,000만원",
+    "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659908931",
+    "discoveredAt": "4:00:08 PM"
+  },
+  {
+    "complexId": 146548,
+    "complexName": "래미안포레스티지",
+    "articleNo": "2659909025",
+    "tradeType": "매매",
+    "dong": "305동",
+    "floor": "17/35",
+    "pyeong": 31,
+    "priceText": "8억 8,000만원",
+    "agency": "금손래미안(010-9287-4502)공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659909025",
+    "discoveredAt": "4:00:08 PM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2659881233",
@@ -622,31 +648,5 @@
     "agency": "제일더샵부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2659879395",
     "discoveredAt": "오후 3:52:22"
-  },
-  {
-    "complexId": 123443,
-    "complexName": "더샵동래(주상복합)",
-    "articleNo": "2659889551",
-    "tradeType": "매매",
-    "dong": "103동",
-    "floor": "32/49",
-    "pyeong": 31,
-    "priceText": "6억 7,000만원",
-    "agency": "더샵제일공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659889551",
-    "discoveredAt": "오후 3:52:24"
-  },
-  {
-    "complexId": 110276,
-    "complexName": "동래효성해링턴플레이스",
-    "articleNo": "2659874676",
-    "tradeType": "매매",
-    "dong": "102동",
-    "floor": "저/49",
-    "pyeong": 35,
-    "priceText": "6억 5,000만원",
-    "agency": "효성해링턴대한공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659874676",
-    "discoveredAt": "오후 3:52:24"
   }
 ]
