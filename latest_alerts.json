@@ -2,6 +2,32 @@
   {
     "complexId": 17246,
     "complexName": "사직쌍용예가",
+    "articleNo": "2659950653",
+    "tradeType": "매매",
+    "dong": "122동",
+    "floor": "3/22",
+    "pyeong": 24,
+    "priceText": "4억 500만원",
+    "agency": "1번지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659950653",
+    "discoveredAt": "11:02:22 PM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2659950586",
+    "tradeType": "전세",
+    "dong": "206동",
+    "floor": "고/25",
+    "pyeong": 32,
+    "priceText": "4억 3,000만원",
+    "agency": "1번지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659950586",
+    "discoveredAt": "11:02:30 PM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
     "articleNo": "2658808242",
     "tradeType": "매매",
     "dong": "105동",
@@ -622,31 +648,5 @@
     "agency": "금손래미안(010-9287-4502)공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2659909025",
     "discoveredAt": "4:00:08 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2659881233",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "22/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "킹덤부동산중개사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659881233",
-    "discoveredAt": "오후 3:52:18"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2659878858",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "22/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "래미안아이파크공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659878858",
-    "discoveredAt": "오후 3:52:18"
   }
 ]

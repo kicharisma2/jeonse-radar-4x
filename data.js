@@ -1,5 +1,5 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-05 | 총 375개 단지, 26,492건 실매물
+// 최종 실시간 동기화: 2026-11-05 | 총 375개 단지, 26,493건 실매물
 
 function formatKoreanPrice(val) {
   if (!val) return '0원';
@@ -296683,6 +296683,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2659950653",
+      "articleNo": "2659950653",
+      "tradeType": "sale",
+      "dong": "122동",
+      "floor": "3/22",
+      "price": 40500,
+      "priceText": "4억 500만원",
+      "pyeong": 24,
+      "supplyArea": 79,
+      "exclusiveArea": 59,
+      "type": "79㎡ (전용 59㎡)",
+      "direction": "동향",
+      "desc": "N.1번지강추.  24매매. 내집미리마련  욕실수리. 도배등수리 전세안고",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "욕실수리",
+        "방세개"
+      ],
+      "agency": "1번지공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2659743836",
       "articleNo": "2659743836",
       "tradeType": "sale",
@@ -296707,32 +296734,6 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
       "isNew": true
-    },
-    {
-      "id": "17246-sale-2659077816",
-      "articleNo": "2659077816",
-      "tradeType": "sale",
-      "dong": "122동",
-      "floor": "3/22",
-      "price": 40500,
-      "priceText": "4억 500만원",
-      "pyeong": 24,
-      "supplyArea": 79,
-      "exclusiveArea": 59,
-      "type": "79㎡ (전용 59㎡)",
-      "direction": "동향",
-      "desc": "N.1번지강추.  24매매. 내집미리마련  욕실수리. 도배등수리 전세안고",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "욕실수리",
-        "방세개"
-      ],
-      "agency": "1번지공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261102",
-      "regDate": "2026-11-02",
-      "isNew": false
     },
     {
       "id": "17246-sale-2659890976",
@@ -362293,6 +362294,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261104",
       "regDate": "2026-11-04",
       "isNew": false
+    },
+    {
+      "id": "26462-jeonse-2659950586",
+      "articleNo": "2659950586",
+      "tradeType": "jeonse",
+      "dong": "206동",
+      "floor": "고/25",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "N1.번지귀한전세  2년 도배 상태깔끔 햇살쨍쨍. 탁트인 27년1월말협의",
+      "tags": [
+        "25년이내",
+        "방세개",
+        "화장실두개",
+        "고층"
+      ],
+      "agency": "1번지공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "26462-jeonse-2659913456",
