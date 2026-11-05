@@ -294730,8 +294730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659954034",
@@ -294757,8 +294756,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659951588",
@@ -295333,6 +295331,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-jeonse-2659957107",
+      "articleNo": "2659957107",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "7/23",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "42. 확장형. 11월20일 이후 이사협의. 월세도 가능. 깨끗한 집.",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "사직KCC공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-jeonse-2659944229",
       "articleNo": "2659944229",
       "tradeType": "jeonse",
@@ -295457,32 +295482,6 @@ const REAL_BUSAN_ARTICLES = {
         "방네개이상"
       ],
       "agency": "만세공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "17246-jeonse-2659743951",
-      "articleNo": "2659743951",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "7/23",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "42. 확장형. 11월20일 이후 이사협의. 월세도 가능. 깨끗한 집.",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "사직KCC공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
@@ -296032,8 +296031,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659879283",
@@ -297960,8 +297958,8 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-sale-2659743384",
-      "articleNo": "2659743384",
+      "id": "17246-sale-2659956619",
+      "articleNo": "2659956619",
       "tradeType": "sale",
       "dong": "105동",
       "floor": "저/25",
@@ -297981,9 +297979,10 @@ const REAL_BUSAN_ARTICLES = {
       ],
       "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "17246-sale-2659341821",
@@ -298841,8 +298840,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2659740124",
@@ -299703,6 +299701,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2659956941",
+      "articleNo": "2659956941",
+      "tradeType": "sale",
+      "dong": "109동",
+      "floor": "11/25",
+      "price": 62000,
+      "priceText": "6억 2,000만원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "s 태양 s｜아이들키울땐 ｜넓은평수를 추천｜메.리.트 있는가.격",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2659953729",
       "articleNo": "2659953729",
       "tradeType": "sale",
@@ -299726,34 +299751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
-    },
-    {
-      "id": "17246-sale-2659537034",
-      "articleNo": "2659537034",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "11/25",
-      "price": 62000,
-      "priceText": "6억 2,000만원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "s 태양 s｜아이들키울땐 ｜넓은평수를 추천｜메.리.트 있는가.격",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "17246-sale-2659214446",
@@ -364094,6 +364092,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2659956997",
+      "articleNo": "2659956997",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "3/24",
+      "price": 51500,
+      "priceText": "5억 1,500만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "s 태양 s｜32급매｜빠른입주가능｜거실방확장｜입구로얄동",
+      "tags": [
+        "25년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2659743851",
       "articleNo": "2659743851",
       "tradeType": "sale",
@@ -364117,32 +364142,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2659537085",
-      "articleNo": "2659537085",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "3/24",
-      "price": 51500,
-      "priceText": "5억 1,500만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "s 태양 s｜32급매｜빠른입주가능｜거실방확장｜입구로얄동",
-      "tags": [
-        "25년이내",
-        "급매",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
       "isNew": false
     },
     {
@@ -364975,8 +364974,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2659438640",
@@ -478836,8 +478834,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2659496691",
@@ -508530,8 +508527,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2659953317",
@@ -508557,8 +508553,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2659921026",
@@ -631462,8 +631457,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261030",
       "regDate": "2026-10-30",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659856547",
@@ -710792,8 +710786,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261030",
         "regDate": "2026-10-30",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659856547",
@@ -713438,8 +713431,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2659496691",
