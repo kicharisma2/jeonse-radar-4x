@@ -136,6 +136,11 @@ function formatArticle(a, complexId, tradeType) {
 
 let isSyncRunning = false;
 let lastSyncTime = null;
+let lastPushStatus = {
+  success: false,
+  message: '대기 중',
+  time: null
+};
 
 async function runAutoSync(options = { autoPush: true }) {
   if (isSyncRunning) {
@@ -522,10 +527,10 @@ if (typeof module !== 'undefined' && module.exports) {
 // GitHub Pages 자동 배포를 위한 Git 저장소 위치 탐색
 function resolveGitWorkingDir() {
   const candidates = [
-    ROOT_DIR,
-    process.env.JEONSE_RADAR_LAUNCH_DIR,
     path.join(process.env.USERPROFILE || '', 'Desktop', '프로그램', '전세집 알아보기'),
     path.join(process.env.USERPROFILE || '', 'Desktop', '전세집 알아보기'),
+    process.env.JEONSE_RADAR_LAUNCH_DIR,
+    ROOT_DIR,
     process.cwd(),
     path.join(__dirname, '..')
   ].filter(Boolean);
@@ -574,19 +579,40 @@ function resolveGitWorkingDir() {
           }
 
           // 3) Git Add, Commit & Push 실행 (실제 변경사항이 있을 때만 안전하게 커밋&푸시)
-          const statusOutput = execSync('git status --porcelain data.js index.html latest_alerts.json', { cwd: gitDir, encoding: 'utf8' }).trim();
+          const statusOutput = execSync('git status --porcelain data.js index.html latest_alerts.json app.js style.css', { cwd: gitDir, encoding: 'utf8' }).trim();
           if (statusOutput.length > 0) {
-            execSync('git add data.js index.html latest_alerts.json', { cwd: gitDir, stdio: 'ignore' });
+            execSync('git add data.js index.html latest_alerts.json app.js style.css', { cwd: gitDir, stdio: 'ignore' });
             execSync(`git commit -m "auto: 실시간 네이버 매물 정기 동기화 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})"`, { cwd: gitDir, stdio: 'ignore' });
+            try { execSync('git pull --rebase origin main', { cwd: gitDir, stdio: 'ignore' }); } catch (e) {}
             execSync('git push origin main', { cwd: gitDir, stdio: 'ignore' });
+            lastPushStatus = {
+              success: true,
+              message: `GitHub Pages 배포 완료 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})`,
+              time: new Date().toISOString()
+            };
             console.log('   ✅ GitHub Pages 최신화(Push) 완료! 모바일/웹 화면이 즉시 갱신되었습니다.');
           } else {
+            lastPushStatus = {
+              success: true,
+              message: `GitHub Pages 최신 상태 유지 (${todayFmt} ${new Date().toLocaleTimeString('ko-KR')})`,
+              time: new Date().toISOString()
+            };
             console.log('   ℹ️ 최신 매물 데이터가 이미 GitHub Pages와 동일하여 추가 푸시를 건너뜁니다.');
           }
         } catch (gitErr) {
+          lastPushStatus = {
+            success: false,
+            message: `GitHub Pages 배포 실패: ${gitErr.message}`,
+            time: new Date().toISOString()
+          };
           console.error('   ❌ GitHub Pages 자동 배포 중 오류:', gitErr.message);
         }
       } else {
+        lastPushStatus = {
+          success: false,
+          message: '로컬 전용 (Git 저장소 미연결)',
+          time: new Date().toISOString()
+        };
         console.log('   ℹ️ 로컬 최신 데이터 저장 완료 (외부 PC 또는 오프라인 모드)');
       }
     }
@@ -619,5 +645,6 @@ if (require.main === module) {
 module.exports = {
   runAutoSync,
   getLastSyncTime: () => lastSyncTime,
-  getIsRunning: () => isSyncRunning
+  getIsRunning: () => isSyncRunning,
+  getLastPushStatus: () => lastPushStatus
 };

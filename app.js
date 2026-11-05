@@ -2800,6 +2800,27 @@ function initLiveSyncEngine() {
         if (syncNowLabel) syncNowLabel.textContent = '실시간 수집';
         if (statusLabel) statusLabel.textContent = '1시간 정기 수집';
 
+        // GitHub Pages 웹 자동 배포 상태 갱신
+        const webChip = document.getElementById('webSyncStatusChip');
+        const webLabel = document.getElementById('webSyncStatusLabel');
+        if (webChip && webLabel && data.lastPushStatus) {
+          webChip.style.display = 'inline-flex';
+          if (data.lastPushStatus.success) {
+            webChip.style.background = 'rgba(16, 185, 129, 0.12)';
+            webChip.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+            webChip.style.color = '#10b981';
+            const pushTimeStr = data.lastPushStatus.time ? new Date(data.lastPushStatus.time).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }) : '';
+            webLabel.textContent = `웹 자동배포 완료${pushTimeStr ? ` (${pushTimeStr})` : ''}`;
+            webChip.title = `${data.lastPushStatus.message}\n모바일/웹 화면에 실시간 배포되었습니다.`;
+          } else {
+            webChip.style.background = 'rgba(234, 179, 8, 0.12)';
+            webChip.style.borderColor = 'rgba(234, 179, 8, 0.3)';
+            webChip.style.color = '#eab308';
+            webLabel.textContent = '웹 배포 대기 중';
+            webChip.title = data.lastPushStatus.message || '매물 수집 완료 후 자동으로 웹에 배포됩니다.';
+          }
+        }
+
         if (data.nextSyncTime && timerElem) {
           const diffMs = new Date(data.nextSyncTime).getTime() - Date.now();
           if (diffMs > 0) {
@@ -2815,6 +2836,16 @@ function initLiveSyncEngine() {
       // 로컬 API가 없는 경우 (GitHub Pages 정적 서빙 모드)
       if (statusLabel) statusLabel.textContent = '1시간 정기 자동수집';
       if (timerElem) timerElem.textContent = '실시간 연동 중';
+      const webChip = document.getElementById('webSyncStatusChip');
+      const webLabel = document.getElementById('webSyncStatusLabel');
+      if (webChip && webLabel) {
+        webChip.style.display = 'inline-flex';
+        webChip.style.background = 'rgba(59, 130, 246, 0.12)';
+        webChip.style.borderColor = 'rgba(59, 130, 246, 0.3)';
+        webChip.style.color = '#3b82f6';
+        webLabel.textContent = '모바일 웹 라이브 모드';
+        webChip.title = 'PC 레이더 프로그램에서 실시간 수집된 데이터가 웹에 반영되어 있습니다.';
+      }
     }
   }
 
