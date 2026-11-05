@@ -1,5 +1,5 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-05 | 총 375개 단지, 26,493건 실매물
+// 최종 실시간 동기화: 2026-11-05 | 총 375개 단지, 26,492건 실매물
 
 function formatKoreanPrice(val) {
   if (!val) return '0원';
@@ -298711,6 +298711,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2658808242",
+      "articleNo": "2658808242",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "6/25",
+      "price": 53500,
+      "priceText": "5억 3,500만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "32. 급매,통학환경굿,학원가 접근성좋은 단지 .실거주만족높은단지",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "급매",
+        "방세개"
+      ],
+      "agency": "1번지공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261031",
+      "regDate": "2026-10-31",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2658101606",
       "articleNo": "2658101606",
       "tradeType": "sale",
@@ -298734,32 +298761,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261028",
       "regDate": "2026-10-28",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2657680703",
-      "articleNo": "2657680703",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "12/25",
-      "price": 53500,
-      "priceText": "5억 3,500만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "추천.도배깔끔.싱크대및 욕실수리.입주기간여유.단지조망",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "욕실수리",
-        "방세개"
-      ],
-      "agency": "복있는부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261026",
-      "regDate": "2026-10-26",
       "isNew": false
     },
     {
@@ -430597,8 +430598,8 @@ const REAL_BUSAN_ARTICLES = {
       "tradeType": "jeonse",
       "dong": "103동",
       "floor": "저/34",
-      "price": 65000,
-      "priceText": "6억 5,000만원",
+      "price": 66000,
+      "priceText": "6억 6,000만원",
       "pyeong": 34,
       "supplyArea": 112,
       "exclusiveArea": 84,
@@ -430642,32 +430643,6 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
       "isNew": true
-    },
-    {
-      "id": "107577-jeonse-2659733273",
-      "articleNo": "2659733273",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "저/34",
-      "price": 65000,
-      "priceText": "6억 5,000만원",
-      "pyeong": 34,
-      "supplyArea": 112,
-      "exclusiveArea": 84,
-      "type": "112㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "풀시스템에어컨 엘베2대라인 선호인기타입 수납장넉넉 깔끔한 집",
-      "tags": [
-        "10년이내",
-        "역세권",
-        "대단지",
-        "방세개"
-      ],
-      "agency": "롯데1번지부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
-      "isNew": false
     },
     {
       "id": "107577-sale-2659298652",
@@ -615661,8 +615636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2659818431",
@@ -702184,8 +702158,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2659818431",

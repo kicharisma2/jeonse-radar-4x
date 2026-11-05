@@ -1,5 +1,18 @@
 [
   {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2658808242",
+    "tradeType": "매매",
+    "dong": "105동",
+    "floor": "6/25",
+    "pyeong": 32,
+    "priceText": "5억 3,500만원",
+    "agency": "1번지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2658808242",
+    "discoveredAt": "9:02:23 PM"
+  },
+  {
     "complexId": 136343,
     "complexName": "레이카운티",
     "articleNo": "2659946558",
@@ -634,19 +647,6 @@
     "priceText": "4억 3,000만원",
     "agency": "래미안아이파크공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2659878858",
-    "discoveredAt": "오후 3:52:18"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2659872835",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "22/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "단지내한마음부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659872835",
     "discoveredAt": "오후 3:52:18"
   }
 ]
