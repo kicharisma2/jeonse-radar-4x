@@ -263,7 +263,7 @@ async function runAutoSync(options = { autoPush: true }) {
     function sendCmd(method, params = {}) {
       return new Promise((resolve, reject) => {
         const id = msgId++;
-        const to = setTimeout(() => reject(new Error('timeout ' + method)), 30000);
+        const to = setTimeout(() => reject(new Error('timeout ' + method)), 60000);
         const handler = (data) => {
           try {
             const d = JSON.parse(data.toString());
@@ -314,11 +314,11 @@ async function runAutoSync(options = { autoPush: true }) {
     if (!capturedToken) throw new Error('네이버 토큰 획득 실패');
     console.log('   ✅ 보안 토큰 획득 완료!\n');
 
-    // 3. 배치 단위 수집 (3단지씩 8배치 = 24개 대장 단지 평형별 전수 수집)
+    // 3. 배치 단위 수집 (2단지씩 8배치 = 16개 핵심 대장단지 평형별 전수 수집)
     console.log('2. 네이버 실시간 매물 스캔 및 신규 매물 감지 시작...');
     const mergedArticles = { ...existingArticles };
-    const BATCH_SIZE = 3;
-    const MAX_BATCHES = 8; // 24개 핵심 단지 (약 1분 소요)
+    const BATCH_SIZE = 2;
+    const MAX_BATCHES = 8; // 핵심 단지 (약 30~40초 소요)
     let totalUpdatedComplexes = 0;
 
     for (let b = 0; b < Math.min(MAX_BATCHES, Math.ceil(syncList.length / BATCH_SIZE)); b++) {
@@ -326,122 +326,125 @@ async function runAutoSync(options = { autoPush: true }) {
       const batchNames = batch.map(x => x.name).join(', ');
       process.stdout.write(`   [배치 ${b + 1}/${MAX_BATCHES}] ${batchNames.substring(0, 45)}... `);
 
-      const batchResult = await sendCmd('Runtime.evaluate', {
-        expression: `(async () => {
-          const token = ${JSON.stringify(capturedToken)};
-          const batch = ${JSON.stringify(batch)};
-          const results = {};
+      try {
+        const batchResult = await sendCmd('Runtime.evaluate', {
+          expression: `(async () => {
+            const token = ${JSON.stringify(capturedToken)};
+            const batch = ${JSON.stringify(batch)};
+            const results = {};
 
-          for (const item of batch) {
-            try {
-              const fetchType = async (tradeType) => {
-                const list = [];
-                const seenNos = new Set();
-                const queries = [
-                  '',                        // 전체 기본
-                  '&areaMin=99&areaMax=132', // 30평대(84㎡) 필수 보장
-                  '&areaMin=132&areaMax=999' // 40평대 이상 필수 보장
-                ];
+            for (const item of batch) {
+              try {
+                const fetchType = async (tradeType) => {
+                  const list = [];
+                  const seenNos = new Set();
+                  const queries = [
+                    '',                        // 전체 기본
+                    '&areaMin=99&areaMax=132', // 30평대(84㎡) 필수 보장
+                    '&areaMin=132&areaMax=999' // 40평대 이상 필수 보장
+                  ];
 
-                for (const q of queries) {
-                  const maxP = q === '' ? 2 : (q.includes('99&areaMax=132') ? 3 : 2);
-                  for (let p = 1; p <= maxP; p++) {
-                    try {
-                      const url = '/api/articles/complex/' + item.id + '?realEstateType=APT&tradeType=' + tradeType + '&priceType=RETAIL&page=' + p + '&type=list&order=prc' + q;
-                      const r = await fetch(url, {
-                        headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
-                      });
-                      if (!r.ok) break;
-                      const d = await r.json();
-                      if (d.articleList && d.articleList.length > 0) {
-                        for (const a of d.articleList) {
-                          if (!seenNos.has(a.articleNo)) {
-                            seenNos.add(a.articleNo);
-                            list.push(a);
+                  for (const q of queries) {
+                    const maxP = q === '' ? 2 : (q.includes('99&areaMax=132') ? 3 : 2);
+                    for (let p = 1; p <= maxP; p++) {
+                      try {
+                        const url = '/api/articles/complex/' + item.id + '?realEstateType=APT&tradeType=' + tradeType + '&priceType=RETAIL&page=' + p + '&type=list&order=prc' + q;
+                        const r = await fetch(url, {
+                          headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
+                        });
+                        if (!r.ok) break;
+                        const d = await r.json();
+                        if (d.articleList && d.articleList.length > 0) {
+                          for (const a of d.articleList) {
+                            if (!seenNos.has(a.articleNo)) {
+                              seenNos.add(a.articleNo);
+                              list.push(a);
+                            }
                           }
                         }
-                      }
-                      if (!d.isMoreData) break;
-                    } catch { break; }
+                        if (!d.isMoreData) break;
+                      } catch { break; }
+                    }
                   }
-                }
-                return list;
-              };
+                  return list;
+                };
 
-              const j = await fetchType('B1');
-              const s = await fetchType('A1');
-              results[item.id] = { jeonse: j, sale: s };
-            } catch (e) {
-              results[item.id] = { error: e.message };
+                const [j, s] = await Promise.all([fetchType('B1'), fetchType('A1')]);
+                results[item.id] = { jeonse: j, sale: s };
+              } catch (e) {
+                results[item.id] = { error: e.message };
+              }
             }
+            return results;
+          })()`,
+          awaitPromise: true,
+          returnByValue: true
+        });
+
+        const resValue = batchResult.result?.value || {};
+        let batchArticlesCount = 0;
+
+        for (const item of batch) {
+          const cIdStr = String(item.id);
+          const data = resValue[item.id];
+          if (!data || data.error) continue;
+
+          const articles = [];
+          for (const a of (data.jeonse || [])) {
+            const formatted = formatArticle(a, item.id, 'jeonse');
+            // 신규 매물 감지
+            if (!existingArticleNos.has(formatted.articleNo)) {
+              formatted.isBrandNew = true;
+              newlyDiscoveredAlerts.push({
+                complexId: item.id,
+                complexName: item.name,
+                articleNo: formatted.articleNo,
+                tradeType: '전세',
+                dong: formatted.dong,
+                floor: formatted.floor,
+                pyeong: formatted.pyeong,
+                priceText: formatted.priceText,
+                agency: formatted.agency,
+                directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
+                discoveredAt: new Date().toLocaleTimeString('ko-KR')
+              });
+            }
+            articles.push(formatted);
           }
-          return results;
-        })()`,
-        awaitPromise: true,
-        returnByValue: true
-      });
 
-      const resValue = batchResult.result?.value || {};
-      let batchArticlesCount = 0;
-
-      for (const item of batch) {
-        const cIdStr = String(item.id);
-        const data = resValue[item.id];
-        if (!data || data.error) continue;
-
-        const articles = [];
-        for (const a of (data.jeonse || [])) {
-          const formatted = formatArticle(a, item.id, 'jeonse');
-          // 신규 매물 감지
-          if (!existingArticleNos.has(formatted.articleNo)) {
-            formatted.isBrandNew = true;
-            newlyDiscoveredAlerts.push({
-              complexId: item.id,
-              complexName: item.name,
-              articleNo: formatted.articleNo,
-              tradeType: '전세',
-              dong: formatted.dong,
-              floor: formatted.floor,
-              pyeong: formatted.pyeong,
-              priceText: formatted.priceText,
-              agency: formatted.agency,
-              directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
-              discoveredAt: new Date().toLocaleTimeString('ko-KR')
-            });
+          for (const a of (data.sale || [])) {
+            const formatted = formatArticle(a, item.id, 'sale');
+            if (!existingArticleNos.has(formatted.articleNo)) {
+              formatted.isBrandNew = true;
+              newlyDiscoveredAlerts.push({
+                complexId: item.id,
+                complexName: item.name,
+                articleNo: formatted.articleNo,
+                tradeType: '매매',
+                dong: formatted.dong,
+                floor: formatted.floor,
+                pyeong: formatted.pyeong,
+                priceText: formatted.priceText,
+                agency: formatted.agency,
+                directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
+                discoveredAt: new Date().toLocaleTimeString('ko-KR')
+              });
+            }
+            articles.push(formatted);
           }
-          articles.push(formatted);
+
+          if (articles.length > 0) {
+            mergedArticles[cIdStr] = articles;
+            batchArticlesCount += articles.length;
+            totalUpdatedComplexes++;
+          }
         }
 
-        for (const a of (data.sale || [])) {
-          const formatted = formatArticle(a, item.id, 'sale');
-          if (!existingArticleNos.has(formatted.articleNo)) {
-            formatted.isBrandNew = true;
-            newlyDiscoveredAlerts.push({
-              complexId: item.id,
-              complexName: item.name,
-              articleNo: formatted.articleNo,
-              tradeType: '매매',
-              dong: formatted.dong,
-              floor: formatted.floor,
-              pyeong: formatted.pyeong,
-              priceText: formatted.priceText,
-              agency: formatted.agency,
-              directUrl: `https://fin.land.naver.com/articles/${formatted.articleNo}`,
-              discoveredAt: new Date().toLocaleTimeString('ko-KR')
-            });
-          }
-          articles.push(formatted);
-        }
-
-        if (articles.length > 0) {
-          mergedArticles[cIdStr] = articles;
-          batchArticlesCount += articles.length;
-          totalUpdatedComplexes++;
-        }
+        console.log(`성공 (${batchArticlesCount}건 최신화)`);
+      } catch (batchErr) {
+        console.log(`⚠️ 일시적 지연으로 건너뜀 (${batchErr.message})`);
       }
-
-      console.log(`성공 (${batchArticlesCount}건 최신화)`);
-      await sleep(1000);
+      await sleep(500);
     }
 
     // 4. DEFAULT_COMPLEXES 최신화 반영
