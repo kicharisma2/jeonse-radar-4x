@@ -1,5 +1,5 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-05 | 총 375개 단지, 26,493건 실매물
+// 최종 실시간 동기화: 2026-11-06 | 총 375개 단지, 26,492건 실매물
 
 function formatKoreanPrice(val) {
   if (!val) return '0원';
@@ -294600,7 +294600,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659740523",
@@ -294626,7 +294626,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659662250",
@@ -294730,7 +294730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659877357",
@@ -294756,7 +294756,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659823091",
@@ -294782,33 +294782,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
-    },
-    {
-      "id": "17246-jeonse-2659745407",
-      "articleNo": "2659745407",
-      "tradeType": "jeonse",
-      "dong": "108동",
-      "floor": "6/25",
-      "price": 45000,
-      "priceText": "4억 5,000만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "s 태양 s｜거실,방1확장.주방교체 ｜바로입주｜남향.학교인접동",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659739717",
@@ -294834,7 +294808,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659630357",
@@ -295354,7 +295328,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659921483",
@@ -295380,7 +295354,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659906796",
@@ -295406,7 +295380,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659861972",
@@ -295432,7 +295406,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659745141",
@@ -295458,7 +295432,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659743951",
@@ -295484,7 +295458,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659706470",
@@ -295617,6 +295591,32 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-jeonse-2658884098",
+      "articleNo": "2658884098",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "7/23",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "소향S1,상세현장안내,거실방확장,일조전망최상,월세등조건협의가능",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "사직소향부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261031",
+      "regDate": "2026-10-31",
+      "isNew": false
+    },
+    {
       "id": "17246-jeonse-2659646311",
       "articleNo": "2659646311",
       "tradeType": "jeonse",
@@ -295695,32 +295695,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-jeonse-2658884098",
-      "articleNo": "2658884098",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "7/23",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "소향S1,상세현장안내,거실방확장,일조전망최상,월세등조건협의가능",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "사직소향부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
       "id": "17246-jeonse-2658826713",
       "articleNo": "2658826713",
       "tradeType": "jeonse",
@@ -295796,7 +295770,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659739715",
@@ -295822,7 +295796,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659537021",
@@ -296030,7 +296004,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659879283",
@@ -296056,7 +296030,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659860643",
@@ -296082,7 +296056,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659834688",
@@ -296108,7 +296082,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659663312",
@@ -296186,7 +296160,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659629586",
@@ -296446,7 +296420,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659126201",
@@ -296706,8 +296680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659743836",
@@ -296733,7 +296706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659890976",
@@ -296759,7 +296732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659834118",
@@ -296785,7 +296758,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659824671",
@@ -296811,7 +296784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659619838",
@@ -297227,7 +297200,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659857272",
@@ -297253,7 +297226,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659820025",
@@ -297279,33 +297252,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
-    },
-    {
-      "id": "17246-sale-2659743327",
-      "articleNo": "2659743327",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "1/25",
-      "price": 49000,
-      "priceText": "4억 9,000만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "s 태양 s｜필로티1층｜거실,방확장,부분수리｜집이놀이터가 되는곳",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "1층",
-        "필로티"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659700970",
@@ -297565,7 +297512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659590463",
@@ -297669,7 +297616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658950446",
@@ -297981,7 +297928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659341821",
@@ -298501,7 +298448,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659566072",
@@ -298553,7 +298500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659885089",
@@ -298579,7 +298526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659883486",
@@ -298605,7 +298552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659772460",
@@ -298631,7 +298578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659611118",
@@ -298764,6 +298711,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2657880293",
+      "articleNo": "2657880293",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "6/25",
+      "price": 53500,
+      "priceText": "5억 3,500만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "32추천.초등학교가까운동.깨끗하게관리된집.붙박이장,탄성.이사협의",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "금성부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261027",
+      "regDate": "2026-10-27",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2658633571",
       "articleNo": "2658633571",
       "tradeType": "sale",
@@ -298839,7 +298813,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659533441",
@@ -298969,7 +298943,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658071046",
@@ -362319,8 +362293,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659913456",
@@ -362346,7 +362319,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659873058",
@@ -362372,7 +362345,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659832226",
@@ -362398,7 +362371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659822360",
@@ -362424,7 +362397,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659739718",
@@ -362450,7 +362423,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659222814",
@@ -362840,7 +362813,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659795340",
@@ -362866,7 +362839,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2658554462",
@@ -362944,7 +362917,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659751854",
@@ -362970,7 +362943,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659611192",
@@ -364114,7 +364087,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659537085",
@@ -364998,7 +364971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659438640",
@@ -384125,7 +384098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659166319",
@@ -384697,7 +384670,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658773976",
@@ -386103,7 +386076,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2659636352",
@@ -386207,7 +386180,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2655588879",
@@ -430643,7 +430616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2659854405",
@@ -430669,7 +430642,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659298652",
@@ -431397,7 +431370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659854272",
@@ -431423,7 +431396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659853129",
@@ -431449,7 +431422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2658661304",
@@ -431735,7 +431708,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659317188",
@@ -433009,7 +432982,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2656397461",
@@ -477558,7 +477531,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2658953387",
@@ -477922,7 +477895,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2658955603",
@@ -478442,7 +478415,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659024632",
@@ -478520,7 +478493,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2656830453",
@@ -478676,7 +478649,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659176610",
@@ -478728,7 +478701,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2658355818",
@@ -479976,7 +479949,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659831095",
@@ -480002,7 +479975,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2658951526",
@@ -485364,7 +485337,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2658865334",
@@ -486040,7 +486013,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659914005",
@@ -486066,7 +486039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658255634",
@@ -486118,7 +486091,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659594454",
@@ -486378,7 +486351,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659107833",
@@ -487548,7 +487521,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659848242",
@@ -487574,7 +487547,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659654726",
@@ -506913,7 +506886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2659765026",
@@ -506939,7 +506912,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2659670229",
@@ -507719,7 +507692,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659212744",
@@ -508629,7 +508602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659668226",
@@ -508759,7 +508732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659011719",
@@ -508811,7 +508784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659462857",
@@ -509487,7 +509460,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659872553",
@@ -509513,7 +509486,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659763477",
@@ -509539,7 +509512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2658286428",
@@ -555125,7 +555098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2659789531",
@@ -555151,7 +555124,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2659683260",
@@ -555255,7 +555228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2659764483",
@@ -555281,7 +555254,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2659396964",
@@ -555723,7 +555696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659777812",
@@ -555749,7 +555722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659366707",
@@ -555853,7 +555826,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659792003",
@@ -555879,7 +555852,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659483220",
@@ -556139,7 +556112,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659483407",
@@ -556425,7 +556398,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658814338",
@@ -556685,7 +556658,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659779038",
@@ -556711,7 +556684,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658244368",
@@ -557075,7 +557048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658243536",
@@ -557439,7 +557412,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658409146",
@@ -558089,7 +558062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2656297960",
@@ -558141,7 +558114,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659851219",
@@ -558167,7 +558140,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659784480",
@@ -558193,7 +558166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659612636",
@@ -562645,7 +562618,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659938296",
@@ -562671,7 +562644,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659936923",
@@ -562697,7 +562670,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659881233",
@@ -562723,7 +562696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659878858",
@@ -562749,7 +562722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659872835",
@@ -562775,7 +562748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659872357",
@@ -562801,7 +562774,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659871569",
@@ -562827,7 +562800,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659858708",
@@ -562853,7 +562826,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659858083",
@@ -562879,7 +562852,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659816982",
@@ -562905,7 +562878,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659732191",
@@ -563607,7 +563580,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659889643",
@@ -563633,7 +563606,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659871074",
@@ -563659,7 +563632,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659858333",
@@ -563685,7 +563658,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659780290",
@@ -563711,7 +563684,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659721567",
@@ -563737,7 +563710,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659731912",
@@ -564309,7 +564282,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659943124",
@@ -564335,7 +564308,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659936495",
@@ -564361,7 +564334,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659936269",
@@ -564387,7 +564360,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659934412",
@@ -564413,7 +564386,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659926280",
@@ -564439,7 +564412,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659924485",
@@ -564465,7 +564438,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659922230",
@@ -564491,7 +564464,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659887056",
@@ -564517,7 +564490,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659886236",
@@ -564543,7 +564516,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659881044",
@@ -564569,7 +564542,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659878890",
@@ -564595,7 +564568,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659872788",
@@ -564621,7 +564594,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659872597",
@@ -564647,7 +564620,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659859310",
@@ -564673,7 +564646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659858841",
@@ -564699,7 +564672,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659855297",
@@ -564725,7 +564698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659848969",
@@ -564751,7 +564724,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659816874",
@@ -564777,7 +564750,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659924385",
@@ -564803,7 +564776,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659732167",
@@ -565115,7 +565088,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659391919",
@@ -566155,7 +566128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659930293",
@@ -566181,7 +566154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659418036",
@@ -566779,7 +566752,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659732533",
@@ -567715,7 +567688,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2658221960",
@@ -567767,7 +567740,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659865662",
@@ -567793,7 +567766,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659860130",
@@ -567819,7 +567792,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659721078",
@@ -568651,7 +568624,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659897556",
@@ -568677,7 +568650,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659879701",
@@ -568703,7 +568676,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659354717",
@@ -568835,7 +568808,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2659800876",
@@ -568861,7 +568834,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2659698250",
@@ -569147,7 +569120,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659461483",
@@ -569537,7 +569510,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659688385",
@@ -569927,7 +569900,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659838064",
@@ -569953,7 +569926,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659829152",
@@ -569979,7 +569952,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659553390",
@@ -596993,7 +596966,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657786346",
@@ -597695,7 +597668,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2658160936",
@@ -598371,7 +598344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657521049",
@@ -598501,7 +598474,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2659765095",
@@ -598527,7 +598500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2659730556",
@@ -599099,7 +599072,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2659842588",
@@ -599125,7 +599098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2659668773",
@@ -613089,7 +613062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659759828",
@@ -613115,7 +613088,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659746819",
@@ -613141,7 +613114,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659662087",
@@ -613999,7 +613972,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659885865",
@@ -614025,7 +613998,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657990514",
@@ -614129,7 +614102,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659896904",
@@ -614155,7 +614128,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659873280",
@@ -614181,7 +614154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659809697",
@@ -614207,7 +614180,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659808700",
@@ -614233,7 +614206,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659777002",
@@ -614259,7 +614232,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659619894",
@@ -614545,7 +614518,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659856773",
@@ -614571,7 +614544,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659855282",
@@ -614597,7 +614570,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659813158",
@@ -614623,7 +614596,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659808465",
@@ -614649,7 +614622,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659807026",
@@ -614675,7 +614648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659806577",
@@ -614701,7 +614674,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659794956",
@@ -614727,7 +614700,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659777463",
@@ -614753,7 +614726,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659776777",
@@ -614779,7 +614752,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659747131",
@@ -614805,7 +614778,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659723376",
@@ -615663,7 +615636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659818431",
@@ -615689,7 +615662,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659805173",
@@ -615715,7 +615688,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2659556463",
@@ -616287,7 +616260,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659746960",
@@ -616313,7 +616286,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659734983",
@@ -616989,7 +616962,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659833890",
@@ -617015,7 +616988,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659800458",
@@ -617041,7 +617014,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659795661",
@@ -617067,7 +617040,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659768849",
@@ -617093,7 +617066,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659748623",
@@ -617119,7 +617092,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659746935",
@@ -617145,7 +617118,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659732073",
@@ -617951,7 +617924,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659878138",
@@ -617977,7 +617950,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659861249",
@@ -618003,7 +617976,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659799943",
@@ -618029,7 +618002,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659778095",
@@ -618055,7 +618028,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659770769",
@@ -618081,7 +618054,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659770040",
@@ -618107,7 +618080,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659769439",
@@ -618133,7 +618106,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659769303",
@@ -618159,7 +618132,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659748647",
@@ -618185,7 +618158,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659748621",
@@ -618211,7 +618184,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659748620",
@@ -618237,7 +618210,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659746948",
@@ -618263,7 +618236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659732111",
@@ -618289,7 +618262,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659723719",
@@ -618549,7 +618522,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659796328",
@@ -618575,7 +618548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659618081",
@@ -619485,7 +619458,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659685665",
@@ -626801,7 +626774,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659436530",
@@ -627009,7 +626982,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659786870",
@@ -627035,7 +627008,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659778072",
@@ -627061,7 +627034,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659754447",
@@ -627087,7 +627060,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659598082",
@@ -627373,7 +627346,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659827500",
@@ -627399,7 +627372,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659777318",
@@ -627425,7 +627398,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659572396",
@@ -627893,7 +627866,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659940326",
@@ -627919,7 +627892,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659926895",
@@ -627945,7 +627918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659926868",
@@ -627971,7 +627944,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659908100",
@@ -627997,7 +627970,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659898835",
@@ -628023,7 +627996,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659834486",
@@ -628049,7 +628022,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659805180",
@@ -628075,7 +628048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659780883",
@@ -628101,7 +628074,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659778769",
@@ -628127,7 +628100,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659771604",
@@ -628153,7 +628126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659754258",
@@ -628179,7 +628152,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659709452",
@@ -628907,7 +628880,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659898737",
@@ -628933,7 +628906,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659854056",
@@ -628959,7 +628932,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659826749",
@@ -628985,7 +628958,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659805224",
@@ -629011,7 +628984,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659571166",
@@ -630233,7 +630206,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659763004",
@@ -630259,7 +630232,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659418493",
@@ -630519,7 +630492,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659567365",
@@ -631533,7 +631506,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659655912",
@@ -631793,7 +631766,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659612846",
@@ -693482,7 +693455,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659938296",
@@ -693508,7 +693481,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659936923",
@@ -693534,7 +693507,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659881233",
@@ -693560,7 +693533,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659878858",
@@ -693586,7 +693559,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659872835",
@@ -693612,7 +693585,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659872357",
@@ -693638,7 +693611,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659871569",
@@ -693664,7 +693637,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659858708",
@@ -693690,7 +693663,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659858083",
@@ -693716,7 +693689,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659816982",
@@ -693742,7 +693715,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659732191",
@@ -694444,7 +694417,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659889643",
@@ -694470,7 +694443,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659871074",
@@ -694496,7 +694469,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659858333",
@@ -694522,7 +694495,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659780290",
@@ -694548,7 +694521,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659721567",
@@ -694574,7 +694547,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659731912",
@@ -695146,7 +695119,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659943124",
@@ -695172,7 +695145,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659936495",
@@ -695198,7 +695171,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659936269",
@@ -695224,7 +695197,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659934412",
@@ -695250,7 +695223,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659926280",
@@ -695276,7 +695249,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659924485",
@@ -695302,7 +695275,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659922230",
@@ -695328,7 +695301,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659887056",
@@ -695354,7 +695327,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659886236",
@@ -695380,7 +695353,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659881044",
@@ -695406,7 +695379,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659878890",
@@ -695432,7 +695405,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659872788",
@@ -695458,7 +695431,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659872597",
@@ -695484,7 +695457,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659859310",
@@ -695510,7 +695483,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659858841",
@@ -695536,7 +695509,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659855297",
@@ -695562,7 +695535,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659848969",
@@ -695588,7 +695561,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659816874",
@@ -695614,7 +695587,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659924385",
@@ -695640,7 +695613,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659732167",
@@ -695952,7 +695925,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659391919",
@@ -696992,7 +696965,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659930293",
@@ -697018,7 +696991,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659418036",
@@ -697616,7 +697589,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659732533",
@@ -698552,7 +698525,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2658221960",
@@ -698604,7 +698577,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659865662",
@@ -698630,7 +698603,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659860130",
@@ -698656,7 +698629,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659721078",
@@ -699488,7 +699461,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659897556",
@@ -699514,7 +699487,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659879701",
@@ -699540,7 +699513,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659354717",
@@ -699611,7 +699584,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659759828",
@@ -699637,7 +699610,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659746819",
@@ -699663,7 +699636,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659662087",
@@ -700521,7 +700494,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659885865",
@@ -700547,7 +700520,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657990514",
@@ -700651,7 +700624,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659896904",
@@ -700677,7 +700650,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659873280",
@@ -700703,7 +700676,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659809697",
@@ -700729,7 +700702,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659808700",
@@ -700755,7 +700728,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659777002",
@@ -700781,7 +700754,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659619894",
@@ -701067,7 +701040,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659856773",
@@ -701093,7 +701066,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659855282",
@@ -701119,7 +701092,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659813158",
@@ -701145,7 +701118,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659808465",
@@ -701171,7 +701144,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659807026",
@@ -701197,7 +701170,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659806577",
@@ -701223,7 +701196,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659794956",
@@ -701249,7 +701222,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659777463",
@@ -701275,7 +701248,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659776777",
@@ -701301,7 +701274,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659747131",
@@ -701327,7 +701300,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659723376",
@@ -702185,7 +702158,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659818431",
@@ -702211,7 +702184,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659805173",
@@ -702237,7 +702210,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2659556463",
@@ -702809,7 +702782,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659746960",
@@ -702835,7 +702808,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659734983",
@@ -703511,7 +703484,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659833890",
@@ -703537,7 +703510,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659800458",
@@ -703563,7 +703536,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659795661",
@@ -703589,7 +703562,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659768849",
@@ -703615,7 +703588,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659748623",
@@ -703641,7 +703614,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659746935",
@@ -703667,7 +703640,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659732073",
@@ -704473,7 +704446,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659878138",
@@ -704499,7 +704472,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659861249",
@@ -704525,7 +704498,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659799943",
@@ -704551,7 +704524,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659778095",
@@ -704577,7 +704550,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659770769",
@@ -704603,7 +704576,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659770040",
@@ -704629,7 +704602,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659769439",
@@ -704655,7 +704628,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659769303",
@@ -704681,7 +704654,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659748647",
@@ -704707,7 +704680,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659748621",
@@ -704733,7 +704706,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659748620",
@@ -704759,7 +704732,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659746948",
@@ -704785,7 +704758,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659732111",
@@ -704811,7 +704784,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659723719",
@@ -705071,7 +705044,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659796328",
@@ -705097,7 +705070,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659618081",
@@ -706007,7 +705980,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659685665",
@@ -706130,7 +706103,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659436530",
@@ -706338,7 +706311,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659786870",
@@ -706364,7 +706337,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659778072",
@@ -706390,7 +706363,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659754447",
@@ -706416,7 +706389,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659598082",
@@ -706702,7 +706675,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659827500",
@@ -706728,7 +706701,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659777318",
@@ -706754,7 +706727,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659572396",
@@ -707222,7 +707195,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659940326",
@@ -707248,7 +707221,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659926895",
@@ -707274,7 +707247,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659926868",
@@ -707300,7 +707273,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659908100",
@@ -707326,7 +707299,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659898835",
@@ -707352,7 +707325,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659834486",
@@ -707378,7 +707351,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659805180",
@@ -707404,7 +707377,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659780883",
@@ -707430,7 +707403,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659778769",
@@ -707456,7 +707429,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659771604",
@@ -707482,7 +707455,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659754258",
@@ -707508,7 +707481,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659709452",
@@ -708236,7 +708209,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659898737",
@@ -708262,7 +708235,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659854056",
@@ -708288,7 +708261,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659826749",
@@ -708314,7 +708287,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659805224",
@@ -708340,7 +708313,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659571166",
@@ -709562,7 +709535,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659763004",
@@ -709588,7 +709561,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659418493",
@@ -709848,7 +709821,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659567365",
@@ -710862,7 +710835,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659655912",
@@ -711122,7 +711095,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659612846",
@@ -712181,7 +712154,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2658953387",
@@ -712545,7 +712518,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2658955603",
@@ -713065,7 +713038,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659024632",
@@ -713143,7 +713116,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2656830453",
@@ -713299,7 +713272,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659176610",
@@ -713351,7 +713324,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2658355818",
@@ -714599,7 +714572,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659831095",
@@ -714625,7 +714598,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2658951526",
@@ -717322,7 +717295,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659166319",
@@ -717894,7 +717867,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658773976",
@@ -719369,7 +719342,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2659800876",
@@ -719395,7 +719368,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2659698250",
@@ -719681,7 +719654,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659461483",
@@ -720071,7 +720044,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659688385",
@@ -720461,7 +720434,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659838064",
@@ -720487,7 +720460,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659829152",
@@ -720513,7 +720486,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659553390",
