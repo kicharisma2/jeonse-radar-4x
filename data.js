@@ -294730,8 +294730,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659877357",
@@ -295355,8 +295354,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659921483",
@@ -298684,8 +298682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658842608",
@@ -364245,8 +364242,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659453395",
@@ -486042,8 +486038,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2659914005",
@@ -488305,8 +488300,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261009",
       "regDate": "2026-10-09",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659611204",
@@ -562649,8 +562643,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2659938296",
@@ -564314,8 +564307,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2659943124",
@@ -564341,8 +564333,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2659936495",
@@ -565018,8 +565009,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261104",
       "regDate": "2026-11-04",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2659662211",
@@ -615648,8 +615638,8 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2659811214",
-      "articleNo": "2659811214",
+      "id": "136343-jeonse-2659946558",
+      "articleNo": "2659946558",
       "tradeType": "jeonse",
       "dong": "308동",
       "floor": "고/29",
@@ -615660,18 +615650,19 @@ const REAL_BUSAN_ARTICLES = {
       "exclusiveArea": 84,
       "type": "115㎡ (전용 84㎡)",
       "direction": "남동향",
-      "desc": "34전세.개방감좋은.풀옵션.커뮤니티인접",
+      "desc": "막힘없는조망, 이면창 풀옵션에어컨4, 인덕션 식세기등 거성중 인근",
       "tags": [
         "4년이내",
         "대단지",
         "방세개",
         "화장실두개"
       ],
-      "agency": "명당(明堂)공인중개사사무소",
+      "agency": "태영공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "136343-jeonse-2659818431",
@@ -626809,8 +626800,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2659436530",
@@ -627006,7 +626996,7 @@ const REAL_BUSAN_ARTICLES = {
       "supplyArea": 88,
       "exclusiveArea": 59,
       "type": "88㎡ (전용 59㎡)",
-      "direction": "북서향",
+      "direction": "남동향",
       "desc": "I 뻥.뷰 I 거실펜트리 L일조 좋은 고층 I 옵션 좋은 집 I",
       "tags": [
         "4년이내",
@@ -627902,8 +627892,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2659940326",
@@ -627929,8 +627918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2659926895",
@@ -693493,8 +693481,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2659938296",
@@ -695158,8 +695145,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2659943124",
@@ -695185,8 +695171,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2659936495",
@@ -695862,8 +695847,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261104",
         "regDate": "2026-11-04",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2659662211",
@@ -702177,8 +702161,8 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2659811214",
-        "articleNo": "2659811214",
+        "id": "136343-jeonse-2659946558",
+        "articleNo": "2659946558",
         "tradeType": "jeonse",
         "dong": "308동",
         "floor": "고/29",
@@ -702189,18 +702173,19 @@ const DEFAULT_COMPLEXES = [
         "exclusiveArea": 84,
         "type": "115㎡ (전용 84㎡)",
         "direction": "남동향",
-        "desc": "34전세.개방감좋은.풀옵션.커뮤니티인접",
+        "desc": "막힘없는조망, 이면창 풀옵션에어컨4, 인덕션 식세기등 거성중 인근",
         "tags": [
           "4년이내",
           "대단지",
           "방세개",
           "화장실두개"
         ],
-        "agency": "명당(明堂)공인중개사사무소",
+        "agency": "태영공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true
+        "isNew": true,
+        "isBrandNew": true
       },
       {
         "id": "136343-jeonse-2659818431",
@@ -706145,8 +706130,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2659436530",
@@ -706342,7 +706326,7 @@ const DEFAULT_COMPLEXES = [
         "supplyArea": 88,
         "exclusiveArea": 59,
         "type": "88㎡ (전용 59㎡)",
-        "direction": "북서향",
+        "direction": "남동향",
         "desc": "I 뻥.뷰 I 거실펜트리 L일조 좋은 고층 I 옵션 좋은 집 I",
         "tags": [
           "4년이내",
@@ -707238,8 +707222,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2659940326",
@@ -707265,8 +707248,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2659926895",
