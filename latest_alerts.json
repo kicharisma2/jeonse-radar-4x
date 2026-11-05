@@ -1,5 +1,57 @@
 [
   {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2659961354",
+    "tradeType": "전세",
+    "dong": "403동",
+    "floor": "중/29",
+    "pyeong": 34,
+    "priceText": "5억 8,000만원",
+    "agency": "레이802공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659961354",
+    "discoveredAt": "8:02:20 AM"
+  },
+  {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2654752402",
+    "tradeType": "매매",
+    "dong": "503동",
+    "floor": "저/18",
+    "pyeong": 20,
+    "priceText": "4억원",
+    "agency": "명당(明堂)공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2654752402",
+    "discoveredAt": "8:02:20 AM"
+  },
+  {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2659570194",
+    "tradeType": "매매",
+    "dong": "404동",
+    "floor": "고/28",
+    "pyeong": 34,
+    "priceText": "8억원",
+    "agency": "양지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659570194",
+    "discoveredAt": "8:02:20 AM"
+  },
+  {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2659570179",
+    "tradeType": "매매",
+    "dong": "404동",
+    "floor": "중/28",
+    "pyeong": 34,
+    "priceText": "8억원",
+    "agency": "양지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659570179",
+    "discoveredAt": "8:02:20 AM"
+  },
+  {
     "complexId": 17246,
     "complexName": "사직쌍용예가",
     "articleNo": "2659957107",
@@ -596,57 +648,5 @@
     "agency": "래미안모든부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2659943124",
     "discoveredAt": "7:02:20 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2659664516",
-    "tradeType": "전세",
-    "dong": "214동",
-    "floor": "14/28",
-    "pyeong": 36,
-    "priceText": "5억 5,000만원",
-    "agency": "황금탑부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659664516",
-    "discoveredAt": "7:02:20 PM"
-  },
-  {
-    "complexId": 146548,
-    "complexName": "래미안포레스티지",
-    "articleNo": "2659940334",
-    "tradeType": "전세",
-    "dong": "206동",
-    "floor": "중/27",
-    "pyeong": 26,
-    "priceText": "4억 2,000만원",
-    "agency": "래미안24시부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659940334",
-    "discoveredAt": "7:02:22 PM"
-  },
-  {
-    "complexId": 146548,
-    "complexName": "래미안포레스티지",
-    "articleNo": "2659940345",
-    "tradeType": "전세",
-    "dong": "305동",
-    "floor": "저/35",
-    "pyeong": 31,
-    "priceText": "5억원",
-    "agency": "래미안24시부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659940345",
-    "discoveredAt": "7:02:22 PM"
-  },
-  {
-    "complexId": 146548,
-    "complexName": "래미안포레스티지",
-    "articleNo": "2659940326",
-    "tradeType": "전세",
-    "dong": "202동",
-    "floor": "고/25",
-    "pyeong": 31,
-    "priceText": "5억원",
-    "agency": "래미안24시부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659940326",
-    "discoveredAt": "7:02:22 PM"
   }
 ]
