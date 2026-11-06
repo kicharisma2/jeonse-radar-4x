@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-07 02:28 | 총 375개 단지, 26,465건 실매물
+// 최종 실시간 동기화: 2026-11-07 03:28 | 총 375개 단지, 26,466건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-07",
-  syncTime: "02:28",
-  shortDisplay: "11.07 02:28",
-  fullDisplay: "2026-11-07 02:28",
-  timestamp: 1793986128990,
-  iso: "2026-11-06T17:28:48.990Z",
+  syncTime: "03:28",
+  shortDisplay: "11.07 03:28",
+  fullDisplay: "2026-11-07 03:28",
+  timestamp: 1793989730869,
+  iso: "2026-11-06T18:28:50.869Z",
   complexCount: 375,
-  totalArticlesCount: 26465
+  totalArticlesCount: 26466
 };
 
 function formatKoreanPrice(val) {
@@ -294588,6 +294588,33 @@ const REAL_BUSAN_ARTICLES = {
   ],
   "17246": [
     {
+      "id": "17246-jeonse-2660254179",
+      "articleNo": "2660254179",
+      "tradeType": "jeonse",
+      "dong": "120동",
+      "floor": "4/25",
+      "price": 42000,
+      "priceText": "4억 2,000만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "사직동 입문 아파트 겨울방학 끝나기전에 들어오셔요 . 적극일정맞춰드려요",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "사직금빛부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-jeonse-2659875694",
       "articleNo": "2659875694",
       "tradeType": "jeonse",
@@ -294637,32 +294664,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "17246-jeonse-2659662250",
-      "articleNo": "2659662250",
-      "tradeType": "jeonse",
-      "dong": "120동",
-      "floor": "4/25",
-      "price": 42000,
-      "priceText": "4억 2,000만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "사직동 입문 아파트 겨울방학 끝나기전에 들어오셔요 . 적극일정맞춰드려요",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "사직금빛부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
       "isNew": false
     },
     {
@@ -294716,6 +294717,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261029",
       "regDate": "2026-10-29",
       "isNew": false
+    },
+    {
+      "id": "17246-jeonse-2660254721",
+      "articleNo": "2660254721",
+      "tradeType": "jeonse",
+      "dong": "108동",
+      "floor": "6/25",
+      "price": 45000,
+      "priceText": "4억 5,000만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "남향",
+      "desc": "솔직한 태양｜거실.방1확장｜주방교체 ｜화장실타일만교체｜화단철거,그외기본",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "17246-jeonse-2660251245",
@@ -296642,6 +296670,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660254724",
+      "articleNo": "2660254724",
+      "tradeType": "sale",
+      "dong": "121동",
+      "floor": "1/25",
+      "price": 49000,
+      "priceText": "4억 9,000만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "s 태양 s｜필로티1층｜거실,방확장,부분수리｜집이놀이터가 되는곳",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "1층",
+        "필로티"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2660180894",
       "articleNo": "2660180894",
       "tradeType": "sale",
@@ -298176,32 +298231,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-sale-2658842608",
-      "articleNo": "2658842608",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "12/25",
-      "price": 53500,
-      "priceText": "5억 3,500만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "32추천매물 욕실, 주방 최근 수리  부분인테리어",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "하나공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
       "id": "17246-sale-2658633571",
       "articleNo": "2658633571",
       "tradeType": "sale",
@@ -298254,6 +298283,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660253800",
+      "articleNo": "2660253800",
+      "tradeType": "sale",
+      "dong": "123동",
+      "floor": "중/25",
+      "price": 58000,
+      "priceText": "5억 8,000만원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "소향S1,소유주직접의뢰,거실확장방3확장,확장비0원,각종조건협의",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "사직소향부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2659953444",
       "articleNo": "2659953444",
       "tradeType": "sale",
@@ -298277,32 +298333,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2659740124",
-      "articleNo": "2659740124",
-      "tradeType": "sale",
-      "dong": "123동",
-      "floor": "중/25",
-      "price": 58000,
-      "priceText": "5억 8,000만원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "소향S1,소유주직접의뢰,거실확장방3확장,확장비0원,각종조건협의",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "사직소향부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
       "isNew": false
     },
     {
@@ -364412,6 +364442,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2660254704",
+      "articleNo": "2660254704",
+      "tradeType": "sale",
+      "dong": "203동",
+      "floor": "12/22",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "s 태양 s｜폴딩도어로 넓게 쓰는 거실｜생활동선 편리동｜욕실수리완료",
+      "tags": [
+        "25년이내",
+        "욕실수리",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2660205849",
       "articleNo": "2660205849",
       "tradeType": "sale",
@@ -364458,32 +364515,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "예가공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2659954615",
-      "articleNo": "2659954615",
-      "tradeType": "sale",
-      "dong": "203동",
-      "floor": "12/22",
-      "price": 68000,
-      "priceText": "6억 8,000만원",
-      "pyeong": 46,
-      "supplyArea": 151,
-      "exclusiveArea": 120,
-      "type": "151㎡ (전용 120㎡)",
-      "direction": "남동향",
-      "desc": "s 태양 s｜폴딩도어로 넓게 쓰는 거실｜생활동선 편리동｜욕실수리완료",
-      "tags": [
-        "25년이내",
-        "욕실수리",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
