@@ -1,5 +1,31 @@
 [
   {
+    "complexId": 121631,
+    "complexName": "동래3차SK뷰(주상복합)",
+    "articleNo": "2658770991",
+    "tradeType": "매매",
+    "dong": "101동",
+    "floor": "저/38",
+    "pyeong": 34,
+    "priceText": "5억 7,000만원",
+    "agency": "SK3차예스부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2658770991",
+    "discoveredAt": "9:31:10 AM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2659971581",
+    "tradeType": "매매",
+    "dong": "208동",
+    "floor": "4/25",
+    "pyeong": 32,
+    "priceText": "5억 1,000만원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659971581",
+    "discoveredAt": "9:31:20 AM"
+  },
+  {
     "complexId": 146548,
     "complexName": "래미안포레스티지",
     "articleNo": "2659940324",
@@ -622,31 +648,5 @@
     "agency": "1번지공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2658808242",
     "discoveredAt": "9:02:23 PM"
-  },
-  {
-    "complexId": 136343,
-    "complexName": "레이카운티",
-    "articleNo": "2659946558",
-    "tradeType": "전세",
-    "dong": "308동",
-    "floor": "고/29",
-    "pyeong": 35,
-    "priceText": "5억 9,000만원",
-    "agency": "태영공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659946558",
-    "discoveredAt": "8:02:21 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2659943493",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "1/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "래미안모든부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659943493",
-    "discoveredAt": "7:02:20 PM"
   }
 ]
