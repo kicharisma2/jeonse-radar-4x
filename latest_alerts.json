@@ -1,5 +1,31 @@
 [
   {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
+    "articleNo": "2660259499",
+    "tradeType": "전세",
+    "dong": "305동",
+    "floor": "27/35",
+    "pyeong": 34,
+    "priceText": "5억 5,000만원",
+    "agency": "래미안아이파크공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660259499",
+    "discoveredAt": "6:28:40 AM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660259438",
+    "tradeType": "전세",
+    "dong": "125동",
+    "floor": "11/25",
+    "pyeong": 49,
+    "priceText": "5억 5,000만원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660259438",
+    "discoveredAt": "6:28:42 AM"
+  },
+  {
     "complexId": 146548,
     "complexName": "래미안포레스티지",
     "articleNo": "2659278329",
@@ -621,32 +647,6 @@
     "priceText": "5억 3,000만원",
     "agency": "소문난부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660237174",
-    "discoveredAt": "6:28:32 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660235486",
-    "tradeType": "전세",
-    "dong": "214동",
-    "floor": "14/28",
-    "pyeong": 36,
-    "priceText": "5억 5,000만원",
-    "agency": "황금탑공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660235486",
-    "discoveredAt": "6:28:32 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660235082",
-    "tradeType": "전세",
-    "dong": "105동",
-    "floor": "18/20",
-    "pyeong": 34,
-    "priceText": "5억 5,000만원",
-    "agency": "황금탑부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660235082",
     "discoveredAt": "6:28:32 PM"
   }
 ]
