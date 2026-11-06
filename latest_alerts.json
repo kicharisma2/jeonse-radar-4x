@@ -2,6 +2,45 @@
   {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
+    "articleNo": "2660250937",
+    "tradeType": "매매",
+    "dong": "401동",
+    "floor": "저/12",
+    "pyeong": 31,
+    "priceText": "7억원",
+    "agency": "114단지내공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660250937",
+    "discoveredAt": "10:28:40 PM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660251245",
+    "tradeType": "전세",
+    "dong": "108동",
+    "floor": "6/25",
+    "pyeong": 32,
+    "priceText": "4억 5,000만원",
+    "agency": "명가부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660251245",
+    "discoveredAt": "10:28:42 PM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660251224",
+    "tradeType": "전세",
+    "dong": "206동",
+    "floor": "고/25",
+    "pyeong": 32,
+    "priceText": "4억 2,000만원",
+    "agency": "명가부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660251224",
+    "discoveredAt": "10:28:48 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
     "articleNo": "2660248168",
     "tradeType": "전세",
     "dong": "305동",
@@ -608,45 +647,6 @@
     "priceText": "5억 5,000만원",
     "agency": "드림공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660185418",
-    "discoveredAt": "4:28:49 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660189238",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "저/20",
-    "pyeong": 14,
-    "priceText": "2억 1,000만원",
-    "agency": "드림공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660189238",
-    "discoveredAt": "4:28:49 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660203039",
-    "tradeType": "매매",
-    "dong": "401동",
-    "floor": "중/12",
-    "pyeong": 31,
-    "priceText": "6억 9,500만원",
-    "agency": "부자부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660203039",
-    "discoveredAt": "4:28:49 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660188644",
-    "tradeType": "매매",
-    "dong": "208동",
-    "floor": "16/35",
-    "pyeong": 44,
-    "priceText": "16억 3,000만원",
-    "agency": "드림공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660188644",
     "discoveredAt": "4:28:49 PM"
   }
 ]
