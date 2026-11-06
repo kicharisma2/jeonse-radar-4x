@@ -2773,12 +2773,65 @@ function initLiveSyncEngine() {
     });
   }
 
+  // 1-1) 실시간 네이버 연동/현행화 시점 UI 표기 (PC 프로그램 및 웹 공통)
+  function updateSyncTimestampUI(apiData = null) {
+    const syncLabel = document.getElementById('syncTimeLabel');
+    const mobileLabel = document.getElementById('mobileSyncTime');
+    const footerEl = document.getElementById('footerSyncTime');
+    const syncChip = document.getElementById('syncTimeChip');
+    const mobileTag = document.getElementById('mobileSyncTag');
+
+    let shortStr = '';
+    let fullStr = '';
+
+    const meta = (typeof window !== 'undefined' && window.RADAR_SYNC_META) ? window.RADAR_SYNC_META : null;
+
+    if (apiData && apiData.lastSyncTime) {
+      const d = new Date(apiData.lastSyncTime);
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      const h = String(d.getHours()).padStart(2, '0');
+      const min = String(d.getMinutes()).padStart(2, '0');
+      shortStr = `${m}.${day} ${h}:${min}`;
+      fullStr = `${d.getFullYear()}-${m}-${day} ${h}:${min}`;
+    } else if (apiData && apiData.lastSyncMeta && apiData.lastSyncMeta.shortDisplay) {
+      shortStr = apiData.lastSyncMeta.shortDisplay;
+      fullStr = apiData.lastSyncMeta.fullDisplay || shortStr;
+    } else if (meta && meta.shortDisplay) {
+      shortStr = meta.shortDisplay;
+      fullStr = meta.fullDisplay || meta.shortDisplay;
+    } else if (meta && meta.syncDate) {
+      const parts = meta.syncDate.split('-');
+      const m = parts[1] || '11';
+      const d = parts[2] || '06';
+      shortStr = `${m}.${d} ${meta.syncTime || ''}`.trim();
+      fullStr = `${meta.syncDate} ${meta.syncTime || ''}`.trim();
+    } else {
+      shortStr = '11.06 실시간';
+      fullStr = '2026-11-06 실시간 연동 매물';
+    }
+
+    if (syncLabel) syncLabel.textContent = `네이버 연동: ${shortStr}`;
+    if (mobileLabel) mobileLabel.textContent = shortStr;
+    if (footerEl) footerEl.textContent = fullStr;
+
+    const tooltip = `[네이버 실매물 현행화 기준 시각: ${fullStr}]\nPC 프로그램과 웹에서 보고 계신 데이터의 수집 기준 시점입니다.`;
+    if (syncChip) syncChip.title = tooltip;
+    if (mobileTag) mobileTag.title = tooltip;
+  }
+
+  // 초기 로드 즉시 data.js 메타데이터 기준으로 시점 표기
+  updateSyncTimestampUI();
+
   // 2) 서버 동기화 상태 정기 폴링 (/api/status, 2초 간격)
   async function pollSyncStatus() {
     try {
       const res = await fetch('/api/status', { cache: 'no-store' });
       if (!res.ok) throw new Error('Status endpoint not ok');
       const data = await res.json();
+
+      // 실시간 네이버 연동 시각 갱신
+      updateSyncTimestampUI(data);
 
       if (data.isSyncing) {
         wasSyncing = true;
@@ -2834,6 +2887,7 @@ function initLiveSyncEngine() {
       }
     } catch (e) {
       // 로컬 API가 없는 경우 (GitHub Pages 정적 서빙 모드)
+      updateSyncTimestampUI();
       if (statusLabel) statusLabel.textContent = '1시간 정기 자동수집';
       if (timerElem) timerElem.textContent = '실시간 연동 중';
       const webChip = document.getElementById('webSyncStatusChip');

@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
-  <link rel="stylesheet" href="style.css?v=20261106_1793923355275">
+  <link rel="stylesheet" href="style.css?v=20261106_0925">
 </head>
 <body class="theme-light">
 
@@ -32,8 +32,12 @@
           <span class="pulse-dot"></span>
         </div>
         <div class="brand-text">
-          <h1 class="brand-title">부산 500세대+ <span class="text-gradient">대단지 레이더</span> <span class="brand-condition-badge">500세대+ 전용</span></h1>
+          <h1 class="brand-title">부산 500세대+ <span class="text-gradient">대단지 레이더</span> <span class="brand-condition-badge">500세대+ 전용</span> <span class="brand-sync-tag" id="mobileSyncTag" title="네이버 부동산 실매물 최신 현행화 시각">🕒 <span id="mobileSyncTime">확인 중...</span></span></h1>
         </div>
+      </div>
+      <div class="status-chip chip-sync-time" id="syncTimeChip" title="네이버 부동산 실시간 매물 현행화 기준 시각">
+        <span class="sync-time-dot"></span>
+        <span class="status-label" id="syncTimeLabel">네이버 연동: 확인 중...</span>
       </div>
       <div class="status-chip" id="monitoringStatusChip" title="네이버 매물 1시간 주기 실시간 자동 수집">
         <span class="live-beacon"></span>
@@ -209,6 +213,7 @@
     <div class="footer-left">
       <span class="footer-dot"></span>
       <span class="footer-info" id="footerInfoText">모니터링 대상: 부산 6대 대장 단지 | 설정조건: 전세 4.3억~5.5억, 30평대</span>
+      <span class="footer-sync-tag" id="footerSyncTag" title="네이버 부동산 실매물 수집 시점 (PC 및 웹 비교 기준)">🕒 네이버 연동: <strong id="footerSyncTime">확인 중...</strong></span>
     </div>
     <div class="footer-center">
       <span class="footer-tip">팁: 각 단지 카드의 <strong>[네이버 바로보기]</strong>를 누르면 현재 필터 조건이 적용된 네이버 지도로 즉시 이동합니다.</span>
@@ -466,7 +471,7 @@
   <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
   <!-- 스크립트 로드 (v12: 텍스트 줄바꿈 방지 및 모바일/PC 반응형 레이아웃 최적화) -->
-  <script src="data.js?v=20261106_1793923355275"></script>
-  <script src="app.js?v=20261106_1793923355275"></script>
+  <script src="data.js?v=20261106_0925"></script>
+  <script src="app.js?v=20261106_0925"></script>
 </body>
 </html>

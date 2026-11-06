@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
-const { runAutoSync, getLastSyncTime, getIsRunning, getLastPushStatus } = require('./sync_naver');
+const { runAutoSync, getLastSyncTime, getIsRunning, getLastPushStatus, getLastSyncMeta } = require('./sync_naver');
 
 const ROOT_DIR = (typeof process.pkg !== 'undefined') ? path.dirname(process.execPath) : __dirname;
 const PORT = 3000;
@@ -79,6 +79,7 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({
       isSyncing: getIsRunning(),
       lastSyncTime: getLastSyncTime() ? getLastSyncTime().toISOString() : null,
+      lastSyncMeta: (typeof getLastSyncMeta === 'function') ? getLastSyncMeta() : null,
       lastPushStatus: (typeof getLastPushStatus === 'function') ? getLastPushStatus() : null,
       nextSyncTime: new Date(nextSyncTime).toISOString(),
       intervalMinutes: 60,

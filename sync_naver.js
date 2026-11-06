@@ -136,6 +136,7 @@ function formatArticle(a, complexId, tradeType) {
 
 let isSyncRunning = false;
 let lastSyncTime = null;
+let lastSyncMeta = null;
 let lastPushStatus = {
   success: false,
   message: '대기 중',
@@ -467,9 +468,25 @@ async function runAutoSync(options = { autoPush: true }) {
     // 6. data.js 저장
     console.log('\n3. 최신 매물 데이터베이스(data.js) 저장 중...');
     const totalCount = Object.values(mergedArticles).reduce((acc, cur) => acc + cur.length, 0);
+    const nowSyncDate = new Date();
+    const nowTimeStr = nowSyncDate.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
+    const [tY, tM, tD] = todayFmt.split('-');
+    const shortSyncDisplay = `${tM}.${tD} ${nowTimeStr}`;
+    const fullSyncDisplay = `${todayFmt} ${nowTimeStr}`;
 
     const fileContent = `// 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: ${todayFmt} | 총 ${Object.keys(mergedArticles).length}개 단지, ${totalCount.toLocaleString()}건 실매물
+// 최종 실시간 동기화: ${todayFmt} ${nowTimeStr} | 총 ${Object.keys(mergedArticles).length}개 단지, ${totalCount.toLocaleString()}건 실매물
+
+const RADAR_SYNC_META = {
+  syncDate: "${todayFmt}",
+  syncTime: "${nowTimeStr}",
+  shortDisplay: "${shortSyncDisplay}",
+  fullDisplay: "${fullSyncDisplay}",
+  timestamp: ${nowSyncDate.getTime()},
+  iso: "${nowSyncDate.toISOString()}",
+  complexCount: ${Object.keys(mergedArticles).length},
+  totalArticlesCount: ${totalCount}
+};
 
 function formatKoreanPrice(val) {
   if (!val) return '0원';
@@ -491,6 +508,7 @@ const DEFAULT_COMPLEXES = ${JSON.stringify(defaultComplexes, null, 2)};
 const COMPLEXES_DATA = DEFAULT_COMPLEXES;
 
 if (typeof window !== 'undefined') {
+  window.RADAR_SYNC_META = RADAR_SYNC_META;
   window.CATALOG_COMPLEXES = CATALOG_COMPLEXES;
   window.PRESET_REGIONS = PRESET_REGIONS;
   window.DEFAULT_COMPLEXES = DEFAULT_COMPLEXES;
@@ -501,6 +519,7 @@ if (typeof window !== 'undefined') {
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
+    RADAR_SYNC_META,
     CATALOG_COMPLEXES, PRESET_REGIONS, DEFAULT_COMPLEXES,
     COMPLEXES_DATA, REAL_BUSAN_ARTICLES, formatKoreanPrice
   };
@@ -511,6 +530,14 @@ if (typeof module !== 'undefined' && module.exports) {
     fs.writeFileSync(targetSavePath, fileContent, 'utf8');
 
     lastSyncTime = new Date();
+    lastSyncMeta = {
+      syncDate: todayFmt,
+      syncTime: nowTimeStr,
+      shortDisplay: shortSyncDisplay,
+      fullDisplay: fullSyncDisplay,
+      timestamp: nowSyncDate.getTime(),
+      iso: nowSyncDate.toISOString()
+    };
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
 
     console.log('================================================================');
@@ -648,6 +675,7 @@ if (require.main === module) {
 module.exports = {
   runAutoSync,
   getLastSyncTime: () => lastSyncTime,
+  getLastSyncMeta: () => lastSyncMeta,
   getIsRunning: () => isSyncRunning,
   getLastPushStatus: () => lastPushStatus
 };
