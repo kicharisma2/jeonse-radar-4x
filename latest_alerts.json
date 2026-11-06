@@ -1,5 +1,44 @@
 [
   {
+    "complexId": 146548,
+    "complexName": "래미안포레스티지",
+    "articleNo": "2659278329",
+    "tradeType": "전세",
+    "dong": "202동",
+    "floor": "고/25",
+    "pyeong": 31,
+    "priceText": "5억원",
+    "agency": "세인공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659278329",
+    "discoveredAt": "5:28:40 AM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660258585",
+    "tradeType": "전세",
+    "dong": "108동",
+    "floor": "6/25",
+    "pyeong": 32,
+    "priceText": "4억 5,000만원",
+    "agency": "만세공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660258585",
+    "discoveredAt": "5:28:40 AM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660258740",
+    "tradeType": "전세",
+    "dong": "206동",
+    "floor": "고/25",
+    "pyeong": 32,
+    "priceText": "4억 2,000만원",
+    "agency": "지성공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660258740",
+    "discoveredAt": "5:28:47 AM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2660255749",
@@ -609,44 +648,5 @@
     "agency": "황금탑부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660235082",
     "discoveredAt": "6:28:32 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660237410",
-    "tradeType": "매매",
-    "dong": "208동",
-    "floor": "16/35",
-    "pyeong": 44,
-    "priceText": "16억 3,000만원",
-    "agency": "황금탑공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660237410",
-    "discoveredAt": "6:28:32 PM"
-  },
-  {
-    "complexId": 136343,
-    "complexName": "레이카운티",
-    "articleNo": "2660240473",
-    "tradeType": "매매",
-    "dong": "403동",
-    "floor": "저/29",
-    "pyeong": 35,
-    "priceText": "8억원",
-    "agency": "래미안카운티공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660240473",
-    "discoveredAt": "6:28:32 PM"
-  },
-  {
-    "complexId": 146548,
-    "complexName": "래미안포레스티지",
-    "articleNo": "2660230440",
-    "tradeType": "전세",
-    "dong": "305동",
-    "floor": "저/35",
-    "pyeong": 31,
-    "priceText": "5억원",
-    "agency": "래미안OK공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660230440",
-    "discoveredAt": "6:28:39 PM"
   }
 ]
