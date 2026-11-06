@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-06 14:29 | 총 375개 단지, 26,490건 실매물
+// 최종 실시간 동기화: 2026-11-06 15:28 | 총 375개 단지, 26,491건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-06",
-  syncTime: "14:29",
-  shortDisplay: "11.06 14:29",
-  fullDisplay: "2026-11-06 14:29",
-  timestamp: 1793942940813,
-  iso: "2026-11-06T05:29:00.813Z",
+  syncTime: "15:28",
+  shortDisplay: "11.06 15:28",
+  fullDisplay: "2026-11-06 15:28",
+  timestamp: 1793946533124,
+  iso: "2026-11-06T06:28:53.124Z",
   complexCount: 375,
-  totalArticlesCount: 26490
+  totalArticlesCount: 26491
 };
 
 function formatKoreanPrice(val) {
@@ -296223,8 +296223,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2660118585",
@@ -296484,8 +296483,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2659849030",
@@ -296797,8 +296795,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2660040382",
@@ -297243,6 +297240,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660180894",
+      "articleNo": "2660180894",
+      "tradeType": "sale",
+      "dong": "121동",
+      "floor": "1/25",
+      "price": 49000,
+      "priceText": "4억 9,000만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "32 급추천  아이키우기좋은집 거실 방2확장 깨끗",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "1층",
+        "방세개"
+      ],
+      "agency": "예가공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2660153063",
       "articleNo": "2660153063",
       "tradeType": "sale",
@@ -297266,8 +297290,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2660117083",
@@ -298440,32 +298463,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-sale-2655418179",
-      "articleNo": "2655418179",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "1/25",
-      "price": 52000,
-      "priceText": "5억 2,000만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "32 급추천  아이키우기좋은집 거실 방2확장 깨끗",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "1층",
-        "방세개"
-      ],
-      "agency": "예가공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261014",
-      "regDate": "2026-10-14",
-      "isNew": false
-    },
-    {
       "id": "17246-sale-2654344808",
       "articleNo": "2654344808",
       "tradeType": "sale",
@@ -298568,6 +298565,60 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
       "isNew": false
+    },
+    {
+      "id": "17246-sale-2660178574",
+      "articleNo": "2660178574",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "6/25",
+      "price": 53500,
+      "priceText": "5억 3,500만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "소향S1,입주가능매물,주인거주관리,수리하기좋은기본,조건적극협의",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "사직소향부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "17246-sale-2660171366",
+      "articleNo": "2660171366",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "6/25",
+      "price": 53500,
+      "priceText": "5억 3,500만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "32.추천물건,깔끔하게 관리된집,아담한 정원,이사협의",
+      "tags": [
+        "25년이내",
+        "마당",
+        "대단지",
+        "방세개"
+      ],
+      "agency": "쌍용예가공인중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "17246-sale-2659949322",
@@ -298752,59 +298803,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-sale-2658842608",
-      "articleNo": "2658842608",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "12/25",
-      "price": 53500,
-      "priceText": "5억 3,500만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "32추천매물 욕실, 주방 최근 수리  부분인테리어",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "하나공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2658808242",
-      "articleNo": "2658808242",
-      "tradeType": "sale",
-      "dong": "105동",
-      "floor": "6/25",
-      "price": 53500,
-      "priceText": "5억 3,500만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "32. 급매,통학환경굿,학원가 접근성좋은 단지 .실거주만족높은단지",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "급매",
-        "방세개"
-      ],
-      "agency": "1번지공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
       "id": "17246-sale-2658633571",
       "articleNo": "2658633571",
       "tradeType": "sale",
@@ -298985,6 +298983,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261016",
       "regDate": "2026-10-16",
       "isNew": false
+    },
+    {
+      "id": "17246-sale-2660179188",
+      "articleNo": "2660179188",
+      "tradeType": "sale",
+      "dong": "124동",
+      "floor": "3/25",
+      "price": 59000,
+      "priceText": "5억 9,000만원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "쌍용42남향급매 거실,방3개올확장형 깨끗함 이사협의",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "급매",
+        "대형평수"
+      ],
+      "agency": "쌍용공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "17246-sale-2659923420",
@@ -299233,7 +299258,7 @@ const REAL_BUSAN_ARTICLES = {
       "exclusiveArea": 119,
       "type": "139㎡ (전용 119㎡)",
       "direction": "남향",
-      "desc": "42 급추천 햇살가득 깨끗이관리잘된집  빠른입주가능",
+      "desc": "42 급추천 햇살가득 깨끗이관리잘된집  인테리어기간제공됨 빠른입주가능",
       "tags": [
         "25년이내",
         "대단지",
@@ -299245,6 +299270,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
       "isNew": false
+    },
+    {
+      "id": "17246-sale-2660173713",
+      "articleNo": "2660173713",
+      "tradeType": "sale",
+      "dong": "123동",
+      "floor": "중/25",
+      "price": 59500,
+      "priceText": "5억 9,500만원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "관리 잘 된집,깨끗,최고의 학군지",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "쌍용탑공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "17246-sale-2658823728",
@@ -299791,59 +299843,6 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261007",
       "regDate": "2026-10-07",
       "isNew": false
-    },
-    {
-      "id": "17246-sale-2660152801",
-      "articleNo": "2660152801",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "11/25",
-      "price": 62000,
-      "priceText": "6억 2,000만원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "소향S,1상세현장안내,인기남향,수리하기좋은기본,조건적극협의",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "사직소향부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
-    },
-    {
-      "id": "17246-sale-2659956941",
-      "articleNo": "2659956941",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "11/25",
-      "price": 62000,
-      "priceText": "6억 2,000만원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "s 태양 s｜아이들키울땐 ｜넓은평수를 추천｜메.리.트 있는가.격",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": true
     }
   ],
   "17598": [
@@ -362335,8 +362334,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-jeonse-2660122170",
@@ -362437,6 +362435,32 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "사직공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": false
+    },
+    {
+      "id": "26462-jeonse-2659739718",
+      "articleNo": "2659739718",
+      "tradeType": "jeonse",
+      "dong": "206동",
+      "floor": "고/25",
+      "price": 42000,
+      "priceText": "4억 2,000만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "남동향에 판상형, 고층, 2년전 도배, 초중고 학원 도보가능",
+      "tags": [
+        "25년이내",
+        "방세개",
+        "화장실두개",
+        "고층"
+      ],
+      "agency": "지성공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
@@ -362645,32 +362669,6 @@ const REAL_BUSAN_ARTICLES = {
         "고층"
       ],
       "agency": "쌍용탑공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "26462-jeonse-2659739718",
-      "articleNo": "2659739718",
-      "tradeType": "jeonse",
-      "dong": "206동",
-      "floor": "고/25",
-      "price": 43000,
-      "priceText": "4억 3,000만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "남동향에 판상형, 고층, 2년전 도배, 초중고 학원 도보가능",
-      "tags": [
-        "25년이내",
-        "방세개",
-        "화장실두개",
-        "고층"
-      ],
-      "agency": "지성공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
@@ -362968,8 +362966,8 @@ const REAL_BUSAN_ARTICLES = {
       "tradeType": "sale",
       "dong": "208동",
       "floor": "저/25",
-      "price": 50500,
-      "priceText": "5억 500만원",
+      "price": 49500,
+      "priceText": "4억 9,500만원",
       "pyeong": 32,
       "supplyArea": 107,
       "exclusiveArea": 84,
@@ -363012,8 +363010,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2660018232",
@@ -364160,6 +364157,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2660168941",
+      "articleNo": "2660168941",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "3/24",
+      "price": 51500,
+      "priceText": "5억 1,500만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "32 주차시설굿 천천히 입주나 투자  추천합니다 사직동 인프라 최고 학군",
+      "tags": [
+        "25년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "사직공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2660081187",
       "articleNo": "2660081187",
       "tradeType": "sale",
@@ -364284,32 +364308,6 @@ const REAL_BUSAN_ARTICLES = {
         "세대당1대"
       ],
       "agency": "사직소향부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2659446668",
-      "articleNo": "2659446668",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "3/24",
-      "price": 51500,
-      "priceText": "5억 1,500만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "32 주차시설굿 천천히 입주나 투자  추천합니다 사직동 인프라 최고 학군",
-      "tags": [
-        "25년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "사직공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
@@ -382660,8 +382658,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2658314210",
@@ -430921,8 +430918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2659130300",
@@ -431367,6 +431363,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "107577-sale-2660165446",
+      "articleNo": "2660165446",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "중/34",
+      "price": 124000,
+      "priceText": "12억 4,000만원",
+      "pyeong": 34,
+      "supplyArea": 112,
+      "exclusiveArea": 84,
+      "type": "112㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "역세권.초중인접.학군 학원가 굿.양면창 양면뷰 굿.에어컨5.중문.협의가능",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "쌍용귀족부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "107577-sale-2659884692",
       "articleNo": "2659884692",
       "tradeType": "sale",
@@ -431595,32 +431618,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "사직조아부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261020",
-      "regDate": "2026-10-20",
-      "isNew": false
-    },
-    {
-      "id": "107577-sale-2656529765",
-      "articleNo": "2656529765",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "중/34",
-      "price": 124000,
-      "priceText": "12억 4,000만원",
-      "pyeong": 34,
-      "supplyArea": 112,
-      "exclusiveArea": 84,
-      "type": "112㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "역세권.초중인접.학군 학원가 굿.양면창 양면뷰 굿.에어컨5.중문.협의가능",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "쌍용귀족부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261020",
       "regDate": "2026-10-20",
@@ -432875,32 +432872,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "107577-sale-2654951835",
-      "articleNo": "2654951835",
-      "tradeType": "sale",
-      "dong": "104동",
-      "floor": "고/34",
-      "price": 190000,
-      "priceText": "19억원",
-      "pyeong": 45,
-      "supplyArea": 150,
-      "exclusiveArea": 112,
-      "type": "150㎡ (전용 112㎡)",
-      "direction": "남서향",
-      "desc": "인기라인.타워형.로얄층.사직운동장뷰.전실시스템에어컨.입주 가능",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "대형평수",
-        "방세개"
-      ],
-      "agency": "금빛공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261012",
-      "regDate": "2026-10-12",
-      "isNew": false
-    },
-    {
       "id": "107577-sale-2654893831",
       "articleNo": "2654893831",
       "tradeType": "sale",
@@ -432951,6 +432922,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
       "isNew": false
+    },
+    {
+      "id": "107577-sale-2660163136",
+      "articleNo": "2660163136",
+      "tradeType": "sale",
+      "dong": "104동",
+      "floor": "고/34",
+      "price": 195000,
+      "priceText": "19억 5,000만원",
+      "pyeong": 45,
+      "supplyArea": 150,
+      "exclusiveArea": 112,
+      "type": "150㎡ (전용 112㎡)",
+      "direction": "남서향",
+      "desc": "역세권.초중인접.양면창 양면 야구장뷰 굿.학군 학원가 굿.에어컨5.",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "쌍용귀족부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "107577-sale-2659854657",
@@ -478308,6 +478306,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "110276-sale-2660169079",
+      "articleNo": "2660169079",
+      "tradeType": "sale",
+      "dong": "103동",
+      "floor": "중/49",
+      "price": 65000,
+      "priceText": "6억 5,000만원",
+      "pyeong": 35,
+      "supplyArea": 116,
+      "exclusiveArea": 84,
+      "type": "116㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "전망좋음, 일조권우수, 미남역 초역세권, 밝고 환한 집, 편리한 생활권",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "이편한공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "110276-sale-2658692037",
       "articleNo": "2658692037",
       "tradeType": "sale",
@@ -478643,8 +478668,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2659740578",
@@ -479037,6 +479061,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "110276-sale-2660177526",
+      "articleNo": "2660177526",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "중/49",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 35,
+      "supplyArea": 116,
+      "exclusiveArea": 84,
+      "type": "116㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "급매.개방 감 좋고 뷰가 예쁜 집.빠른 이사 가능함.조건 협의 가능함.",
+      "tags": [
+        "10년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "효성해링턴대한공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "110276-sale-2660157092",
       "articleNo": "2660157092",
       "tradeType": "sale",
@@ -479060,8 +479111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2659956135",
@@ -479659,58 +479709,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261013",
       "regDate": "2026-10-13",
-      "isNew": false
-    },
-    {
-      "id": "110276-sale-2655057639",
-      "articleNo": "2655057639",
-      "tradeType": "sale",
-      "dong": "103동",
-      "floor": "고/49",
-      "price": 68000,
-      "priceText": "6억 8,000만원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 84,
-      "type": "118㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "초역세권 .평지생활권. 에어컨2대 .입주협의",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "고층"
-      ],
-      "agency": "래미안아이파크공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261013",
-      "regDate": "2026-10-13",
-      "isNew": false
-    },
-    {
-      "id": "110276-sale-2654779747",
-      "articleNo": "2654779747",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "중/49",
-      "price": 68000,
-      "priceText": "6억 8,000만원",
-      "pyeong": 35,
-      "supplyArea": 116,
-      "exclusiveArea": 84,
-      "type": "116㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "미남역 부근 역세권, 교통 편리, 채광 양호, 이사협의 가능함",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "중층"
-      ],
-      "agency": "효성하나부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261012",
-      "regDate": "2026-10-12",
       "isNew": false
     },
     {
@@ -480416,6 +480414,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "110276-sale-2660177112",
+      "articleNo": "2660177112",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/49",
+      "price": 80000,
+      "priceText": "8억원",
+      "pyeong": 44,
+      "supplyArea": 144,
+      "exclusiveArea": 105,
+      "type": "144㎡ (전용 105㎡)",
+      "direction": "남향",
+      "desc": "탁 트인 집.빠른 입주 가능함. 에어컨4대 설치.조건 협의 가능함.",
+      "tags": [
+        "10년이내",
+        "대형평수",
+        "방네개이상",
+        "화장실두개"
+      ],
+      "agency": "효성해링턴대한공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "110276-sale-2659176934",
       "articleNo": "2659176934",
       "tradeType": "sale",
@@ -480725,32 +480750,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261028",
       "regDate": "2026-10-28",
-      "isNew": false
-    },
-    {
-      "id": "110276-sale-2657485453",
-      "articleNo": "2657485453",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "고/49",
-      "price": 82000,
-      "priceText": "8억 2,000만원",
-      "pyeong": 44,
-      "supplyArea": 144,
-      "exclusiveArea": 105,
-      "type": "144㎡ (전용 105㎡)",
-      "direction": "남향",
-      "desc": "43. 세안고매매 개방감굿 ,에어컨있음,상태최고 추천드려요.",
-      "tags": [
-        "10년이내",
-        "대형평수",
-        "방네개이상",
-        "화장실두개"
-      ],
-      "agency": "사직하늘채공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261024",
-      "regDate": "2026-10-24",
       "isNew": false
     }
   ],
@@ -485281,8 +485280,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-jeonse-2659835398",
@@ -485935,6 +485933,87 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "110733-sale-2660185415",
+      "articleNo": "2660185415",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "저/37",
+      "price": 65000,
+      "priceText": "6억 5,000만원",
+      "pyeong": 25,
+      "supplyArea": 84,
+      "exclusiveArea": 59,
+      "type": "84㎡ (전용 59㎡)",
+      "direction": "남서향",
+      "desc": "APT상가입점. 명품 정원뷰가 매력적인 댁. 편안한뷰를 원하심 구경오세요",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "연제롯데공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "110733-sale-2660176138",
+      "articleNo": "2660176138",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "저/37",
+      "price": 65000,
+      "priceText": "6억 5,000만원",
+      "pyeong": 25,
+      "supplyArea": 84,
+      "exclusiveArea": 59,
+      "type": "84㎡ (전용 59㎡)",
+      "direction": "남서향",
+      "desc": "이면창의 세련된 타워형,편안한 정원뷰,시스템에어컨2대,정문앞동",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "롯데데시앙공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "110733-sale-2660168644",
+      "articleNo": "2660168644",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "저/37",
+      "price": 65000,
+      "priceText": "6억 5,000만원",
+      "pyeong": 25,
+      "supplyArea": 84,
+      "exclusiveArea": 59,
+      "type": "84㎡ (전용 59㎡)",
+      "direction": "남서향",
+      "desc": "인기많은 타워형,양면창,아름다운 정원뷰,시스템에어컨2대",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "롯데탑부동산공인중개사",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "110733-sale-2660061434",
       "articleNo": "2660061434",
       "tradeType": "sale",
@@ -486036,8 +486115,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2659942359",
@@ -486401,8 +486479,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2660034993",
@@ -486584,84 +486661,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261026",
       "regDate": "2026-10-26",
-      "isNew": false
-    },
-    {
-      "id": "110733-sale-2657671800",
-      "articleNo": "2657671800",
-      "tradeType": "sale",
-      "dong": "106동",
-      "floor": "중/36",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 25,
-      "supplyArea": 84,
-      "exclusiveArea": 59,
-      "type": "84㎡ (전용 59㎡)",
-      "direction": "남서향",
-      "desc": "APT상가입점. 커다란 이면창으로 들어오는 따뜻한 햇살이 기분좋은댁",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "연제롯데공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261026",
-      "regDate": "2026-10-26",
-      "isNew": false
-    },
-    {
-      "id": "110733-sale-2657173703",
-      "articleNo": "2657173703",
-      "tradeType": "sale",
-      "dong": "105동",
-      "floor": "고/37",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 25,
-      "supplyArea": 84,
-      "exclusiveArea": 59,
-      "type": "84㎡ (전용 59㎡)",
-      "direction": "남동향",
-      "desc": "APT상가입점. 커다란 이면창에서 누리는 삶의 여유를 경험하세요.",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "연제롯데공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261022",
-      "regDate": "2026-10-22",
-      "isNew": false
-    },
-    {
-      "id": "110733-sale-2657165973",
-      "articleNo": "2657165973",
-      "tradeType": "sale",
-      "dong": "105동",
-      "floor": "고/37",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 25,
-      "supplyArea": 84,
-      "exclusiveArea": 59,
-      "type": "84㎡ (전용 59㎡)",
-      "direction": "남서향",
-      "desc": "생활편리한 정문앞동,로얄층,막힘없는 시티뷰,에어컨2대,엘베2대",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "롯데데시앙공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261022",
-      "regDate": "2026-10-22",
       "isNew": false
     },
     {
@@ -487234,8 +487233,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2658998242",
@@ -507097,6 +507095,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "112331-jeonse-2660177724",
+      "articleNo": "2660177724",
+      "tradeType": "jeonse",
+      "dong": "102동",
+      "floor": "저/26",
+      "price": 44000,
+      "priceText": "4억 4,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "연산더샵,84b,생활인프라 굿",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "스위첸자이공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "112331-jeonse-2659535533",
       "articleNo": "2659535533",
       "tradeType": "jeonse",
@@ -507585,32 +507610,6 @@ const REAL_BUSAN_ARTICLES = {
         "방세개"
       ],
       "agency": "금손공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261019",
-      "regDate": "2026-10-19",
-      "isNew": false
-    },
-    {
-      "id": "112331-jeonse-2656337468",
-      "articleNo": "2656337468",
-      "tradeType": "jeonse",
-      "dong": "102동",
-      "floor": "저/26",
-      "price": 44000,
-      "priceText": "4억 4,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "연산더샵,84b,생활인프라 굿",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "스위첸자이공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261019",
       "regDate": "2026-10-19",
@@ -555072,8 +555071,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2660072697",
@@ -555204,6 +555202,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
       "isNew": false
+    },
+    {
+      "id": "121631-jeonse-2660173650",
+      "articleNo": "2660173650",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "25/38",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "에4,중문등 입주일 협의가능 조절가능 역세권 평지 편리한 주거환경",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "더샵동래부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "121631-jeonse-2660036820",
@@ -555359,8 +555384,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2659477596",
@@ -555386,6 +555410,32 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
+      "isNew": false
+    },
+    {
+      "id": "121631-jeonse-2656880669",
+      "articleNo": "2656880669",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "25/38",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "넓은 판상형 구조에 밝은 실내, 입주협의 가능",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "프로공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261021",
+      "regDate": "2026-10-21",
       "isNew": false
     },
     {
@@ -555568,58 +555618,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
-      "isNew": false
-    },
-    {
-      "id": "121631-jeonse-2656880669",
-      "articleNo": "2656880669",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "25/38",
-      "price": 45000,
-      "priceText": "4억 5,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "넓은 판상형 구조에 밝은 실내, 입주협의 가능",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "중층"
-      ],
-      "agency": "프로공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261021",
-      "regDate": "2026-10-21",
-      "isNew": false
-    },
-    {
-      "id": "121631-jeonse-2656447560",
-      "articleNo": "2656447560",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "25/38",
-      "price": 45000,
-      "priceText": "4억 5,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "에4,중문등 입주일 협의가능 조절가능 역세권 평지 편리한 주거환경",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "중층"
-      ],
-      "agency": "더샵동래부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261019",
-      "regDate": "2026-10-19",
       "isNew": false
     },
     {
@@ -555828,8 +555826,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2660075999",
@@ -556635,8 +556632,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2660093884",
@@ -556845,6 +556841,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261026",
       "regDate": "2026-10-26",
       "isNew": false
+    },
+    {
+      "id": "121631-sale-2660151436",
+      "articleNo": "2660151436",
+      "tradeType": "sale",
+      "dong": "107동",
+      "floor": "29/39",
+      "price": 52000,
+      "priceText": "5억 2,000만원",
+      "pyeong": 30,
+      "supplyArea": 100,
+      "exclusiveArea": 74,
+      "type": "100㎡ (전용 74㎡)",
+      "direction": "동향",
+      "desc": "시스템에어컨4,중문,썬팅,주인거주로 깔끔한집,이사협의",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "고층"
+      ],
+      "agency": "온천SK부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "121631-sale-2660095150",
@@ -557861,6 +557884,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "121631-sale-2660164656",
+      "articleNo": "2660164656",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "중/38",
+      "price": 56000,
+      "priceText": "5억 6,000만원",
+      "pyeong": 35,
+      "supplyArea": 116,
+      "exclusiveArea": 84,
+      "type": "116㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "신혼부부선호구조  중심지생활권 편리한 생활인프라  전세안고",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "온천sk공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "121631-sale-2660022404",
       "articleNo": "2660022404",
       "tradeType": "sale",
@@ -558043,6 +558093,87 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "121631-sale-2660164830",
+      "articleNo": "2660164830",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/38",
+      "price": 57000,
+      "priceText": "5억 7,000만원",
+      "pyeong": 34,
+      "supplyArea": 114,
+      "exclusiveArea": 84,
+      "type": "114㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "시원하게 잘빠진구조  주변 생활인프라 너무좋아요",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "온천sk공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "121631-sale-2660164650",
+      "articleNo": "2660164650",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/38",
+      "price": 57000,
+      "priceText": "5억 7,000만원",
+      "pyeong": 34,
+      "supplyArea": 114,
+      "exclusiveArea": 84,
+      "type": "114㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "판상형  완전편한 생활인프라 깨끗하고 살기좋아요  세입자안고",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "온천sk공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "121631-sale-2660153861",
+      "articleNo": "2660153861",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "중/38",
+      "price": 57000,
+      "priceText": "5억 7,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "편리한온천생활권,역세권,이사협의,시스템에어컨4",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "온천SK부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "121631-sale-2659854185",
       "articleNo": "2659854185",
       "tradeType": "sale",
@@ -558145,138 +558276,6 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261104",
       "regDate": "2026-11-04",
       "isNew": false
-    },
-    {
-      "id": "121631-sale-2659322838",
-      "articleNo": "2659322838",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "중/38",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 34,
-      "supplyArea": 114,
-      "exclusiveArea": 84,
-      "type": "114㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "급매,인기많은 판상형,시스템에어컨4대,이사협의",
-      "tags": [
-        "10년이내",
-        "급매",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "SK3차예스부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "121631-sale-2659099574",
-      "articleNo": "2659099574",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "저/38",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 34,
-      "supplyArea": 114,
-      "exclusiveArea": 84,
-      "type": "114㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "판상형 인기구조,시스템에어컨4대",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "SK탑부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261102",
-      "regDate": "2026-11-02",
-      "isNew": false
-    },
-    {
-      "id": "121631-sale-2658844879",
-      "articleNo": "2658844879",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "저/38",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 34,
-      "supplyArea": 114,
-      "exclusiveArea": 84,
-      "type": "114㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "인기있는판상형. 투자금액적음.에어컨4대.전세안고매매",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "SK탑부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
-      "id": "121631-sale-2658813406",
-      "articleNo": "2658813406",
-      "tradeType": "sale",
-      "dong": "104동",
-      "floor": "저/38",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "햇살좋은집 에어컨4대 중문 생활인프라 우수 입주협의",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "대원하나부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "121631-sale-2658770991",
-      "articleNo": "2658770991",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "저/38",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 34,
-      "supplyArea": 114,
-      "exclusiveArea": 84,
-      "type": "114㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "인기많은 판상형구조,에어컨4대, 주변생활편리,깨끗",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "SK3차예스부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false,
-      "isBrandNew": true
     }
   ],
   "122043": [
@@ -562601,6 +562600,60 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "123223-jeonse-2660178576",
+      "articleNo": "2660178576",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "22/25",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 26,
+      "supplyArea": 85,
+      "exclusiveArea": 59,
+      "type": "85㎡ (전용 59㎡)",
+      "direction": "남향",
+      "desc": "25A.일조좋고 개방감좋은 입구동 생활편리 귀한 소형평수",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "소형평수",
+        "방세개"
+      ],
+      "agency": "래미안아이파크공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "123223-jeonse-2660172563",
+      "articleNo": "2660172563",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "1/25",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 26,
+      "supplyArea": 85,
+      "exclusiveArea": 59,
+      "type": "85㎡ (전용 59㎡)",
+      "direction": "남향",
+      "desc": "모든59A 빠른입주협의 예쁜정원이거실가득 개방감 입구동 주차편리 햇살짱",
+      "tags": [
+        "10년이내",
+        "마당",
+        "대단지",
+        "1층"
+      ],
+      "agency": "모든래미안부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "123223-jeonse-2660156139",
       "articleNo": "2660156139",
       "tradeType": "jeonse",
@@ -562624,8 +562677,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660109895",
@@ -563512,52 +563564,26 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "123223-jeonse-2658774852",
-      "articleNo": "2658774852",
+      "id": "123223-jeonse-2660154148",
+      "articleNo": "2660154148",
       "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "1/25",
-      "price": 43000,
-      "priceText": "4억 3,000만원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
+      "dong": "105동",
+      "floor": "저/20",
+      "price": 53000,
+      "priceText": "5억 3,000만원",
+      "pyeong": 34,
+      "supplyArea": 112,
+      "exclusiveArea": 84,
+      "type": "112㎡ (전용 84㎡)",
       "direction": "남향",
-      "desc": "25. 귀한전세. 아이들 천국. 입구동. 생활동선 편리. 입주조율가능",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "1층",
-        "방세개"
-      ],
-      "agency": "킹덤부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
-      "id": "123223-jeonse-2660126083",
-      "articleNo": "2660126083",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "저/25",
-      "price": 43000,
-      "priceText": "4억 3,000만원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "미래안. 25. 출입편리동. 조용하고 쾌적한 단지.",
+      "desc": "모든84A  귀한급전세 조율가 인기동  초록초록정원뷰 옵션다양 개방감굿",
       "tags": [
         "10년이내",
         "대단지",
         "방세개",
         "화장실두개"
       ],
-      "agency": "미래안부동산공인중개사사무소",
+      "agency": "모든래미안부동산공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
@@ -563588,8 +563614,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660066844",
@@ -564242,6 +564267,60 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "123223-jeonse-2660178577",
+      "articleNo": "2660178577",
+      "tradeType": "jeonse",
+      "dong": "305동",
+      "floor": "27/35",
+      "price": 55000,
+      "priceText": "5억 5,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "34D.안방 드레스룸 넓은 구조 .주변인프라평지로 누리는",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "래미안아이파크공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "123223-jeonse-2660168363",
+      "articleNo": "2660168363",
+      "tradeType": "jeonse",
+      "dong": "214동",
+      "floor": "14/28",
+      "price": 55000,
+      "priceText": "5억 5,000만원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 89,
+      "type": "118㎡ (전용 89㎡)",
+      "direction": "남향",
+      "desc": "365 DAY O 뻥 뚫린 뷰 O S K Y 뷰 O 로얄동 O 입주협의",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "365이복음공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "123223-jeonse-2660155347",
       "articleNo": "2660155347",
       "tradeType": "jeonse",
@@ -564265,8 +564344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660152210",
@@ -564292,8 +564370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660110273",
@@ -564686,32 +564763,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "123223-jeonse-2659924485",
-      "articleNo": "2659924485",
-      "tradeType": "jeonse",
-      "dong": "214동",
-      "floor": "14/28",
-      "price": 55000,
-      "priceText": "5억 5,000만원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 89,
-      "type": "118㎡ (전용 89㎡)",
-      "direction": "남향",
-      "desc": "365 DAY O 뻥 뚫린 뷰 O S K Y 뷰 O 로얄동 O 입주협의",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "365이복음공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
       "id": "123223-jeonse-2659922230",
       "articleNo": "2659922230",
       "tradeType": "jeonse",
@@ -565018,58 +565069,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "태경부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
-      "isNew": false
-    },
-    {
-      "id": "123223-jeonse-2659731688",
-      "articleNo": "2659731688",
-      "tradeType": "jeonse",
-      "dong": "105동",
-      "floor": "18/20",
-      "price": 55000,
-      "priceText": "5억 5,000만원",
-      "pyeong": 34,
-      "supplyArea": 112,
-      "exclusiveArea": 84,
-      "type": "112㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "34. 뻥뷰. 풀옵션. 입구동. 생활동선편리. 입주협의가능",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "킹덤부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
-      "isNew": false
-    },
-    {
-      "id": "123223-jeonse-2659721481",
-      "articleNo": "2659721481",
-      "tradeType": "jeonse",
-      "dong": "105동",
-      "floor": "18/20",
-      "price": 55000,
-      "priceText": "5억 5,000만원",
-      "pyeong": 34,
-      "supplyArea": 112,
-      "exclusiveArea": 84,
-      "type": "112㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "모든.   34A    1단지  선호동  개방감 좋은 앞동  옵션다양",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "래미안모든부동산공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261104",
       "regDate": "2026-11-04",
@@ -566165,8 +566164,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2660082854",
@@ -568797,6 +568795,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "123443-jeonse-2660153212",
+      "articleNo": "2660153212",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "3/49",
+      "price": 45000,
+      "priceText": "4억 5,000만원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "에4,즉시입주 역세권 편리한주거환경",
+      "tags": [
+        "4년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "더샵동래부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "123443-jeonse-2659833277",
       "articleNo": "2659833277",
       "tradeType": "jeonse",
@@ -569733,6 +569758,32 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "123443-sale-2657006485",
+      "articleNo": "2657006485",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "4/49",
+      "price": 66000,
+      "priceText": "6억 6,000만원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "남향",
+      "desc": "즉시입주가 주인거주깨끗 에어컨5 풀옵션 햇살가득 확트인전망",
+      "tags": [
+        "4년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "더샵정문부동산중개",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261022",
+      "regDate": "2026-10-22",
+      "isNew": false
+    },
+    {
       "id": "123443-sale-2658131817",
       "articleNo": "2658131817",
       "tradeType": "sale",
@@ -569756,6 +569807,32 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261028",
       "regDate": "2026-10-28",
+      "isNew": false
+    },
+    {
+      "id": "123443-sale-2656821343",
+      "articleNo": "2656821343",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "4/49",
+      "price": 66000,
+      "priceText": "6억 6,000만원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "남향",
+      "desc": "급매 밝고 트인뷰 풀옵션 주인거주로 깨끗 협의입주",
+      "tags": [
+        "4년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "대원칸타빌공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261021",
+      "regDate": "2026-10-21",
       "isNew": false
     },
     {
@@ -569808,58 +569885,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": false
-    },
-    {
-      "id": "123443-sale-2657006485",
-      "articleNo": "2657006485",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "저/49",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 84,
-      "type": "118㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "즉시입주가 주인거주깨끗 에어컨5 풀옵션 햇살가득 확트인전망",
-      "tags": [
-        "4년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "더샵정문부동산중개",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261022",
-      "regDate": "2026-10-22",
-      "isNew": false
-    },
-    {
-      "id": "123443-sale-2656821343",
-      "articleNo": "2656821343",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "저/49",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 84,
-      "type": "118㎡ (전용 84㎡)",
-      "direction": "남향",
-      "desc": "급매 밝고 트인뷰 풀옵션 주인거주로 깨끗 협의입주",
-      "tags": [
-        "4년이내",
-        "급매",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "대원칸타빌공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261021",
-      "regDate": "2026-10-21",
       "isNew": false
     },
     {
@@ -570250,8 +570275,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2658528555",
@@ -598230,32 +598254,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "127894-sale-2655361228",
-      "articleNo": "2655361228",
-      "tradeType": "sale",
-      "dong": "108동",
-      "floor": "중/35",
-      "price": 47000,
-      "priceText": "4억 7,000만원",
-      "pyeong": 31,
-      "supplyArea": 101,
-      "exclusiveArea": 73,
-      "type": "101㎡ (전용 73㎡)",
-      "direction": "남동향",
-      "desc": "엘리베이트두대.에어컨두대.중문.김치냉장고.붙박이장",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "데시앙예가공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261014",
-      "regDate": "2026-10-14",
-      "isNew": false
-    },
-    {
       "id": "127894-sale-2654916071",
       "articleNo": "2654916071",
       "tradeType": "sale",
@@ -598280,6 +598278,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261012",
       "regDate": "2026-10-12",
       "isNew": false
+    },
+    {
+      "id": "127894-sale-2660169670",
+      "articleNo": "2660169670",
+      "tradeType": "sale",
+      "dong": "109동",
+      "floor": "저/33",
+      "price": 48000,
+      "priceText": "4억 8,000만원",
+      "pyeong": 31,
+      "supplyArea": 101,
+      "exclusiveArea": 73,
+      "type": "101㎡ (전용 73㎡)",
+      "direction": "남서향",
+      "desc": "정류소 ,상가,시장 등 생활편한동 엘베2대,에어컨,인덕션 밝고 나무뷰예쁨",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "돈되는부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "127894-sale-2659842500",
@@ -598357,32 +598382,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": false
-    },
-    {
-      "id": "127894-sale-2654871849",
-      "articleNo": "2654871849",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "저/33",
-      "price": 48000,
-      "priceText": "4억 8,000만원",
-      "pyeong": 31,
-      "supplyArea": 101,
-      "exclusiveArea": 73,
-      "type": "101㎡ (전용 73㎡)",
-      "direction": "남서향",
-      "desc": "정류소 ,상가,시장 등 생활편한동 엘베2대,에어컨,인덕션 밝고 나무뷰예쁨",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "돈되는부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261012",
-      "regDate": "2026-10-12",
       "isNew": false
     },
     {
@@ -599528,6 +599527,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261019",
       "regDate": "2026-10-19",
       "isNew": false
+    },
+    {
+      "id": "127894-sale-2654885376",
+      "articleNo": "2654885376",
+      "tradeType": "sale",
+      "dong": "108동",
+      "floor": "5/35",
+      "price": 51000,
+      "priceText": "5억 1,000만원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 73,
+      "type": "102㎡ (전용 73㎡)",
+      "direction": "남동향",
+      "desc": "31B 에어컨2대 중문 이사협의 가능 정원조망",
+      "tags": [
+        "4년이내",
+        "마당",
+        "대단지",
+        "방세개"
+      ],
+      "agency": "데시앙리치공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261012",
+      "regDate": "2026-10-12",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "128091": [
@@ -614040,6 +614066,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "136343-jeonse-2660175804",
+      "articleNo": "2660175804",
+      "tradeType": "jeonse",
+      "dong": "404동",
+      "floor": "고/28",
+      "price": 48000,
+      "priceText": "4억 8,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "착한전세가  전망 채관 좋은집 풀에어컨 중문. 식세기. 복도장",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "금성공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "136343-jeonse-2660065186",
       "articleNo": "2660065186",
       "tradeType": "jeonse",
@@ -615574,32 +615627,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2660129540",
-      "articleNo": "2660129540",
-      "tradeType": "jeonse",
-      "dong": "308동",
-      "floor": "고/29",
-      "price": 59000,
-      "priceText": "5억 9,000만원",
-      "pyeong": 35,
-      "supplyArea": 115,
-      "exclusiveArea": 84,
-      "type": "115㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "막힘없는조망, 이면창 풀옵션에어컨4, 인덕션 식세기등 거성중 인근",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태영공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": true
-    },
-    {
       "id": "136343-jeonse-2660072549",
       "articleNo": "2660072549",
       "tradeType": "jeonse",
@@ -616923,8 +616950,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2660106831",
@@ -627805,6 +627831,60 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "146548-jeonse-2660176297",
+      "articleNo": "2660176297",
+      "tradeType": "jeonse",
+      "dong": "202동",
+      "floor": "고/25",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 72,
+      "type": "102㎡ (전용 72㎡)",
+      "direction": "남서향",
+      "desc": "조합풀옵션 편리한입구동 탁트인전망 채광좋음 구조예뻐요",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "힘찬부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "146548-jeonse-2660154407",
+      "articleNo": "2660154407",
+      "tradeType": "jeonse",
+      "dong": "202동",
+      "floor": "고/25",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 72,
+      "type": "102㎡ (전용 72㎡)",
+      "direction": "남동향",
+      "desc": "I 탁트인 고층 I 인기 4베이 I 전월세로 가능",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "뉴화림(555-3777)공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "146548-jeonse-2660132743",
       "articleNo": "2660132743",
       "tradeType": "jeonse",
@@ -627828,8 +627908,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2660105924",
@@ -628116,6 +628195,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261030",
       "regDate": "2026-10-30",
       "isNew": false
+    },
+    {
+      "id": "146548-jeonse-2660135924",
+      "articleNo": "2660135924",
+      "tradeType": "jeonse",
+      "dong": "106동",
+      "floor": "중/35",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "공실.즉시입주.시에4대.타워형구조.매.물.접.수.환.영",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "에코푸르지오공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261106",
+      "regDate": "2026-11-06",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "146548-jeonse-2659940345",
@@ -628762,84 +628868,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "래미안대운부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "146548-jeonse-2659450297",
-      "articleNo": "2659450297",
-      "tradeType": "jeonse",
-      "dong": "202동",
-      "floor": "고/25",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남동향",
-      "desc": "구조 예쁜 4베이 판상형,귀한 전세, 조합원 옵션",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "래미안24시부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "146548-jeonse-2659441510",
-      "articleNo": "2659441510",
-      "tradeType": "jeonse",
-      "dong": "202동",
-      "floor": "고/25",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남서향",
-      "desc": "30 판상 출입편한 1데크 수납넉넉 조합원옵션",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "우리래미안공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "146548-jeonse-2659408895",
-      "articleNo": "2659408895",
-      "tradeType": "jeonse",
-      "dong": "202동",
-      "floor": "고/25",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남서향",
-      "desc": "막힘없이 확트인뷰,생활 편리한 아랫동,다양한 옵션,세대창고",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "온천명문래미안공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
@@ -629701,8 +629729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2655434294",
@@ -631317,6 +631344,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "146548-sale-2655634996",
+      "articleNo": "2655634996",
+      "tradeType": "sale",
+      "dong": "305동",
+      "floor": "17/35",
+      "price": 88000,
+      "priceText": "8억 8,000만원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 72,
+      "type": "102㎡ (전용 72㎡)",
+      "direction": "남서향",
+      "desc": "추천 예쁜구조 조합풀옵션 커뮤니티동 넓은동간거리 편리한입구동",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "힘찬부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261015",
+      "regDate": "2026-10-15",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
       "id": "146548-sale-2656801406",
       "articleNo": "2656801406",
       "tradeType": "sale",
@@ -631701,32 +631755,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "래미안24시부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
-      "id": "146548-sale-2658784391",
-      "articleNo": "2658784391",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "3/27",
-      "price": 89000,
-      "priceText": "8억 9,000만원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남동향",
-      "desc": "OK 30B, 입구동, 4베이 판상형 팬트리수납, AC4",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "래미안OK공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261031",
       "regDate": "2026-10-31",
@@ -693422,6 +693450,60 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "123223-jeonse-2660178576",
+        "articleNo": "2660178576",
+        "tradeType": "jeonse",
+        "dong": "103동",
+        "floor": "22/25",
+        "price": 43000,
+        "priceText": "4억 3,000만원",
+        "pyeong": 26,
+        "supplyArea": 85,
+        "exclusiveArea": 59,
+        "type": "85㎡ (전용 59㎡)",
+        "direction": "남향",
+        "desc": "25A.일조좋고 개방감좋은 입구동 생활편리 귀한 소형평수",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "소형평수",
+          "방세개"
+        ],
+        "agency": "래미안아이파크공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
+        "id": "123223-jeonse-2660172563",
+        "articleNo": "2660172563",
+        "tradeType": "jeonse",
+        "dong": "103동",
+        "floor": "1/25",
+        "price": 43000,
+        "priceText": "4억 3,000만원",
+        "pyeong": 26,
+        "supplyArea": 85,
+        "exclusiveArea": 59,
+        "type": "85㎡ (전용 59㎡)",
+        "direction": "남향",
+        "desc": "모든59A 빠른입주협의 예쁜정원이거실가득 개방감 입구동 주차편리 햇살짱",
+        "tags": [
+          "10년이내",
+          "마당",
+          "대단지",
+          "1층"
+        ],
+        "agency": "모든래미안부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "123223-jeonse-2660156139",
         "articleNo": "2660156139",
         "tradeType": "jeonse",
@@ -693445,8 +693527,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660109895",
@@ -694333,52 +694414,26 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "123223-jeonse-2658774852",
-        "articleNo": "2658774852",
+        "id": "123223-jeonse-2660154148",
+        "articleNo": "2660154148",
         "tradeType": "jeonse",
-        "dong": "103동",
-        "floor": "1/25",
-        "price": 43000,
-        "priceText": "4억 3,000만원",
-        "pyeong": 26,
-        "supplyArea": 85,
-        "exclusiveArea": 59,
-        "type": "85㎡ (전용 59㎡)",
+        "dong": "105동",
+        "floor": "저/20",
+        "price": 53000,
+        "priceText": "5억 3,000만원",
+        "pyeong": 34,
+        "supplyArea": 112,
+        "exclusiveArea": 84,
+        "type": "112㎡ (전용 84㎡)",
         "direction": "남향",
-        "desc": "25. 귀한전세. 아이들 천국. 입구동. 생활동선 편리. 입주조율가능",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "1층",
-          "방세개"
-        ],
-        "agency": "킹덤부동산중개사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261031",
-        "regDate": "2026-10-31",
-        "isNew": false
-      },
-      {
-        "id": "123223-jeonse-2660126083",
-        "articleNo": "2660126083",
-        "tradeType": "jeonse",
-        "dong": "103동",
-        "floor": "저/25",
-        "price": 43000,
-        "priceText": "4억 3,000만원",
-        "pyeong": 26,
-        "supplyArea": 85,
-        "exclusiveArea": 59,
-        "type": "85㎡ (전용 59㎡)",
-        "direction": "남향",
-        "desc": "미래안. 25. 출입편리동. 조용하고 쾌적한 단지.",
+        "desc": "모든84A  귀한급전세 조율가 인기동  초록초록정원뷰 옵션다양 개방감굿",
         "tags": [
           "10년이내",
           "대단지",
           "방세개",
           "화장실두개"
         ],
-        "agency": "미래안부동산공인중개사사무소",
+        "agency": "모든래미안부동산공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
@@ -694409,8 +694464,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660066844",
@@ -695063,6 +695117,60 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "123223-jeonse-2660178577",
+        "articleNo": "2660178577",
+        "tradeType": "jeonse",
+        "dong": "305동",
+        "floor": "27/35",
+        "price": 55000,
+        "priceText": "5억 5,000만원",
+        "pyeong": 34,
+        "supplyArea": 113,
+        "exclusiveArea": 84,
+        "type": "113㎡ (전용 84㎡)",
+        "direction": "남동향",
+        "desc": "34D.안방 드레스룸 넓은 구조 .주변인프라평지로 누리는",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "래미안아이파크공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
+        "id": "123223-jeonse-2660168363",
+        "articleNo": "2660168363",
+        "tradeType": "jeonse",
+        "dong": "214동",
+        "floor": "14/28",
+        "price": 55000,
+        "priceText": "5억 5,000만원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 89,
+        "type": "118㎡ (전용 89㎡)",
+        "direction": "남향",
+        "desc": "365 DAY O 뻥 뚫린 뷰 O S K Y 뷰 O 로얄동 O 입주협의",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "365이복음공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "123223-jeonse-2660155347",
         "articleNo": "2660155347",
         "tradeType": "jeonse",
@@ -695086,8 +695194,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660152210",
@@ -695113,8 +695220,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660110273",
@@ -695507,32 +695613,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "123223-jeonse-2659924485",
-        "articleNo": "2659924485",
-        "tradeType": "jeonse",
-        "dong": "214동",
-        "floor": "14/28",
-        "price": 55000,
-        "priceText": "5억 5,000만원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 89,
-        "type": "118㎡ (전용 89㎡)",
-        "direction": "남향",
-        "desc": "365 DAY O 뻥 뚫린 뷰 O S K Y 뷰 O 로얄동 O 입주협의",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "365이복음공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261105",
-        "regDate": "2026-11-05",
-        "isNew": false
-      },
-      {
         "id": "123223-jeonse-2659922230",
         "articleNo": "2659922230",
         "tradeType": "jeonse",
@@ -695839,58 +695919,6 @@ const DEFAULT_COMPLEXES = [
           "화장실두개"
         ],
         "agency": "태경부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261104",
-        "regDate": "2026-11-04",
-        "isNew": false
-      },
-      {
-        "id": "123223-jeonse-2659731688",
-        "articleNo": "2659731688",
-        "tradeType": "jeonse",
-        "dong": "105동",
-        "floor": "18/20",
-        "price": 55000,
-        "priceText": "5억 5,000만원",
-        "pyeong": 34,
-        "supplyArea": 112,
-        "exclusiveArea": 84,
-        "type": "112㎡ (전용 84㎡)",
-        "direction": "남향",
-        "desc": "34. 뻥뷰. 풀옵션. 입구동. 생활동선편리. 입주협의가능",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "킹덤부동산중개사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261104",
-        "regDate": "2026-11-04",
-        "isNew": false
-      },
-      {
-        "id": "123223-jeonse-2659721481",
-        "articleNo": "2659721481",
-        "tradeType": "jeonse",
-        "dong": "105동",
-        "floor": "18/20",
-        "price": 55000,
-        "priceText": "5억 5,000만원",
-        "pyeong": 34,
-        "supplyArea": 112,
-        "exclusiveArea": 84,
-        "type": "112㎡ (전용 84㎡)",
-        "direction": "남향",
-        "desc": "모든.   34A    1단지  선호동  개방감 좋은 앞동  옵션다양",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "래미안모든부동산공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261104",
         "regDate": "2026-11-04",
@@ -696986,8 +697014,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2660082854",
@@ -700597,6 +700624,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "136343-jeonse-2660175804",
+        "articleNo": "2660175804",
+        "tradeType": "jeonse",
+        "dong": "404동",
+        "floor": "고/28",
+        "price": 48000,
+        "priceText": "4억 8,000만원",
+        "pyeong": 34,
+        "supplyArea": 113,
+        "exclusiveArea": 84,
+        "type": "113㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "착한전세가  전망 채관 좋은집 풀에어컨 중문. 식세기. 복도장",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "금성공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "136343-jeonse-2660065186",
         "articleNo": "2660065186",
         "tradeType": "jeonse",
@@ -702131,32 +702185,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2660129540",
-        "articleNo": "2660129540",
-        "tradeType": "jeonse",
-        "dong": "308동",
-        "floor": "고/29",
-        "price": 59000,
-        "priceText": "5억 9,000만원",
-        "pyeong": 35,
-        "supplyArea": 115,
-        "exclusiveArea": 84,
-        "type": "115㎡ (전용 84㎡)",
-        "direction": "남동향",
-        "desc": "막힘없는조망, 이면창 풀옵션에어컨4, 인덕션 식세기등 거성중 인근",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "태영공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261106",
-        "regDate": "2026-11-06",
-        "isNew": true
-      },
-      {
         "id": "136343-jeonse-2660072549",
         "articleNo": "2660072549",
         "tradeType": "jeonse",
@@ -703480,8 +703508,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2660106831",
@@ -707169,6 +707196,60 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "146548-jeonse-2660176297",
+        "articleNo": "2660176297",
+        "tradeType": "jeonse",
+        "dong": "202동",
+        "floor": "고/25",
+        "price": 50000,
+        "priceText": "5억원",
+        "pyeong": 31,
+        "supplyArea": 102,
+        "exclusiveArea": 72,
+        "type": "102㎡ (전용 72㎡)",
+        "direction": "남서향",
+        "desc": "조합풀옵션 편리한입구동 탁트인전망 채광좋음 구조예뻐요",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "힘찬부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
+        "id": "146548-jeonse-2660154407",
+        "articleNo": "2660154407",
+        "tradeType": "jeonse",
+        "dong": "202동",
+        "floor": "고/25",
+        "price": 50000,
+        "priceText": "5억원",
+        "pyeong": 31,
+        "supplyArea": 102,
+        "exclusiveArea": 72,
+        "type": "102㎡ (전용 72㎡)",
+        "direction": "남동향",
+        "desc": "I 탁트인 고층 I 인기 4베이 I 전월세로 가능",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "뉴화림(555-3777)공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "146548-jeonse-2660132743",
         "articleNo": "2660132743",
         "tradeType": "jeonse",
@@ -707192,8 +707273,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2660105924",
@@ -707480,6 +707560,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261030",
         "regDate": "2026-10-30",
         "isNew": false
+      },
+      {
+        "id": "146548-jeonse-2660135924",
+        "articleNo": "2660135924",
+        "tradeType": "jeonse",
+        "dong": "106동",
+        "floor": "중/35",
+        "price": 50000,
+        "priceText": "5억원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "공실.즉시입주.시에4대.타워형구조.매.물.접.수.환.영",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "에코푸르지오공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
       },
       {
         "id": "146548-jeonse-2659940345",
@@ -708126,84 +708233,6 @@ const DEFAULT_COMPLEXES = [
           "화장실두개"
         ],
         "agency": "래미안대운부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261103",
-        "regDate": "2026-11-03",
-        "isNew": false
-      },
-      {
-        "id": "146548-jeonse-2659450297",
-        "articleNo": "2659450297",
-        "tradeType": "jeonse",
-        "dong": "202동",
-        "floor": "고/25",
-        "price": 50000,
-        "priceText": "5억원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남동향",
-        "desc": "구조 예쁜 4베이 판상형,귀한 전세, 조합원 옵션",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "래미안24시부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261103",
-        "regDate": "2026-11-03",
-        "isNew": false
-      },
-      {
-        "id": "146548-jeonse-2659441510",
-        "articleNo": "2659441510",
-        "tradeType": "jeonse",
-        "dong": "202동",
-        "floor": "고/25",
-        "price": 50000,
-        "priceText": "5억원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남서향",
-        "desc": "30 판상 출입편한 1데크 수납넉넉 조합원옵션",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "우리래미안공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261103",
-        "regDate": "2026-11-03",
-        "isNew": false
-      },
-      {
-        "id": "146548-jeonse-2659408895",
-        "articleNo": "2659408895",
-        "tradeType": "jeonse",
-        "dong": "202동",
-        "floor": "고/25",
-        "price": 50000,
-        "priceText": "5억원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남서향",
-        "desc": "막힘없이 확트인뷰,생활 편리한 아랫동,다양한 옵션,세대창고",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "온천명문래미안공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261103",
         "regDate": "2026-11-03",
@@ -709065,8 +709094,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2655434294",
@@ -710681,6 +710709,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "146548-sale-2655634996",
+        "articleNo": "2655634996",
+        "tradeType": "sale",
+        "dong": "305동",
+        "floor": "17/35",
+        "price": 88000,
+        "priceText": "8억 8,000만원",
+        "pyeong": 31,
+        "supplyArea": 102,
+        "exclusiveArea": 72,
+        "type": "102㎡ (전용 72㎡)",
+        "direction": "남서향",
+        "desc": "추천 예쁜구조 조합풀옵션 커뮤니티동 넓은동간거리 편리한입구동",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "힘찬부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261015",
+        "regDate": "2026-10-15",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
         "id": "146548-sale-2656801406",
         "articleNo": "2656801406",
         "tradeType": "sale",
@@ -711065,32 +711120,6 @@ const DEFAULT_COMPLEXES = [
           "화장실두개"
         ],
         "agency": "래미안24시부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261031",
-        "regDate": "2026-10-31",
-        "isNew": false
-      },
-      {
-        "id": "146548-sale-2658784391",
-        "articleNo": "2658784391",
-        "tradeType": "sale",
-        "dong": "101동",
-        "floor": "3/27",
-        "price": 89000,
-        "priceText": "8억 9,000만원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남동향",
-        "desc": "OK 30B, 입구동, 4베이 판상형 팬트리수납, AC4",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "래미안OK공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261031",
         "regDate": "2026-10-31",
@@ -713014,6 +713043,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "110276-sale-2660169079",
+        "articleNo": "2660169079",
+        "tradeType": "sale",
+        "dong": "103동",
+        "floor": "중/49",
+        "price": 65000,
+        "priceText": "6억 5,000만원",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116㎡ (전용 84㎡)",
+        "direction": "남동향",
+        "desc": "전망좋음, 일조권우수, 미남역 초역세권, 밝고 환한 집, 편리한 생활권",
+        "tags": [
+          "10년이내",
+          "방세개",
+          "화장실두개",
+          "중층"
+        ],
+        "agency": "이편한공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "110276-sale-2658692037",
         "articleNo": "2658692037",
         "tradeType": "sale",
@@ -713349,8 +713405,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2659740578",
@@ -713743,6 +713798,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "110276-sale-2660177526",
+        "articleNo": "2660177526",
+        "tradeType": "sale",
+        "dong": "101동",
+        "floor": "중/49",
+        "price": 68000,
+        "priceText": "6억 8,000만원",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116㎡ (전용 84㎡)",
+        "direction": "남동향",
+        "desc": "급매.개방 감 좋고 뷰가 예쁜 집.빠른 이사 가능함.조건 협의 가능함.",
+        "tags": [
+          "10년이내",
+          "급매",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "효성해링턴대한공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "110276-sale-2660157092",
         "articleNo": "2660157092",
         "tradeType": "sale",
@@ -713766,8 +713848,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2659956135",
@@ -714365,58 +714446,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261013",
         "regDate": "2026-10-13",
-        "isNew": false
-      },
-      {
-        "id": "110276-sale-2655057639",
-        "articleNo": "2655057639",
-        "tradeType": "sale",
-        "dong": "103동",
-        "floor": "고/49",
-        "price": 68000,
-        "priceText": "6억 8,000만원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 84,
-        "type": "118㎡ (전용 84㎡)",
-        "direction": "남향",
-        "desc": "초역세권 .평지생활권. 에어컨2대 .입주협의",
-        "tags": [
-          "10년이내",
-          "방세개",
-          "화장실두개",
-          "고층"
-        ],
-        "agency": "래미안아이파크공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261013",
-        "regDate": "2026-10-13",
-        "isNew": false
-      },
-      {
-        "id": "110276-sale-2654779747",
-        "articleNo": "2654779747",
-        "tradeType": "sale",
-        "dong": "102동",
-        "floor": "중/49",
-        "price": 68000,
-        "priceText": "6억 8,000만원",
-        "pyeong": 35,
-        "supplyArea": 116,
-        "exclusiveArea": 84,
-        "type": "116㎡ (전용 84㎡)",
-        "direction": "남서향",
-        "desc": "미남역 부근 역세권, 교통 편리, 채광 양호, 이사협의 가능함",
-        "tags": [
-          "10년이내",
-          "방세개",
-          "화장실두개",
-          "중층"
-        ],
-        "agency": "효성하나부동산중개사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261012",
-        "regDate": "2026-10-12",
         "isNew": false
       },
       {
@@ -715122,6 +715151,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "110276-sale-2660177112",
+        "articleNo": "2660177112",
+        "tradeType": "sale",
+        "dong": "101동",
+        "floor": "저/49",
+        "price": 80000,
+        "priceText": "8억원",
+        "pyeong": 44,
+        "supplyArea": 144,
+        "exclusiveArea": 105,
+        "type": "144㎡ (전용 105㎡)",
+        "direction": "남향",
+        "desc": "탁 트인 집.빠른 입주 가능함. 에어컨4대 설치.조건 협의 가능함.",
+        "tags": [
+          "10년이내",
+          "대형평수",
+          "방네개이상",
+          "화장실두개"
+        ],
+        "agency": "효성해링턴대한공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "110276-sale-2659176934",
         "articleNo": "2659176934",
         "tradeType": "sale",
@@ -715431,32 +715487,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261028",
         "regDate": "2026-10-28",
-        "isNew": false
-      },
-      {
-        "id": "110276-sale-2657485453",
-        "articleNo": "2657485453",
-        "tradeType": "sale",
-        "dong": "101동",
-        "floor": "고/49",
-        "price": 82000,
-        "priceText": "8억 2,000만원",
-        "pyeong": 44,
-        "supplyArea": 144,
-        "exclusiveArea": 105,
-        "type": "144㎡ (전용 105㎡)",
-        "direction": "남향",
-        "desc": "43. 세안고매매 개방감굿 ,에어컨있음,상태최고 추천드려요.",
-        "tags": [
-          "10년이내",
-          "대형평수",
-          "방네개이상",
-          "화장실두개"
-        ],
-        "agency": "사직하늘채공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261024",
-        "regDate": "2026-10-24",
         "isNew": false
       }
     ]
@@ -715788,8 +715818,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2658314210",
@@ -719269,6 +719298,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "123443-jeonse-2660153212",
+        "articleNo": "2660153212",
+        "tradeType": "jeonse",
+        "dong": "103동",
+        "floor": "3/49",
+        "price": 45000,
+        "priceText": "4억 5,000만원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "동향",
+        "desc": "에4,즉시입주 역세권 편리한주거환경",
+        "tags": [
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "세대당1대"
+        ],
+        "agency": "더샵동래부동산중개사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261106",
+        "regDate": "2026-11-06",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "123443-jeonse-2659833277",
         "articleNo": "2659833277",
         "tradeType": "jeonse",
@@ -720205,6 +720261,32 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "123443-sale-2657006485",
+        "articleNo": "2657006485",
+        "tradeType": "sale",
+        "dong": "102동",
+        "floor": "4/49",
+        "price": 66000,
+        "priceText": "6억 6,000만원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "남향",
+        "desc": "즉시입주가 주인거주깨끗 에어컨5 풀옵션 햇살가득 확트인전망",
+        "tags": [
+          "4년이내",
+          "방세개",
+          "화장실두개",
+          "세대당1대"
+        ],
+        "agency": "더샵정문부동산중개",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261022",
+        "regDate": "2026-10-22",
+        "isNew": false
+      },
+      {
         "id": "123443-sale-2658131817",
         "articleNo": "2658131817",
         "tradeType": "sale",
@@ -720228,6 +720310,32 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261028",
         "regDate": "2026-10-28",
+        "isNew": false
+      },
+      {
+        "id": "123443-sale-2656821343",
+        "articleNo": "2656821343",
+        "tradeType": "sale",
+        "dong": "102동",
+        "floor": "4/49",
+        "price": 66000,
+        "priceText": "6억 6,000만원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "남향",
+        "desc": "급매 밝고 트인뷰 풀옵션 주인거주로 깨끗 협의입주",
+        "tags": [
+          "4년이내",
+          "급매",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "대원칸타빌공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261021",
+        "regDate": "2026-10-21",
         "isNew": false
       },
       {
@@ -720280,58 +720388,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": false
-      },
-      {
-        "id": "123443-sale-2657006485",
-        "articleNo": "2657006485",
-        "tradeType": "sale",
-        "dong": "102동",
-        "floor": "저/49",
-        "price": 66000,
-        "priceText": "6억 6,000만원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 84,
-        "type": "118㎡ (전용 84㎡)",
-        "direction": "남향",
-        "desc": "즉시입주가 주인거주깨끗 에어컨5 풀옵션 햇살가득 확트인전망",
-        "tags": [
-          "4년이내",
-          "방세개",
-          "화장실두개",
-          "세대당1대"
-        ],
-        "agency": "더샵정문부동산중개",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261022",
-        "regDate": "2026-10-22",
-        "isNew": false
-      },
-      {
-        "id": "123443-sale-2656821343",
-        "articleNo": "2656821343",
-        "tradeType": "sale",
-        "dong": "102동",
-        "floor": "저/49",
-        "price": 66000,
-        "priceText": "6억 6,000만원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 84,
-        "type": "118㎡ (전용 84㎡)",
-        "direction": "남향",
-        "desc": "급매 밝고 트인뷰 풀옵션 주인거주로 깨끗 협의입주",
-        "tags": [
-          "4년이내",
-          "급매",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "대원칸타빌공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261021",
-        "regDate": "2026-10-21",
         "isNew": false
       },
       {
@@ -720722,8 +720778,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2658528555",
