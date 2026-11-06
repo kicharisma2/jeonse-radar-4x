@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-07 06:28 | 총 375개 단지, 26,465건 실매물
+// 최종 실시간 동기화: 2026-11-07 07:28 | 총 375개 단지, 26,465건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-07",
-  syncTime: "06:28",
-  shortDisplay: "11.07 06:28",
-  fullDisplay: "2026-11-07 06:28",
-  timestamp: 1794000531974,
-  iso: "2026-11-06T21:28:51.974Z",
+  syncTime: "07:28",
+  shortDisplay: "11.07 07:28",
+  fullDisplay: "2026-11-07 07:28",
+  timestamp: 1794004130680,
+  iso: "2026-11-06T22:28:50.680Z",
   complexCount: 375,
   totalArticlesCount: 26465
 };
@@ -295420,6 +295420,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-jeonse-2660259990",
+      "articleNo": "2660259990",
+      "tradeType": "jeonse",
+      "dong": "125동",
+      "floor": "11/25",
+      "price": 55000,
+      "priceText": "5억 5,000만원",
+      "pyeong": 49,
+      "supplyArea": 162,
+      "exclusiveArea": 134,
+      "type": "162㎡ (전용 134㎡)",
+      "direction": "남향",
+      "desc": "49.최근올인테리어,강력추천합니다",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "쌍용예가공인중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-jeonse-2660259438",
       "articleNo": "2660259438",
       "tradeType": "jeonse",
@@ -295443,8 +295470,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261107",
       "regDate": "2026-11-07",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659879283",
@@ -563669,8 +563695,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261107",
       "regDate": "2026-11-07",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660248168",
@@ -612447,32 +612472,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "중앙부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
-      "id": "136343-jeonse-2659961228",
-      "articleNo": "2659961228",
-      "tradeType": "jeonse",
-      "dong": "310동",
-      "floor": "고/29",
-      "price": 35000,
-      "priceText": "3억 5,000만원",
-      "pyeong": 25,
-      "supplyArea": 81,
-      "exclusiveArea": 59,
-      "type": "81㎡ (전용 59㎡)",
-      "direction": "남동향",
-      "desc": "802 확트인 뷰에 생활하기에 편리한 입구 동",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "레이802공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
@@ -694429,8 +694428,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261107",
         "regDate": "2026-11-07",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660248168",
@@ -698918,32 +698916,6 @@ const DEFAULT_COMPLEXES = [
           "화장실두개"
         ],
         "agency": "중앙부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261106",
-        "regDate": "2026-11-06",
-        "isNew": false
-      },
-      {
-        "id": "136343-jeonse-2659961228",
-        "articleNo": "2659961228",
-        "tradeType": "jeonse",
-        "dong": "310동",
-        "floor": "고/29",
-        "price": 35000,
-        "priceText": "3억 5,000만원",
-        "pyeong": 25,
-        "supplyArea": 81,
-        "exclusiveArea": 59,
-        "type": "81㎡ (전용 59㎡)",
-        "direction": "남동향",
-        "desc": "802 확트인 뷰에 생활하기에 편리한 입구 동",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "레이802공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
