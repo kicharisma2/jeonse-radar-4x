@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 03:28 | 총 375개 단지, 26,470건 실매물
+// 최종 실시간 동기화: 2026-11-08 04:28 | 총 375개 단지, 26,470건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "03:28",
-  shortDisplay: "11.08 03:28",
-  fullDisplay: "2026-11-08 03:28",
-  timestamp: 1794076127437,
-  iso: "2026-11-07T18:28:47.437Z",
+  syncTime: "04:28",
+  shortDisplay: "11.08 04:28",
+  fullDisplay: "2026-11-08 04:28",
+  timestamp: 1794079728933,
+  iso: "2026-11-07T19:28:48.933Z",
   complexCount: 375,
   totalArticlesCount: 26470
 };
@@ -296252,6 +296252,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660430125",
+      "articleNo": "2660430125",
+      "tradeType": "sale",
+      "dong": "122동",
+      "floor": "3/22",
+      "price": 40500,
+      "priceText": "4억 500만원",
+      "pyeong": 24,
+      "supplyArea": 79,
+      "exclusiveArea": 59,
+      "type": "79㎡ (전용 59㎡)",
+      "direction": "동향",
+      "desc": "s 태양 s｜욕실1수리｜초록초록정원뷰｜결혼식장이든 집이든 미리미리준비",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2659950653",
       "articleNo": "2659950653",
       "tradeType": "sale",
@@ -296272,32 +296299,6 @@ const REAL_BUSAN_ARTICLES = {
         "방세개"
       ],
       "agency": "1번지공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2659743836",
-      "articleNo": "2659743836",
-      "tradeType": "sale",
-      "dong": "122동",
-      "floor": "3/22",
-      "price": 40500,
-      "priceText": "4억 500만원",
-      "pyeong": 24,
-      "supplyArea": 79,
-      "exclusiveArea": 59,
-      "type": "79㎡ (전용 59㎡)",
-      "direction": "동향",
-      "desc": "s 태양 s｜욕실1수리｜초록초록정원뷰｜결혼식장이든 집이든 미리미리준비",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
@@ -297630,6 +297631,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660429912",
+      "articleNo": "2660429912",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "저/25",
+      "price": 51300,
+      "priceText": "5억 1,300만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "솔직한 태양｜기본구조｜확장안됨｜학교가까운동｜수리비빠지는집",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2660373742",
       "articleNo": "2660373742",
       "tradeType": "sale",
@@ -297676,32 +297704,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "제일공인중개사사무소(합동)",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261107",
-      "regDate": "2026-11-07",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2660256553",
-      "articleNo": "2660256553",
-      "tradeType": "sale",
-      "dong": "105동",
-      "floor": "저/25",
-      "price": 51300,
-      "priceText": "5억 1,300만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "솔직한 태양｜기본구조｜확장안됨｜학교가까운동｜수리비빠지는집",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261107",
       "regDate": "2026-11-07",
@@ -298901,8 +298903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2659509220",
@@ -363555,6 +363556,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2660430153",
+      "articleNo": "2660430153",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "3/24",
+      "price": 51500,
+      "priceText": "5억 1,500만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "s 태양 s｜32급매｜빠른입주가능｜거실방확장｜입구로얄동",
+      "tags": [
+        "25년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2660257020",
       "articleNo": "2660257020",
       "tradeType": "sale",
@@ -363653,32 +363681,6 @@ const REAL_BUSAN_ARTICLES = {
         "세대당1대"
       ],
       "agency": "예스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2659956997",
-      "articleNo": "2659956997",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "3/24",
-      "price": 51500,
-      "priceText": "5억 1,500만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "s 태양 s｜32급매｜빠른입주가능｜거실방확장｜입구로얄동",
-      "tags": [
-        "25년이내",
-        "급매",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
@@ -364566,8 +364568,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2660205849",
@@ -478352,32 +478353,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "110276-sale-2659228094",
-      "articleNo": "2659228094",
-      "tradeType": "sale",
-      "dong": "103동",
-      "floor": "저/49",
-      "price": 66000,
-      "priceText": "6억 6,000만원",
-      "pyeong": 35,
-      "supplyArea": 117,
-      "exclusiveArea": 84,
-      "type": "117㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "판상형  에어콘  해 잘들어옴",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "효성공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261102",
-      "regDate": "2026-11-02",
-      "isNew": false
-    },
-    {
       "id": "110276-sale-2659150875",
       "articleNo": "2659150875",
       "tradeType": "sale",
@@ -479260,6 +479235,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261015",
       "regDate": "2026-10-15",
       "isNew": false
+    },
+    {
+      "id": "110276-sale-2655558465",
+      "articleNo": "2655558465",
+      "tradeType": "sale",
+      "dong": "103동",
+      "floor": "고/49",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 35,
+      "supplyArea": 116,
+      "exclusiveArea": 84,
+      "type": "116㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "즉시입주 미남역 역세권 시스템에어컨5대 욕실외전체줄눈 베란다탄성",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "고층"
+      ],
+      "agency": "삼일공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261015",
+      "regDate": "2026-10-15",
+      "isNew": false,
+      "isBrandNew": true
     },
     {
       "id": "110276-sale-2659608209",
@@ -712923,32 +712925,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "110276-sale-2659228094",
-        "articleNo": "2659228094",
-        "tradeType": "sale",
-        "dong": "103동",
-        "floor": "저/49",
-        "price": 66000,
-        "priceText": "6억 6,000만원",
-        "pyeong": 35,
-        "supplyArea": 117,
-        "exclusiveArea": 84,
-        "type": "117㎡ (전용 84㎡)",
-        "direction": "남서향",
-        "desc": "판상형  에어콘  해 잘들어옴",
-        "tags": [
-          "10년이내",
-          "방세개",
-          "화장실두개",
-          "세대당1대"
-        ],
-        "agency": "효성공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261102",
-        "regDate": "2026-11-02",
-        "isNew": false
-      },
-      {
         "id": "110276-sale-2659150875",
         "articleNo": "2659150875",
         "tradeType": "sale",
@@ -713831,6 +713807,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261015",
         "regDate": "2026-10-15",
         "isNew": false
+      },
+      {
+        "id": "110276-sale-2655558465",
+        "articleNo": "2655558465",
+        "tradeType": "sale",
+        "dong": "103동",
+        "floor": "고/49",
+        "price": 68000,
+        "priceText": "6억 8,000만원",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "즉시입주 미남역 역세권 시스템에어컨5대 욕실외전체줄눈 베란다탄성",
+        "tags": [
+          "10년이내",
+          "방세개",
+          "화장실두개",
+          "고층"
+        ],
+        "agency": "삼일공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261015",
+        "regDate": "2026-10-15",
+        "isNew": false,
+        "isBrandNew": true
       },
       {
         "id": "110276-sale-2659608209",
