@@ -1,5 +1,31 @@
 [
   {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660427992",
+    "tradeType": "매매",
+    "dong": "109동",
+    "floor": "17/25",
+    "pyeong": 42,
+    "priceText": "6억원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660427992",
+    "discoveredAt": "3:28:36 AM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660428659",
+    "tradeType": "매매",
+    "dong": "203동",
+    "floor": "12/22",
+    "pyeong": 46,
+    "priceText": "6억 8,000만원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660428659",
+    "discoveredAt": "3:28:44 AM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2657313617",
@@ -622,31 +648,5 @@
     "agency": "온천SK부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660415224",
     "discoveredAt": "5:28:47 PM"
-  },
-  {
-    "complexId": 127894,
-    "complexName": "데시앙해링턴플레이스파크시티",
-    "articleNo": "2660412917",
-    "tradeType": "매매",
-    "dong": "103동",
-    "floor": "저/35",
-    "pyeong": 26,
-    "priceText": "3억 3,000만원",
-    "agency": "콕스데시앙공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660412917",
-    "discoveredAt": "5:28:53 PM"
-  },
-  {
-    "complexId": 127894,
-    "complexName": "데시앙해링턴플레이스파크시티",
-    "articleNo": "2660409389",
-    "tradeType": "매매",
-    "dong": "108동",
-    "floor": "7/35",
-    "pyeong": 31,
-    "priceText": "4억 9,000만원",
-    "agency": "콕스데시앙공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660409389",
-    "discoveredAt": "5:28:53 PM"
   }
 ]

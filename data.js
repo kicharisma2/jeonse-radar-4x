@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 02:28 | 총 375개 단지, 26,470건 실매물
+// 최종 실시간 동기화: 2026-11-08 03:28 | 총 375개 단지, 26,470건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "02:28",
-  shortDisplay: "11.08 02:28",
-  fullDisplay: "2026-11-08 02:28",
-  timestamp: 1794072527797,
-  iso: "2026-11-07T17:28:47.797Z",
+  syncTime: "03:28",
+  shortDisplay: "11.08 03:28",
+  fullDisplay: "2026-11-08 03:28",
+  timestamp: 1794076127437,
+  iso: "2026-11-07T18:28:47.437Z",
   complexCount: 375,
   totalArticlesCount: 26470
 };
@@ -298878,6 +298878,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2660427992",
+      "articleNo": "2660427992",
+      "tradeType": "sale",
+      "dong": "109동",
+      "floor": "17/25",
+      "price": 60000,
+      "priceText": "6억원",
+      "pyeong": 42,
+      "supplyArea": 139,
+      "exclusiveArea": 119,
+      "type": "139㎡ (전용 119㎡)",
+      "direction": "남향",
+      "desc": "s 태양 s｜42올확장｜매일 머물고 싶은 집｜채광과 생활 편의를 갖춘",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2659509220",
       "articleNo": "2659509220",
       "tradeType": "sale",
@@ -298901,32 +298928,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "17246-sale-2658928845",
-      "articleNo": "2658928845",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "17/25",
-      "price": 60000,
-      "priceText": "6억원",
-      "pyeong": 42,
-      "supplyArea": 139,
-      "exclusiveArea": 119,
-      "type": "139㎡ (전용 119㎡)",
-      "direction": "남향",
-      "desc": "s 태양 s｜42올확장｜매일 머물고 싶은 집｜채광과 생활 편의를 갖춘",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "태양부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261101",
-      "regDate": "2026-11-01",
       "isNew": false
     },
     {
@@ -364542,8 +364543,8 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "26462-sale-2660254704",
-      "articleNo": "2660254704",
+      "id": "26462-sale-2660428659",
+      "articleNo": "2660428659",
       "tradeType": "sale",
       "dong": "203동",
       "floor": "12/22",
@@ -364563,9 +364564,10 @@ const REAL_BUSAN_ARTICLES = {
       ],
       "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261107",
-      "regDate": "2026-11-07",
-      "isNew": false
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "26462-sale-2660205849",
