@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 09:28 | 총 375개 단지, 26,470건 실매물
+// 최종 실시간 동기화: 2026-11-08 10:28 | 총 375개 단지, 26,467건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "09:28",
-  shortDisplay: "11.08 09:28",
-  fullDisplay: "2026-11-08 09:28",
-  timestamp: 1794097725844,
-  iso: "2026-11-08T00:28:45.844Z",
+  syncTime: "10:28",
+  shortDisplay: "11.08 10:28",
+  fullDisplay: "2026-11-08 10:28",
+  timestamp: 1794101326669,
+  iso: "2026-11-08T01:28:46.669Z",
   complexCount: 375,
-  totalArticlesCount: 26470
+  totalArticlesCount: 26467
 };
 
 function formatKoreanPrice(val) {
@@ -362511,8 +362511,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2660161585",
@@ -506354,58 +506353,6 @@ const REAL_BUSAN_ARTICLES = {
   ],
   "112331": [
     {
-      "id": "112331-jeonse-2660297824",
-      "articleNo": "2660297824",
-      "tradeType": "jeonse",
-      "dong": "101동",
-      "floor": "저/24",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "59타입 귀한전세 안정적인층 입출입편리 27년1월중협의",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "롯데자이1번지공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261107",
-      "regDate": "2026-11-07",
-      "isNew": false
-    },
-    {
-      "id": "112331-jeonse-2660079940",
-      "articleNo": "2660079940",
-      "tradeType": "jeonse",
-      "dong": "101동",
-      "floor": "저/24",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "입구동의교통편리,생활편리동,대형마트인접,다이소인접등의주위환경좋음",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "대형평수",
-        "방세개"
-      ],
-      "agency": "힐스더샵부동산중개사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
       "id": "112331-jeonse-2659765026",
       "articleNo": "2659765026",
       "tradeType": "jeonse",
@@ -506429,32 +506376,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
-      "id": "112331-jeonse-2659670229",
-      "articleNo": "2659670229",
-      "tradeType": "jeonse",
-      "dong": "101동",
-      "floor": "저/24",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "24형귀한전세,가격협의,입구동의 생활편리,교통편리,지하철인접,대중교통편리",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "J&J공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261104",
-      "regDate": "2026-11-04",
       "isNew": false
     },
     {
