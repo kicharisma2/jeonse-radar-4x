@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 22:28 | 총 375개 단지, 26,466건 실매물
+// 최종 실시간 동기화: 2026-11-08 23:28 | 총 375개 단지, 26,466건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "22:28",
-  shortDisplay: "11.08 22:28",
-  fullDisplay: "2026-11-08 22:28",
-  timestamp: 1794144528148,
-  iso: "2026-11-08T13:28:48.148Z",
+  syncTime: "23:28",
+  shortDisplay: "11.08 23:28",
+  fullDisplay: "2026-11-08 23:28",
+  timestamp: 1794148128139,
+  iso: "2026-11-08T14:28:48.139Z",
   complexCount: 375,
   totalArticlesCount: 26466
 };
@@ -627579,7 +627579,7 @@ const REAL_BUSAN_ARTICLES = {
       "exclusiveArea": 84,
       "type": "118㎡ (전용 84㎡)",
       "direction": "남서향",
-      "desc": "네이버 실매물 확인",
+      "desc": "RAEMIAN 35. 급전세. 즉.시.입.주. 입주청소. 개방감.",
       "tags": [
         "4년이내",
         "대단지",
@@ -706934,7 +706934,7 @@ const DEFAULT_COMPLEXES = [
         "exclusiveArea": 84,
         "type": "118㎡ (전용 84㎡)",
         "direction": "남서향",
-        "desc": "네이버 실매물 확인",
+        "desc": "RAEMIAN 35. 급전세. 즉.시.입.주. 입주청소. 개방감.",
         "tags": [
           "4년이내",
           "대단지",
