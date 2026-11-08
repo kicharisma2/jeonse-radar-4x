@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 10:28 | 총 375개 단지, 26,467건 실매물
+// 최종 실시간 동기화: 2026-11-08 11:28 | 총 375개 단지, 26,466건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "10:28",
-  shortDisplay: "11.08 10:28",
-  fullDisplay: "2026-11-08 10:28",
-  timestamp: 1794101326669,
-  iso: "2026-11-08T01:28:46.669Z",
+  syncTime: "11:28",
+  shortDisplay: "11.08 11:28",
+  fullDisplay: "2026-11-08 11:28",
+  timestamp: 1794104926928,
+  iso: "2026-11-08T02:28:46.928Z",
   complexCount: 375,
-  totalArticlesCount: 26467
+  totalArticlesCount: 26466
 };
 
 function formatKoreanPrice(val) {
@@ -506402,32 +506402,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261027",
       "regDate": "2026-10-27",
-      "isNew": false
-    },
-    {
-      "id": "112331-jeonse-2657749390",
-      "articleNo": "2657749390",
-      "tradeType": "jeonse",
-      "dong": "101동",
-      "floor": "저/24",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "귀한전세 입주협의가능 편리한 입구동 교통생활편리",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "연산더샵베스트공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261026",
-      "regDate": "2026-10-26",
       "isNew": false
     },
     {
