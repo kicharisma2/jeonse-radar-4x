@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 15:28 | 총 375개 단지, 26,466건 실매물
+// 최종 실시간 동기화: 2026-11-08 16:28 | 총 375개 단지, 26,465건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "15:28",
-  shortDisplay: "11.08 15:28",
-  fullDisplay: "2026-11-08 15:28",
-  timestamp: 1794119327610,
-  iso: "2026-11-08T06:28:47.610Z",
+  syncTime: "16:28",
+  shortDisplay: "11.08 16:28",
+  fullDisplay: "2026-11-08 16:28",
+  timestamp: 1794122928467,
+  iso: "2026-11-08T07:28:48.467Z",
   complexCount: 375,
-  totalArticlesCount: 26466
+  totalArticlesCount: 26465
 };
 
 function formatKoreanPrice(val) {
@@ -362511,8 +362511,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2660434057",
@@ -506406,32 +506405,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "112331-jeonse-2657650500",
-      "articleNo": "2657650500",
-      "tradeType": "jeonse",
-      "dong": "101동",
-      "floor": "저/24",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "APT상가,조율가능,생활편리한 입구동,정남향 저층이지만 햇살좋은 라인",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "우주부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261026",
-      "regDate": "2026-10-26",
-      "isNew": false
-    },
-    {
       "id": "112331-jeonse-2660116949",
       "articleNo": "2660116949",
       "tradeType": "jeonse",
@@ -562889,8 +562862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660237174",
@@ -563592,8 +563564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261108",
       "regDate": "2026-11-08",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660422140",
@@ -693754,8 +693725,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261108",
         "regDate": "2026-11-08",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660237174",
@@ -694457,8 +694427,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261108",
         "regDate": "2026-11-08",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660422140",
