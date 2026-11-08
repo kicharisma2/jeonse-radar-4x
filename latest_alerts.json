@@ -1,5 +1,18 @@
 [
   {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660434057",
+    "tradeType": "매매",
+    "dong": "208동",
+    "floor": "4/25",
+    "pyeong": 32,
+    "priceText": "5억 1,000만원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660434057",
+    "discoveredAt": "9:28:42 AM"
+  },
+  {
     "complexId": 17246,
     "complexName": "사직쌍용예가",
     "articleNo": "2660432081",
@@ -635,18 +648,5 @@
     "agency": "레이802공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660418982",
     "discoveredAt": "6:28:23 PM"
-  },
-  {
-    "complexId": 146548,
-    "complexName": "래미안포레스티지",
-    "articleNo": "2659463886",
-    "tradeType": "전세",
-    "dong": "202동",
-    "floor": "고/25",
-    "pyeong": 31,
-    "priceText": "5억원",
-    "agency": "래미안대운부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659463886",
-    "discoveredAt": "6:28:24 PM"
   }
 ]

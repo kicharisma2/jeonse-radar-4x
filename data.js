@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 08:28 | 총 375개 단지, 26,470건 실매물
+// 최종 실시간 동기화: 2026-11-08 09:28 | 총 375개 단지, 26,470건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "08:28",
-  shortDisplay: "11.08 08:28",
-  fullDisplay: "2026-11-08 08:28",
-  timestamp: 1794094127019,
-  iso: "2026-11-07T23:28:47.019Z",
+  syncTime: "09:28",
+  shortDisplay: "11.08 09:28",
+  fullDisplay: "2026-11-08 09:28",
+  timestamp: 1794097725844,
+  iso: "2026-11-08T00:28:45.844Z",
   complexCount: 375,
   totalArticlesCount: 26470
 };
@@ -362488,6 +362488,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2660434057",
+      "articleNo": "2660434057",
+      "tradeType": "sale",
+      "dong": "208동",
+      "floor": "4/25",
+      "price": 51000,
+      "priceText": "5억 1,000만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "s 태양 s｜확장형기본｜항상보던 네모구조 ｜이사가기전수리가능 ｜중문있음",
+      "tags": [
+        "25년이내",
+        "방세개",
+        "화장실두개",
+        "세대당1대"
+      ],
+      "agency": "태양부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2660161585",
       "articleNo": "2660161585",
       "tradeType": "sale",
@@ -362534,32 +362561,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "도울부동산중개법인",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261106",
-      "regDate": "2026-11-06",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2659971581",
-      "articleNo": "2659971581",
-      "tradeType": "sale",
-      "dong": "208동",
-      "floor": "4/25",
-      "price": 51000,
-      "priceText": "5억 1,000만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "s 태양 s｜확장형기본｜항상보던 네모구조 ｜이사가기전수리가능 ｜중문있음",
-      "tags": [
-        "25년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "태양부동산중개사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
