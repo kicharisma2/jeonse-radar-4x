@@ -1,5 +1,18 @@
 [
   {
+    "complexId": 127894,
+    "complexName": "데시앙해링턴플레이스파크시티",
+    "articleNo": "2660454870",
+    "tradeType": "매매",
+    "dong": "109동",
+    "floor": "중/33",
+    "pyeong": 31,
+    "priceText": "5억원",
+    "agency": "탑부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660454870",
+    "discoveredAt": "9:28:44 PM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2659317837",
@@ -634,19 +647,6 @@
     "priceText": "5억 1,000만원",
     "agency": "돈되는부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2656573976",
-    "discoveredAt": "12:28:44 AM"
-  },
-  {
-    "complexId": 127894,
-    "complexName": "데시앙해링턴플레이스파크시티",
-    "articleNo": "2656229050",
-    "tradeType": "매매",
-    "dong": "109동",
-    "floor": "저/33",
-    "pyeong": 31,
-    "priceText": "5억 1,000만원",
-    "agency": "돈되는부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2656229050",
     "discoveredAt": "12:28:44 AM"
   }
 ]

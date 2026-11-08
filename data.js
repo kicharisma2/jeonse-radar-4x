@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-08 20:28 | 총 375개 단지, 26,466건 실매물
+// 최종 실시간 동기화: 2026-11-08 21:28 | 총 375개 단지, 26,466건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-08",
-  syncTime: "20:28",
-  shortDisplay: "11.08 20:28",
-  fullDisplay: "2026-11-08 20:28",
-  timestamp: 1794137328746,
-  iso: "2026-11-08T11:28:48.746Z",
+  syncTime: "21:28",
+  shortDisplay: "11.08 21:28",
+  fullDisplay: "2026-11-08 21:28",
+  timestamp: 1794140927237,
+  iso: "2026-11-08T12:28:47.237Z",
   complexCount: 375,
   totalArticlesCount: 26466
 };
@@ -597525,32 +597525,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "127894-sale-2654916071",
-      "articleNo": "2654916071",
-      "tradeType": "sale",
-      "dong": "108동",
-      "floor": "중/35",
-      "price": 47000,
-      "priceText": "4억 7,000만원",
-      "pyeong": 31,
-      "supplyArea": 101,
-      "exclusiveArea": 73,
-      "type": "101㎡ (전용 73㎡)",
-      "direction": "남동향",
-      "desc": "조합원옵션, 에2, 붙박이장,. 김치냉장고, 줄눈, 중문",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "한빛부동산",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261012",
-      "regDate": "2026-10-12",
-      "isNew": false
-    },
-    {
       "id": "127894-sale-2660169670",
       "articleNo": "2660169670",
       "tradeType": "sale",
@@ -598095,6 +598069,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
       "isNew": false
+    },
+    {
+      "id": "127894-sale-2660454870",
+      "articleNo": "2660454870",
+      "tradeType": "sale",
+      "dong": "109동",
+      "floor": "중/33",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 73,
+      "type": "102㎡ (전용 73㎡)",
+      "direction": "남서향",
+      "desc": "남서향 확트인 뷰 시스템에어컨,엔지니어드스톤,인덕션,오븐 설치",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "탑부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261108",
+      "regDate": "2026-11-08",
+      "isNew": true,
+      "isBrandNew": true
     },
     {
       "id": "127894-sale-2658419841",
