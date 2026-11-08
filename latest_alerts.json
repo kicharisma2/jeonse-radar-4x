@@ -2,6 +2,45 @@
   {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
+    "articleNo": "2660445748",
+    "tradeType": "전세",
+    "dong": "105동",
+    "floor": "저/20",
+    "pyeong": 34,
+    "priceText": "5억 3,000만원",
+    "agency": "부자부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660445748",
+    "discoveredAt": "3:28:33 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
+    "articleNo": "2660446008",
+    "tradeType": "전세",
+    "dong": "305동",
+    "floor": "27/35",
+    "pyeong": 34,
+    "priceText": "5억 5,000만원",
+    "agency": "부자부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660446008",
+    "discoveredAt": "3:28:33 PM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660446589",
+    "tradeType": "매매",
+    "dong": "208동",
+    "floor": "4/25",
+    "pyeong": 32,
+    "priceText": "5억 1,000만원",
+    "agency": "예스공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660446589",
+    "discoveredAt": "3:28:44 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
     "articleNo": "2660445663",
     "tradeType": "전세",
     "dong": "103동",
@@ -609,44 +648,5 @@
     "agency": "아이유부동산중개사무소",
     "directUrl": "https://fin.land.naver.com/articles/2658186563",
     "discoveredAt": "12:28:45 AM"
-  },
-  {
-    "complexId": 112331,
-    "complexName": "힐스테이트명륜",
-    "articleNo": "2658128062",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "저/24",
-    "pyeong": 26,
-    "priceText": "6억 1,000만원",
-    "agency": "최대박공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658128062",
-    "discoveredAt": "12:28:45 AM"
-  },
-  {
-    "complexId": 112331,
-    "complexName": "힐스테이트명륜",
-    "articleNo": "2658952771",
-    "tradeType": "매매",
-    "dong": "106동",
-    "floor": "저/23",
-    "pyeong": 26,
-    "priceText": "6억 1,500만원",
-    "agency": "최대박공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658952771",
-    "discoveredAt": "12:28:45 AM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660422143",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "22/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "킹덤부동산중개사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660422143",
-    "discoveredAt": "6:28:23 PM"
   }
 ]
