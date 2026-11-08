@@ -1,5 +1,57 @@
 [
   {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2660459113",
+    "tradeType": "매매",
+    "dong": "403동",
+    "floor": "중/29",
+    "pyeong": 34,
+    "priceText": "8억원",
+    "agency": "국민부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660459113",
+    "discoveredAt": "3:28:32 AM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660458242",
+    "tradeType": "전세",
+    "dong": "108동",
+    "floor": "6/25",
+    "pyeong": 32,
+    "priceText": "4억 5,000만원",
+    "agency": "지성공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660458242",
+    "discoveredAt": "3:28:36 AM"
+  },
+  {
+    "complexId": 110276,
+    "complexName": "동래효성해링턴플레이스",
+    "articleNo": "2660458904",
+    "tradeType": "매매",
+    "dong": "102동",
+    "floor": "중/49",
+    "pyeong": 35,
+    "priceText": "6억 8,000만원",
+    "agency": "효성공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660458904",
+    "discoveredAt": "3:28:40 AM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660458913",
+    "tradeType": "매매",
+    "dong": "203동",
+    "floor": "6/22",
+    "pyeong": 46,
+    "priceText": "6억 4,000만원",
+    "agency": "태양부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660458913",
+    "discoveredAt": "3:28:43 AM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2659943124",
@@ -596,57 +648,5 @@
     "agency": "SK탑부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2659612636",
     "discoveredAt": "12:28:39 AM"
-  },
-  {
-    "complexId": 121631,
-    "complexName": "동래3차SK뷰(주상복합)",
-    "articleNo": "2659099574",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "저/38",
-    "pyeong": 34,
-    "priceText": "5억 7,000만원",
-    "agency": "SK탑부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2659099574",
-    "discoveredAt": "12:28:39 AM"
-  },
-  {
-    "complexId": 110276,
-    "complexName": "동래효성해링턴플레이스",
-    "articleNo": "2655579739",
-    "tradeType": "매매",
-    "dong": "103동",
-    "floor": "고/49",
-    "pyeong": 35,
-    "priceText": "6억 8,000만원",
-    "agency": "스카이공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2655579739",
-    "discoveredAt": "12:28:40 AM"
-  },
-  {
-    "complexId": 110276,
-    "complexName": "동래효성해링턴플레이스",
-    "articleNo": "2658063219",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "고/49",
-    "pyeong": 44,
-    "priceText": "8억 2,000만원",
-    "agency": "으뜸공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658063219",
-    "discoveredAt": "12:28:40 AM"
-  },
-  {
-    "complexId": 110276,
-    "complexName": "동래효성해링턴플레이스",
-    "articleNo": "2657485453",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "고/49",
-    "pyeong": 44,
-    "priceText": "8억 2,000만원",
-    "agency": "사직하늘채공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2657485453",
-    "discoveredAt": "12:28:40 AM"
   }
 ]
