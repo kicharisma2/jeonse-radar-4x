@@ -1,5 +1,18 @@
 [
   {
+    "complexId": 146548,
+    "complexName": "래미안포레스티지",
+    "articleNo": "2660419369",
+    "tradeType": "전세",
+    "dong": "106동",
+    "floor": "중/35",
+    "pyeong": 36,
+    "priceText": "5억원",
+    "agency": "온천장부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660419369",
+    "discoveredAt": "8:28:37 AM"
+  },
+  {
     "complexId": 17246,
     "complexName": "사직쌍용예가",
     "articleNo": "2660462946",
@@ -635,18 +648,5 @@
     "agency": "태양부동산중개사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660429912",
     "discoveredAt": "4:28:38 AM"
-  },
-  {
-    "complexId": 110276,
-    "complexName": "동래효성해링턴플레이스",
-    "articleNo": "2655558465",
-    "tradeType": "매매",
-    "dong": "103동",
-    "floor": "고/49",
-    "pyeong": 35,
-    "priceText": "6억 8,000만원",
-    "agency": "삼일공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2655558465",
-    "discoveredAt": "4:28:41 AM"
   }
 ]

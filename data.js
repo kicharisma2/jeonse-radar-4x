@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-09 07:28 | 총 375개 단지, 26,465건 실매물
+// 최종 실시간 동기화: 2026-11-09 08:28 | 총 375개 단지, 26,465건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-09",
-  syncTime: "07:28",
-  shortDisplay: "11.09 07:28",
-  fullDisplay: "2026-11-09 07:28",
-  timestamp: 1794176926725,
-  iso: "2026-11-08T22:28:46.725Z",
+  syncTime: "08:28",
+  shortDisplay: "11.09 08:28",
+  fullDisplay: "2026-11-09 08:28",
+  timestamp: 1794180526458,
+  iso: "2026-11-08T23:28:46.458Z",
   complexCount: 375,
   totalArticlesCount: 26465
 };
@@ -627021,6 +627021,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "146548-jeonse-2660419369",
+      "articleNo": "2660419369",
+      "tradeType": "jeonse",
+      "dong": "106동",
+      "floor": "중/35",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "I 35 착.한 전.세 I 즉.시 입.주 I 햇살가득 이면창 I 엘베",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "온천장부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261109",
+      "regDate": "2026-11-09",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "146548-jeonse-2659280055",
       "articleNo": "2659280055",
       "tradeType": "jeonse",
@@ -628133,32 +628160,6 @@ const REAL_BUSAN_ARTICLES = {
         "화장실두개"
       ],
       "agency": "래미안대운부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261103",
-      "regDate": "2026-11-03",
-      "isNew": false
-    },
-    {
-      "id": "146548-jeonse-2659408895",
-      "articleNo": "2659408895",
-      "tradeType": "jeonse",
-      "dong": "202동",
-      "floor": "고/25",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 72,
-      "type": "102㎡ (전용 72㎡)",
-      "direction": "남서향",
-      "desc": "막힘없이 확트인뷰,생활 편리한 아랫동,다양한 옵션,세대창고",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "온천명문래미안공인중개사사무소",
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261103",
       "regDate": "2026-11-03",
@@ -706376,6 +706377,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "146548-jeonse-2660419369",
+        "articleNo": "2660419369",
+        "tradeType": "jeonse",
+        "dong": "106동",
+        "floor": "중/35",
+        "price": 50000,
+        "priceText": "5억원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "I 35 착.한 전.세 I 즉.시 입.주 I 햇살가득 이면창 I 엘베",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "온천장부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261109",
+        "regDate": "2026-11-09",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "146548-jeonse-2659280055",
         "articleNo": "2659280055",
         "tradeType": "jeonse",
@@ -707488,32 +707516,6 @@ const DEFAULT_COMPLEXES = [
           "화장실두개"
         ],
         "agency": "래미안대운부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261103",
-        "regDate": "2026-11-03",
-        "isNew": false
-      },
-      {
-        "id": "146548-jeonse-2659408895",
-        "articleNo": "2659408895",
-        "tradeType": "jeonse",
-        "dong": "202동",
-        "floor": "고/25",
-        "price": 50000,
-        "priceText": "5억원",
-        "pyeong": 31,
-        "supplyArea": 102,
-        "exclusiveArea": 72,
-        "type": "102㎡ (전용 72㎡)",
-        "direction": "남서향",
-        "desc": "막힘없이 확트인뷰,생활 편리한 아랫동,다양한 옵션,세대창고",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "온천명문래미안공인중개사사무소",
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261103",
         "regDate": "2026-11-03",
