@@ -2,6 +2,32 @@
   {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
+    "articleNo": "2659317837",
+    "tradeType": "전세",
+    "dong": "103동",
+    "floor": "22/25",
+    "pyeong": 26,
+    "priceText": "4억 3,000만원",
+    "agency": "미래안부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659317837",
+    "discoveredAt": "7:28:33 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
+    "articleNo": "2659944087",
+    "tradeType": "전세",
+    "dong": "305동",
+    "floor": "27/35",
+    "pyeong": 34,
+    "priceText": "5억 5,000만원",
+    "agency": "래미안행복한부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659944087",
+    "discoveredAt": "7:28:33 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
     "articleNo": "2660445748",
     "tradeType": "전세",
     "dong": "105동",
@@ -622,31 +648,5 @@
     "agency": "돈되는부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2656229050",
     "discoveredAt": "12:28:44 AM"
-  },
-  {
-    "complexId": 112331,
-    "complexName": "힐스테이트명륜",
-    "articleNo": "2658275761",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "저/24",
-    "pyeong": 26,
-    "priceText": "6억 1,000만원",
-    "agency": "금손공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658275761",
-    "discoveredAt": "12:28:45 AM"
-  },
-  {
-    "complexId": 112331,
-    "complexName": "힐스테이트명륜",
-    "articleNo": "2658186563",
-    "tradeType": "매매",
-    "dong": "101동",
-    "floor": "저/24",
-    "pyeong": 26,
-    "priceText": "6억 1,000만원",
-    "agency": "아이유부동산중개사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658186563",
-    "discoveredAt": "12:28:45 AM"
   }
 ]
