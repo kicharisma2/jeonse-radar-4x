@@ -1,5 +1,44 @@
 [
   {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
+    "articleNo": "2660445663",
+    "tradeType": "전세",
+    "dong": "103동",
+    "floor": "22/25",
+    "pyeong": 26,
+    "priceText": "4억 3,000만원",
+    "agency": "부자부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660445663",
+    "discoveredAt": "2:28:32 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
+    "articleNo": "2659944087",
+    "tradeType": "전세",
+    "dong": "305동",
+    "floor": "27/35",
+    "pyeong": 34,
+    "priceText": "5억 5,000만원",
+    "agency": "래미안행복한부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2659944087",
+    "discoveredAt": "2:28:32 PM"
+  },
+  {
+    "complexId": 110733,
+    "complexName": "연제롯데캐슬앤데시앙",
+    "articleNo": "2657671800",
+    "tradeType": "매매",
+    "dong": "106동",
+    "floor": "중/36",
+    "pyeong": 25,
+    "priceText": "6억 6,000만원",
+    "agency": "연제롯데공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2657671800",
+    "discoveredAt": "2:28:38 PM"
+  },
+  {
     "complexId": 26462,
     "complexName": "사직쌍용예가2차",
     "articleNo": "2660434057",
@@ -608,45 +647,6 @@
     "priceText": "4억 3,000만원",
     "agency": "킹덤부동산중개사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660422143",
-    "discoveredAt": "6:28:23 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660422142",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "1/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "킹덤부동산중개사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660422142",
-    "discoveredAt": "6:28:23 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660422140",
-    "tradeType": "전세",
-    "dong": "305동",
-    "floor": "27/35",
-    "pyeong": 34,
-    "priceText": "5억 5,000만원",
-    "agency": "킹덤부동산중개사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660422140",
-    "discoveredAt": "6:28:23 PM"
-  },
-  {
-    "complexId": 136343,
-    "complexName": "레이카운티",
-    "articleNo": "2660418982",
-    "tradeType": "매매",
-    "dong": "404동",
-    "floor": "고/28",
-    "pyeong": 34,
-    "priceText": "8억원",
-    "agency": "레이802공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660418982",
     "discoveredAt": "6:28:23 PM"
   }
 ]
