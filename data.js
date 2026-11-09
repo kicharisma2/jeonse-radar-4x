@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-09 23:29 | 총 375개 단지, 26,446건 실매물
+// 최종 실시간 동기화: 2026-11-10 24:28 | 총 375개 단지, 26,440건 실매물
 
 const RADAR_SYNC_META = {
-  syncDate: "2026-11-09",
-  syncTime: "23:29",
-  shortDisplay: "11.09 23:29",
-  fullDisplay: "2026-11-09 23:29",
-  timestamp: 1794234546533,
-  iso: "2026-11-09T14:29:06.533Z",
+  syncDate: "2026-11-10",
+  syncTime: "24:28",
+  shortDisplay: "11.10 24:28",
+  fullDisplay: "2026-11-10 24:28",
+  timestamp: 1794238124759,
+  iso: "2026-11-09T15:28:44.759Z",
   complexCount: 375,
-  totalArticlesCount: 26446
+  totalArticlesCount: 26440
 };
 
 function formatKoreanPrice(val) {
@@ -294611,7 +294611,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660254179",
@@ -294741,7 +294741,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660694980",
@@ -294767,7 +294767,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660677233",
@@ -294793,7 +294793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660646031",
@@ -294819,7 +294819,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660595765",
@@ -294845,7 +294845,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660462946",
@@ -294871,7 +294871,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660459926",
@@ -294897,7 +294897,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660458242",
@@ -294923,7 +294923,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660432081",
@@ -295417,7 +295417,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660462804",
@@ -295443,7 +295443,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660334870",
@@ -295729,7 +295729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660699514",
@@ -295755,7 +295755,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660631842",
@@ -295781,7 +295781,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660592024",
@@ -295807,7 +295807,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660118585",
@@ -295989,7 +295989,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660543380",
@@ -296015,7 +296015,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660538630",
@@ -296041,7 +296041,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660157187",
@@ -296301,7 +296301,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660653490",
@@ -296327,7 +296327,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660353404",
@@ -296561,7 +296561,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659151787",
@@ -296769,7 +296769,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660709904",
@@ -296795,7 +296795,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660683347",
@@ -296821,7 +296821,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660612673",
@@ -296847,7 +296847,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660517128",
@@ -296873,7 +296873,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660468553",
@@ -296899,7 +296899,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660462948",
@@ -296925,7 +296925,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660432082",
@@ -297367,7 +297367,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660650222",
@@ -297393,7 +297393,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660598893",
@@ -297419,7 +297419,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658950446",
@@ -297653,7 +297653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660373742",
@@ -298017,7 +298017,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660671856",
@@ -298043,7 +298043,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660671146",
@@ -298069,7 +298069,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659771716",
@@ -298173,7 +298173,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660683289",
@@ -298199,7 +298199,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660678024",
@@ -298225,7 +298225,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660653518",
@@ -298251,7 +298251,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660518329",
@@ -298277,7 +298277,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660469782",
@@ -298303,7 +298303,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660576305",
@@ -298329,7 +298329,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658633571",
@@ -298407,7 +298407,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659382396",
@@ -298927,7 +298927,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658854798",
@@ -361835,7 +361835,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2660690819",
@@ -361861,7 +361861,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2660462150",
@@ -361887,7 +361887,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2660395864",
@@ -362329,7 +362329,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659575160",
@@ -362485,7 +362485,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660589932",
@@ -362511,7 +362511,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660583364",
@@ -362537,7 +362537,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660446589",
@@ -362797,7 +362797,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659229335",
@@ -363476,32 +363476,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "26462-sale-2654610367",
-      "articleNo": "2654610367",
-      "tradeType": "sale",
-      "dong": "208동",
-      "floor": "4/25",
-      "price": 51000,
-      "priceText": "5억 1,000만원",
-      "pyeong": 32,
-      "supplyArea": 107,
-      "exclusiveArea": 84,
-      "type": "107㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "지성추천,빠른입주가능, 기본형,가격좋아요,평일저녁안내가능",
-      "tags": [
-        "25년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "지성공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "26462-sale-2655908658",
       "articleNo": "2655908658",
       "tradeType": "sale",
@@ -363603,7 +363577,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660460630",
@@ -363629,7 +363603,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660430153",
@@ -363814,6 +363788,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-sale-2660636519",
+      "articleNo": "2660636519",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "저/24",
+      "price": 51500,
+      "priceText": "5억 1,500만원",
+      "pyeong": 32,
+      "supplyArea": 107,
+      "exclusiveArea": 84,
+      "type": "107㎡ (전용 84㎡)",
+      "direction": "남동향",
+      "desc": "32.O 급매 O 추천매물  O최저가격  O조건협의",
+      "tags": [
+        "25년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "만세공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261109",
+      "regDate": "2026-11-09",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-sale-2660458913",
       "articleNo": "2660458913",
       "tradeType": "sale",
@@ -363837,7 +363838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660214933",
@@ -364256,32 +364257,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "26462-sale-2654612317",
-      "articleNo": "2654612317",
-      "tradeType": "sale",
-      "dong": "203동",
-      "floor": "6/22",
-      "price": 64000,
-      "priceText": "6억 4,000만원",
-      "pyeong": 46,
-      "supplyArea": 151,
-      "exclusiveArea": 120,
-      "type": "151㎡ (전용 120㎡)",
-      "direction": "남서향",
-      "desc": "쌍용2차 45급매. 깔끔하게 관리되어 깨끗한 집. 주방 넓음.",
-      "tags": [
-        "25년이내",
-        "급매",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "사직KCC공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "26462-sale-2655490949",
       "articleNo": "2655490949",
       "tradeType": "sale",
@@ -364331,58 +364306,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261014",
       "regDate": "2026-10-14",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2654557200",
-      "articleNo": "2654557200",
-      "tradeType": "sale",
-      "dong": "203동",
-      "floor": "저/22",
-      "price": 64000,
-      "priceText": "6억 4,000만원",
-      "pyeong": 46,
-      "supplyArea": 151,
-      "exclusiveArea": 120,
-      "type": "151㎡ (전용 120㎡)",
-      "direction": "남서향",
-      "desc": "M미래 , 주차편한 입구동  I 통학 생활편리 I   조건협의",
-      "tags": [
-        "25년이내",
-        "대형평수",
-        "방네개이상",
-        "화장실두개"
-      ],
-      "agency": "미래공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
-      "id": "26462-sale-2654520054",
-      "articleNo": "2654520054",
-      "tradeType": "sale",
-      "dong": "203동",
-      "floor": "저/22",
-      "price": 64000,
-      "priceText": "6억 4,000만원",
-      "pyeong": 46,
-      "supplyArea": 151,
-      "exclusiveArea": 120,
-      "type": "151㎡ (전용 120㎡)",
-      "direction": "남서향",
-      "desc": "45추천, 초중고 도보가능, 생활권용의, 이사협의",
-      "tags": [
-        "25년이내",
-        "대형평수",
-        "방네개이상",
-        "화장실두개"
-      ],
-      "agency": "골드부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -364464,32 +364387,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "26462-sale-2654520626",
-      "articleNo": "2654520626",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "저/24",
-      "price": 65000,
-      "priceText": "6억 5,000만원",
-      "pyeong": 46,
-      "supplyArea": 151,
-      "exclusiveArea": 120,
-      "type": "151㎡ (전용 120㎡)",
-      "direction": "남서향",
-      "desc": "45, 부분수리되어 깔끔, 하루종일 밝은 집, 이사협의",
-      "tags": [
-        "25년이내",
-        "대형평수",
-        "방네개이상",
-        "화장실두개"
-      ],
-      "agency": "골드부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "26462-sale-2660597449",
       "articleNo": "2660597449",
       "tradeType": "sale",
@@ -364513,7 +364410,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660428659",
@@ -364852,6 +364749,114 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261021",
       "regDate": "2026-10-21",
       "isNew": false
+    },
+    {
+      "id": "26462-sale-2656796573",
+      "articleNo": "2656796573",
+      "tradeType": "sale",
+      "dong": "203동",
+      "floor": "12/22",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "즉시 입주 가능,올수리 된 확장형",
+      "tags": [
+        "25년이내",
+        "올수리",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "쌍용탑공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261021",
+      "regDate": "2026-10-21",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "26462-sale-2656238487",
+      "articleNo": "2656238487",
+      "tradeType": "sale",
+      "dong": "203동",
+      "floor": "12/22",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "45,화이트톤올수리,거실폴딩도어외비확장,발코니활용굿,즉입주.",
+      "tags": [
+        "25년이내",
+        "올수리",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "은하수공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261019",
+      "regDate": "2026-10-19",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "26462-sale-2655395532",
+      "articleNo": "2655395532",
+      "tradeType": "sale",
+      "dong": "203동",
+      "floor": "12/22",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "소향S1,강추공실,최근올인테리어,거실폴딩도어,너무예쁜인테리어,조건적극협의",
+      "tags": [
+        "25년이내",
+        "대형평수",
+        "방네개이상",
+        "화장실두개"
+      ],
+      "agency": "사직소향부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261014",
+      "regDate": "2026-10-14",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "26462-sale-2655194629",
+      "articleNo": "2655194629",
+      "tradeType": "sale",
+      "dong": "203동",
+      "floor": "12/22",
+      "price": 68000,
+      "priceText": "6억 8,000만원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "45 화이트톤올인테리어된 예쁜집 거실폴딩도어 이사협의",
+      "tags": [
+        "25년이내",
+        "대형평수",
+        "방네개이상",
+        "화장실두개"
+      ],
+      "agency": "사직하늘채공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261013",
+      "regDate": "2026-10-13",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "27091": [
@@ -381846,7 +381851,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2659005463",
@@ -381898,32 +381903,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261020",
       "regDate": "2026-10-20",
-      "isNew": false
-    },
-    {
-      "id": "103343-jeonse-2654594717",
-      "articleNo": "2654594717",
-      "tradeType": "jeonse",
-      "dong": "111동",
-      "floor": "1/22",
-      "price": 47000,
-      "priceText": "4억 7,000만원",
-      "pyeong": 35,
-      "supplyArea": 115,
-      "exclusiveArea": 84,
-      "type": "115㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "아이 생활 편한 1층,즉시 입주,베란다 있는 구조,명륜초 바로 옆",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "1층",
-        "방세개"
-      ],
-      "agency": "리체공인중개사",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -382028,7 +382007,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658314210",
@@ -382262,7 +382241,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659989145",
@@ -382314,7 +382293,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659980686",
@@ -382444,32 +382423,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": false
-    },
-    {
-      "id": "103343-sale-2654612660",
-      "articleNo": "2654612660",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "15/26",
-      "price": 73000,
-      "priceText": "7억 3,000만원",
-      "pyeong": 27,
-      "supplyArea": 90,
-      "exclusiveArea": 62,
-      "type": "90㎡ (전용 62㎡)",
-      "direction": "동향",
-      "desc": "입구 동 산 조망 로얄층 판상형 구조좋아요 주인거주 입주협의",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "동방IPARK공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -382652,58 +382605,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261012",
       "regDate": "2026-10-12",
-      "isNew": false
-    },
-    {
-      "id": "103343-sale-2654461132",
-      "articleNo": "2654461132",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "7/26",
-      "price": 73000,
-      "priceText": "7억 3,000만원",
-      "pyeong": 27,
-      "supplyArea": 90,
-      "exclusiveArea": 62,
-      "type": "90㎡ (전용 62㎡)",
-      "direction": "남향",
-      "desc": "남향, 조용하고 편안한 숲속뷰, 구조 좋고 넓게 나왔어요, 세안고 매매",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "에이스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
-      "id": "103343-sale-2654426331",
-      "articleNo": "2654426331",
-      "tradeType": "sale",
-      "dong": "113동",
-      "floor": "17/21",
-      "price": 73000,
-      "priceText": "7억 3,000만원",
-      "pyeong": 27,
-      "supplyArea": 90,
-      "exclusiveArea": 62,
-      "type": "90㎡ (전용 62㎡)",
-      "direction": "남향",
-      "desc": "출입편리하고 조망트인 귀한 고층, 층간소음 걱정 없음, 12월 이사협의",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "에이스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -382964,7 +382865,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660244145",
@@ -383068,7 +382969,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2657492942",
@@ -383305,58 +383206,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "103343-sale-2654463624",
-      "articleNo": "2654463624",
-      "tradeType": "sale",
-      "dong": "104동",
-      "floor": "7/24",
-      "price": 78000,
-      "priceText": "7억 8,000만원",
-      "pyeong": 35,
-      "supplyArea": 115,
-      "exclusiveArea": 84,
-      "type": "115㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "조용하고 편안한 숲속뷰, 공기좋고 밝은 집, 넓은 구조, 이사협의가능",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "에이스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
-      "id": "103343-sale-2654529415",
-      "articleNo": "2654529415",
-      "tradeType": "sale",
-      "dong": "104동",
-      "floor": "7/24",
-      "price": 78000,
-      "priceText": "7억 8,000만원",
-      "pyeong": 35,
-      "supplyArea": 115,
-      "exclusiveArea": 84,
-      "type": "115㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "산조망 조용하고 공기좋은곳",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "현대I`PARK공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "103343-sale-2660531719",
       "articleNo": "2660531719",
       "tradeType": "sale",
@@ -383380,7 +383229,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659405477",
@@ -383591,32 +383440,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "103343-sale-2654627140",
-      "articleNo": "2654627140",
-      "tradeType": "sale",
-      "dong": "111동",
-      "floor": "7/22",
-      "price": 79000,
-      "priceText": "7억 9,000만원",
-      "pyeong": 35,
-      "supplyArea": 115,
-      "exclusiveArea": 84,
-      "type": "115㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "세안고매매,판상형,입구동 명륜초 인접동",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "전채연부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "103343-sale-2656257241",
       "articleNo": "2656257241",
       "tradeType": "sale",
@@ -383692,7 +383515,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660270683",
@@ -383926,7 +383749,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660269431",
@@ -384082,7 +383905,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658314220",
@@ -384345,6 +384168,87 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "103343-sale-2657342574",
+      "articleNo": "2657342574",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "저/26",
+      "price": 82000,
+      "priceText": "8억 2,000만원",
+      "pyeong": 35,
+      "supplyArea": 115,
+      "exclusiveArea": 84,
+      "type": "115㎡ (전용 84㎡)",
+      "direction": "남향",
+      "desc": "판상형, 남향, 단지 조망, 관리잘된 깨끗한집, 이사협의,매매가조율",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "명륜탑부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261023",
+      "regDate": "2026-10-23",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "103343-sale-2657054101",
+      "articleNo": "2657054101",
+      "tradeType": "sale",
+      "dong": "113동",
+      "floor": "저/21",
+      "price": 82000,
+      "priceText": "8억 2,000만원",
+      "pyeong": 35,
+      "supplyArea": 115,
+      "exclusiveArea": 84,
+      "type": "115㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "탁트인뷰, 판상형구조,입구동이라 출입편리해요.",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "친절부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261022",
+      "regDate": "2026-10-22",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "103343-sale-2655320400",
+      "articleNo": "2655320400",
+      "tradeType": "sale",
+      "dong": "104동",
+      "floor": "16/24",
+      "price": 82000,
+      "priceText": "8억 2,000만원",
+      "pyeong": 35,
+      "supplyArea": 115,
+      "exclusiveArea": 84,
+      "type": "115㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "현 전세임대27. 11안고 매매. 읍성 조망권이 좋아요",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "대박공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261014",
+      "regDate": "2026-10-14",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
       "id": "103343-sale-2660270397",
       "articleNo": "2660270397",
       "tradeType": "sale",
@@ -384527,32 +384431,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "103343-sale-2654384803",
-      "articleNo": "2654384803",
-      "tradeType": "sale",
-      "dong": "106동",
-      "floor": "저/23",
-      "price": 92000,
-      "priceText": "9억 2,000만원",
-      "pyeong": 43,
-      "supplyArea": 143,
-      "exclusiveArea": 109,
-      "type": "143㎡ (전용 109㎡)",
-      "direction": "남동향",
-      "desc": "시스템에어컨유 전세안고매매 1층선호세대환영 생활편리주차편리동",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "동방IPARK공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "103343-sale-2660636421",
       "articleNo": "2660636421",
       "tradeType": "sale",
@@ -384576,7 +384454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2655206638",
@@ -384605,32 +384483,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "103343-sale-2654583803",
-      "articleNo": "2654583803",
-      "tradeType": "sale",
-      "dong": "103동",
-      "floor": "저/28",
-      "price": 94000,
-      "priceText": "9억 4,000만원",
-      "pyeong": 43,
-      "supplyArea": 143,
-      "exclusiveArea": 110,
-      "type": "143㎡ (전용 110㎡)",
-      "direction": "남향",
-      "desc": "남향 ,1층 ,초록초록단지조망 ,전원주택느낌,어린자녀세대강추,조용한동",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "대형평수",
-        "방세개"
-      ],
-      "agency": "동방IPARK공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "103343-sale-2660567563",
       "articleNo": "2660567563",
       "tradeType": "sale",
@@ -384654,7 +384506,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659989665",
@@ -384784,32 +384636,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261014",
       "regDate": "2026-10-14",
-      "isNew": false
-    },
-    {
-      "id": "103343-sale-2654462054",
-      "articleNo": "2654462054",
-      "tradeType": "sale",
-      "dong": "107동",
-      "floor": "1/18",
-      "price": 95000,
-      "priceText": "9억 5,000만원",
-      "pyeong": 43,
-      "supplyArea": 143,
-      "exclusiveArea": 109,
-      "type": "143㎡ (전용 109㎡)",
-      "direction": "남동향",
-      "desc": "아이키우기 좋은 집, 선호하는 구조, 방4, 주차 출입등 생활환경 편리",
-      "tags": [
-        "15년이내",
-        "대단지",
-        "1층",
-        "대형평수"
-      ],
-      "agency": "에이스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -384966,7 +384792,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660582153",
@@ -384992,7 +384818,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660008418",
@@ -385383,6 +385209,87 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261030",
       "regDate": "2026-10-30",
       "isNew": false
+    },
+    {
+      "id": "103343-sale-2654882729",
+      "articleNo": "2654882729",
+      "tradeType": "sale",
+      "dong": "103동",
+      "floor": "3/28",
+      "price": 100000,
+      "priceText": "10억원",
+      "pyeong": 48,
+      "supplyArea": 159,
+      "exclusiveArea": 126,
+      "type": "159㎡ (전용 126㎡)",
+      "direction": "남동향",
+      "desc": "산조망 화이트톤부분인테리어 저층이라 엘베 없이 이동 편리 매매절충가",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "동방IPARK공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261012",
+      "regDate": "2026-10-12",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "103343-sale-2654835017",
+      "articleNo": "2654835017",
+      "tradeType": "sale",
+      "dong": "102동",
+      "floor": "중/26",
+      "price": 100000,
+      "priceText": "10억원",
+      "pyeong": 43,
+      "supplyArea": 143,
+      "exclusiveArea": 109,
+      "type": "143㎡ (전용 109㎡)",
+      "direction": "남동향",
+      "desc": "전세 안고 매매, 출입 편리한 입구 동, 편안하고 조용한 숲 조망.",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "리체공인중개사",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261012",
+      "regDate": "2026-10-12",
+      "isNew": false,
+      "isBrandNew": true
+    },
+    {
+      "id": "103343-sale-2660308081",
+      "articleNo": "2660308081",
+      "tradeType": "sale",
+      "dong": "106동",
+      "floor": "21/23",
+      "price": 103000,
+      "priceText": "10억 3,000만원",
+      "pyeong": 43,
+      "supplyArea": 143,
+      "exclusiveArea": 109,
+      "type": "143㎡ (전용 109㎡)",
+      "direction": "남동향",
+      "desc": "접근성 좋은 중앙동, 시스템에어컨4대, 일조 좋고 깨끗하게 관리된 집",
+      "tags": [
+        "15년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "리체공인중개사",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261107",
+      "regDate": "2026-11-07",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "103344": [
@@ -429976,7 +429883,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659298652",
@@ -430210,7 +430117,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2658722882",
@@ -430262,7 +430169,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660155801",
@@ -430756,7 +430663,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660311285",
@@ -431120,7 +431027,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660506595",
@@ -431146,7 +431053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659877258",
@@ -431432,7 +431339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660566099",
@@ -431458,7 +431365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660505877",
@@ -431484,7 +431391,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660480830",
@@ -431510,7 +431417,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660227247",
@@ -432004,7 +431911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660507059",
@@ -432030,7 +431937,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660187571",
@@ -477723,7 +477630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660361939",
@@ -478399,7 +478306,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660293129",
@@ -478555,7 +478462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660588110",
@@ -478581,7 +478488,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660500157",
@@ -478607,7 +478514,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660459914",
@@ -478633,7 +478540,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660458904",
@@ -478659,7 +478566,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2658875259",
@@ -479153,7 +479060,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659470221",
@@ -479335,7 +479242,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660446657",
@@ -479361,7 +479268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2658951526",
@@ -479439,7 +479346,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2655737389",
@@ -479517,7 +479424,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660544367",
@@ -479543,7 +479450,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660048382",
@@ -479832,32 +479739,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "110276-sale-2654460934",
-      "articleNo": "2654460934",
-      "tradeType": "sale",
-      "dong": "102동",
-      "floor": "저/49",
-      "price": 78000,
-      "priceText": "7억 8,000만원",
-      "pyeong": 44,
-      "supplyArea": 144,
-      "exclusiveArea": 105,
-      "type": "144㎡ (전용 105㎡)",
-      "direction": "남동향",
-      "desc": "탁트인 도심뷰 지하철 미남역접  초역세권  햇살잘드는  생활에 편리한집",
-      "tags": [
-        "10년이내",
-        "대형평수",
-        "방네개이상",
-        "화장실두개"
-      ],
-      "agency": "참공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "110276-sale-2660177112",
       "articleNo": "2660177112",
       "tradeType": "sale",
@@ -480142,6 +480023,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261029",
       "regDate": "2026-10-29",
       "isNew": false
+    },
+    {
+      "id": "110276-sale-2658063219",
+      "articleNo": "2658063219",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "고/49",
+      "price": 82000,
+      "priceText": "8억 2,000만원",
+      "pyeong": 44,
+      "supplyArea": 144,
+      "exclusiveArea": 105,
+      "type": "144㎡ (전용 105㎡)",
+      "direction": "남향",
+      "desc": "탁트인뷰.밝고환한남향.에어컨.관리잘된밝고꺠끗한집.전세안고매매.조건협의",
+      "tags": [
+        "10년이내",
+        "대형평수",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "으뜸공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261028",
+      "regDate": "2026-10-28",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "110398": [
@@ -485035,7 +484943,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658968411",
@@ -485347,7 +485255,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660644260",
@@ -485373,7 +485281,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660190098",
@@ -485893,7 +485801,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660265343",
@@ -486231,7 +486139,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660573811",
@@ -486257,7 +486165,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659940755",
@@ -486465,7 +486373,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660744760",
@@ -486491,7 +486399,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658702264",
@@ -486907,7 +486815,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660750830",
@@ -486933,7 +486841,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660309071",
@@ -487609,7 +487517,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659611204",
@@ -506246,7 +506154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660565349",
@@ -506272,7 +506180,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660459393",
@@ -506298,7 +506206,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660177724",
@@ -506740,7 +506648,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659923619",
@@ -506896,7 +506804,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659117548",
@@ -506948,7 +506856,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659178892",
@@ -507104,7 +507012,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659499871",
@@ -507260,32 +507168,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261020",
       "regDate": "2026-10-20",
-      "isNew": false
-    },
-    {
-      "id": "112331-sale-2654513963",
-      "articleNo": "2654513963",
-      "tradeType": "sale",
-      "dong": "111동",
-      "floor": "11/14",
-      "price": 32000,
-      "priceText": "3억 2,000만원",
-      "pyeong": 18,
-      "supplyArea": 59,
-      "exclusiveArea": 39,
-      "type": "59㎡ (전용 39㎡)",
-      "direction": "남향",
-      "desc": "신혼부부,1인가구 강추",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "소형평수",
-        "방세개"
-      ],
-      "agency": "세진공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
       "isNew": false
     },
     {
@@ -507520,7 +507402,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660652775",
@@ -507546,7 +507428,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660358020",
@@ -507676,7 +507558,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660619090",
@@ -507702,7 +507584,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660346442",
@@ -507755,6 +507637,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
       "isNew": false
+    },
+    {
+      "id": "112331-sale-2659533269",
+      "articleNo": "2659533269",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/24",
+      "price": 61000,
+      "priceText": "6억 1,000만원",
+      "pyeong": 26,
+      "supplyArea": 85,
+      "exclusiveArea": 59,
+      "type": "85㎡ (전용 59㎡)",
+      "direction": "남향",
+      "desc": "IU  입구동. 에어컨3대. 중문. 금액조율가능. 이사협의가능",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "아이유부동산중개사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261104",
+      "regDate": "2026-11-04",
+      "isNew": false,
+      "isBrandNew": true
     },
     {
       "id": "112331-sale-2659911666",
@@ -507832,7 +507741,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660695743",
@@ -507858,7 +507767,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660550955",
@@ -507884,7 +507793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660306027",
@@ -508404,7 +508313,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660601647",
@@ -508430,7 +508339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660541436",
@@ -508456,7 +508365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660459502",
@@ -508482,7 +508391,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659149303",
@@ -554146,7 +554055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660545589",
@@ -554172,7 +554081,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660131090",
@@ -554328,7 +554237,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660588213",
@@ -554354,7 +554263,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660547048",
@@ -554380,7 +554289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660491839",
@@ -554406,7 +554315,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660483916",
@@ -554432,7 +554341,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660300289",
@@ -554588,7 +554497,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660154066",
@@ -554692,7 +554601,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2655401085",
@@ -554874,7 +554783,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660484739",
@@ -554900,7 +554809,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660383685",
@@ -555238,7 +555147,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660086427",
@@ -555446,7 +555355,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659776536",
@@ -555628,7 +555537,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659189495",
@@ -555813,32 +555722,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "121631-sale-2654616378",
-      "articleNo": "2654616378",
-      "tradeType": "sale",
-      "dong": "107동",
-      "floor": "저/39",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 30,
-      "supplyArea": 100,
-      "exclusiveArea": 74,
-      "type": "100㎡ (전용 74㎡)",
-      "direction": "동향",
-      "desc": "벽지 조명 공사해서 이쁜집, AC 4, 중문, 식세기 등 다양",
-      "tags": [
-        "10년이내",
-        "방세개",
-        "화장실두개",
-        "세대당1대"
-      ],
-      "agency": "마루공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "121631-sale-2658257221",
       "articleNo": "2658257221",
       "tradeType": "sale",
@@ -555914,7 +555797,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660555255",
@@ -555940,7 +555823,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660415224",
@@ -556148,7 +556031,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660548502",
@@ -556174,7 +556057,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659241667",
@@ -556902,7 +556785,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660551963",
@@ -556928,7 +556811,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659063995",
@@ -557136,7 +557019,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660630601",
@@ -557162,7 +557045,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660628878",
@@ -557188,7 +557071,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660354124",
@@ -557319,6 +557202,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
       "isNew": false
+    },
+    {
+      "id": "121631-sale-2659851219",
+      "articleNo": "2659851219",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "중/38",
+      "price": 57000,
+      "priceText": "5억 7,000만원",
+      "pyeong": 34,
+      "supplyArea": 114,
+      "exclusiveArea": 84,
+      "type": "114㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "인기좋은 판상형구조의 깨끗한 집, 에어컨4대",
+      "tags": [
+        "10년이내",
+        "방세개",
+        "화장실두개",
+        "중층"
+      ],
+      "agency": "금빛SK부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261105",
+      "regDate": "2026-11-05",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "122043": [
@@ -561640,7 +561550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660728741",
@@ -561666,7 +561576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660688128",
@@ -561692,7 +561602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660682835",
@@ -561718,7 +561628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660681534",
@@ -561744,7 +561654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660548336",
@@ -561770,7 +561680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660480394",
@@ -561796,7 +561706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660469174",
@@ -561822,7 +561732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660445663",
@@ -562628,7 +562538,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660445748",
@@ -563278,7 +563188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660751728",
@@ -563304,7 +563214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660738731",
@@ -563330,7 +563240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660738257",
@@ -563356,7 +563266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660729540",
@@ -563382,7 +563292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660728224",
@@ -563408,7 +563318,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660681556",
@@ -563434,7 +563344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660681510",
@@ -563460,7 +563370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660656822",
@@ -563486,7 +563396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660652161",
@@ -563512,7 +563422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660651782",
@@ -563538,7 +563448,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660632673",
@@ -563564,7 +563474,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660622407",
@@ -563590,7 +563500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660615163",
@@ -563616,7 +563526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660599671",
@@ -563642,7 +563552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660560229",
@@ -563668,7 +563578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660552589",
@@ -563694,7 +563604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660549774",
@@ -563720,7 +563630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660548369",
@@ -563746,7 +563656,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660481690",
@@ -563772,7 +563682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660480095",
@@ -563798,7 +563708,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660470306",
@@ -563824,7 +563734,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660469689",
@@ -563850,7 +563760,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660446008",
@@ -564136,7 +564046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660397462",
@@ -564292,7 +564202,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2658251903",
@@ -564708,7 +564618,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660668644",
@@ -564734,7 +564644,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660352500",
@@ -564838,7 +564748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2659679023",
@@ -565176,7 +565086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660379363",
@@ -565852,7 +565762,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660501862",
@@ -565878,7 +565788,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660250937",
@@ -566788,7 +566698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660400017",
@@ -567620,7 +567530,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660208507",
@@ -567856,7 +567766,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2660603839",
@@ -567882,7 +567792,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2660377364",
@@ -568116,7 +568026,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2656557362",
@@ -568194,7 +568104,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660377963",
@@ -568535,32 +568445,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "123443-sale-2654414447",
-      "articleNo": "2654414447",
-      "tradeType": "sale",
-      "dong": "103동",
-      "floor": "저/49",
-      "price": 57000,
-      "priceText": "5억 7,000만원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 84,
-      "type": "118㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "초초급매 학군 좋고 역세권",
-      "tags": [
-        "4년이내",
-        "급매",
-        "화장실두개",
-        "방세개"
-      ],
-      "agency": "서면청담부동산중개",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "123443-sale-2660606581",
       "articleNo": "2660606581",
       "tradeType": "sale",
@@ -568584,7 +568468,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659858538",
@@ -568636,7 +568520,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660684908",
@@ -568662,7 +568546,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660678984",
@@ -568688,7 +568572,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660654968",
@@ -568714,7 +568598,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660649795",
@@ -568740,7 +568624,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659688385",
@@ -568948,7 +568832,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660210470",
@@ -569104,7 +568988,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660572673",
@@ -569130,7 +569014,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660716221",
@@ -569156,7 +569040,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660300857",
@@ -569364,7 +569248,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660496068",
@@ -569390,7 +569274,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2659258609",
@@ -569729,6 +569613,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261012",
       "regDate": "2026-10-12",
       "isNew": false
+    },
+    {
+      "id": "123443-sale-2655811954",
+      "articleNo": "2655811954",
+      "tradeType": "sale",
+      "dong": "103동",
+      "floor": "저/49",
+      "price": 67000,
+      "priceText": "6억 7,000만원",
+      "pyeong": 35,
+      "supplyArea": 116,
+      "exclusiveArea": 84,
+      "type": "116㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "완전급매 풀옵션 깨끗하고 이쁜 실내인테리어  입주협의",
+      "tags": [
+        "4년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "온천sk공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261016",
+      "regDate": "2026-10-16",
+      "isNew": false,
+      "isBrandNew": true
     }
   ],
   "123638": [
@@ -595913,32 +595824,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "127894-jeonse-2654632537",
-      "articleNo": "2654632537",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "10/35",
-      "price": 30000,
-      "priceText": "3억원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남동향",
-      "desc": "다용도실 넓은 59B 엘베2 에어컨4 중문 줄눈 커뮤니티 이용 편한 라인",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "돈되는부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "127894-jeonse-2655465725",
       "articleNo": "2655465725",
       "tradeType": "jeonse",
@@ -596664,7 +596549,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660400465",
@@ -597106,7 +596991,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660073871",
@@ -597340,7 +597225,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660169670",
@@ -597652,7 +597537,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660505120",
@@ -597678,7 +597563,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660409389",
@@ -597964,7 +597849,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660494171",
@@ -597990,7 +597875,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660454870",
@@ -598224,7 +598109,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660330185",
@@ -612136,7 +612021,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660561020",
@@ -612162,7 +612047,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660479364",
@@ -612188,7 +612073,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660389355",
@@ -612997,32 +612882,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2654461774",
-      "articleNo": "2654461774",
-      "tradeType": "jeonse",
-      "dong": "310동",
-      "floor": "고/29",
-      "price": 35000,
-      "priceText": "3억 5,000만원",
-      "pyeong": 25,
-      "supplyArea": 81,
-      "exclusiveArea": 59,
-      "type": "81㎡ (전용 59㎡)",
-      "direction": "남동향",
-      "desc": "선순위대출 있음 막힘없는뷰  생활편리 거제여중 5분거리 이사협의",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "제일공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261010",
-      "regDate": "2026-10-10",
-      "isNew": false
-    },
-    {
       "id": "136343-jeonse-2660351492",
       "articleNo": "2660351492",
       "tradeType": "jeonse",
@@ -613176,7 +613035,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660585449",
@@ -613202,7 +613061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660560987",
@@ -613228,7 +613087,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660526081",
@@ -613254,7 +613113,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660351522",
@@ -613644,7 +613503,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660732562",
@@ -613670,7 +613529,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660575821",
@@ -613696,7 +613555,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660574834",
@@ -613722,7 +613581,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660561031",
@@ -613748,7 +613607,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660531773",
@@ -613774,7 +613633,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660523587",
@@ -613800,7 +613659,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660481430",
@@ -613826,7 +613685,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660398144",
@@ -614736,7 +614595,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660404509",
@@ -614996,7 +614855,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659706850",
@@ -615308,7 +615167,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660528052",
@@ -615334,7 +615193,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660401379",
@@ -616036,7 +615895,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660674604",
@@ -616062,7 +615921,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660573630",
@@ -616088,7 +615947,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660527561",
@@ -616114,7 +615973,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660494954",
@@ -616140,7 +615999,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660341656",
@@ -616972,7 +616831,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660666527",
@@ -616998,7 +616857,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660575339",
@@ -617024,7 +616883,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660574295",
@@ -617050,7 +616909,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660573894",
@@ -617076,7 +616935,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660573478",
@@ -617102,7 +616961,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660571223",
@@ -617128,7 +616987,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660568830",
@@ -617154,7 +617013,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660539996",
@@ -617180,7 +617039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660526564",
@@ -617206,7 +617065,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660482257",
@@ -617232,7 +617091,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660459113",
@@ -617258,7 +617117,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660418982",
@@ -618480,7 +618339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2659886548",
@@ -626056,7 +625915,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660590112",
@@ -626082,7 +625941,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660531483",
@@ -626108,7 +625967,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660497997",
@@ -626134,7 +625993,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660343822",
@@ -626446,7 +626305,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660702555",
@@ -626472,7 +626331,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660681333",
@@ -626498,7 +626357,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660540571",
@@ -626524,7 +626383,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660532297",
@@ -626550,7 +626409,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660525123",
@@ -626576,7 +626435,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660493440",
@@ -626602,7 +626461,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660369263",
@@ -626914,7 +626773,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660728306",
@@ -626940,7 +626799,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660728278",
@@ -626966,7 +626825,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660727916",
@@ -626992,7 +626851,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660724781",
@@ -627018,7 +626877,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660702541",
@@ -627044,7 +626903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660556789",
@@ -627070,7 +626929,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660556744",
@@ -627096,7 +626955,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660549727",
@@ -627122,7 +626981,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660533942",
@@ -627148,7 +627007,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660533129",
@@ -627174,7 +627033,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660529356",
@@ -627200,7 +627059,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660522247",
@@ -627226,7 +627085,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660501193",
@@ -627252,7 +627111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660497138",
@@ -627278,7 +627137,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660494168",
@@ -627304,7 +627163,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660419369",
@@ -627330,7 +627189,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659280055",
@@ -628630,7 +628489,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660040545",
@@ -629020,7 +628879,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659908931",
@@ -629280,7 +629139,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660064296",
@@ -630242,7 +630101,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660374669",
@@ -630554,7 +630413,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660671135",
@@ -630580,7 +630439,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660699079",
@@ -630606,7 +630465,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660588609",
@@ -630632,7 +630491,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660410138",
@@ -692243,7 +692102,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660728741",
@@ -692269,7 +692128,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660688128",
@@ -692295,7 +692154,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660682835",
@@ -692321,7 +692180,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660681534",
@@ -692347,7 +692206,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660548336",
@@ -692373,7 +692232,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660480394",
@@ -692399,7 +692258,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660469174",
@@ -692425,7 +692284,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660445663",
@@ -693231,7 +693090,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660445748",
@@ -693881,7 +693740,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660751728",
@@ -693907,7 +693766,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660738731",
@@ -693933,7 +693792,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660738257",
@@ -693959,7 +693818,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660729540",
@@ -693985,7 +693844,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660728224",
@@ -694011,7 +693870,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660681556",
@@ -694037,7 +693896,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660681510",
@@ -694063,7 +693922,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660656822",
@@ -694089,7 +693948,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660652161",
@@ -694115,7 +693974,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660651782",
@@ -694141,7 +694000,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660632673",
@@ -694167,7 +694026,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660622407",
@@ -694193,7 +694052,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660615163",
@@ -694219,7 +694078,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660599671",
@@ -694245,7 +694104,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660560229",
@@ -694271,7 +694130,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660552589",
@@ -694297,7 +694156,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660549774",
@@ -694323,7 +694182,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660548369",
@@ -694349,7 +694208,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660481690",
@@ -694375,7 +694234,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660480095",
@@ -694401,7 +694260,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660470306",
@@ -694427,7 +694286,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660469689",
@@ -694453,7 +694312,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660446008",
@@ -694739,7 +694598,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660397462",
@@ -694895,7 +694754,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2658251903",
@@ -695311,7 +695170,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660668644",
@@ -695337,7 +695196,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660352500",
@@ -695441,7 +695300,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2659679023",
@@ -695779,7 +695638,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660379363",
@@ -696455,7 +696314,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660501862",
@@ -696481,7 +696340,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660250937",
@@ -697391,7 +697250,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660400017",
@@ -698223,7 +698082,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660208507",
@@ -698398,7 +698257,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660561020",
@@ -698424,7 +698283,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660479364",
@@ -698450,7 +698309,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660389355",
@@ -699259,32 +699118,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2654461774",
-        "articleNo": "2654461774",
-        "tradeType": "jeonse",
-        "dong": "310동",
-        "floor": "고/29",
-        "price": 35000,
-        "priceText": "3억 5,000만원",
-        "pyeong": 25,
-        "supplyArea": 81,
-        "exclusiveArea": 59,
-        "type": "81㎡ (전용 59㎡)",
-        "direction": "남동향",
-        "desc": "선순위대출 있음 막힘없는뷰  생활편리 거제여중 5분거리 이사협의",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "제일공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "136343-jeonse-2660351492",
         "articleNo": "2660351492",
         "tradeType": "jeonse",
@@ -699438,7 +699271,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660585449",
@@ -699464,7 +699297,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660560987",
@@ -699490,7 +699323,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660526081",
@@ -699516,7 +699349,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660351522",
@@ -699906,7 +699739,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660732562",
@@ -699932,7 +699765,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660575821",
@@ -699958,7 +699791,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660574834",
@@ -699984,7 +699817,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660561031",
@@ -700010,7 +699843,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660531773",
@@ -700036,7 +699869,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660523587",
@@ -700062,7 +699895,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660481430",
@@ -700088,7 +699921,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660398144",
@@ -700998,7 +700831,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660404509",
@@ -701258,7 +701091,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659706850",
@@ -701570,7 +701403,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660528052",
@@ -701596,7 +701429,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660401379",
@@ -702298,7 +702131,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660674604",
@@ -702324,7 +702157,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660573630",
@@ -702350,7 +702183,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660527561",
@@ -702376,7 +702209,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660494954",
@@ -702402,7 +702235,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660341656",
@@ -703234,7 +703067,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660666527",
@@ -703260,7 +703093,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660575339",
@@ -703286,7 +703119,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660574295",
@@ -703312,7 +703145,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660573894",
@@ -703338,7 +703171,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660573478",
@@ -703364,7 +703197,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660571223",
@@ -703390,7 +703223,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660568830",
@@ -703416,7 +703249,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660539996",
@@ -703442,7 +703275,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660526564",
@@ -703468,7 +703301,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660482257",
@@ -703494,7 +703327,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660459113",
@@ -703520,7 +703353,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660418982",
@@ -704742,7 +704575,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2659886548",
@@ -705125,7 +704958,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660590112",
@@ -705151,7 +704984,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660531483",
@@ -705177,7 +705010,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660497997",
@@ -705203,7 +705036,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660343822",
@@ -705515,7 +705348,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660702555",
@@ -705541,7 +705374,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660681333",
@@ -705567,7 +705400,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660540571",
@@ -705593,7 +705426,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660532297",
@@ -705619,7 +705452,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660525123",
@@ -705645,7 +705478,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660493440",
@@ -705671,7 +705504,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660369263",
@@ -705983,7 +705816,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660728306",
@@ -706009,7 +705842,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660728278",
@@ -706035,7 +705868,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660727916",
@@ -706061,7 +705894,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660724781",
@@ -706087,7 +705920,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660702541",
@@ -706113,7 +705946,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660556789",
@@ -706139,7 +705972,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660556744",
@@ -706165,7 +705998,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660549727",
@@ -706191,7 +706024,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660533942",
@@ -706217,7 +706050,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660533129",
@@ -706243,7 +706076,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660529356",
@@ -706269,7 +706102,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660522247",
@@ -706295,7 +706128,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660501193",
@@ -706321,7 +706154,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660497138",
@@ -706347,7 +706180,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660494168",
@@ -706373,7 +706206,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660419369",
@@ -706399,7 +706232,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659280055",
@@ -707699,7 +707532,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660040545",
@@ -708089,7 +707922,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659908931",
@@ -708349,7 +708182,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660064296",
@@ -709311,7 +709144,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660374669",
@@ -709623,7 +709456,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660671135",
@@ -709649,7 +709482,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660699079",
@@ -709675,7 +709508,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660588609",
@@ -709701,7 +709534,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660410138",
@@ -711566,7 +711399,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660361939",
@@ -712242,7 +712075,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660293129",
@@ -712398,7 +712231,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660588110",
@@ -712424,7 +712257,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660500157",
@@ -712450,7 +712283,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660459914",
@@ -712476,7 +712309,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660458904",
@@ -712502,7 +712335,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2658875259",
@@ -712996,7 +712829,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659470221",
@@ -713178,7 +713011,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660446657",
@@ -713204,7 +713037,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2658951526",
@@ -713282,7 +713115,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2655737389",
@@ -713360,7 +713193,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660544367",
@@ -713386,7 +713219,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660048382",
@@ -713675,32 +713508,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "110276-sale-2654460934",
-        "articleNo": "2654460934",
-        "tradeType": "sale",
-        "dong": "102동",
-        "floor": "저/49",
-        "price": 78000,
-        "priceText": "7억 8,000만원",
-        "pyeong": 44,
-        "supplyArea": 144,
-        "exclusiveArea": 105,
-        "type": "144㎡ (전용 105㎡)",
-        "direction": "남동향",
-        "desc": "탁트인 도심뷰 지하철 미남역접  초역세권  햇살잘드는  생활에 편리한집",
-        "tags": [
-          "10년이내",
-          "대형평수",
-          "방네개이상",
-          "화장실두개"
-        ],
-        "agency": "참공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "110276-sale-2660177112",
         "articleNo": "2660177112",
         "tradeType": "sale",
@@ -713985,6 +713792,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261029",
         "regDate": "2026-10-29",
         "isNew": false
+      },
+      {
+        "id": "110276-sale-2658063219",
+        "articleNo": "2658063219",
+        "tradeType": "sale",
+        "dong": "101동",
+        "floor": "고/49",
+        "price": 82000,
+        "priceText": "8억 2,000만원",
+        "pyeong": 44,
+        "supplyArea": 144,
+        "exclusiveArea": 105,
+        "type": "144㎡ (전용 105㎡)",
+        "direction": "남향",
+        "desc": "탁트인뷰.밝고환한남향.에어컨.관리잘된밝고꺠끗한집.전세안고매매.조건협의",
+        "tags": [
+          "10년이내",
+          "대형평수",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "으뜸공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261028",
+        "regDate": "2026-10-28",
+        "isNew": false,
+        "isBrandNew": true
       }
     ]
   },
@@ -714029,7 +713863,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2659005463",
@@ -714081,32 +713915,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261020",
         "regDate": "2026-10-20",
-        "isNew": false
-      },
-      {
-        "id": "103343-jeonse-2654594717",
-        "articleNo": "2654594717",
-        "tradeType": "jeonse",
-        "dong": "111동",
-        "floor": "1/22",
-        "price": 47000,
-        "priceText": "4억 7,000만원",
-        "pyeong": 35,
-        "supplyArea": 115,
-        "exclusiveArea": 84,
-        "type": "115㎡ (전용 84㎡)",
-        "direction": "동향",
-        "desc": "아이 생활 편한 1층,즉시 입주,베란다 있는 구조,명륜초 바로 옆",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "1층",
-          "방세개"
-        ],
-        "agency": "리체공인중개사",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
         "isNew": false
       },
       {
@@ -714211,7 +714019,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658314210",
@@ -714445,7 +714253,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659989145",
@@ -714497,7 +714305,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659980686",
@@ -714627,32 +714435,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": false
-      },
-      {
-        "id": "103343-sale-2654612660",
-        "articleNo": "2654612660",
-        "tradeType": "sale",
-        "dong": "102동",
-        "floor": "15/26",
-        "price": 73000,
-        "priceText": "7억 3,000만원",
-        "pyeong": 27,
-        "supplyArea": 90,
-        "exclusiveArea": 62,
-        "type": "90㎡ (전용 62㎡)",
-        "direction": "동향",
-        "desc": "입구 동 산 조망 로얄층 판상형 구조좋아요 주인거주 입주협의",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "동방IPARK공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
         "isNew": false
       },
       {
@@ -714835,58 +714617,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261012",
         "regDate": "2026-10-12",
-        "isNew": false
-      },
-      {
-        "id": "103343-sale-2654461132",
-        "articleNo": "2654461132",
-        "tradeType": "sale",
-        "dong": "101동",
-        "floor": "7/26",
-        "price": 73000,
-        "priceText": "7억 3,000만원",
-        "pyeong": 27,
-        "supplyArea": 90,
-        "exclusiveArea": 62,
-        "type": "90㎡ (전용 62㎡)",
-        "direction": "남향",
-        "desc": "남향, 조용하고 편안한 숲속뷰, 구조 좋고 넓게 나왔어요, 세안고 매매",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "에이스공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
-        "id": "103343-sale-2654426331",
-        "articleNo": "2654426331",
-        "tradeType": "sale",
-        "dong": "113동",
-        "floor": "17/21",
-        "price": 73000,
-        "priceText": "7억 3,000만원",
-        "pyeong": 27,
-        "supplyArea": 90,
-        "exclusiveArea": 62,
-        "type": "90㎡ (전용 62㎡)",
-        "direction": "남향",
-        "desc": "출입편리하고 조망트인 귀한 고층, 층간소음 걱정 없음, 12월 이사협의",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "에이스공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
         "isNew": false
       },
       {
@@ -715147,7 +714877,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660244145",
@@ -715251,7 +714981,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2657492942",
@@ -715488,58 +715218,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "103343-sale-2654463624",
-        "articleNo": "2654463624",
-        "tradeType": "sale",
-        "dong": "104동",
-        "floor": "7/24",
-        "price": 78000,
-        "priceText": "7억 8,000만원",
-        "pyeong": 35,
-        "supplyArea": 115,
-        "exclusiveArea": 84,
-        "type": "115㎡ (전용 84㎡)",
-        "direction": "동향",
-        "desc": "조용하고 편안한 숲속뷰, 공기좋고 밝은 집, 넓은 구조, 이사협의가능",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "에이스공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
-        "id": "103343-sale-2654529415",
-        "articleNo": "2654529415",
-        "tradeType": "sale",
-        "dong": "104동",
-        "floor": "7/24",
-        "price": 78000,
-        "priceText": "7억 8,000만원",
-        "pyeong": 35,
-        "supplyArea": 115,
-        "exclusiveArea": 84,
-        "type": "115㎡ (전용 84㎡)",
-        "direction": "동향",
-        "desc": "산조망 조용하고 공기좋은곳",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "현대I`PARK공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "103343-sale-2660531719",
         "articleNo": "2660531719",
         "tradeType": "sale",
@@ -715563,7 +715241,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659405477",
@@ -715774,32 +715452,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "103343-sale-2654627140",
-        "articleNo": "2654627140",
-        "tradeType": "sale",
-        "dong": "111동",
-        "floor": "7/22",
-        "price": 79000,
-        "priceText": "7억 9,000만원",
-        "pyeong": 35,
-        "supplyArea": 115,
-        "exclusiveArea": 84,
-        "type": "115㎡ (전용 84㎡)",
-        "direction": "동향",
-        "desc": "세안고매매,판상형,입구동 명륜초 인접동",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "전채연부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "103343-sale-2656257241",
         "articleNo": "2656257241",
         "tradeType": "sale",
@@ -715875,7 +715527,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660270683",
@@ -716109,7 +715761,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660269431",
@@ -716265,7 +715917,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658314220",
@@ -716528,6 +716180,87 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "103343-sale-2657342574",
+        "articleNo": "2657342574",
+        "tradeType": "sale",
+        "dong": "102동",
+        "floor": "저/26",
+        "price": 82000,
+        "priceText": "8억 2,000만원",
+        "pyeong": 35,
+        "supplyArea": 115,
+        "exclusiveArea": 84,
+        "type": "115㎡ (전용 84㎡)",
+        "direction": "남향",
+        "desc": "판상형, 남향, 단지 조망, 관리잘된 깨끗한집, 이사협의,매매가조율",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "명륜탑부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261023",
+        "regDate": "2026-10-23",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
+        "id": "103343-sale-2657054101",
+        "articleNo": "2657054101",
+        "tradeType": "sale",
+        "dong": "113동",
+        "floor": "저/21",
+        "price": 82000,
+        "priceText": "8억 2,000만원",
+        "pyeong": 35,
+        "supplyArea": 115,
+        "exclusiveArea": 84,
+        "type": "115㎡ (전용 84㎡)",
+        "direction": "동향",
+        "desc": "탁트인뷰, 판상형구조,입구동이라 출입편리해요.",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "친절부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261022",
+        "regDate": "2026-10-22",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
+        "id": "103343-sale-2655320400",
+        "articleNo": "2655320400",
+        "tradeType": "sale",
+        "dong": "104동",
+        "floor": "16/24",
+        "price": 82000,
+        "priceText": "8억 2,000만원",
+        "pyeong": 35,
+        "supplyArea": 115,
+        "exclusiveArea": 84,
+        "type": "115㎡ (전용 84㎡)",
+        "direction": "동향",
+        "desc": "현 전세임대27. 11안고 매매. 읍성 조망권이 좋아요",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "대박공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261014",
+        "regDate": "2026-10-14",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
         "id": "103343-sale-2660270397",
         "articleNo": "2660270397",
         "tradeType": "sale",
@@ -716710,32 +716443,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "103343-sale-2654384803",
-        "articleNo": "2654384803",
-        "tradeType": "sale",
-        "dong": "106동",
-        "floor": "저/23",
-        "price": 92000,
-        "priceText": "9억 2,000만원",
-        "pyeong": 43,
-        "supplyArea": 143,
-        "exclusiveArea": 109,
-        "type": "143㎡ (전용 109㎡)",
-        "direction": "남동향",
-        "desc": "시스템에어컨유 전세안고매매 1층선호세대환영 생활편리주차편리동",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "대형평수",
-          "방네개이상"
-        ],
-        "agency": "동방IPARK공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "103343-sale-2660636421",
         "articleNo": "2660636421",
         "tradeType": "sale",
@@ -716759,7 +716466,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2655206638",
@@ -716788,32 +716495,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "103343-sale-2654583803",
-        "articleNo": "2654583803",
-        "tradeType": "sale",
-        "dong": "103동",
-        "floor": "저/28",
-        "price": 94000,
-        "priceText": "9억 4,000만원",
-        "pyeong": 43,
-        "supplyArea": 143,
-        "exclusiveArea": 110,
-        "type": "143㎡ (전용 110㎡)",
-        "direction": "남향",
-        "desc": "남향 ,1층 ,초록초록단지조망 ,전원주택느낌,어린자녀세대강추,조용한동",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "대형평수",
-          "방세개"
-        ],
-        "agency": "동방IPARK공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "103343-sale-2660567563",
         "articleNo": "2660567563",
         "tradeType": "sale",
@@ -716837,7 +716518,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659989665",
@@ -716967,32 +716648,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261014",
         "regDate": "2026-10-14",
-        "isNew": false
-      },
-      {
-        "id": "103343-sale-2654462054",
-        "articleNo": "2654462054",
-        "tradeType": "sale",
-        "dong": "107동",
-        "floor": "1/18",
-        "price": 95000,
-        "priceText": "9억 5,000만원",
-        "pyeong": 43,
-        "supplyArea": 143,
-        "exclusiveArea": 109,
-        "type": "143㎡ (전용 109㎡)",
-        "direction": "남동향",
-        "desc": "아이키우기 좋은 집, 선호하는 구조, 방4, 주차 출입등 생활환경 편리",
-        "tags": [
-          "15년이내",
-          "대단지",
-          "1층",
-          "대형평수"
-        ],
-        "agency": "에이스공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
         "isNew": false
       },
       {
@@ -717149,7 +716804,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660582153",
@@ -717175,7 +716830,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660008418",
@@ -717566,6 +717221,87 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261030",
         "regDate": "2026-10-30",
         "isNew": false
+      },
+      {
+        "id": "103343-sale-2654882729",
+        "articleNo": "2654882729",
+        "tradeType": "sale",
+        "dong": "103동",
+        "floor": "3/28",
+        "price": 100000,
+        "priceText": "10억원",
+        "pyeong": 48,
+        "supplyArea": 159,
+        "exclusiveArea": 126,
+        "type": "159㎡ (전용 126㎡)",
+        "direction": "남동향",
+        "desc": "산조망 화이트톤부분인테리어 저층이라 엘베 없이 이동 편리 매매절충가",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "대형평수",
+          "방네개이상"
+        ],
+        "agency": "동방IPARK공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261012",
+        "regDate": "2026-10-12",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
+        "id": "103343-sale-2654835017",
+        "articleNo": "2654835017",
+        "tradeType": "sale",
+        "dong": "102동",
+        "floor": "중/26",
+        "price": 100000,
+        "priceText": "10억원",
+        "pyeong": 43,
+        "supplyArea": 143,
+        "exclusiveArea": 109,
+        "type": "143㎡ (전용 109㎡)",
+        "direction": "남동향",
+        "desc": "전세 안고 매매, 출입 편리한 입구 동, 편안하고 조용한 숲 조망.",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "대형평수",
+          "방네개이상"
+        ],
+        "agency": "리체공인중개사",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261012",
+        "regDate": "2026-10-12",
+        "isNew": false,
+        "isBrandNew": true
+      },
+      {
+        "id": "103343-sale-2660308081",
+        "articleNo": "2660308081",
+        "tradeType": "sale",
+        "dong": "106동",
+        "floor": "21/23",
+        "price": 103000,
+        "priceText": "10억 3,000만원",
+        "pyeong": 43,
+        "supplyArea": 143,
+        "exclusiveArea": 109,
+        "type": "143㎡ (전용 109㎡)",
+        "direction": "남동향",
+        "desc": "접근성 좋은 중앙동, 시스템에어컨4대, 일조 좋고 깨끗하게 관리된 집",
+        "tags": [
+          "15년이내",
+          "대단지",
+          "대형평수",
+          "방네개이상"
+        ],
+        "agency": "리체공인중개사",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261107",
+        "regDate": "2026-11-07",
+        "isNew": false,
+        "isBrandNew": true
       }
     ]
   },
@@ -717688,7 +717424,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2660603839",
@@ -717714,7 +717450,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2660377364",
@@ -717948,7 +717684,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2656557362",
@@ -718026,7 +717762,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660377963",
@@ -718367,32 +718103,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "123443-sale-2654414447",
-        "articleNo": "2654414447",
-        "tradeType": "sale",
-        "dong": "103동",
-        "floor": "저/49",
-        "price": 57000,
-        "priceText": "5억 7,000만원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 84,
-        "type": "118㎡ (전용 84㎡)",
-        "direction": "남동향",
-        "desc": "초초급매 학군 좋고 역세권",
-        "tags": [
-          "4년이내",
-          "급매",
-          "화장실두개",
-          "방세개"
-        ],
-        "agency": "서면청담부동산중개",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261010",
-        "regDate": "2026-10-10",
-        "isNew": false
-      },
-      {
         "id": "123443-sale-2660606581",
         "articleNo": "2660606581",
         "tradeType": "sale",
@@ -718416,7 +718126,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659858538",
@@ -718468,7 +718178,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660684908",
@@ -718494,7 +718204,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660678984",
@@ -718520,7 +718230,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660654968",
@@ -718546,7 +718256,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660649795",
@@ -718572,7 +718282,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659688385",
@@ -718780,7 +718490,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660210470",
@@ -718936,7 +718646,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660572673",
@@ -718962,7 +718672,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660716221",
@@ -718988,7 +718698,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660300857",
@@ -719196,7 +718906,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660496068",
@@ -719222,7 +718932,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2659258609",
@@ -719561,6 +719271,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261012",
         "regDate": "2026-10-12",
         "isNew": false
+      },
+      {
+        "id": "123443-sale-2655811954",
+        "articleNo": "2655811954",
+        "tradeType": "sale",
+        "dong": "103동",
+        "floor": "저/49",
+        "price": 67000,
+        "priceText": "6억 7,000만원",
+        "pyeong": 35,
+        "supplyArea": 116,
+        "exclusiveArea": 84,
+        "type": "116㎡ (전용 84㎡)",
+        "direction": "동향",
+        "desc": "완전급매 풀옵션 깨끗하고 이쁜 실내인테리어  입주협의",
+        "tags": [
+          "4년이내",
+          "급매",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "온천sk공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261016",
+        "regDate": "2026-10-16",
+        "isNew": false,
+        "isBrandNew": true
       }
     ]
   }
