@@ -2,6 +2,19 @@
   {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
+    "articleNo": "2660751728",
+    "tradeType": "전세",
+    "dong": "214동",
+    "floor": "14/28",
+    "pyeong": 36,
+    "priceText": "5억 5,000만원",
+    "agency": "래미안모든부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660751728",
+    "discoveredAt": "8:28:31 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
     "articleNo": "2659453664",
     "tradeType": "전세",
     "dong": "103동",
@@ -634,19 +647,6 @@
     "priceText": "5억 8,000만원",
     "agency": "사직소향부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660703916",
-    "discoveredAt": "4:28:50 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2654841258",
-    "tradeType": "매매",
-    "dong": "109동",
-    "floor": "저/25",
-    "pyeong": 42,
-    "priceText": "6억원",
-    "agency": "제일공인중개사사무소(합동)",
-    "directUrl": "https://fin.land.naver.com/articles/2654841258",
     "discoveredAt": "4:28:50 PM"
   }
 ]
