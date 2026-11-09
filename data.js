@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-09 21:29 | 총 375개 단지, 26,446건 실매물
+// 최종 실시간 동기화: 2026-11-09 22:28 | 총 375개 단지, 26,446건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-09",
-  syncTime: "21:29",
-  shortDisplay: "11.09 21:29",
-  fullDisplay: "2026-11-09 21:29",
-  timestamp: 1794227347540,
-  iso: "2026-11-09T12:29:07.540Z",
+  syncTime: "22:28",
+  shortDisplay: "11.09 22:28",
+  fullDisplay: "2026-11-09 22:28",
+  timestamp: 1794230925401,
+  iso: "2026-11-09T13:28:45.401Z",
   complexCount: 375,
   totalArticlesCount: 26446
 };
@@ -563278,8 +563278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660751728",
@@ -597341,8 +597340,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-sale-2660169670",
@@ -597654,8 +597652,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-sale-2660505120",
@@ -693884,8 +693881,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660751728",
