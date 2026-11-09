@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-10 01:29 | 총 375개 단지, 26,440건 실매물
+// 최종 실시간 동기화: 2026-11-10 02:28 | 총 375개 단지, 26,440건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-10",
-  syncTime: "01:29",
-  shortDisplay: "11.10 01:29",
-  fullDisplay: "2026-11-10 01:29",
-  timestamp: 1794241746710,
-  iso: "2026-11-09T16:29:06.710Z",
+  syncTime: "02:28",
+  shortDisplay: "11.10 02:28",
+  fullDisplay: "2026-11-10 02:28",
+  timestamp: 1794245327092,
+  iso: "2026-11-09T17:28:47.092Z",
   complexCount: 375,
   totalArticlesCount: 26440
 };
