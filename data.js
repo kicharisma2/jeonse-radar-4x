@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-10 06:29 | 총 375개 단지, 26,440건 실매물
+// 최종 실시간 동기화: 2026-11-10 07:29 | 총 375개 단지, 26,439건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-10",
-  syncTime: "06:29",
-  shortDisplay: "11.10 06:29",
-  fullDisplay: "2026-11-10 06:29",
-  timestamp: 1794259754618,
-  iso: "2026-11-09T21:29:14.618Z",
+  syncTime: "07:29",
+  shortDisplay: "11.10 07:29",
+  fullDisplay: "2026-11-10 07:29",
+  timestamp: 1794263383221,
+  iso: "2026-11-09T22:29:43.221Z",
   complexCount: 375,
-  totalArticlesCount: 26440
+  totalArticlesCount: 26439
 };
 
 function formatKoreanPrice(val) {
@@ -612113,32 +612113,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2660260588",
-      "articleNo": "2660260588",
-      "tradeType": "jeonse",
-      "dong": "310동",
-      "floor": "고/29",
-      "price": 35000,
-      "priceText": "3억 5,000만원",
-      "pyeong": 25,
-      "supplyArea": 81,
-      "exclusiveArea": 59,
-      "type": "81㎡ (전용 59㎡)",
-      "direction": "남동향",
-      "desc": "802 확트인 뷰에 생활하기에 편리한 입구 동",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "레이802공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261107",
-      "regDate": "2026-11-07",
-      "isNew": false
-    },
-    {
       "id": "136343-jeonse-2660053692",
       "articleNo": "2660053692",
       "tradeType": "jeonse",
@@ -614037,32 +614011,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2659747131",
-      "articleNo": "2659747131",
-      "tradeType": "jeonse",
-      "dong": "403동",
-      "floor": "중/29",
-      "price": 58000,
-      "priceText": "5억 8,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남동향",
-      "desc": "802.확트인 시원한거실뷰  안방붙박이 에4   풀옵션",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "레이802공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261105",
-      "regDate": "2026-11-05",
-      "isNew": false
-    },
-    {
       "id": "136343-jeonse-2659692040",
       "articleNo": "2659692040",
       "tradeType": "jeonse",
@@ -614555,6 +614503,33 @@ const REAL_BUSAN_ARTICLES = {
       "confirmYmd": "20261019",
       "regDate": "2026-10-19",
       "isNew": false
+    },
+    {
+      "id": "136343-jeonse-2656389151",
+      "articleNo": "2656389151",
+      "tradeType": "jeonse",
+      "dong": "403동",
+      "floor": "중/29",
+      "price": 58000,
+      "priceText": "5억 8,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "착한전세가.막힘없이탁트인시원스럽고멋진뷰.에4대등풀옵션.깔끔히관리잘된집",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "도담부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261019",
+      "regDate": "2026-10-19",
+      "isNew": false,
+      "isBrandNew": true
     },
     {
       "id": "136343-jeonse-2660478158",
@@ -698349,32 +698324,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2660260588",
-        "articleNo": "2660260588",
-        "tradeType": "jeonse",
-        "dong": "310동",
-        "floor": "고/29",
-        "price": 35000,
-        "priceText": "3억 5,000만원",
-        "pyeong": 25,
-        "supplyArea": 81,
-        "exclusiveArea": 59,
-        "type": "81㎡ (전용 59㎡)",
-        "direction": "남동향",
-        "desc": "802 확트인 뷰에 생활하기에 편리한 입구 동",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "레이802공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261107",
-        "regDate": "2026-11-07",
-        "isNew": false
-      },
-      {
         "id": "136343-jeonse-2660053692",
         "articleNo": "2660053692",
         "tradeType": "jeonse",
@@ -700273,32 +700222,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2659747131",
-        "articleNo": "2659747131",
-        "tradeType": "jeonse",
-        "dong": "403동",
-        "floor": "중/29",
-        "price": 58000,
-        "priceText": "5억 8,000만원",
-        "pyeong": 34,
-        "supplyArea": 113,
-        "exclusiveArea": 84,
-        "type": "113㎡ (전용 84㎡)",
-        "direction": "남동향",
-        "desc": "802.확트인 시원한거실뷰  안방붙박이 에4   풀옵션",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "레이802공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261105",
-        "regDate": "2026-11-05",
-        "isNew": false
-      },
-      {
         "id": "136343-jeonse-2659692040",
         "articleNo": "2659692040",
         "tradeType": "jeonse",
@@ -700791,6 +700714,33 @@ const DEFAULT_COMPLEXES = [
         "confirmYmd": "20261019",
         "regDate": "2026-10-19",
         "isNew": false
+      },
+      {
+        "id": "136343-jeonse-2656389151",
+        "articleNo": "2656389151",
+        "tradeType": "jeonse",
+        "dong": "403동",
+        "floor": "중/29",
+        "price": 58000,
+        "priceText": "5억 8,000만원",
+        "pyeong": 34,
+        "supplyArea": 113,
+        "exclusiveArea": 84,
+        "type": "113㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "착한전세가.막힘없이탁트인시원스럽고멋진뷰.에4대등풀옵션.깔끔히관리잘된집",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "도담부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261019",
+        "regDate": "2026-10-19",
+        "isNew": false,
+        "isBrandNew": true
       },
       {
         "id": "136343-jeonse-2660478158",
