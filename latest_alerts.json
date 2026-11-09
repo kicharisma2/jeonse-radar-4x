@@ -2,6 +2,45 @@
   {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
+    "articleNo": "2660754867",
+    "tradeType": "전세",
+    "dong": "305동",
+    "floor": "31/35",
+    "pyeong": 34,
+    "priceText": "5억 5,000만원",
+    "agency": "킹덤부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660754867",
+    "discoveredAt": "9:28:53 PM"
+  },
+  {
+    "complexId": 127894,
+    "complexName": "데시앙해링턴플레이스파크시티",
+    "articleNo": "2660755112",
+    "tradeType": "매매",
+    "dong": "109동",
+    "floor": "저/33",
+    "pyeong": 31,
+    "priceText": "4억 8,000만원",
+    "agency": "돈되는부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660755112",
+    "discoveredAt": "9:29:04 PM"
+  },
+  {
+    "complexId": 127894,
+    "complexName": "데시앙해링턴플레이스파크시티",
+    "articleNo": "2660755162",
+    "tradeType": "매매",
+    "dong": "108동",
+    "floor": "1/35",
+    "pyeong": 31,
+    "priceText": "4억 9,000만원",
+    "agency": "돈되는부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660755162",
+    "discoveredAt": "9:29:04 PM"
+  },
+  {
+    "complexId": 123223,
+    "complexName": "동래래미안아이파크",
     "articleNo": "2660751728",
     "tradeType": "전세",
     "dong": "214동",
@@ -608,45 +647,6 @@
     "priceText": "4억 1,000만원",
     "agency": "사직소향부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660699985",
-    "discoveredAt": "4:28:50 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2660687890",
-    "tradeType": "매매",
-    "dong": "122동",
-    "floor": "10/22",
-    "pyeong": 24,
-    "priceText": "4억 2,000만원",
-    "agency": "도울부동산중개법인",
-    "directUrl": "https://fin.land.naver.com/articles/2660687890",
-    "discoveredAt": "4:28:50 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2660709904",
-    "tradeType": "매매",
-    "dong": "121동",
-    "floor": "1/25",
-    "pyeong": 32,
-    "priceText": "4억 9,000만원",
-    "agency": "사직소향부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660709904",
-    "discoveredAt": "4:28:50 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2660703916",
-    "tradeType": "매매",
-    "dong": "123동",
-    "floor": "중/25",
-    "pyeong": 42,
-    "priceText": "5억 8,000만원",
-    "agency": "사직소향부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660703916",
     "discoveredAt": "4:28:50 PM"
   }
 ]
