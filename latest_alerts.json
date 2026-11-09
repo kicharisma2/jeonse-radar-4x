@@ -2,6 +2,32 @@
   {
     "complexId": 136343,
     "complexName": "레이카운티",
+    "articleNo": "2654697161",
+    "tradeType": "매매",
+    "dong": "503동",
+    "floor": "저/18",
+    "pyeong": 20,
+    "priceText": "4억원",
+    "agency": "제일공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2654697161",
+    "discoveredAt": "8:28:52 AM"
+  },
+  {
+    "complexId": 136343,
+    "complexName": "레이카운티",
+    "articleNo": "2660316952",
+    "tradeType": "매매",
+    "dong": "404동",
+    "floor": "고/28",
+    "pyeong": 34,
+    "priceText": "8억원",
+    "agency": "레이조아공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660316952",
+    "discoveredAt": "8:28:52 AM"
+  },
+  {
+    "complexId": 136343,
+    "complexName": "레이카운티",
     "articleNo": "2656389151",
     "tradeType": "전세",
     "dong": "403동",
@@ -622,31 +648,5 @@
     "agency": "우주부동산공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660740619",
     "discoveredAt": "6:28:42 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660728741",
-    "tradeType": "전세",
-    "dong": "103동",
-    "floor": "22/25",
-    "pyeong": 26,
-    "priceText": "4억 3,000만원",
-    "agency": "태경부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660728741",
-    "discoveredAt": "5:29:39 PM"
-  },
-  {
-    "complexId": 123223,
-    "complexName": "동래래미안아이파크",
-    "articleNo": "2660729527",
-    "tradeType": "전세",
-    "dong": "105동",
-    "floor": "저/20",
-    "pyeong": 34,
-    "priceText": "5억 3,000만원",
-    "agency": "래미안아이파크공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660729527",
-    "discoveredAt": "5:29:39 PM"
   }
 ]
