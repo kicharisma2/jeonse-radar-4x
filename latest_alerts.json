@@ -1,5 +1,57 @@
 [
   {
+    "complexId": 146548,
+    "complexName": "래미안포레스티지",
+    "articleNo": "2657626264",
+    "tradeType": "매매",
+    "dong": "204동",
+    "floor": "중/17",
+    "pyeong": 23,
+    "priceText": "5억 4,000만원",
+    "agency": "뉴화림(555-3777)공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2657626264",
+    "discoveredAt": "3:28:55 AM"
+  },
+  {
+    "complexId": 17246,
+    "complexName": "사직쌍용예가",
+    "articleNo": "2660759833",
+    "tradeType": "매매",
+    "dong": "105동",
+    "floor": "저/25",
+    "pyeong": 32,
+    "priceText": "5억 1,300만원",
+    "agency": "사직금빛부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660759833",
+    "discoveredAt": "3:28:55 AM"
+  },
+  {
+    "complexId": 121631,
+    "complexName": "동래3차SK뷰(주상복합)",
+    "articleNo": "2660759203",
+    "tradeType": "매매",
+    "dong": "101동",
+    "floor": "중/38",
+    "pyeong": 30,
+    "priceText": "5억 2,000만원",
+    "agency": "SK탑부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660759203",
+    "discoveredAt": "3:28:57 AM"
+  },
+  {
+    "complexId": 112331,
+    "complexName": "힐스테이트명륜",
+    "articleNo": "2660760122",
+    "tradeType": "전세",
+    "dong": "102동",
+    "floor": "저/26",
+    "pyeong": 34,
+    "priceText": "4억 4,000만원",
+    "agency": "아이유부동산중개사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660760122",
+    "discoveredAt": "3:29:04 AM"
+  },
+  {
     "complexId": 121631,
     "complexName": "동래3차SK뷰(주상복합)",
     "articleNo": "2659851219",
@@ -596,57 +648,5 @@
     "agency": "1번지공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660714023",
     "discoveredAt": "5:29:44 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2660717396",
-    "tradeType": "매매",
-    "dong": "121동",
-    "floor": "1/25",
-    "pyeong": 32,
-    "priceText": "4억 9,000만원",
-    "agency": "1번지공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660717396",
-    "discoveredAt": "5:29:44 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2660717334",
-    "tradeType": "매매",
-    "dong": "121동",
-    "floor": "2/25",
-    "pyeong": 32,
-    "priceText": "5억 1,000만원",
-    "agency": "1번지공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660717334",
-    "discoveredAt": "5:29:44 PM"
-  },
-  {
-    "complexId": 17246,
-    "complexName": "사직쌍용예가",
-    "articleNo": "2658842608",
-    "tradeType": "매매",
-    "dong": "121동",
-    "floor": "12/25",
-    "pyeong": 32,
-    "priceText": "5억 2,500만원",
-    "agency": "하나공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2658842608",
-    "discoveredAt": "5:29:44 PM"
-  },
-  {
-    "complexId": 110733,
-    "complexName": "연제롯데캐슬앤데시앙",
-    "articleNo": "2660714660",
-    "tradeType": "매매",
-    "dong": "104동",
-    "floor": "저/37",
-    "pyeong": 34,
-    "priceText": "4억 4,500만원",
-    "agency": "-",
-    "directUrl": "https://fin.land.naver.com/articles/2660714660",
-    "discoveredAt": "5:29:49 PM"
   }
 ]
