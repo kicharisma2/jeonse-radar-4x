@@ -1,5 +1,44 @@
 [
   {
+    "complexId": 107577,
+    "complexName": "사직롯데캐슬더클래식",
+    "articleNo": "2660994918",
+    "tradeType": "매매",
+    "dong": "102동",
+    "floor": "중/34",
+    "pyeong": 34,
+    "priceText": "12억 7,000만원",
+    "agency": "롯데1번지부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660994918",
+    "discoveredAt": "6:29:22 PM"
+  },
+  {
+    "complexId": 26462,
+    "complexName": "사직쌍용예가2차",
+    "articleNo": "2660994298",
+    "tradeType": "전세",
+    "dong": "206동",
+    "floor": "고/25",
+    "pyeong": 32,
+    "priceText": "4억 2,000만원",
+    "agency": "1번지공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660994298",
+    "discoveredAt": "6:29:24 PM"
+  },
+  {
+    "complexId": 112331,
+    "complexName": "힐스테이트명륜",
+    "articleNo": "2660994452",
+    "tradeType": "전세",
+    "dong": "102동",
+    "floor": "저/26",
+    "pyeong": 34,
+    "priceText": "4억 4,000만원",
+    "agency": "행복한부동산공인중개사사무소",
+    "directUrl": "https://fin.land.naver.com/articles/2660994452",
+    "discoveredAt": "6:29:27 PM"
+  },
+  {
     "complexId": 123223,
     "complexName": "동래래미안아이파크",
     "articleNo": "2660980473",
@@ -609,44 +648,5 @@
     "agency": "효성해링턴대한공인중개사사무소",
     "directUrl": "https://fin.land.naver.com/articles/2660935447",
     "discoveredAt": "3:28:51 PM"
-  },
-  {
-    "complexId": 107577,
-    "complexName": "사직롯데캐슬더클래식",
-    "articleNo": "2660939577",
-    "tradeType": "매매",
-    "dong": "103동",
-    "floor": "중/34",
-    "pyeong": 33,
-    "priceText": "12억 3,000만원",
-    "agency": "사직플래티넘공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660939577",
-    "discoveredAt": "3:28:53 PM"
-  },
-  {
-    "complexId": 107577,
-    "complexName": "사직롯데캐슬더클래식",
-    "articleNo": "2660937321",
-    "tradeType": "매매",
-    "dong": "102동",
-    "floor": "중/34",
-    "pyeong": 34,
-    "priceText": "12억 7,000만원",
-    "agency": "금빛공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660937321",
-    "discoveredAt": "3:28:53 PM"
-  },
-  {
-    "complexId": 26462,
-    "complexName": "사직쌍용예가2차",
-    "articleNo": "2660939282",
-    "tradeType": "매매",
-    "dong": "203동",
-    "floor": "저/22",
-    "pyeong": 46,
-    "priceText": "6억 4,000만원",
-    "agency": "골드부동산공인중개사사무소",
-    "directUrl": "https://fin.land.naver.com/articles/2660939282",
-    "discoveredAt": "3:28:54 PM"
   }
 ]
