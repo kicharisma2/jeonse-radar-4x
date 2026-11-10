@@ -1,13 +1,13 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-10 19:28 | 총 375개 단지, 26,449건 실매물
+// 최종 실시간 동기화: 2026-11-10 20:28 | 총 375개 단지, 26,449건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-10",
-  syncTime: "19:28",
-  shortDisplay: "11.10 19:28",
-  fullDisplay: "2026-11-10 19:28",
-  timestamp: 1794306529688,
-  iso: "2026-11-10T10:28:49.688Z",
+  syncTime: "20:28",
+  shortDisplay: "11.10 20:28",
+  fullDisplay: "2026-11-10 20:28",
+  timestamp: 1794310130410,
+  iso: "2026-11-10T11:28:50.410Z",
   complexCount: 375,
   totalArticlesCount: 26449
 };
@@ -563304,8 +563304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660811622",
@@ -563383,8 +563382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660996745",
@@ -563410,8 +563408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2660985835",
@@ -566791,8 +566788,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2660947454",
@@ -613599,6 +613595,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "136343-jeonse-2661005303",
+      "articleNo": "2661005303",
+      "tradeType": "jeonse",
+      "dong": "403동",
+      "floor": "중/29",
+      "price": 58000,
+      "priceText": "5억 8,000만원",
+      "pyeong": 34,
+      "supplyArea": 113,
+      "exclusiveArea": 84,
+      "type": "113㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "귀한 전세 I 화지산과 겨울 햇살이 너무나 따듯한 집I 주인거주로 깨끗",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "행복한부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261110",
+      "regDate": "2026-11-10",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "136343-jeonse-2660980402",
       "articleNo": "2660980402",
       "tradeType": "jeonse",
@@ -614691,32 +614714,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "136343-jeonse-2656400592",
-      "articleNo": "2656400592",
-      "tradeType": "jeonse",
-      "dong": "403동",
-      "floor": "중/29",
-      "price": 58000,
-      "priceText": "5억 8,000만원",
-      "pyeong": 34,
-      "supplyArea": 113,
-      "exclusiveArea": 84,
-      "type": "113㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "34전세.화지산뷰.풀옵션.빠른입주가",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "명당(明堂)공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261019",
-      "regDate": "2026-10-19",
-      "isNew": false
-    },
-    {
       "id": "136343-jeonse-2660904252",
       "articleNo": "2660904252",
       "tradeType": "jeonse",
@@ -615364,8 +615361,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2660885152",
@@ -693990,8 +693986,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660811622",
@@ -694069,8 +694064,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660996745",
@@ -694096,8 +694090,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2660985835",
@@ -697477,8 +697470,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2660947454",
@@ -699944,6 +699936,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "136343-jeonse-2661005303",
+        "articleNo": "2661005303",
+        "tradeType": "jeonse",
+        "dong": "403동",
+        "floor": "중/29",
+        "price": 58000,
+        "priceText": "5억 8,000만원",
+        "pyeong": 34,
+        "supplyArea": 113,
+        "exclusiveArea": 84,
+        "type": "113㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "귀한 전세 I 화지산과 겨울 햇살이 너무나 따듯한 집I 주인거주로 깨끗",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "행복한부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261110",
+        "regDate": "2026-11-10",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "136343-jeonse-2660980402",
         "articleNo": "2660980402",
         "tradeType": "jeonse",
@@ -701036,32 +701055,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "136343-jeonse-2656400592",
-        "articleNo": "2656400592",
-        "tradeType": "jeonse",
-        "dong": "403동",
-        "floor": "중/29",
-        "price": 58000,
-        "priceText": "5억 8,000만원",
-        "pyeong": 34,
-        "supplyArea": 113,
-        "exclusiveArea": 84,
-        "type": "113㎡ (전용 84㎡)",
-        "direction": "남서향",
-        "desc": "34전세.화지산뷰.풀옵션.빠른입주가",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "명당(明堂)공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261019",
-        "regDate": "2026-10-19",
-        "isNew": false
-      },
-      {
         "id": "136343-jeonse-2660904252",
         "articleNo": "2660904252",
         "tradeType": "jeonse",
@@ -701709,8 +701702,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2660885152",
