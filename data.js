@@ -1,15 +1,15 @@
 // 부산 부동산 레이더 - 마스터 실매물 데이터셋 & 카탈로그
-// 최종 실시간 동기화: 2026-11-20 14:58 | 총 375개 단지, 26,523건 실매물
+// 최종 실시간 동기화: 2026-11-20 15:56 | 총 375개 단지, 26,524건 실매물
 
 const RADAR_SYNC_META = {
   syncDate: "2026-11-20",
-  syncTime: "14:58",
-  shortDisplay: "11.20 14:58",
-  fullDisplay: "2026-11-20 14:58",
-  timestamp: 1795154319692,
-  iso: "2026-11-20T05:58:39.692Z",
+  syncTime: "15:56",
+  shortDisplay: "11.20 15:56",
+  fullDisplay: "2026-11-20 15:56",
+  timestamp: 1795157810522,
+  iso: "2026-11-20T06:56:50.522Z",
   complexCount: 375,
-  totalArticlesCount: 26523
+  totalArticlesCount: 26524
 };
 
 function formatKoreanPrice(val) {
@@ -294611,8 +294611,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2662764609",
@@ -294638,8 +294637,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662724101",
@@ -294665,8 +294663,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662721098",
@@ -294692,8 +294689,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662703388",
@@ -294719,8 +294715,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662599085",
@@ -294746,8 +294741,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661876417",
@@ -294773,8 +294767,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661871896",
@@ -294800,8 +294793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661787036",
@@ -294827,8 +294819,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661679066",
@@ -294854,8 +294845,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2659875694",
@@ -294907,8 +294897,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2662970299",
@@ -294934,8 +294923,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2662876151",
@@ -294961,8 +294949,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662723503",
@@ -294988,8 +294975,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662721530",
@@ -295015,8 +295001,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662640068",
@@ -295042,8 +295027,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662570786",
@@ -295069,8 +295053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662521321",
@@ -295096,8 +295079,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662499421",
@@ -295123,8 +295105,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662489542",
@@ -295150,8 +295131,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662455246",
@@ -295177,8 +295157,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662138746",
@@ -295204,8 +295183,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661916835",
@@ -295231,8 +295209,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2663040375",
@@ -295258,8 +295235,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2661702618",
@@ -295285,8 +295261,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661611175",
@@ -295312,8 +295287,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661152502",
@@ -295339,8 +295313,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660908527",
@@ -295392,8 +295365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662136172",
@@ -295419,8 +295391,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660374710",
@@ -295654,8 +295625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-jeonse-2659646311",
@@ -295733,8 +295703,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662563053",
@@ -295760,8 +295729,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2662556988",
@@ -295787,8 +295755,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2661284598",
@@ -295814,8 +295781,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-jeonse-2660567294",
@@ -295971,8 +295937,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662568928",
@@ -295998,8 +295963,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660906574",
@@ -296233,8 +296197,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662444543",
@@ -296260,8 +296223,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661701437",
@@ -296287,8 +296249,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661589508",
@@ -296314,8 +296275,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662030524",
@@ -296341,8 +296301,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660543380",
@@ -296472,8 +296431,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662491055",
@@ -296499,8 +296457,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2663057036",
@@ -296526,8 +296483,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662561603",
@@ -296553,8 +296509,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662369337",
@@ -296580,8 +296535,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661820799",
@@ -296607,8 +296561,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662572122",
@@ -296634,8 +296587,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660915317",
@@ -296973,8 +296925,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662521898",
@@ -297000,8 +296951,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662973602",
@@ -297027,8 +296977,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662970302",
@@ -297054,8 +297003,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662721535",
@@ -297081,8 +297029,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662720132",
@@ -297108,8 +297055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662570892",
@@ -297135,8 +297081,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662454522",
@@ -297162,8 +297107,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662366076",
@@ -297189,8 +297133,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662134716",
@@ -297216,8 +297159,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661707394",
@@ -297243,8 +297185,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661572516",
@@ -297270,8 +297211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661519506",
@@ -297297,8 +297237,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661247529",
@@ -297324,8 +297263,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661017205",
@@ -297351,8 +297289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662367583",
@@ -297378,8 +297315,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660180894",
@@ -297613,8 +297549,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662765026",
@@ -297640,8 +297575,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660335656",
@@ -297719,8 +297653,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662571365",
@@ -297746,8 +297679,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662454894",
@@ -297773,8 +297705,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661931035",
@@ -297800,8 +297731,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661355775",
@@ -297827,8 +297757,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660912126",
@@ -298036,8 +297965,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662721843",
@@ -298063,8 +297991,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662613487",
@@ -298090,8 +298017,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661672854",
@@ -298117,8 +298043,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660775949",
@@ -298173,6 +298098,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "17246-sale-2663155193",
+      "articleNo": "2663155193",
+      "tradeType": "sale",
+      "dong": "105동",
+      "floor": "중/25",
+      "price": 52000,
+      "priceText": "5억 2,000만원",
+      "pyeong": 32,
+      "supplyArea": 105,
+      "exclusiveArea": 84,
+      "type": "105㎡ (전용 84㎡)",
+      "direction": "동향",
+      "desc": "급매 추천매물,가격 절충 가능, 로얄층, 초품아, 중고등 학원가 도보가능",
+      "tags": [
+        "25년이내",
+        "대단지",
+        "급매",
+        "방세개"
+      ],
+      "agency": "지성공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "17246-sale-2663056779",
       "articleNo": "2663056779",
       "tradeType": "sale",
@@ -298196,8 +298148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662972704",
@@ -298223,8 +298174,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662967577",
@@ -298250,8 +298200,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662845885",
@@ -298277,8 +298226,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662823284",
@@ -298304,8 +298252,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662635483",
@@ -298331,8 +298278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662513767",
@@ -298358,8 +298304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662450818",
@@ -298385,8 +298330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662148721",
@@ -298412,8 +298356,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662060050",
@@ -298439,8 +298382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661769810",
@@ -298466,8 +298408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661728993",
@@ -298493,8 +298434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661719919",
@@ -298520,8 +298460,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661718272",
@@ -298547,8 +298486,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2659080850",
@@ -298577,32 +298515,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "17246-sale-2658821843",
-      "articleNo": "2658821843",
-      "tradeType": "sale",
-      "dong": "121동",
-      "floor": "고/25",
-      "price": 52000,
-      "priceText": "5억 2,000만원",
-      "pyeong": 32,
-      "supplyArea": 105,
-      "exclusiveArea": 84,
-      "type": "105㎡ (전용 84㎡)",
-      "direction": "동향",
-      "desc": "yes32.전세3억5천만 안고 매매 만기 28.2.24 씽크대교체등 깔끔",
-      "tags": [
-        "25년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "예스공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261031",
-      "regDate": "2026-10-31",
-      "isNew": false
-    },
-    {
       "id": "17246-sale-2662202778",
       "articleNo": "2662202778",
       "tradeType": "sale",
@@ -298626,8 +298538,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660576305",
@@ -298705,8 +298616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "17246-sale-2662722118",
@@ -298732,8 +298642,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660911446",
@@ -298811,8 +298720,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662797191",
@@ -298838,8 +298746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662722521",
@@ -298865,8 +298772,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662416241",
@@ -298892,8 +298798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661958147",
@@ -298919,8 +298824,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661410270",
@@ -298946,8 +298850,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660962600",
@@ -299207,8 +299110,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662385598",
@@ -299234,8 +299136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662130200",
@@ -299261,8 +299162,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660199495",
@@ -299366,8 +299266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662843765",
@@ -299393,8 +299292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662249245",
@@ -299420,8 +299318,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661917931",
@@ -299447,8 +299344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661195858",
@@ -299474,8 +299370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661153908",
@@ -299501,8 +299396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2662442734",
@@ -299528,8 +299422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2658823728",
@@ -299581,8 +299474,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2661959012",
@@ -299608,8 +299500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "17246-sale-2660908206",
@@ -362153,8 +362044,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-jeonse-2662746212",
@@ -362180,8 +362070,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662720929",
@@ -362207,8 +362096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662641084",
@@ -362234,8 +362122,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662193769",
@@ -362261,8 +362148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2661917511",
@@ -362288,8 +362174,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2661774411",
@@ -362315,8 +362200,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2660994298",
@@ -362524,8 +362408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659832226",
@@ -362554,6 +362437,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "26462-jeonse-2663160201",
+      "articleNo": "2663160201",
+      "tradeType": "jeonse",
+      "dong": "202동",
+      "floor": "중/19",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 46,
+      "supplyArea": 151,
+      "exclusiveArea": 120,
+      "type": "151㎡ (전용 120㎡)",
+      "direction": "남동향",
+      "desc": "45 입구동 주차편리 방4 초품아 시장근처",
+      "tags": [
+        "25년이내",
+        "대형평수",
+        "방네개이상",
+        "화장실두개"
+      ],
+      "agency": "신일공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "26462-jeonse-2662997922",
       "articleNo": "2662997922",
       "tradeType": "jeonse",
@@ -362577,8 +362487,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-jeonse-2662891662",
@@ -362604,8 +362513,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662723536",
@@ -362631,8 +362539,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662697253",
@@ -362658,8 +362565,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662661830",
@@ -362685,8 +362591,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2662640873",
@@ -362712,8 +362617,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2661767985",
@@ -362739,8 +362643,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2661762895",
@@ -362766,8 +362669,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2661660834",
@@ -362793,8 +362695,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-jeonse-2659415718",
@@ -362846,8 +362747,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659226330",
@@ -362925,8 +362825,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660552008",
@@ -362978,8 +362877,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662951573",
@@ -363005,8 +362903,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662076879",
@@ -363032,8 +362929,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2659836558",
@@ -363111,8 +363007,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662892510",
@@ -363138,8 +363033,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662892222",
@@ -363165,8 +363059,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662783535",
@@ -363192,8 +363085,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662722017",
@@ -363219,8 +363111,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662625118",
@@ -363246,8 +363137,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662443842",
@@ -363273,8 +363163,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662441983",
@@ -363300,8 +363189,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662367495",
@@ -363327,8 +363215,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662276129",
@@ -363354,8 +363241,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662146783",
@@ -363381,8 +363267,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662077441",
@@ -363408,8 +363293,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662059856",
@@ -363435,8 +363319,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662694543",
@@ -363462,8 +363345,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662146825",
@@ -363489,8 +363371,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662139610",
@@ -363516,8 +363397,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660697959",
@@ -363621,8 +363501,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661159587",
@@ -363648,8 +363527,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660876915",
@@ -364143,8 +364021,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662784044",
@@ -364170,8 +364047,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662722425",
@@ -364197,8 +364073,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662719276",
@@ -364224,8 +364099,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662690975",
@@ -364251,8 +364125,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662574050",
@@ -364278,8 +364151,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662489879",
@@ -364305,8 +364177,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662194102",
@@ -364332,8 +364203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662075599",
@@ -364359,8 +364229,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661842136",
@@ -364386,8 +364255,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2663108196",
@@ -364413,8 +364281,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662927422",
@@ -364440,8 +364307,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662856472",
@@ -364467,8 +364333,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662517501",
@@ -364494,8 +364359,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662404596",
@@ -364521,8 +364385,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661918893",
@@ -364548,8 +364411,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2663014739",
@@ -364575,8 +364437,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662797183",
@@ -364602,8 +364463,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662459295",
@@ -364629,8 +364489,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660775382",
@@ -364682,8 +364541,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661246190",
@@ -364709,8 +364567,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660939282",
@@ -365074,8 +364931,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662982309",
@@ -365101,8 +364957,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "26462-sale-2662891933",
@@ -365128,8 +364983,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662813534",
@@ -365155,8 +365009,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662784127",
@@ -365182,8 +365035,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2662574556",
@@ -365209,8 +365061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661687742",
@@ -365236,8 +365087,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661164151",
@@ -365263,8 +365113,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2661159013",
@@ -365290,8 +365139,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660943993",
@@ -365421,8 +365269,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "26462-sale-2660205849",
@@ -382521,8 +382368,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2662552942",
@@ -382548,8 +382394,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2661864211",
@@ -382575,8 +382420,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2661647857",
@@ -382602,8 +382446,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-jeonse-2660821714",
@@ -382681,8 +382524,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2663123752",
@@ -382708,8 +382550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2662082090",
@@ -382735,8 +382576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661894786",
@@ -382762,8 +382602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658314210",
@@ -382893,8 +382732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660865828",
@@ -382946,8 +382784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2660540856",
@@ -382999,8 +382836,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662572001",
@@ -383026,8 +382862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659989145",
@@ -383079,8 +382914,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661748935",
@@ -383106,8 +382940,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661737720",
@@ -383133,8 +382966,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661709414",
@@ -383160,8 +382992,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661708759",
@@ -383187,8 +383018,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661707413",
@@ -383214,8 +383044,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661707286",
@@ -383241,8 +383070,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661703627",
@@ -383268,8 +383096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661646901",
@@ -383295,8 +383122,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661280877",
@@ -383322,8 +383148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660896843",
@@ -383505,8 +383330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662584866",
@@ -383532,8 +383356,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661710816",
@@ -383559,8 +383382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661646978",
@@ -383586,8 +383408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661383042",
@@ -383613,8 +383434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2657102394",
@@ -383718,8 +383538,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661305704",
@@ -383745,8 +383564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661811405",
@@ -383772,8 +383590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662634320",
@@ -383799,8 +383616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662588498",
@@ -383826,8 +383642,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662326191",
@@ -383853,8 +383668,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661894390",
@@ -383880,8 +383694,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661719657",
@@ -383907,8 +383720,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661716127",
@@ -383934,8 +383746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661200532",
@@ -383961,8 +383772,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661200327",
@@ -383988,8 +383798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661200854",
@@ -384015,8 +383824,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2663056772",
@@ -384042,8 +383850,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2660244145",
@@ -384095,8 +383902,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659397099",
@@ -384174,8 +383980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661647015",
@@ -384201,8 +384006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660835085",
@@ -384384,8 +384188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660792035",
@@ -384463,8 +384266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661894866",
@@ -384490,8 +384292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659405477",
@@ -384543,8 +384344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661694371",
@@ -384570,8 +384370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661646816",
@@ -384597,8 +384396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659989576",
@@ -384754,8 +384552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662257427",
@@ -384781,8 +384578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660836029",
@@ -384860,8 +384656,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661753394",
@@ -384887,8 +384682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661311582",
@@ -384914,8 +384708,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660270683",
@@ -385019,8 +384812,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662593570",
@@ -385046,8 +384838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661897609",
@@ -385073,8 +384864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661756506",
@@ -385100,8 +384890,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2663096885",
@@ -385127,8 +384916,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103343-sale-2661739860",
@@ -385154,8 +384942,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661712755",
@@ -385181,8 +384968,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662120542",
@@ -385208,8 +384994,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661903434",
@@ -385235,8 +385020,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661740555",
@@ -385262,8 +385046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661509367",
@@ -385289,8 +385072,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662082466",
@@ -385316,8 +385098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659989665",
@@ -385369,8 +385150,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660270397",
@@ -385578,8 +385358,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660636421",
@@ -385657,8 +385436,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661367498",
@@ -385684,8 +385462,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2657205313",
@@ -385867,8 +385644,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2662363975",
@@ -385894,8 +385670,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661442738",
@@ -385921,8 +385696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2661357415",
@@ -385948,8 +385722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2660593624",
@@ -386053,8 +385826,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2659398025",
@@ -386132,8 +385904,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658776771",
@@ -386185,8 +385956,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103343-sale-2658570561",
@@ -386266,8 +386036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2663107109",
@@ -386293,8 +386062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103344-sale-2660047839",
@@ -386450,8 +386218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2660398678",
@@ -386503,8 +386270,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2662466048",
@@ -386530,8 +386296,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2660067944",
@@ -386713,8 +386478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103344-sale-2657638651",
@@ -386766,8 +386530,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2657658651",
@@ -386819,8 +386582,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "103344-sale-2661647004",
@@ -386846,8 +386608,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2656997297",
@@ -386925,8 +386686,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "103344-sale-2659286448",
@@ -430712,8 +430472,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662972930",
@@ -430739,8 +430498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-jeonse-2662899279",
@@ -430766,8 +430524,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662515032",
@@ -430793,8 +430550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662243725",
@@ -430820,8 +430576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2661906510",
@@ -430847,8 +430602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2661900740",
@@ -430874,8 +430628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662201215",
@@ -430901,8 +430654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2661896478",
@@ -430928,8 +430680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662269321",
@@ -430955,8 +430706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662448577",
@@ -430982,8 +430732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662269416",
@@ -431009,8 +430758,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-jeonse-2662030601",
@@ -431036,8 +430784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659298652",
@@ -431089,8 +430836,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662756852",
@@ -431116,8 +430862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2658807677",
@@ -431169,8 +430914,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2657001414",
@@ -431274,8 +431018,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660748182",
@@ -431353,8 +431096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662452335",
@@ -431380,8 +431122,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660155801",
@@ -431589,8 +431330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662957522",
@@ -431616,8 +431356,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662879409",
@@ -431643,8 +431382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662830346",
@@ -431670,8 +431408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662479076",
@@ -431697,8 +431434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661301588",
@@ -431724,8 +431460,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2659184728",
@@ -431829,8 +431564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661073563",
@@ -431856,8 +431590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660954461",
@@ -432013,8 +431746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662988718",
@@ -432040,8 +431772,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662968204",
@@ -432067,8 +431798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662968183",
@@ -432094,8 +431824,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662878744",
@@ -432121,8 +431850,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662719613",
@@ -432148,8 +431876,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662719612",
@@ -432175,8 +431902,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662684273",
@@ -432202,8 +431928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662504158",
@@ -432229,8 +431954,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662457148",
@@ -432256,8 +431980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662455981",
@@ -432283,8 +432006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662449845",
@@ -432310,8 +432032,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662490425",
@@ -432337,8 +432058,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662479392",
@@ -432364,8 +432084,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662466119",
@@ -432391,8 +432110,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662463535",
@@ -432418,8 +432136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662454214",
@@ -432445,8 +432162,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662042635",
@@ -432472,8 +432188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661579128",
@@ -432499,8 +432214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661485709",
@@ -432526,8 +432240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661420170",
@@ -432553,8 +432266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661368759",
@@ -432580,8 +432292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660655456",
@@ -432633,8 +432344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662461202",
@@ -432660,8 +432370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660165446",
@@ -432791,8 +432500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2663092960",
@@ -432818,8 +432526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662968205",
@@ -432845,8 +432552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "107577-sale-2662880067",
@@ -432872,8 +432578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662830477",
@@ -432899,8 +432604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662719624",
@@ -432926,8 +432630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662472966",
@@ -432953,8 +432656,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662494256",
@@ -432980,8 +432682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662467928",
@@ -433007,8 +432708,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662355855",
@@ -433034,8 +432734,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661584952",
@@ -433061,8 +432760,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661421654",
@@ -433088,8 +432786,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662462508",
@@ -433115,8 +432812,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662458899",
@@ -433142,8 +432838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2658026985",
@@ -433195,8 +432890,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2662356064",
@@ -433222,8 +432916,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661755441",
@@ -433249,8 +432942,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661578025",
@@ -433276,8 +432968,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2661421743",
@@ -433303,8 +432994,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660509417",
@@ -433616,8 +433306,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "107577-sale-2660359705",
@@ -433695,8 +433384,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "107717": [
@@ -478037,8 +477725,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2663118179",
@@ -478064,8 +477751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663116718",
@@ -478091,8 +477777,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663113162",
@@ -478118,8 +477803,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663082920",
@@ -478145,8 +477829,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663082147",
@@ -478172,8 +477855,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663058056",
@@ -478199,8 +477881,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2661214709",
@@ -478226,8 +477907,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2663059331",
@@ -478253,8 +477933,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2662846854",
@@ -478280,8 +477959,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2662395998",
@@ -478307,8 +477985,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2662101950",
@@ -478334,8 +478011,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2663016110",
@@ -478361,8 +478037,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2663022952",
@@ -478388,8 +478063,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-jeonse-2661161612",
@@ -478415,8 +478089,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-jeonse-2658871665",
@@ -478650,8 +478323,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662397392",
@@ -478677,8 +478349,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662043666",
@@ -478704,8 +478375,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661966303",
@@ -478731,8 +478401,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657342692",
@@ -478810,8 +478479,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663136006",
@@ -478837,8 +478505,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663114763",
@@ -478864,8 +478531,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663114188",
@@ -478891,8 +478557,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2662249202",
@@ -478918,8 +478583,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662845808",
@@ -478945,8 +478609,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2663116305",
@@ -478972,8 +478635,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663112551",
@@ -478999,8 +478661,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663112018",
@@ -479026,8 +478687,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663076548",
@@ -479053,8 +478713,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663058346",
@@ -479080,8 +478739,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663054477",
@@ -479107,8 +478765,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2663017134",
@@ -479134,8 +478791,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2662780010",
@@ -479161,8 +478817,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662327953",
@@ -479188,8 +478843,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662161560",
@@ -479215,8 +478869,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661572811",
@@ -479242,8 +478895,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661351641",
@@ -479269,8 +478921,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661303946",
@@ -479296,8 +478947,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661160224",
@@ -479323,8 +478973,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660501242",
@@ -479350,8 +478999,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660519805",
@@ -479559,8 +479207,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2662692756",
@@ -479586,8 +479233,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662274662",
@@ -479613,8 +479259,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661773112",
@@ -479640,8 +479285,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661771860",
@@ -479667,8 +479311,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661598521",
@@ -479694,8 +479337,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661544592",
@@ -479721,8 +479363,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661350674",
@@ -479748,8 +479389,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661303536",
@@ -479775,8 +479415,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659930095",
@@ -479932,8 +479571,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662396751",
@@ -479959,8 +479597,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662100284",
@@ -479986,8 +479623,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662053485",
@@ -480013,8 +479649,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661243873",
@@ -480040,8 +479675,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660900233",
@@ -480223,8 +479857,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2661305377",
@@ -480250,8 +479883,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660935447",
@@ -480407,8 +480039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110276-sale-2661721567",
@@ -480434,8 +480065,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660546780",
@@ -480721,8 +480351,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662831134",
@@ -480748,8 +480377,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662722345",
@@ -480775,8 +480403,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662066455",
@@ -480802,8 +480429,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661966304",
@@ -480829,8 +480455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660177112",
@@ -480908,8 +480533,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660045037",
@@ -481039,8 +480663,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261028",
       "regDate": "2026-10-28",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657485453",
@@ -481066,8 +480689,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261024",
       "regDate": "2026-10-24",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2660045732",
@@ -481093,8 +480715,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659846094",
@@ -481120,8 +480741,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261105",
       "regDate": "2026-11-05",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2659031785",
@@ -481147,8 +480767,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657189100",
@@ -481174,8 +480793,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261023",
       "regDate": "2026-10-23",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2657089899",
@@ -481201,8 +480819,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662103834",
@@ -481228,8 +480845,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2661305200",
@@ -481255,8 +480871,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110276-sale-2662831473",
@@ -481282,8 +480897,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "110398": [
@@ -485813,8 +485427,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2661863760",
@@ -485840,8 +485453,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2662919783",
@@ -485867,8 +485479,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2661604744",
@@ -485894,8 +485505,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2661108317",
@@ -485921,8 +485531,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-jeonse-2658830270",
@@ -486182,8 +485791,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662050981",
@@ -486209,8 +485817,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661454466",
@@ -486236,8 +485843,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661446378",
@@ -486263,8 +485869,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658968411",
@@ -486316,8 +485921,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2662543772",
@@ -486343,8 +485947,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662406855",
@@ -486370,8 +485973,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662230103",
@@ -486397,8 +485999,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661771054",
@@ -486424,8 +486025,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661630913",
@@ -486451,8 +486051,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658951364",
@@ -486582,8 +486181,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662921620",
@@ -486609,8 +486207,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662918284",
@@ -486636,8 +486233,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662729923",
@@ -486663,8 +486259,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662420614",
@@ -486690,8 +486285,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662134156",
@@ -486717,8 +486311,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660513846",
@@ -486770,8 +486363,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661322416",
@@ -486797,8 +486389,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660644260",
@@ -487136,8 +486727,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661811780",
@@ -487163,8 +486753,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661771058",
@@ -487190,8 +486779,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661771056",
@@ -487217,8 +486805,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661632340",
@@ -487244,8 +486831,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2663097818",
@@ -487271,8 +486857,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2658038015",
@@ -487376,8 +486961,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658343311",
@@ -487429,8 +487013,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2663123290",
@@ -487456,8 +487039,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2663045938",
@@ -487483,8 +487065,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2663009233",
@@ -487510,8 +487091,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2661722182",
@@ -487537,8 +487117,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662963441",
@@ -487564,8 +487143,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662771061",
@@ -487591,8 +487169,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661465041",
@@ -487618,8 +487195,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661273314",
@@ -487645,8 +487221,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660573811",
@@ -487802,8 +487377,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2661816652",
@@ -487829,8 +487403,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661771055",
@@ -487856,8 +487429,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661306583",
@@ -487883,8 +487455,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660162570",
@@ -487936,8 +487507,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2658998242",
@@ -488067,8 +487637,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662325971",
@@ -488094,8 +487663,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662249246",
@@ -488121,8 +487689,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661811102",
@@ -488148,8 +487715,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661698397",
@@ -488175,8 +487741,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662858541",
@@ -488202,8 +487767,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660790650",
@@ -488281,8 +487845,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660859323",
@@ -488490,8 +488053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659654726",
@@ -488855,8 +488417,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662803752",
@@ -488882,8 +488443,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661172151",
@@ -488909,8 +488469,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659611204",
@@ -488962,8 +488521,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659986714",
@@ -489041,8 +488599,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662729833",
@@ -489068,8 +488625,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662135114",
@@ -489095,8 +488651,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660309703",
@@ -489304,8 +488859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661628743",
@@ -489331,8 +488885,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660380290",
@@ -489540,8 +489093,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "110733-sale-2662680032",
@@ -489567,8 +489119,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662364952",
@@ -489594,8 +489145,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2661809488",
@@ -489621,8 +489171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660232872",
@@ -489674,8 +489223,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2660292846",
@@ -489831,8 +489379,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2662364369",
@@ -489858,8 +489405,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "110733-sale-2659010387",
@@ -507482,8 +507028,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-jeonse-2662885214",
@@ -507509,8 +507054,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662849933",
@@ -507536,8 +507080,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662846663",
@@ -507563,8 +507106,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662711378",
@@ -507590,8 +507132,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662704473",
@@ -507617,8 +507158,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662583959",
@@ -507644,8 +507184,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662333810",
@@ -507671,8 +507210,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2662214268",
@@ -507698,8 +507236,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2661782671",
@@ -507725,8 +507262,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2661762761",
@@ -507752,8 +507288,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2661659421",
@@ -507779,8 +507314,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2661649932",
@@ -507806,8 +507340,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660993929",
@@ -507833,8 +507366,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660760122",
@@ -508016,8 +507548,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-jeonse-2660994452",
@@ -508069,8 +507600,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662835375",
@@ -508096,8 +507626,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662046517",
@@ -508123,8 +507652,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660725628",
@@ -508280,8 +507808,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2660449990",
@@ -508359,8 +507886,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2659216358",
@@ -508412,8 +507938,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2663106743",
@@ -508439,8 +507964,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662041338",
@@ -508466,8 +507990,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660667237",
@@ -508571,8 +508094,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2660819701",
@@ -508624,8 +508146,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662582877",
@@ -508651,8 +508172,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661356845",
@@ -508678,8 +508198,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661262761",
@@ -508705,8 +508224,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660238046",
@@ -508836,8 +508354,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662847585",
@@ -508863,8 +508380,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662515370",
@@ -508890,8 +508406,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662515186",
@@ -508917,8 +508432,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662330891",
@@ -508944,8 +508458,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661969647",
@@ -508971,8 +508484,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661822256",
@@ -508998,8 +508510,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661064376",
@@ -509025,8 +508536,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661014837",
@@ -509052,8 +508562,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661014719",
@@ -509079,8 +508588,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660449998",
@@ -509184,8 +508692,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662896149",
@@ -509211,8 +508718,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662858849",
@@ -509238,8 +508744,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662854592",
@@ -509265,8 +508770,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662835004",
@@ -509292,8 +508796,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662137362",
@@ -509319,8 +508822,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661648877",
@@ -509346,8 +508848,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661517407",
@@ -509373,8 +508874,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661750983",
@@ -509400,8 +508900,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661494306",
@@ -509427,8 +508926,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660695743",
@@ -509688,8 +509186,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662237653",
@@ -509715,8 +509212,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662171475",
@@ -509742,8 +509238,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662137601",
@@ -509769,8 +509264,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661763993",
@@ -509796,8 +509290,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661659355",
@@ -509823,8 +509316,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2658801257",
@@ -509902,8 +509394,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662983710",
@@ -509929,8 +509420,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "112331-sale-2662841158",
@@ -509956,8 +509446,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662223137",
@@ -509983,8 +509472,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661660432",
@@ -510010,8 +509498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661494790",
@@ -510037,8 +509524,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661160771",
@@ -510064,8 +509550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661081319",
@@ -510091,8 +509576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2661078447",
@@ -510118,8 +509602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2660601647",
@@ -510535,8 +510018,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261027",
       "regDate": "2026-10-27",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657964658",
@@ -510562,8 +510044,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261027",
       "regDate": "2026-10-27",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657961634",
@@ -510589,8 +510070,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261027",
       "regDate": "2026-10-27",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2657959475",
@@ -510616,8 +510096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261027",
       "regDate": "2026-10-27",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662926638",
@@ -510643,8 +510122,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662851087",
@@ -510670,8 +510148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "112331-sale-2662671239",
@@ -510697,8 +510174,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "112719": [
@@ -555530,8 +555006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2663088407",
@@ -555557,8 +555032,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2663001686",
@@ -555584,8 +555058,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2662994843",
@@ -555611,8 +555084,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2662788580",
@@ -555638,8 +555110,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662778262",
@@ -555665,8 +555136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662634854",
@@ -555692,8 +555162,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662149737",
@@ -555719,8 +555188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662092414",
@@ -555746,8 +555214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2663093399",
@@ -555773,8 +555240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-jeonse-2661755747",
@@ -555800,8 +555266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662408961",
@@ -555827,8 +555292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660593310",
@@ -555932,8 +555396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2662627439",
@@ -555959,8 +555422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-jeonse-2660185970",
@@ -556116,8 +555578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663078513",
@@ -556143,8 +555604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663029170",
@@ -556170,8 +555630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663009838",
@@ -556197,8 +555656,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662994026",
@@ -556224,8 +555682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662029222",
@@ -556251,7 +555708,33 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
+      "isNew": false
+    },
+    {
+      "id": "121631-sale-2663147380",
+      "articleNo": "2663147380",
+      "tradeType": "sale",
+      "dong": "106동",
+      "floor": "중/36",
+      "price": 47000,
+      "priceText": "4억 7,000만원",
+      "pyeong": 25,
+      "supplyArea": 81,
+      "exclusiveArea": 59,
+      "type": "81㎡ (전용 59㎡)",
+      "direction": "남서향",
+      "desc": "급매,금정산 사이뷰,시스템에어컨4,적극추천",
+      "tags": [
+        "10년이내",
+        "급매",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "온천SK부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
       "isBrandNew": true
     },
     {
@@ -556278,8 +555761,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663028502",
@@ -556305,8 +555787,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2661591381",
@@ -556332,35 +555813,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "121631-sale-2662912839",
-      "articleNo": "2662912839",
-      "tradeType": "sale",
-      "dong": "106동",
-      "floor": "중/36",
-      "price": 47000,
-      "priceText": "4억 7,000만원",
-      "pyeong": 25,
-      "supplyArea": 81,
-      "exclusiveArea": 59,
-      "type": "81㎡ (전용 59㎡)",
-      "direction": "남서향",
-      "desc": "급매,금정산 사이뷰,시스템에어컨4,적극추천",
-      "tags": [
-        "10년이내",
-        "급매",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "온천SK부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261119",
-      "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662617406",
@@ -556386,8 +555839,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662126082",
@@ -556413,8 +555865,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661993222",
@@ -556440,8 +555891,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660274905",
@@ -556493,8 +555943,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661608876",
@@ -556520,8 +555969,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661302691",
@@ -556547,8 +555995,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661251673",
@@ -556574,8 +556021,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659366707",
@@ -556705,8 +556151,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661596382",
@@ -556732,8 +556177,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660837960",
@@ -556889,8 +556333,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662562100",
@@ -556916,8 +556359,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662383449",
@@ -556943,8 +556385,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661556446",
@@ -556970,8 +556411,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658631182",
@@ -556997,8 +556437,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261030",
       "regDate": "2026-10-30",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2658537767",
@@ -557050,8 +556489,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662998805",
@@ -557077,8 +556515,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662998240",
@@ -557104,8 +556541,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662995144",
@@ -557131,8 +556567,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2661613796",
@@ -557158,8 +556593,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660862870",
@@ -557315,8 +556749,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662786406",
@@ -557342,8 +556775,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662785770",
@@ -557369,8 +556801,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662606032",
@@ -557396,8 +556827,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662091429",
@@ -557423,8 +556853,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661892187",
@@ -557450,8 +556879,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661807383",
@@ -557477,8 +556905,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2663030043",
@@ -557504,8 +556931,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2661534377",
@@ -557531,8 +556957,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661365931",
@@ -557558,8 +556983,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661314784",
@@ -557585,8 +557009,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660797344",
@@ -557638,8 +557061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659712125",
@@ -557795,8 +557217,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662528894",
@@ -557822,8 +557243,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662012664",
@@ -557849,8 +557269,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661040120",
@@ -557876,8 +557295,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662107623",
@@ -557903,8 +557321,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661867624",
@@ -557930,8 +557347,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660797315",
@@ -558009,8 +557425,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659834093",
@@ -558166,8 +557581,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2660797305",
@@ -558219,8 +557633,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661033055",
@@ -558246,8 +557659,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2659240820",
@@ -558325,8 +557737,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661301823",
@@ -558352,8 +557763,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662582359",
@@ -558379,8 +557789,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662408258",
@@ -558406,8 +557815,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661615524",
@@ -558433,8 +557841,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2661475877",
@@ -558460,8 +557867,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2660164656",
@@ -558539,8 +557945,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663006225",
@@ -558566,8 +557971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2663007192",
@@ -558593,8 +557997,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662994649",
@@ -558620,8 +558023,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662994648",
@@ -558647,8 +558049,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "121631-sale-2662864402",
@@ -558674,8 +558075,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662788020",
@@ -558701,8 +558101,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662784406",
@@ -558728,8 +558127,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "121631-sale-2662776698",
@@ -558755,8 +558153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "122043": [
@@ -563026,8 +562423,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663052727",
@@ -563053,8 +562449,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2662888347",
@@ -563080,8 +562475,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662755986",
@@ -563107,8 +562501,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661663312",
@@ -563134,7 +562527,60 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
+      "isNew": false
+    },
+    {
+      "id": "123223-jeonse-2663153830",
+      "articleNo": "2663153830",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "1/25",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 26,
+      "supplyArea": 85,
+      "exclusiveArea": 59,
+      "type": "85㎡ (전용 59㎡)",
+      "direction": "남향",
+      "desc": "25A.주출입구동의  높은 저층. 시원한 초록시티뷰. 절충절충",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "1층",
+        "방세개"
+      ],
+      "agency": "비젼래미안공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "123223-jeonse-2663146287",
+      "articleNo": "2663146287",
+      "tradeType": "jeonse",
+      "dong": "103동",
+      "floor": "22/25",
+      "price": 43000,
+      "priceText": "4억 3,000만원",
+      "pyeong": 26,
+      "supplyArea": 85,
+      "exclusiveArea": 59,
+      "type": "85㎡ (전용 59㎡)",
+      "direction": "남향",
+      "desc": "25A. 개방감 시원한 뻥뷰. 주차. 상권편리한 앞동. 빠른입주.절충",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "비젼래미안공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
       "isBrandNew": true
     },
     {
@@ -563161,8 +562607,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663110234",
@@ -563188,8 +562633,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663091555",
@@ -563215,8 +562659,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663090188",
@@ -563242,8 +562685,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663081678",
@@ -563269,8 +562711,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663081239",
@@ -563296,8 +562737,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663073873",
@@ -563323,8 +562763,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663073858",
@@ -563350,8 +562789,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663071352",
@@ -563377,8 +562815,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663069694",
@@ -563404,8 +562841,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663031916",
@@ -563431,8 +562867,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663023221",
@@ -563458,8 +562893,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663010001",
@@ -563485,8 +562919,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2662941796",
@@ -563512,8 +562945,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662934754",
@@ -563539,8 +562971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662932461",
@@ -563566,8 +562997,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662921173",
@@ -563593,8 +563023,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662910206",
@@ -563620,8 +563049,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662897244",
@@ -563647,8 +563075,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662891675",
@@ -563674,8 +563101,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662880822",
@@ -563701,8 +563127,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662847033",
@@ -563728,8 +563153,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662822208",
@@ -563755,8 +563179,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662817458",
@@ -563782,8 +563205,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662816166",
@@ -563809,8 +563231,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662773758",
@@ -563836,8 +563257,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662704771",
@@ -563863,8 +563283,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662638964",
@@ -563890,8 +563309,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662616364",
@@ -563917,8 +563335,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662611285",
@@ -563944,8 +563361,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662582101",
@@ -563971,8 +563387,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662397143",
@@ -563998,8 +563413,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662382423",
@@ -564025,62 +563439,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "123223-jeonse-2662244373",
-      "articleNo": "2662244373",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "22/25",
-      "price": 43000,
-      "priceText": "4억 3,000만원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "25A.일조좋고 개방감좋은 입구동 생활편리 귀한 소형평수",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "소형평수",
-        "방세개"
-      ],
-      "agency": "래미안아이파크공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261116",
-      "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "123223-jeonse-2662197936",
-      "articleNo": "2662197936",
-      "tradeType": "jeonse",
-      "dong": "103동",
-      "floor": "1/25",
-      "price": 43000,
-      "priceText": "4억 3,000만원",
-      "pyeong": 26,
-      "supplyArea": 85,
-      "exclusiveArea": 59,
-      "type": "85㎡ (전용 59㎡)",
-      "direction": "남향",
-      "desc": "황금. 59A . 귀한 전세 예쁜 단지 조경 뷰 . 신혼강추",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "1층",
-        "방세개"
-      ],
-      "agency": "황금탑부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261116",
-      "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662878586",
@@ -564106,8 +563465,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662805535",
@@ -564133,8 +563491,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662752961",
@@ -564160,8 +563517,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662701561",
@@ -564187,8 +563543,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662689163",
@@ -564214,8 +563569,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662677870",
@@ -564241,8 +563595,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662674202",
@@ -564268,8 +563621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662657852",
@@ -564295,8 +563647,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662638540",
@@ -564322,8 +563673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662445267",
@@ -564349,8 +563699,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662290844",
@@ -564376,8 +563725,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661761254",
@@ -564403,8 +563751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661510258",
@@ -564430,8 +563777,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661430483",
@@ -564457,8 +563803,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661167205",
@@ -564484,8 +563829,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661154834",
@@ -564511,8 +563855,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661153647",
@@ -564538,8 +563881,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661152136",
@@ -564565,8 +563907,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661117378",
@@ -564592,7 +563933,33 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
+      "isNew": false
+    },
+    {
+      "id": "123223-jeonse-2663144735",
+      "articleNo": "2663144735",
+      "tradeType": "jeonse",
+      "dong": "203동",
+      "floor": "저/28",
+      "price": 53000,
+      "priceText": "5억 3,000만원",
+      "pyeong": 31,
+      "supplyArea": 104,
+      "exclusiveArea": 75,
+      "type": "104㎡ (전용 75㎡)",
+      "direction": "남동향",
+      "desc": "절충, 옵션굿,세련된 타워형,이면창,개방감,일조 굿,온샘초근접,햇살짱짱",
+      "tags": [
+        "10년이내",
+        "융자금없는",
+        "대단지",
+        "방세개"
+      ],
+      "agency": "우리동래공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
       "isBrandNew": true
     },
     {
@@ -564619,8 +563986,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2663038490",
@@ -564646,8 +564012,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-jeonse-2662960329",
@@ -564673,8 +564038,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662883559",
@@ -564700,8 +564064,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662882061",
@@ -564727,8 +564090,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662847430",
@@ -564754,8 +564116,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662846506",
@@ -564781,8 +564142,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662825650",
@@ -564808,8 +564168,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662793263",
@@ -564835,8 +564194,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662710045",
@@ -564862,8 +564220,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662693911",
@@ -564889,8 +564246,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662678137",
@@ -564916,8 +564272,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662619175",
@@ -564943,8 +564298,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662591215",
@@ -564970,8 +564324,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662504880",
@@ -564997,8 +564350,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662444534",
@@ -565024,8 +564376,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662443689",
@@ -565051,35 +564402,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "123223-jeonse-2662397831",
-      "articleNo": "2662397831",
-      "tradeType": "jeonse",
-      "dong": "203동",
-      "floor": "저/28",
-      "price": 53000,
-      "priceText": "5억 3,000만원",
-      "pyeong": 31,
-      "supplyArea": 104,
-      "exclusiveArea": 75,
-      "type": "104㎡ (전용 75㎡)",
-      "direction": "남동향",
-      "desc": "절충, 옵션굿,세련된 타워형,이면창,개방감,일조 굿,온샘초근접,햇살짱짱",
-      "tags": [
-        "10년이내",
-        "융자금없는",
-        "대단지",
-        "방세개"
-      ],
-      "agency": "우리동래공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261117",
-      "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662396276",
@@ -565105,8 +564428,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662202401",
@@ -565132,8 +564454,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2662127215",
@@ -565159,8 +564480,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661900731",
@@ -565186,8 +564506,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661678945",
@@ -565213,8 +564532,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661642854",
@@ -565240,8 +564558,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661633608",
@@ -565267,8 +564584,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661453383",
@@ -565294,8 +564610,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2661119966",
@@ -565321,8 +564636,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660980473",
@@ -565374,8 +564688,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2660445748",
@@ -565609,8 +564922,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261030",
       "regDate": "2026-10-30",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-jeonse-2657537585",
@@ -565636,7 +564948,33 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261024",
       "regDate": "2026-10-24",
-      "isNew": false,
+      "isNew": false
+    },
+    {
+      "id": "123223-sale-2663151740",
+      "articleNo": "2663151740",
+      "tradeType": "sale",
+      "dong": "101동",
+      "floor": "저/20",
+      "price": 21000,
+      "priceText": "2억 1,000만원",
+      "pyeong": 14,
+      "supplyArea": 46,
+      "exclusiveArea": 29,
+      "type": "46㎡ (전용 29㎡)",
+      "direction": "남서향",
+      "desc": "29타입,1인거주 추천,투자나 입주도 가능,대단지 동래아 인프라 이용가능",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "소형평수",
+        "방한개"
+      ],
+      "agency": "래미안비젼부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
       "isBrandNew": true
     },
     {
@@ -565663,8 +565001,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2662943208",
@@ -565690,8 +565027,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662898692",
@@ -565717,8 +565053,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662895957",
@@ -565744,8 +565079,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662875986",
@@ -565771,8 +565105,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662662347",
@@ -565798,8 +565131,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662551900",
@@ -565825,8 +565157,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662685085",
@@ -565852,8 +565183,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662665454",
@@ -565879,8 +565209,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662663736",
@@ -565906,8 +565235,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662459184",
@@ -565933,8 +565261,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662355896",
@@ -565960,8 +565287,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662224427",
@@ -565987,8 +565313,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661864878",
@@ -566014,8 +565339,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661773069",
@@ -566041,8 +565365,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661306582",
@@ -566068,8 +565391,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661298528",
@@ -566095,8 +565417,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661204059",
@@ -566122,8 +565443,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660687264",
@@ -566461,8 +565781,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2662908827",
@@ -566488,8 +565807,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662733397",
@@ -566515,8 +565833,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662686977",
@@ -566542,8 +565859,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662662521",
@@ -566569,8 +565885,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662355914",
@@ -566596,8 +565911,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660915213",
@@ -566649,8 +565963,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660503766",
@@ -566679,32 +565992,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "123223-sale-2660844082",
-      "articleNo": "2660844082",
-      "tradeType": "sale",
-      "dong": "101동",
-      "floor": "2/20",
-      "price": 21700,
-      "priceText": "2억 1,700만원",
-      "pyeong": 14,
-      "supplyArea": 46,
-      "exclusiveArea": 29,
-      "type": "46㎡ (전용 29㎡)",
-      "direction": "남동향",
-      "desc": "29형, 시원한 초록뷰. 높은저층. 1인가구 추천. 주차여유로운. 풀옵션",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "소형평수",
-        "방한개"
-      ],
-      "agency": "비젼래미안공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261110",
-      "regDate": "2026-11-10",
-      "isNew": false
-    },
-    {
       "id": "123223-sale-2663076381",
       "articleNo": "2663076381",
       "tradeType": "sale",
@@ -566728,8 +566015,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2662664796",
@@ -566755,8 +566041,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662664205",
@@ -566782,8 +566067,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662511105",
@@ -566809,8 +566093,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662497978",
@@ -566836,8 +566119,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662392845",
@@ -566863,8 +566145,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662181193",
@@ -566890,8 +566171,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661913147",
@@ -566917,8 +566197,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662858102",
@@ -566944,8 +566223,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661867815",
@@ -566971,8 +566249,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661853827",
@@ -566998,8 +566275,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661841912",
@@ -567025,8 +566301,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661805252",
@@ -567052,8 +566327,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661721423",
@@ -567079,8 +566353,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661718709",
@@ -567106,8 +566379,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661631826",
@@ -567133,8 +566405,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661557927",
@@ -567160,8 +566431,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661507613",
@@ -567187,8 +566457,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661469750",
@@ -567214,8 +566483,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660496165",
@@ -567683,8 +566951,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2663003002",
@@ -567710,8 +566977,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123223-sale-2662960077",
@@ -567737,8 +567003,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662827471",
@@ -567764,8 +567029,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662816405",
@@ -567791,8 +567055,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662181650",
@@ -567818,8 +567081,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662113476",
@@ -567845,8 +567107,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662089248",
@@ -567872,8 +567133,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662047641",
@@ -567899,8 +567159,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661942105",
@@ -567926,8 +567185,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661872799",
@@ -567953,8 +567211,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661840397",
@@ -567980,8 +567237,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661839909",
@@ -568007,8 +567263,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661817099",
@@ -568034,8 +567289,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661750283",
@@ -568061,8 +567315,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661737880",
@@ -568088,8 +567341,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661723717",
@@ -568115,8 +567367,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661583251",
@@ -568142,8 +567393,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661546431",
@@ -568169,8 +567419,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661505518",
@@ -568196,8 +567445,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661158180",
@@ -568223,8 +567471,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660936357",
@@ -568250,8 +567497,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261110",
       "regDate": "2026-11-10",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2660659207",
@@ -568332,6 +567578,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "123223-sale-2663157065",
+      "articleNo": "2663157065",
+      "tradeType": "sale",
+      "dong": "208동",
+      "floor": "16/35",
+      "price": 163000,
+      "priceText": "16억 3,000만원",
+      "pyeong": 44,
+      "supplyArea": 145,
+      "exclusiveArea": 114,
+      "type": "145㎡ (전용 114㎡)",
+      "direction": "남향",
+      "desc": "44형.  가치있는  래미안 대형.  막힘없는 뻥뷰.  풀옵션. 절충",
+      "tags": [
+        "10년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "비젼래미안공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "123223-sale-2662906470",
       "articleNo": "2662906470",
       "tradeType": "sale",
@@ -568355,8 +567628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662890512",
@@ -568382,8 +567654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662782055",
@@ -568409,8 +567680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662179412",
@@ -568436,8 +567706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661896079",
@@ -568463,8 +567732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661855291",
@@ -568490,8 +567758,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661838078",
@@ -568517,8 +567784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661629786",
@@ -568544,8 +567810,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661138375",
@@ -568571,8 +567836,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661004691",
@@ -569069,32 +568333,6 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
-      "id": "123223-sale-2657849851",
-      "articleNo": "2657849851",
-      "tradeType": "sale",
-      "dong": "208동",
-      "floor": "16/35",
-      "price": 163000,
-      "priceText": "16억 3,000만원",
-      "pyeong": 44,
-      "supplyArea": 145,
-      "exclusiveArea": 114,
-      "type": "145㎡ (전용 114㎡)",
-      "direction": "남향",
-      "desc": "44형.  가치있는  래미안 대형.  막힘없는 뻥뷰.  풀옵션. 절충",
-      "tags": [
-        "10년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "비젼래미안공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261027",
-      "regDate": "2026-10-27",
-      "isNew": false
-    },
-    {
       "id": "123223-sale-2657123131",
       "articleNo": "2657123131",
       "tradeType": "sale",
@@ -569196,8 +568434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2656742026",
@@ -569249,8 +568486,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662783285",
@@ -569276,8 +568512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662412740",
@@ -569303,8 +568538,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2662173602",
@@ -569330,8 +568564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123223-sale-2661901163",
@@ -569357,8 +568590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "123443": [
@@ -569386,8 +568618,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662575768",
@@ -569413,8 +568644,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662540325",
@@ -569440,8 +568670,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662471881",
@@ -569467,8 +568696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2661327579",
@@ -569494,8 +568722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662694792",
@@ -569521,8 +568748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662446155",
@@ -569548,8 +568774,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662294560",
@@ -569575,8 +568800,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662063534",
@@ -569602,8 +568826,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2661846710",
@@ -569629,8 +568852,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2661172540",
@@ -569656,8 +568878,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2661066276",
@@ -569683,8 +568904,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2661032699",
@@ -569710,8 +568930,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2660853736",
@@ -569815,8 +569034,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662146013",
@@ -569842,8 +569060,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662011634",
@@ -569869,8 +569086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2660530148",
@@ -569922,8 +569138,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-jeonse-2663111333",
@@ -569949,8 +569164,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-jeonse-2663015583",
@@ -569976,8 +569190,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-jeonse-2663101736",
@@ -570003,8 +569216,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-jeonse-2662611438",
@@ -570030,8 +569242,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662109213",
@@ -570057,8 +569268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-jeonse-2662151692",
@@ -570084,8 +569294,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662981928",
@@ -570111,8 +569320,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2662695220",
@@ -570138,8 +569346,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662530149",
@@ -570165,8 +569372,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662707774",
@@ -570192,8 +569398,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662473187",
@@ -570219,8 +569424,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662382449",
@@ -570246,8 +569450,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661856804",
@@ -570273,8 +569476,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661833968",
@@ -570300,8 +569502,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661402299",
@@ -570327,8 +569528,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661167279",
@@ -570354,8 +569554,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2658838216",
@@ -570511,8 +569710,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662469729",
@@ -570538,8 +569736,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2657720173",
@@ -570617,8 +569814,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2663067037",
@@ -570644,8 +569840,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2662184142",
@@ -570671,8 +569866,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662174732",
@@ -570698,8 +569892,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661747806",
@@ -570725,8 +569918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661680134",
@@ -570752,8 +569944,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661172132",
@@ -570779,8 +569970,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660922458",
@@ -570832,8 +570022,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660606581",
@@ -570885,8 +570074,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2662927464",
@@ -570912,8 +570100,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662545888",
@@ -570939,8 +570126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662473324",
@@ -570966,8 +570152,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662442258",
@@ -570993,8 +570178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662357893",
@@ -571020,8 +570204,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662294240",
@@ -571047,8 +570230,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661685216",
@@ -571074,8 +570256,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661684910",
@@ -571101,8 +570282,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661366238",
@@ -571128,8 +570308,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661306506",
@@ -571155,8 +570334,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661042867",
@@ -571182,8 +570360,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2661042384",
@@ -571209,8 +570386,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660860568",
@@ -571262,8 +570438,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660716221",
@@ -571315,8 +570490,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660036890",
@@ -571394,8 +570568,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2660711957",
@@ -571577,8 +570750,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261022",
       "regDate": "2026-10-22",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662997875",
@@ -571604,8 +570776,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "123443-sale-2662115428",
@@ -571631,8 +570802,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2662200274",
@@ -571658,8 +570828,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "123443-sale-2663045532",
@@ -571685,8 +570854,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     }
   ],
   "123638": [
@@ -597764,8 +596932,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-jeonse-2663121882",
@@ -597791,8 +596958,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-jeonse-2662509144",
@@ -597818,8 +596984,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662500541",
@@ -597845,8 +597010,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662434578",
@@ -597872,8 +597036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662400326",
@@ -597899,8 +597062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662306063",
@@ -597926,8 +597088,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662378838",
@@ -597953,8 +597114,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662318657",
@@ -597980,8 +597140,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662051626",
@@ -598007,8 +597166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2661947046",
@@ -598034,8 +597192,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2661942036",
@@ -598061,8 +597218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662494027",
@@ -598088,8 +597244,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662509268",
@@ -598115,8 +597270,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662389201",
@@ -598142,8 +597296,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2660816389",
@@ -598195,8 +597348,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2662079404",
@@ -598222,8 +597374,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-jeonse-2659874685",
@@ -598275,8 +597426,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662088130",
@@ -598302,8 +597452,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662063383",
@@ -598329,8 +597478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661942209",
@@ -598356,8 +597504,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261115",
       "regDate": "2026-11-15",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661640817",
@@ -598383,8 +597530,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661574174",
@@ -598410,8 +597556,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660412917",
@@ -598515,8 +597660,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662742726",
@@ -598542,8 +597686,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662830357",
@@ -598569,8 +597712,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657422017",
@@ -598674,8 +597816,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662784032",
@@ -598701,8 +597842,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662499085",
@@ -598728,8 +597868,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662452984",
@@ -598755,8 +597894,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2663132243",
@@ -598782,8 +597920,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-sale-2661737783",
@@ -598809,8 +597946,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661252001",
@@ -598836,8 +597972,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661223293",
@@ -598863,8 +597998,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2658997345",
@@ -599020,8 +598154,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-sale-2662926381",
@@ -599047,8 +598180,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662216868",
@@ -599074,8 +598206,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662160609",
@@ -599101,8 +598232,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661712285",
@@ -599128,8 +598258,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662823395",
@@ -599155,8 +598284,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661253340",
@@ -599182,8 +598310,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660588176",
@@ -599235,8 +598362,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660400465",
@@ -599288,8 +598414,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660385448",
@@ -599341,8 +598466,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662138766",
@@ -599368,8 +598492,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661741204",
@@ -599395,8 +598518,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660073871",
@@ -599555,6 +598677,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "127894-sale-2663158670",
+      "articleNo": "2663158670",
+      "tradeType": "sale",
+      "dong": "108동",
+      "floor": "1/35",
+      "price": 47000,
+      "priceText": "4억 7,000만원",
+      "pyeong": 31,
+      "supplyArea": 102,
+      "exclusiveArea": 73,
+      "type": "102㎡ (전용 73㎡)",
+      "direction": "남동향",
+      "desc": "단지조망  예쁘게  나오는 1층",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "1층",
+        "방세개"
+      ],
+      "agency": "코리아예가공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "127894-sale-2660601547",
       "articleNo": "2660601547",
       "tradeType": "sale",
@@ -599604,8 +598753,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2657165401",
@@ -599657,8 +598805,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660755112",
@@ -599814,8 +598961,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2659875560",
@@ -599997,8 +599143,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661743543",
@@ -600024,8 +599169,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662757482",
@@ -600051,8 +599195,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660755162",
@@ -600182,8 +599325,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2658496006",
@@ -600394,6 +599536,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "127894-sale-2663155499",
+      "articleNo": "2663155499",
+      "tradeType": "sale",
+      "dong": "108동",
+      "floor": "중/35",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 31,
+      "supplyArea": 101,
+      "exclusiveArea": 73,
+      "type": "101㎡ (전용 73㎡)",
+      "direction": "남동향",
+      "desc": "풀옵션  단지조망 예쁜집",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "코리아예가공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "127894-sale-2660514733",
       "articleNo": "2660514733",
       "tradeType": "sale",
@@ -600521,8 +599690,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2660065412",
@@ -600626,8 +599794,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "127894-sale-2662739704",
@@ -600653,8 +599820,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662688727",
@@ -600680,8 +599846,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662498264",
@@ -600707,8 +599872,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662144112",
@@ -600734,8 +599898,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2662007576",
@@ -600761,8 +599924,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661946393",
@@ -600788,8 +599950,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661923015",
@@ -600815,8 +599976,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "127894-sale-2661353678",
@@ -600842,62 +600002,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "127894-sale-2661329562",
-      "articleNo": "2661329562",
-      "tradeType": "sale",
-      "dong": "108동",
-      "floor": "5/35",
-      "price": 51000,
-      "priceText": "5억 1,000만원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 73,
-      "type": "102㎡ (전용 73㎡)",
-      "direction": "남동향",
-      "desc": "30B. 단지 정원 뷰. 옵션다수.",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "신세계공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261112",
-      "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "127894-sale-2661326079",
-      "articleNo": "2661326079",
-      "tradeType": "sale",
-      "dong": "109동",
-      "floor": "15/33",
-      "price": 51000,
-      "priceText": "5억 1,000만원",
-      "pyeong": 31,
-      "supplyArea": 102,
-      "exclusiveArea": 73,
-      "type": "102㎡ (전용 73㎡)",
-      "direction": "남서향",
-      "desc": "30B. 조합원 옵션 다수. 시스템 에어컨. 햇살좋은 방향.",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "신세계공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261112",
-      "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     }
   ],
   "128091": [
@@ -614393,8 +613498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663015701",
@@ -614420,8 +613524,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662940439",
@@ -614447,8 +613550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662725824",
@@ -614474,8 +613576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662655185",
@@ -614501,8 +613602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662617803",
@@ -614528,8 +613628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662598725",
@@ -614555,8 +613654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662536642",
@@ -614582,8 +613680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662366652",
@@ -614609,8 +613706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662353261",
@@ -614636,8 +613732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662334663",
@@ -614663,8 +613758,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662306667",
@@ -614690,8 +613784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662052817",
@@ -614717,8 +613810,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661823801",
@@ -614744,8 +613836,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661812596",
@@ -614771,8 +613862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661590785",
@@ -614798,8 +613888,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661587555",
@@ -614825,8 +613914,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660832601",
@@ -615294,8 +614382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2661694686",
@@ -615321,8 +614408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661220629",
@@ -615348,8 +614434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2657990514",
@@ -615427,8 +614512,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663076365",
@@ -615454,8 +614538,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663067275",
@@ -615481,8 +614564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663060470",
@@ -615508,8 +614590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662999726",
@@ -615535,8 +614616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662988984",
@@ -615562,8 +614642,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662947266",
@@ -615589,8 +614668,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662940964",
@@ -615616,8 +614694,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662910303",
@@ -615643,8 +614720,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662878818",
@@ -615670,8 +614746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662871177",
@@ -615697,8 +614772,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662825867",
@@ -615724,8 +614798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662809294",
@@ -615751,8 +614824,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662786533",
@@ -615778,8 +614850,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662772194",
@@ -615805,8 +614876,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662649255",
@@ -615832,8 +614902,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662619402",
@@ -615859,8 +614928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662599592",
@@ -615886,8 +614954,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662520867",
@@ -615913,8 +614980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662353360",
@@ -615940,8 +615006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662341497",
@@ -615967,8 +615032,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662266254",
@@ -615994,8 +615058,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662085608",
@@ -616021,8 +615084,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661541375",
@@ -616048,8 +615110,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660676501",
@@ -616153,8 +615214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663080821",
@@ -616180,8 +615240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663067310",
@@ -616207,8 +615266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663066381",
@@ -616234,8 +615292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663065313",
@@ -616261,8 +615318,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663061883",
@@ -616288,8 +615344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2663010029",
@@ -616315,8 +615370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662941751",
@@ -616342,8 +615396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662910405",
@@ -616369,8 +615422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662878672",
@@ -616396,8 +615448,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662871574",
@@ -616423,8 +615474,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662827857",
@@ -616450,8 +615500,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662810309",
@@ -616477,8 +615526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662798423",
@@ -616504,8 +615552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662797914",
@@ -616531,8 +615578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662797638",
@@ -616558,8 +615604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662773414",
@@ -616585,8 +615630,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662942579",
@@ -616612,8 +615656,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662694176",
@@ -616639,8 +615682,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662609911",
@@ -616666,8 +615708,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662536667",
@@ -616693,8 +615734,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662534725",
@@ -616720,8 +615760,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662520844",
@@ -616747,8 +615786,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662492506",
@@ -616774,8 +615812,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662353348",
@@ -616801,8 +615838,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662349475",
@@ -616828,8 +615864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662345542",
@@ -616855,8 +615890,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662338388",
@@ -616882,8 +615916,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662201294",
@@ -616909,8 +615942,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661810114",
@@ -616936,8 +615968,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661773271",
@@ -616963,8 +615994,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661679327",
@@ -616990,8 +616020,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661541681",
@@ -617017,8 +616046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2663012464",
@@ -617044,8 +616072,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-jeonse-2662941110",
@@ -617071,8 +616098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662912202",
@@ -617098,8 +616124,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662877894",
@@ -617125,8 +616150,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662726322",
@@ -617152,8 +616176,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662691916",
@@ -617179,8 +616202,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662629209",
@@ -617206,8 +616228,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662343895",
@@ -617233,8 +616254,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662278649",
@@ -617260,8 +616280,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2662223804",
@@ -617287,8 +616306,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661763636",
@@ -617314,8 +616332,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661547834",
@@ -617341,8 +616358,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2661183250",
@@ -617368,8 +616384,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-jeonse-2660876194",
@@ -617551,8 +616566,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660653385",
@@ -617630,8 +616644,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662026782",
@@ -617657,8 +616670,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662908343",
@@ -617684,8 +616696,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662908121",
@@ -617711,8 +616722,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662907997",
@@ -617738,8 +616748,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662899139",
@@ -617765,8 +616774,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660919361",
@@ -617896,8 +616904,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662770255",
@@ -617923,8 +616930,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662746087",
@@ -617950,8 +616956,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662622045",
@@ -617977,8 +616982,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662617808",
@@ -618004,8 +617008,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662574596",
@@ -618031,8 +617034,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662181615",
@@ -618058,8 +617060,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661824051",
@@ -618085,8 +617086,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661823474",
@@ -618112,8 +617112,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661812735",
@@ -618139,8 +617138,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661793811",
@@ -618166,8 +617164,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661600888",
@@ -618193,8 +617190,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661588491",
@@ -618220,8 +617216,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661310146",
@@ -618247,8 +617242,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661085403",
@@ -618274,8 +617268,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661048659",
@@ -618301,8 +617294,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660988966",
@@ -618614,8 +617606,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663064526",
@@ -618641,8 +617632,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663022344",
@@ -618668,8 +617658,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663007572",
@@ -618695,8 +617684,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663001183",
@@ -618722,8 +617710,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2662988464",
@@ -618749,8 +617736,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2662837730",
@@ -618776,8 +617762,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662779598",
@@ -618803,8 +617788,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662686998",
@@ -618830,8 +617814,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662585918",
@@ -618857,8 +617840,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662567949",
@@ -618884,8 +617866,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662548240",
@@ -618911,8 +617892,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662431448",
@@ -618938,8 +617918,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662366464",
@@ -618965,8 +617944,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662355961",
@@ -618992,8 +617970,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662192126",
@@ -619019,8 +617996,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662161269",
@@ -619046,8 +618022,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661787296",
@@ -619073,8 +618048,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661785480",
@@ -619100,8 +618074,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661693175",
@@ -619127,8 +618100,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661447657",
@@ -619154,8 +618126,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661446463",
@@ -619181,8 +618152,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661435474",
@@ -619208,8 +618178,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661395485",
@@ -619235,8 +618204,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661227818",
@@ -619262,8 +618230,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661078310",
@@ -619289,8 +618256,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661046580",
@@ -619316,8 +618282,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661028507",
@@ -619343,8 +618308,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660954055",
@@ -619656,8 +618620,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663082734",
@@ -619683,8 +618646,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663065129",
@@ -619710,8 +618672,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663064310",
@@ -619737,8 +618698,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663012247",
@@ -619764,8 +618724,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663004614",
@@ -619791,8 +618750,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663002126",
@@ -619818,8 +618776,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2662989037",
@@ -619845,8 +618802,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2662838041",
@@ -619872,8 +618828,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662827256",
@@ -619899,8 +618854,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662770632",
@@ -619926,8 +618880,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662619409",
@@ -619953,8 +618906,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662553646",
@@ -619980,8 +618932,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662242766",
@@ -620007,8 +618958,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662223890",
@@ -620034,8 +618984,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661871007",
@@ -620061,8 +619010,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661812690",
@@ -620088,8 +619036,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661758263",
@@ -620115,8 +619062,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661697350",
@@ -620142,8 +619088,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661574683",
@@ -620169,8 +619114,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661560251",
@@ -620196,8 +619140,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2663139978",
@@ -620223,8 +619166,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663103856",
@@ -620250,8 +619192,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2663030126",
@@ -620277,8 +619218,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "136343-sale-2662888967",
@@ -620304,8 +619244,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662874104",
@@ -620331,8 +619270,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662571805",
@@ -620358,8 +619296,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662539199",
@@ -620385,8 +619322,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662425994",
@@ -620412,8 +619348,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662301890",
@@ -620439,8 +619374,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662265282",
@@ -620466,8 +619400,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662083748",
@@ -620493,8 +619426,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662065647",
@@ -620520,8 +619452,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2662051751",
@@ -620547,8 +619478,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661975752",
@@ -620574,8 +619504,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661974057",
@@ -620601,8 +619530,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661850522",
@@ -620628,8 +619556,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661818047",
@@ -620655,8 +619582,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661738486",
@@ -620682,8 +619608,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661693833",
@@ -620709,8 +619634,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661102413",
@@ -620736,8 +619660,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2661049411",
@@ -620763,8 +619686,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660779499",
@@ -620842,8 +619764,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "136343-sale-2660045559",
@@ -621181,7 +620102,60 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
+      "isNew": false
+    },
+    {
+      "id": "136343-sale-2663160528",
+      "articleNo": "2663160528",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "고/35",
+      "price": 158000,
+      "priceText": "15억 8,000만원",
+      "pyeong": 41,
+      "supplyArea": 136,
+      "exclusiveArea": 101,
+      "type": "136㎡ (전용 101㎡)",
+      "direction": "남서향",
+      "desc": "급매, 키친허브로 세련된 주방, 풀에어컨, 일조채광 좋은집으로 강추드려요",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "급매",
+        "대형평수"
+      ],
+      "agency": "동아부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
+      "id": "136343-sale-2663149482",
+      "articleNo": "2663149482",
+      "tradeType": "sale",
+      "dong": "204동",
+      "floor": "고/35",
+      "price": 158000,
+      "priceText": "15억 8,000만원",
+      "pyeong": 41,
+      "supplyArea": 136,
+      "exclusiveArea": 101,
+      "type": "136㎡ (전용 101㎡)",
+      "direction": "남서향",
+      "desc": "로얄층, 조합원풀옵션 입주협의가능,일조채광 좋은집 추천해요",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "대형평수",
+        "방네개이상"
+      ],
+      "agency": "동아부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
       "isBrandNew": true
     },
     {
@@ -621208,62 +620182,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
-    },
-    {
-      "id": "136343-sale-2663103073",
-      "articleNo": "2663103073",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "고/35",
-      "price": 158000,
-      "priceText": "15억 8,000만원",
-      "pyeong": 41,
-      "supplyArea": 136,
-      "exclusiveArea": 101,
-      "type": "136㎡ (전용 101㎡)",
-      "direction": "남서향",
-      "desc": "특급풀옵션 햇살가득 트인전망 로열동 에어컨6 인덕션등 거제여중 창신초",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "양지공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261120",
-      "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
-    },
-    {
-      "id": "136343-sale-2663048980",
-      "articleNo": "2663048980",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "고/35",
-      "price": 158000,
-      "priceText": "15억 8,000만원",
-      "pyeong": 41,
-      "supplyArea": 136,
-      "exclusiveArea": 101,
-      "type": "136㎡ (전용 101㎡)",
-      "direction": "남서향",
-      "desc": "시스템ac6대,키친허브형주방,조합풀옵션,탁트인조망과개방감,따뜻한햇살이",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "대형평수",
-        "방네개이상"
-      ],
-      "agency": "레이드림공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261120",
-      "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     }
   ],
   "136397": [
@@ -628501,8 +627420,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663105971",
@@ -628528,8 +627446,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663033759",
@@ -628555,8 +627472,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663004683",
@@ -628582,8 +627498,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662757318",
@@ -628609,8 +627524,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662595515",
@@ -628636,8 +627550,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662546036",
@@ -628663,8 +627576,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662523808",
@@ -628690,8 +627602,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662497321",
@@ -628717,8 +627628,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662481307",
@@ -628744,8 +627654,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662403731",
@@ -628771,8 +627680,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662353724",
@@ -628798,8 +627706,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662234364",
@@ -628825,8 +627732,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662092033",
@@ -628852,8 +627758,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662069101",
@@ -628879,8 +627784,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661897528",
@@ -628906,8 +627810,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661865644",
@@ -628933,8 +627836,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661631940",
@@ -628960,8 +627862,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661273636",
@@ -628987,8 +627888,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661041295",
@@ -629014,8 +627914,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660929550",
@@ -629093,8 +627992,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663043974",
@@ -629120,8 +628018,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662998512",
@@ -629147,8 +628044,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662753270",
@@ -629174,8 +628070,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662746643",
@@ -629201,8 +628096,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662711581",
@@ -629228,8 +628122,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662673161",
@@ -629255,8 +628148,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662666517",
@@ -629282,8 +628174,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662617697",
@@ -629309,8 +628200,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662595386",
@@ -629336,8 +628226,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662545153",
@@ -629363,8 +628252,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662534226",
@@ -629390,8 +628278,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662443859",
@@ -629417,8 +628304,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662406164",
@@ -629444,8 +628330,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662298235",
@@ -629471,8 +628356,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662234421",
@@ -629498,8 +628382,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662208092",
@@ -629525,8 +628408,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662144031",
@@ -629552,8 +628434,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2657465412",
@@ -629605,8 +628486,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663052132",
@@ -629632,8 +628512,33 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
+    },
+    {
+      "id": "146548-jeonse-2662953802",
+      "articleNo": "2662953802",
+      "tradeType": "jeonse",
+      "dong": "106동",
+      "floor": "15/35",
+      "price": 50000,
+      "priceText": "5억원",
+      "pyeong": 36,
+      "supplyArea": 118,
+      "exclusiveArea": 84,
+      "type": "118㎡ (전용 84㎡)",
+      "direction": "남서향",
+      "desc": "대운 급전세,바로안내 가능,엘베2대,에어컨4대,동선편리한 입구동",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "방세개",
+        "화장실두개"
+      ],
+      "agency": "래미안대운부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663140911",
@@ -629659,8 +628564,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663108495",
@@ -629686,8 +628590,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663048040",
@@ -629713,8 +628616,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663042190",
@@ -629740,8 +628642,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663025407",
@@ -629767,8 +628668,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663015232",
@@ -629794,8 +628694,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662978056",
@@ -629821,8 +628720,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662977980",
@@ -629848,35 +628746,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
-    },
-    {
-      "id": "146548-jeonse-2662953802",
-      "articleNo": "2662953802",
-      "tradeType": "jeonse",
-      "dong": "106동",
-      "floor": "중/35",
-      "price": 50000,
-      "priceText": "5억원",
-      "pyeong": 36,
-      "supplyArea": 118,
-      "exclusiveArea": 84,
-      "type": "118㎡ (전용 84㎡)",
-      "direction": "남서향",
-      "desc": "대운 급전세,바로안내 가능,엘베2대,에어컨4대,동선편리한 입구동",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "방세개",
-        "화장실두개"
-      ],
-      "agency": "래미안대운부동산공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261120",
-      "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2662938049",
@@ -629902,8 +628772,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662867603",
@@ -629929,8 +628798,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662865625",
@@ -629956,8 +628824,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662861385",
@@ -629983,8 +628850,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662841451",
@@ -630010,8 +628876,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662752329",
@@ -630037,8 +628902,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662746166",
@@ -630064,8 +628928,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662742112",
@@ -630091,8 +628954,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662711647",
@@ -630118,8 +628980,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662675045",
@@ -630145,8 +629006,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662675030",
@@ -630172,8 +629032,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662595459",
@@ -630199,8 +629058,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662546887",
@@ -630226,8 +629084,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662542387",
@@ -630253,8 +629110,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662495126",
@@ -630280,8 +629136,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662428640",
@@ -630307,8 +629162,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662387870",
@@ -630334,8 +629188,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662298230",
@@ -630361,8 +629214,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662239600",
@@ -630388,8 +629240,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662234430",
@@ -630415,8 +629266,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662144028",
@@ -630442,8 +629292,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662116789",
@@ -630469,8 +629318,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2662081515",
@@ -630496,8 +629344,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661906877",
@@ -630523,8 +629370,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661897523",
@@ -630550,8 +629396,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661855909",
@@ -630577,8 +629422,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661621660",
@@ -630604,8 +629448,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661601070",
@@ -630631,8 +629474,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660223934",
@@ -630684,8 +629526,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661321925",
@@ -630711,8 +629552,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661195848",
@@ -630738,8 +629578,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2661105762",
@@ -630765,8 +629604,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660948376",
@@ -631026,8 +629864,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2660135924",
@@ -631053,8 +629890,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261106",
       "regDate": "2026-11-06",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659709452",
@@ -631080,8 +629916,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261104",
       "regDate": "2026-11-04",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2659154261",
@@ -631107,8 +629942,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261102",
       "regDate": "2026-11-02",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-jeonse-2663120429",
@@ -631134,8 +629968,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-jeonse-2663095113",
@@ -631161,8 +629994,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662810044",
@@ -631188,8 +630020,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662815439",
@@ -631215,8 +630046,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2658534185",
@@ -631268,8 +630098,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662431203",
@@ -631295,8 +630124,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659364417",
@@ -631325,6 +630153,33 @@ const REAL_BUSAN_ARTICLES = {
       "isNew": false
     },
     {
+      "id": "146548-sale-2663158610",
+      "articleNo": "2663158610",
+      "tradeType": "sale",
+      "dong": "301동",
+      "floor": "저/30",
+      "price": 33200,
+      "priceText": "3억 3,200만원",
+      "pyeong": 19,
+      "supplyArea": 62,
+      "exclusiveArea": 39,
+      "type": "62㎡ (전용 39㎡)",
+      "direction": "남서향",
+      "desc": "전세 안고 매매,  세대창고, 에어컨, 냉장고, 붙박이장",
+      "tags": [
+        "4년이내",
+        "대단지",
+        "소형평수",
+        "방한개"
+      ],
+      "agency": "래미안꿀단지부동산공인중개사사무소",
+      "agencyPhone": "051-555-8949",
+      "confirmYmd": "20261120",
+      "regDate": "2026-11-20",
+      "isNew": true,
+      "isBrandNew": true
+    },
+    {
       "id": "146548-sale-2662782932",
       "articleNo": "2662782932",
       "tradeType": "sale",
@@ -631348,8 +630203,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662647813",
@@ -631375,8 +630229,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659657187",
@@ -631532,8 +630385,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659362013",
@@ -631585,8 +630437,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2658781847",
@@ -631664,8 +630515,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2657007145",
@@ -631795,8 +630645,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661803335",
@@ -631822,8 +630671,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660101049",
@@ -631875,8 +630723,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2663015079",
@@ -631902,8 +630749,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662985302",
@@ -631929,8 +630775,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662979054",
@@ -631956,8 +630801,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662918870",
@@ -631983,8 +630827,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662898642",
@@ -632010,8 +630853,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662817894",
@@ -632037,8 +630879,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662522744",
@@ -632064,8 +630905,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662425649",
@@ -632091,8 +630931,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662287328",
@@ -632118,8 +630957,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661871932",
@@ -632145,8 +630983,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661479468",
@@ -632172,8 +631009,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661193086",
@@ -632199,33 +631035,6 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
-    },
-    {
-      "id": "146548-sale-2660931726",
-      "articleNo": "2660931726",
-      "tradeType": "sale",
-      "dong": "204동",
-      "floor": "고/17",
-      "price": 54000,
-      "priceText": "5억 4,000만원",
-      "pyeong": 23,
-      "supplyArea": 75,
-      "exclusiveArea": 49,
-      "type": "75㎡ (전용 49㎡)",
-      "direction": "남서향",
-      "desc": "만족도 좋은 소형매물, 고층이라, 확트인 시티뷰가 강점, 옵션좋아요.",
-      "tags": [
-        "4년이내",
-        "대단지",
-        "소형평수",
-        "방두개"
-      ],
-      "agency": "힘찬(010-8112-4549)공인중개사사무소",
-      "agencyPhone": "051-555-8949",
-      "confirmYmd": "20261110",
-      "regDate": "2026-11-10",
       "isNew": false
     },
     {
@@ -632252,8 +631061,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2661820418",
@@ -632279,8 +631087,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661471708",
@@ -632306,8 +631113,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660506605",
@@ -632463,8 +631269,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662979584",
@@ -632490,8 +631295,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662975930",
@@ -632517,8 +631321,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662897159",
@@ -632544,8 +631347,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662738120",
@@ -632571,8 +631373,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662672020",
@@ -632598,8 +631399,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662624428",
@@ -632625,8 +631425,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662545094",
@@ -632652,8 +631451,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662375665",
@@ -632679,8 +631477,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662329403",
@@ -632706,8 +631503,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662228705",
@@ -632733,8 +631529,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662225261",
@@ -632760,8 +631555,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662078320",
@@ -632787,8 +631581,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662043485",
@@ -632814,8 +631607,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662038777",
@@ -632841,8 +631633,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661959380",
@@ -632868,8 +631659,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661473299",
@@ -632895,8 +631685,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661381145",
@@ -632922,8 +631711,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661247061",
@@ -632949,8 +631737,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662705570",
@@ -632976,8 +631763,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660983312",
@@ -633107,8 +631893,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2659909025",
@@ -633160,8 +631945,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661091400",
@@ -633187,8 +631971,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660923012",
@@ -633630,8 +632413,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662979710",
@@ -633657,8 +632439,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662955590",
@@ -633684,8 +632465,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662728447",
@@ -633711,8 +632491,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662718404",
@@ -633738,8 +632517,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662449729",
@@ -633765,8 +632543,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662375355",
@@ -633792,8 +632569,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662186616",
@@ -633819,8 +632595,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662441638",
@@ -633846,8 +632621,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660744023",
@@ -633873,8 +632647,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261109",
       "regDate": "2026-11-09",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660306335",
@@ -633900,8 +632673,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261107",
       "regDate": "2026-11-07",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2658820313",
@@ -633927,8 +632699,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261031",
       "regDate": "2026-10-31",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662975310",
@@ -633954,8 +632725,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2663046532",
@@ -633981,8 +632751,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261120",
       "regDate": "2026-11-20",
-      "isNew": true,
-      "isBrandNew": true
+      "isNew": true
     },
     {
       "id": "146548-sale-2662955571",
@@ -634008,8 +632777,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662865047",
@@ -634035,8 +632803,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261119",
       "regDate": "2026-11-19",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662450919",
@@ -634062,8 +632829,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662625121",
@@ -634089,8 +632855,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662440571",
@@ -634116,8 +632881,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261117",
       "regDate": "2026-11-17",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662145749",
@@ -634143,8 +632907,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661860962",
@@ -634170,8 +632933,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661815761",
@@ -634197,8 +632959,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261114",
       "regDate": "2026-11-14",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661547857",
@@ -634224,8 +632985,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661234990",
@@ -634251,8 +633011,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661575496",
@@ -634278,8 +633037,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661570977",
@@ -634305,8 +633063,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261113",
       "regDate": "2026-11-13",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661115467",
@@ -634332,8 +633089,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261111",
       "regDate": "2026-11-11",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661473873",
@@ -634359,8 +633115,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661325537",
@@ -634386,8 +633141,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261112",
       "regDate": "2026-11-12",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660922522",
@@ -634439,8 +633193,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261118",
       "regDate": "2026-11-18",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660671135",
@@ -634492,8 +633245,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2662157212",
@@ -634519,8 +633271,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2661953454",
@@ -634546,8 +633297,7 @@ const REAL_BUSAN_ARTICLES = {
       "agencyPhone": "051-555-8949",
       "confirmYmd": "20261116",
       "regDate": "2026-11-16",
-      "isNew": false,
-      "isBrandNew": true
+      "isNew": false
     },
     {
       "id": "146548-sale-2660699079",
@@ -695482,8 +694232,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663052727",
@@ -695509,8 +694258,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2662888347",
@@ -695536,8 +694284,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662755986",
@@ -695563,8 +694310,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661663312",
@@ -695590,7 +694336,60 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
+        "isNew": false
+      },
+      {
+        "id": "123223-jeonse-2663153830",
+        "articleNo": "2663153830",
+        "tradeType": "jeonse",
+        "dong": "103동",
+        "floor": "1/25",
+        "price": 43000,
+        "priceText": "4억 3,000만원",
+        "pyeong": 26,
+        "supplyArea": 85,
+        "exclusiveArea": 59,
+        "type": "85㎡ (전용 59㎡)",
+        "direction": "남향",
+        "desc": "25A.주출입구동의  높은 저층. 시원한 초록시티뷰. 절충절충",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "1층",
+          "방세개"
+        ],
+        "agency": "비젼래미안공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
+        "id": "123223-jeonse-2663146287",
+        "articleNo": "2663146287",
+        "tradeType": "jeonse",
+        "dong": "103동",
+        "floor": "22/25",
+        "price": 43000,
+        "priceText": "4억 3,000만원",
+        "pyeong": 26,
+        "supplyArea": 85,
+        "exclusiveArea": 59,
+        "type": "85㎡ (전용 59㎡)",
+        "direction": "남향",
+        "desc": "25A. 개방감 시원한 뻥뷰. 주차. 상권편리한 앞동. 빠른입주.절충",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "비젼래미안공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
         "isBrandNew": true
       },
       {
@@ -695617,8 +694416,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663110234",
@@ -695644,8 +694442,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663091555",
@@ -695671,8 +694468,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663090188",
@@ -695698,8 +694494,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663081678",
@@ -695725,8 +694520,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663081239",
@@ -695752,8 +694546,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663073873",
@@ -695779,8 +694572,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663073858",
@@ -695806,8 +694598,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663071352",
@@ -695833,8 +694624,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663069694",
@@ -695860,8 +694650,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663031916",
@@ -695887,8 +694676,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663023221",
@@ -695914,8 +694702,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663010001",
@@ -695941,8 +694728,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2662941796",
@@ -695968,8 +694754,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662934754",
@@ -695995,8 +694780,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662932461",
@@ -696022,8 +694806,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662921173",
@@ -696049,8 +694832,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662910206",
@@ -696076,8 +694858,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662897244",
@@ -696103,8 +694884,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662891675",
@@ -696130,8 +694910,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662880822",
@@ -696157,8 +694936,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662847033",
@@ -696184,8 +694962,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662822208",
@@ -696211,8 +694988,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662817458",
@@ -696238,8 +695014,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662816166",
@@ -696265,8 +695040,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662773758",
@@ -696292,8 +695066,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662704771",
@@ -696319,8 +695092,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662638964",
@@ -696346,8 +695118,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662616364",
@@ -696373,8 +695144,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662611285",
@@ -696400,8 +695170,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662582101",
@@ -696427,8 +695196,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662397143",
@@ -696454,8 +695222,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662382423",
@@ -696481,62 +695248,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
-      },
-      {
-        "id": "123223-jeonse-2662244373",
-        "articleNo": "2662244373",
-        "tradeType": "jeonse",
-        "dong": "103동",
-        "floor": "22/25",
-        "price": 43000,
-        "priceText": "4억 3,000만원",
-        "pyeong": 26,
-        "supplyArea": 85,
-        "exclusiveArea": 59,
-        "type": "85㎡ (전용 59㎡)",
-        "direction": "남향",
-        "desc": "25A.일조좋고 개방감좋은 입구동 생활편리 귀한 소형평수",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "소형평수",
-          "방세개"
-        ],
-        "agency": "래미안아이파크공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261116",
-        "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
-      },
-      {
-        "id": "123223-jeonse-2662197936",
-        "articleNo": "2662197936",
-        "tradeType": "jeonse",
-        "dong": "103동",
-        "floor": "1/25",
-        "price": 43000,
-        "priceText": "4억 3,000만원",
-        "pyeong": 26,
-        "supplyArea": 85,
-        "exclusiveArea": 59,
-        "type": "85㎡ (전용 59㎡)",
-        "direction": "남향",
-        "desc": "황금. 59A . 귀한 전세 예쁜 단지 조경 뷰 . 신혼강추",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "1층",
-          "방세개"
-        ],
-        "agency": "황금탑부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261116",
-        "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662878586",
@@ -696562,8 +695274,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662805535",
@@ -696589,8 +695300,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662752961",
@@ -696616,8 +695326,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662701561",
@@ -696643,8 +695352,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662689163",
@@ -696670,8 +695378,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662677870",
@@ -696697,8 +695404,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662674202",
@@ -696724,8 +695430,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662657852",
@@ -696751,8 +695456,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662638540",
@@ -696778,8 +695482,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662445267",
@@ -696805,8 +695508,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662290844",
@@ -696832,8 +695534,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661761254",
@@ -696859,8 +695560,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661510258",
@@ -696886,8 +695586,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661430483",
@@ -696913,8 +695612,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661167205",
@@ -696940,8 +695638,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661154834",
@@ -696967,8 +695664,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661153647",
@@ -696994,8 +695690,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661152136",
@@ -697021,8 +695716,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661117378",
@@ -697048,7 +695742,33 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
+        "isNew": false
+      },
+      {
+        "id": "123223-jeonse-2663144735",
+        "articleNo": "2663144735",
+        "tradeType": "jeonse",
+        "dong": "203동",
+        "floor": "저/28",
+        "price": 53000,
+        "priceText": "5억 3,000만원",
+        "pyeong": 31,
+        "supplyArea": 104,
+        "exclusiveArea": 75,
+        "type": "104㎡ (전용 75㎡)",
+        "direction": "남동향",
+        "desc": "절충, 옵션굿,세련된 타워형,이면창,개방감,일조 굿,온샘초근접,햇살짱짱",
+        "tags": [
+          "10년이내",
+          "융자금없는",
+          "대단지",
+          "방세개"
+        ],
+        "agency": "우리동래공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
         "isBrandNew": true
       },
       {
@@ -697075,8 +695795,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2663038490",
@@ -697102,8 +695821,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-jeonse-2662960329",
@@ -697129,8 +695847,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662883559",
@@ -697156,8 +695873,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662882061",
@@ -697183,8 +695899,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662847430",
@@ -697210,8 +695925,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662846506",
@@ -697237,8 +695951,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662825650",
@@ -697264,8 +695977,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662793263",
@@ -697291,8 +696003,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662710045",
@@ -697318,8 +696029,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662693911",
@@ -697345,8 +696055,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662678137",
@@ -697372,8 +696081,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662619175",
@@ -697399,8 +696107,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662591215",
@@ -697426,8 +696133,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662504880",
@@ -697453,8 +696159,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662444534",
@@ -697480,8 +696185,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662443689",
@@ -697507,35 +696211,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
-      },
-      {
-        "id": "123223-jeonse-2662397831",
-        "articleNo": "2662397831",
-        "tradeType": "jeonse",
-        "dong": "203동",
-        "floor": "저/28",
-        "price": 53000,
-        "priceText": "5억 3,000만원",
-        "pyeong": 31,
-        "supplyArea": 104,
-        "exclusiveArea": 75,
-        "type": "104㎡ (전용 75㎡)",
-        "direction": "남동향",
-        "desc": "절충, 옵션굿,세련된 타워형,이면창,개방감,일조 굿,온샘초근접,햇살짱짱",
-        "tags": [
-          "10년이내",
-          "융자금없는",
-          "대단지",
-          "방세개"
-        ],
-        "agency": "우리동래공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261117",
-        "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662396276",
@@ -697561,8 +696237,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662202401",
@@ -697588,8 +696263,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2662127215",
@@ -697615,8 +696289,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661900731",
@@ -697642,8 +696315,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661678945",
@@ -697669,8 +696341,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661642854",
@@ -697696,8 +696367,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661633608",
@@ -697723,8 +696393,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661453383",
@@ -697750,8 +696419,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2661119966",
@@ -697777,8 +696445,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660980473",
@@ -697830,8 +696497,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2660445748",
@@ -698065,8 +696731,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261030",
         "regDate": "2026-10-30",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-jeonse-2657537585",
@@ -698092,7 +696757,33 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261024",
         "regDate": "2026-10-24",
-        "isNew": false,
+        "isNew": false
+      },
+      {
+        "id": "123223-sale-2663151740",
+        "articleNo": "2663151740",
+        "tradeType": "sale",
+        "dong": "101동",
+        "floor": "저/20",
+        "price": 21000,
+        "priceText": "2억 1,000만원",
+        "pyeong": 14,
+        "supplyArea": 46,
+        "exclusiveArea": 29,
+        "type": "46㎡ (전용 29㎡)",
+        "direction": "남서향",
+        "desc": "29타입,1인거주 추천,투자나 입주도 가능,대단지 동래아 인프라 이용가능",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "소형평수",
+          "방한개"
+        ],
+        "agency": "래미안비젼부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
         "isBrandNew": true
       },
       {
@@ -698119,8 +696810,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2662943208",
@@ -698146,8 +696836,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662898692",
@@ -698173,8 +696862,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662895957",
@@ -698200,8 +696888,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662875986",
@@ -698227,8 +696914,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662662347",
@@ -698254,8 +696940,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662551900",
@@ -698281,8 +696966,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662685085",
@@ -698308,8 +696992,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662665454",
@@ -698335,8 +697018,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662663736",
@@ -698362,8 +697044,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662459184",
@@ -698389,8 +697070,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662355896",
@@ -698416,8 +697096,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662224427",
@@ -698443,8 +697122,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661864878",
@@ -698470,8 +697148,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661773069",
@@ -698497,8 +697174,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661306582",
@@ -698524,8 +697200,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661298528",
@@ -698551,8 +697226,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661204059",
@@ -698578,8 +697252,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660687264",
@@ -698917,8 +697590,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2662908827",
@@ -698944,8 +697616,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662733397",
@@ -698971,8 +697642,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662686977",
@@ -698998,8 +697668,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662662521",
@@ -699025,8 +697694,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662355914",
@@ -699052,8 +697720,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660915213",
@@ -699105,8 +697772,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660503766",
@@ -699135,32 +697801,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "123223-sale-2660844082",
-        "articleNo": "2660844082",
-        "tradeType": "sale",
-        "dong": "101동",
-        "floor": "2/20",
-        "price": 21700,
-        "priceText": "2억 1,700만원",
-        "pyeong": 14,
-        "supplyArea": 46,
-        "exclusiveArea": 29,
-        "type": "46㎡ (전용 29㎡)",
-        "direction": "남동향",
-        "desc": "29형, 시원한 초록뷰. 높은저층. 1인가구 추천. 주차여유로운. 풀옵션",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "소형평수",
-          "방한개"
-        ],
-        "agency": "비젼래미안공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261110",
-        "regDate": "2026-11-10",
-        "isNew": false
-      },
-      {
         "id": "123223-sale-2663076381",
         "articleNo": "2663076381",
         "tradeType": "sale",
@@ -699184,8 +697824,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2662664796",
@@ -699211,8 +697850,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662664205",
@@ -699238,8 +697876,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662511105",
@@ -699265,8 +697902,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662497978",
@@ -699292,8 +697928,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662392845",
@@ -699319,8 +697954,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662181193",
@@ -699346,8 +697980,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661913147",
@@ -699373,8 +698006,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662858102",
@@ -699400,8 +698032,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661867815",
@@ -699427,8 +698058,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661853827",
@@ -699454,8 +698084,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661841912",
@@ -699481,8 +698110,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661805252",
@@ -699508,8 +698136,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661721423",
@@ -699535,8 +698162,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661718709",
@@ -699562,8 +698188,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661631826",
@@ -699589,8 +698214,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661557927",
@@ -699616,8 +698240,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661507613",
@@ -699643,8 +698266,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661469750",
@@ -699670,8 +698292,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660496165",
@@ -700139,8 +698760,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2663003002",
@@ -700166,8 +698786,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123223-sale-2662960077",
@@ -700193,8 +698812,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662827471",
@@ -700220,8 +698838,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662816405",
@@ -700247,8 +698864,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662181650",
@@ -700274,8 +698890,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662113476",
@@ -700301,8 +698916,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662089248",
@@ -700328,8 +698942,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662047641",
@@ -700355,8 +698968,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661942105",
@@ -700382,8 +698994,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261115",
         "regDate": "2026-11-15",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661872799",
@@ -700409,8 +699020,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661840397",
@@ -700436,8 +699046,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661839909",
@@ -700463,8 +699072,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661817099",
@@ -700490,8 +699098,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661750283",
@@ -700517,8 +699124,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661737880",
@@ -700544,8 +699150,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661723717",
@@ -700571,8 +699176,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661583251",
@@ -700598,8 +699202,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661546431",
@@ -700625,8 +699228,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661505518",
@@ -700652,8 +699254,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661158180",
@@ -700679,8 +699280,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660936357",
@@ -700706,8 +699306,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261110",
         "regDate": "2026-11-10",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2660659207",
@@ -700788,6 +699387,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "123223-sale-2663157065",
+        "articleNo": "2663157065",
+        "tradeType": "sale",
+        "dong": "208동",
+        "floor": "16/35",
+        "price": 163000,
+        "priceText": "16억 3,000만원",
+        "pyeong": 44,
+        "supplyArea": 145,
+        "exclusiveArea": 114,
+        "type": "145㎡ (전용 114㎡)",
+        "direction": "남향",
+        "desc": "44형.  가치있는  래미안 대형.  막힘없는 뻥뷰.  풀옵션. 절충",
+        "tags": [
+          "10년이내",
+          "대단지",
+          "대형평수",
+          "방네개이상"
+        ],
+        "agency": "비젼래미안공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "123223-sale-2662906470",
         "articleNo": "2662906470",
         "tradeType": "sale",
@@ -700811,8 +699437,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662890512",
@@ -700838,8 +699463,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662782055",
@@ -700865,8 +699489,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662179412",
@@ -700892,8 +699515,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661896079",
@@ -700919,8 +699541,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661855291",
@@ -700946,8 +699567,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661838078",
@@ -700973,8 +699593,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661629786",
@@ -701000,8 +699619,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661138375",
@@ -701027,8 +699645,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661004691",
@@ -701525,32 +700142,6 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
-        "id": "123223-sale-2657849851",
-        "articleNo": "2657849851",
-        "tradeType": "sale",
-        "dong": "208동",
-        "floor": "16/35",
-        "price": 163000,
-        "priceText": "16억 3,000만원",
-        "pyeong": 44,
-        "supplyArea": 145,
-        "exclusiveArea": 114,
-        "type": "145㎡ (전용 114㎡)",
-        "direction": "남향",
-        "desc": "44형.  가치있는  래미안 대형.  막힘없는 뻥뷰.  풀옵션. 절충",
-        "tags": [
-          "10년이내",
-          "대단지",
-          "대형평수",
-          "방네개이상"
-        ],
-        "agency": "비젼래미안공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261027",
-        "regDate": "2026-10-27",
-        "isNew": false
-      },
-      {
         "id": "123223-sale-2657123131",
         "articleNo": "2657123131",
         "tradeType": "sale",
@@ -701652,8 +700243,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2656742026",
@@ -701705,8 +700295,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662783285",
@@ -701732,8 +700321,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662412740",
@@ -701759,8 +700347,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2662173602",
@@ -701786,8 +700373,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123223-sale-2661901163",
@@ -701813,8 +700399,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       }
     ]
   },
@@ -701859,8 +700444,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663015701",
@@ -701886,8 +700470,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662940439",
@@ -701913,8 +700496,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662725824",
@@ -701940,8 +700522,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662655185",
@@ -701967,8 +700548,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662617803",
@@ -701994,8 +700574,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662598725",
@@ -702021,8 +700600,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662536642",
@@ -702048,8 +700626,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662366652",
@@ -702075,8 +700652,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662353261",
@@ -702102,8 +700678,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662334663",
@@ -702129,8 +700704,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662306667",
@@ -702156,8 +700730,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662052817",
@@ -702183,8 +700756,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661823801",
@@ -702210,8 +700782,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661812596",
@@ -702237,8 +700808,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661590785",
@@ -702264,8 +700834,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661587555",
@@ -702291,8 +700860,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660832601",
@@ -702760,8 +701328,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2661694686",
@@ -702787,8 +701354,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661220629",
@@ -702814,8 +701380,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2657990514",
@@ -702893,8 +701458,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663076365",
@@ -702920,8 +701484,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663067275",
@@ -702947,8 +701510,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663060470",
@@ -702974,8 +701536,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662999726",
@@ -703001,8 +701562,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662988984",
@@ -703028,8 +701588,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662947266",
@@ -703055,8 +701614,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662940964",
@@ -703082,8 +701640,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662910303",
@@ -703109,8 +701666,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662878818",
@@ -703136,8 +701692,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662871177",
@@ -703163,8 +701718,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662825867",
@@ -703190,8 +701744,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662809294",
@@ -703217,8 +701770,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662786533",
@@ -703244,8 +701796,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662772194",
@@ -703271,8 +701822,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662649255",
@@ -703298,8 +701848,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662619402",
@@ -703325,8 +701874,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662599592",
@@ -703352,8 +701900,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662520867",
@@ -703379,8 +701926,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662353360",
@@ -703406,8 +701952,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662341497",
@@ -703433,8 +701978,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662266254",
@@ -703460,8 +702004,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662085608",
@@ -703487,8 +702030,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661541375",
@@ -703514,8 +702056,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660676501",
@@ -703619,8 +702160,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663080821",
@@ -703646,8 +702186,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663067310",
@@ -703673,8 +702212,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663066381",
@@ -703700,8 +702238,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663065313",
@@ -703727,8 +702264,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663061883",
@@ -703754,8 +702290,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2663010029",
@@ -703781,8 +702316,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662941751",
@@ -703808,8 +702342,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662910405",
@@ -703835,8 +702368,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662878672",
@@ -703862,8 +702394,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662871574",
@@ -703889,8 +702420,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662827857",
@@ -703916,8 +702446,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662810309",
@@ -703943,8 +702472,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662798423",
@@ -703970,8 +702498,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662797914",
@@ -703997,8 +702524,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662797638",
@@ -704024,8 +702550,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662773414",
@@ -704051,8 +702576,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662942579",
@@ -704078,8 +702602,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662694176",
@@ -704105,8 +702628,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662609911",
@@ -704132,8 +702654,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662536667",
@@ -704159,8 +702680,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662534725",
@@ -704186,8 +702706,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662520844",
@@ -704213,8 +702732,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662492506",
@@ -704240,8 +702758,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662353348",
@@ -704267,8 +702784,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662349475",
@@ -704294,8 +702810,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662345542",
@@ -704321,8 +702836,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662338388",
@@ -704348,8 +702862,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662201294",
@@ -704375,8 +702888,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661810114",
@@ -704402,8 +702914,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661773271",
@@ -704429,8 +702940,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661679327",
@@ -704456,8 +702966,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661541681",
@@ -704483,8 +702992,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2663012464",
@@ -704510,8 +703018,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-jeonse-2662941110",
@@ -704537,8 +703044,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662912202",
@@ -704564,8 +703070,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662877894",
@@ -704591,8 +703096,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662726322",
@@ -704618,8 +703122,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662691916",
@@ -704645,8 +703148,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662629209",
@@ -704672,8 +703174,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662343895",
@@ -704699,8 +703200,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662278649",
@@ -704726,8 +703226,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2662223804",
@@ -704753,8 +703252,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661763636",
@@ -704780,8 +703278,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661547834",
@@ -704807,8 +703304,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2661183250",
@@ -704834,8 +703330,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-jeonse-2660876194",
@@ -705017,8 +703512,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660653385",
@@ -705096,8 +703590,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662026782",
@@ -705123,8 +703616,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662908343",
@@ -705150,8 +703642,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662908121",
@@ -705177,8 +703668,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662907997",
@@ -705204,8 +703694,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662899139",
@@ -705231,8 +703720,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660919361",
@@ -705362,8 +703850,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662770255",
@@ -705389,8 +703876,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662746087",
@@ -705416,8 +703902,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662622045",
@@ -705443,8 +703928,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662617808",
@@ -705470,8 +703954,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662574596",
@@ -705497,8 +703980,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662181615",
@@ -705524,8 +704006,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661824051",
@@ -705551,8 +704032,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661823474",
@@ -705578,8 +704058,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661812735",
@@ -705605,8 +704084,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661793811",
@@ -705632,8 +704110,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661600888",
@@ -705659,8 +704136,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661588491",
@@ -705686,8 +704162,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661310146",
@@ -705713,8 +704188,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661085403",
@@ -705740,8 +704214,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661048659",
@@ -705767,8 +704240,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660988966",
@@ -706080,8 +704552,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663064526",
@@ -706107,8 +704578,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663022344",
@@ -706134,8 +704604,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663007572",
@@ -706161,8 +704630,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663001183",
@@ -706188,8 +704656,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2662988464",
@@ -706215,8 +704682,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2662837730",
@@ -706242,8 +704708,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662779598",
@@ -706269,8 +704734,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662686998",
@@ -706296,8 +704760,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662585918",
@@ -706323,8 +704786,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662567949",
@@ -706350,8 +704812,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662548240",
@@ -706377,8 +704838,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662431448",
@@ -706404,8 +704864,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662366464",
@@ -706431,8 +704890,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662355961",
@@ -706458,8 +704916,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662192126",
@@ -706485,8 +704942,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662161269",
@@ -706512,8 +704968,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661787296",
@@ -706539,8 +704994,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661785480",
@@ -706566,8 +705020,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661693175",
@@ -706593,8 +705046,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661447657",
@@ -706620,8 +705072,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661446463",
@@ -706647,8 +705098,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661435474",
@@ -706674,8 +705124,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661395485",
@@ -706701,8 +705150,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661227818",
@@ -706728,8 +705176,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661078310",
@@ -706755,8 +705202,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661046580",
@@ -706782,8 +705228,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661028507",
@@ -706809,8 +705254,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660954055",
@@ -707122,8 +705566,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663082734",
@@ -707149,8 +705592,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663065129",
@@ -707176,8 +705618,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663064310",
@@ -707203,8 +705644,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663012247",
@@ -707230,8 +705670,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663004614",
@@ -707257,8 +705696,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663002126",
@@ -707284,8 +705722,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2662989037",
@@ -707311,8 +705748,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2662838041",
@@ -707338,8 +705774,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662827256",
@@ -707365,8 +705800,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662770632",
@@ -707392,8 +705826,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662619409",
@@ -707419,8 +705852,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662553646",
@@ -707446,8 +705878,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662242766",
@@ -707473,8 +705904,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662223890",
@@ -707500,8 +705930,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661871007",
@@ -707527,8 +705956,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661812690",
@@ -707554,8 +705982,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661758263",
@@ -707581,8 +706008,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661697350",
@@ -707608,8 +706034,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661574683",
@@ -707635,8 +706060,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661560251",
@@ -707662,8 +706086,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2663139978",
@@ -707689,8 +706112,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663103856",
@@ -707716,8 +706138,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2663030126",
@@ -707743,8 +706164,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "136343-sale-2662888967",
@@ -707770,8 +706190,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662874104",
@@ -707797,8 +706216,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662571805",
@@ -707824,8 +706242,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662539199",
@@ -707851,8 +706268,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662425994",
@@ -707878,8 +706294,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662301890",
@@ -707905,8 +706320,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662265282",
@@ -707932,8 +706346,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662083748",
@@ -707959,8 +706372,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662065647",
@@ -707986,8 +706398,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2662051751",
@@ -708013,8 +706424,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661975752",
@@ -708040,8 +706450,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661974057",
@@ -708067,8 +706476,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661850522",
@@ -708094,8 +706502,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661818047",
@@ -708121,8 +706528,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661738486",
@@ -708148,8 +706554,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661693833",
@@ -708175,8 +706580,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661102413",
@@ -708202,8 +706606,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2661049411",
@@ -708229,8 +706632,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660779499",
@@ -708308,8 +706710,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "136343-sale-2660045559",
@@ -708647,7 +707048,60 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
+        "isNew": false
+      },
+      {
+        "id": "136343-sale-2663160528",
+        "articleNo": "2663160528",
+        "tradeType": "sale",
+        "dong": "204동",
+        "floor": "고/35",
+        "price": 158000,
+        "priceText": "15억 8,000만원",
+        "pyeong": 41,
+        "supplyArea": 136,
+        "exclusiveArea": 101,
+        "type": "136㎡ (전용 101㎡)",
+        "direction": "남서향",
+        "desc": "급매, 키친허브로 세련된 주방, 풀에어컨, 일조채광 좋은집으로 강추드려요",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "급매",
+          "대형평수"
+        ],
+        "agency": "동아부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
+        "id": "136343-sale-2663149482",
+        "articleNo": "2663149482",
+        "tradeType": "sale",
+        "dong": "204동",
+        "floor": "고/35",
+        "price": 158000,
+        "priceText": "15억 8,000만원",
+        "pyeong": 41,
+        "supplyArea": 136,
+        "exclusiveArea": 101,
+        "type": "136㎡ (전용 101㎡)",
+        "direction": "남서향",
+        "desc": "로얄층, 조합원풀옵션 입주협의가능,일조채광 좋은집 추천해요",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "대형평수",
+          "방네개이상"
+        ],
+        "agency": "동아부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
         "isBrandNew": true
       },
       {
@@ -708674,62 +707128,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
-      },
-      {
-        "id": "136343-sale-2663103073",
-        "articleNo": "2663103073",
-        "tradeType": "sale",
-        "dong": "204동",
-        "floor": "고/35",
-        "price": 158000,
-        "priceText": "15억 8,000만원",
-        "pyeong": 41,
-        "supplyArea": 136,
-        "exclusiveArea": 101,
-        "type": "136㎡ (전용 101㎡)",
-        "direction": "남서향",
-        "desc": "특급풀옵션 햇살가득 트인전망 로열동 에어컨6 인덕션등 거제여중 창신초",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "대형평수",
-          "방네개이상"
-        ],
-        "agency": "양지공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261120",
-        "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
-      },
-      {
-        "id": "136343-sale-2663048980",
-        "articleNo": "2663048980",
-        "tradeType": "sale",
-        "dong": "204동",
-        "floor": "고/35",
-        "price": 158000,
-        "priceText": "15억 8,000만원",
-        "pyeong": 41,
-        "supplyArea": 136,
-        "exclusiveArea": 101,
-        "type": "136㎡ (전용 101㎡)",
-        "direction": "남서향",
-        "desc": "시스템ac6대,키친허브형주방,조합풀옵션,탁트인조망과개방감,따뜻한햇살이",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "대형평수",
-          "방네개이상"
-        ],
-        "agency": "레이드림공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261120",
-        "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       }
     ]
   },
@@ -708774,8 +707173,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663105971",
@@ -708801,8 +707199,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663033759",
@@ -708828,8 +707225,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663004683",
@@ -708855,8 +707251,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662757318",
@@ -708882,8 +707277,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662595515",
@@ -708909,8 +707303,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662546036",
@@ -708936,8 +707329,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662523808",
@@ -708963,8 +707355,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662497321",
@@ -708990,8 +707381,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662481307",
@@ -709017,8 +707407,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662403731",
@@ -709044,8 +707433,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662353724",
@@ -709071,8 +707459,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662234364",
@@ -709098,8 +707485,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662092033",
@@ -709125,8 +707511,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662069101",
@@ -709152,8 +707537,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661897528",
@@ -709179,8 +707563,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661865644",
@@ -709206,8 +707589,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661631940",
@@ -709233,8 +707615,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661273636",
@@ -709260,8 +707641,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661041295",
@@ -709287,8 +707667,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660929550",
@@ -709366,8 +707745,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663043974",
@@ -709393,8 +707771,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662998512",
@@ -709420,8 +707797,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662753270",
@@ -709447,8 +707823,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662746643",
@@ -709474,8 +707849,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662711581",
@@ -709501,8 +707875,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662673161",
@@ -709528,8 +707901,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662666517",
@@ -709555,8 +707927,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662617697",
@@ -709582,8 +707953,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662595386",
@@ -709609,8 +707979,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662545153",
@@ -709636,8 +708005,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662534226",
@@ -709663,8 +708031,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662443859",
@@ -709690,8 +708057,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662406164",
@@ -709717,8 +708083,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662298235",
@@ -709744,8 +708109,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662234421",
@@ -709771,8 +708135,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662208092",
@@ -709798,8 +708161,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662144031",
@@ -709825,8 +708187,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2657465412",
@@ -709878,8 +708239,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663052132",
@@ -709905,8 +708265,33 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
+      },
+      {
+        "id": "146548-jeonse-2662953802",
+        "articleNo": "2662953802",
+        "tradeType": "jeonse",
+        "dong": "106동",
+        "floor": "15/35",
+        "price": 50000,
+        "priceText": "5억원",
+        "pyeong": 36,
+        "supplyArea": 118,
+        "exclusiveArea": 84,
+        "type": "118㎡ (전용 84㎡)",
+        "direction": "남서향",
+        "desc": "대운 급전세,바로안내 가능,엘베2대,에어컨4대,동선편리한 입구동",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "방세개",
+          "화장실두개"
+        ],
+        "agency": "래미안대운부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663140911",
@@ -709932,8 +708317,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663108495",
@@ -709959,8 +708343,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663048040",
@@ -709986,8 +708369,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663042190",
@@ -710013,8 +708395,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663025407",
@@ -710040,8 +708421,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663015232",
@@ -710067,8 +708447,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662978056",
@@ -710094,8 +708473,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662977980",
@@ -710121,35 +708499,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
-      },
-      {
-        "id": "146548-jeonse-2662953802",
-        "articleNo": "2662953802",
-        "tradeType": "jeonse",
-        "dong": "106동",
-        "floor": "중/35",
-        "price": 50000,
-        "priceText": "5억원",
-        "pyeong": 36,
-        "supplyArea": 118,
-        "exclusiveArea": 84,
-        "type": "118㎡ (전용 84㎡)",
-        "direction": "남서향",
-        "desc": "대운 급전세,바로안내 가능,엘베2대,에어컨4대,동선편리한 입구동",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "방세개",
-          "화장실두개"
-        ],
-        "agency": "래미안대운부동산공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261120",
-        "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2662938049",
@@ -710175,8 +708525,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662867603",
@@ -710202,8 +708551,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662865625",
@@ -710229,8 +708577,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662861385",
@@ -710256,8 +708603,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662841451",
@@ -710283,8 +708629,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662752329",
@@ -710310,8 +708655,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662746166",
@@ -710337,8 +708681,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662742112",
@@ -710364,8 +708707,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662711647",
@@ -710391,8 +708733,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662675045",
@@ -710418,8 +708759,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662675030",
@@ -710445,8 +708785,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662595459",
@@ -710472,8 +708811,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662546887",
@@ -710499,8 +708837,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662542387",
@@ -710526,8 +708863,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662495126",
@@ -710553,8 +708889,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662428640",
@@ -710580,8 +708915,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662387870",
@@ -710607,8 +708941,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662298230",
@@ -710634,8 +708967,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662239600",
@@ -710661,8 +708993,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662234430",
@@ -710688,8 +709019,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662144028",
@@ -710715,8 +709045,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662116789",
@@ -710742,8 +709071,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2662081515",
@@ -710769,8 +709097,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661906877",
@@ -710796,8 +709123,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661897523",
@@ -710823,8 +709149,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661855909",
@@ -710850,8 +709175,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661621660",
@@ -710877,8 +709201,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661601070",
@@ -710904,8 +709227,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660223934",
@@ -710957,8 +709279,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661321925",
@@ -710984,8 +709305,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661195848",
@@ -711011,8 +709331,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2661105762",
@@ -711038,8 +709357,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660948376",
@@ -711299,8 +709617,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2660135924",
@@ -711326,8 +709643,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659709452",
@@ -711353,8 +709669,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261104",
         "regDate": "2026-11-04",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2659154261",
@@ -711380,8 +709695,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261102",
         "regDate": "2026-11-02",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-jeonse-2663120429",
@@ -711407,8 +709721,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-jeonse-2663095113",
@@ -711434,8 +709747,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662810044",
@@ -711461,8 +709773,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662815439",
@@ -711488,8 +709799,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2658534185",
@@ -711541,8 +709851,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662431203",
@@ -711568,8 +709877,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659364417",
@@ -711598,6 +709906,33 @@ const DEFAULT_COMPLEXES = [
         "isNew": false
       },
       {
+        "id": "146548-sale-2663158610",
+        "articleNo": "2663158610",
+        "tradeType": "sale",
+        "dong": "301동",
+        "floor": "저/30",
+        "price": 33200,
+        "priceText": "3억 3,200만원",
+        "pyeong": 19,
+        "supplyArea": 62,
+        "exclusiveArea": 39,
+        "type": "62㎡ (전용 39㎡)",
+        "direction": "남서향",
+        "desc": "전세 안고 매매,  세대창고, 에어컨, 냉장고, 붙박이장",
+        "tags": [
+          "4년이내",
+          "대단지",
+          "소형평수",
+          "방한개"
+        ],
+        "agency": "래미안꿀단지부동산공인중개사사무소",
+        "agencyPhone": "051-555-8949",
+        "confirmYmd": "20261120",
+        "regDate": "2026-11-20",
+        "isNew": true,
+        "isBrandNew": true
+      },
+      {
         "id": "146548-sale-2662782932",
         "articleNo": "2662782932",
         "tradeType": "sale",
@@ -711621,8 +709956,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662647813",
@@ -711648,8 +709982,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659657187",
@@ -711805,8 +710138,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659362013",
@@ -711858,8 +710190,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2658781847",
@@ -711937,8 +710268,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2657007145",
@@ -712068,8 +710398,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661803335",
@@ -712095,8 +710424,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660101049",
@@ -712148,8 +710476,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2663015079",
@@ -712175,8 +710502,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662985302",
@@ -712202,8 +710528,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662979054",
@@ -712229,8 +710554,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662918870",
@@ -712256,8 +710580,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662898642",
@@ -712283,8 +710606,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662817894",
@@ -712310,8 +710632,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662522744",
@@ -712337,8 +710658,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662425649",
@@ -712364,8 +710684,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662287328",
@@ -712391,8 +710710,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661871932",
@@ -712418,8 +710736,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661479468",
@@ -712445,8 +710762,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661193086",
@@ -712472,33 +710788,6 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
-      },
-      {
-        "id": "146548-sale-2660931726",
-        "articleNo": "2660931726",
-        "tradeType": "sale",
-        "dong": "204동",
-        "floor": "고/17",
-        "price": 54000,
-        "priceText": "5억 4,000만원",
-        "pyeong": 23,
-        "supplyArea": 75,
-        "exclusiveArea": 49,
-        "type": "75㎡ (전용 49㎡)",
-        "direction": "남서향",
-        "desc": "만족도 좋은 소형매물, 고층이라, 확트인 시티뷰가 강점, 옵션좋아요.",
-        "tags": [
-          "4년이내",
-          "대단지",
-          "소형평수",
-          "방두개"
-        ],
-        "agency": "힘찬(010-8112-4549)공인중개사사무소",
-        "agencyPhone": "051-555-8949",
-        "confirmYmd": "20261110",
-        "regDate": "2026-11-10",
         "isNew": false
       },
       {
@@ -712525,8 +710814,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2661820418",
@@ -712552,8 +710840,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661471708",
@@ -712579,8 +710866,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660506605",
@@ -712736,8 +711022,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662979584",
@@ -712763,8 +711048,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662975930",
@@ -712790,8 +711074,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662897159",
@@ -712817,8 +711100,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662738120",
@@ -712844,8 +711126,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662672020",
@@ -712871,8 +711152,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662624428",
@@ -712898,8 +711178,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662545094",
@@ -712925,8 +711204,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662375665",
@@ -712952,8 +711230,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662329403",
@@ -712979,8 +711256,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662228705",
@@ -713006,8 +711282,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662225261",
@@ -713033,8 +711308,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662078320",
@@ -713060,8 +711334,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662043485",
@@ -713087,8 +711360,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662038777",
@@ -713114,8 +711386,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661959380",
@@ -713141,8 +711412,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661473299",
@@ -713168,8 +711438,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661381145",
@@ -713195,8 +711464,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661247061",
@@ -713222,8 +711490,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662705570",
@@ -713249,8 +711516,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660983312",
@@ -713380,8 +711646,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2659909025",
@@ -713433,8 +711698,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661091400",
@@ -713460,8 +711724,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660923012",
@@ -713903,8 +712166,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662979710",
@@ -713930,8 +712192,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662955590",
@@ -713957,8 +712218,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662728447",
@@ -713984,8 +712244,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662718404",
@@ -714011,8 +712270,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662449729",
@@ -714038,8 +712296,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662375355",
@@ -714065,8 +712322,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662186616",
@@ -714092,8 +712348,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662441638",
@@ -714119,8 +712374,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660744023",
@@ -714146,8 +712400,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660306335",
@@ -714173,8 +712426,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261107",
         "regDate": "2026-11-07",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2658820313",
@@ -714200,8 +712452,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261031",
         "regDate": "2026-10-31",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662975310",
@@ -714227,8 +712478,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2663046532",
@@ -714254,8 +712504,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "146548-sale-2662955571",
@@ -714281,8 +712530,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662865047",
@@ -714308,8 +712556,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662450919",
@@ -714335,8 +712582,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662625121",
@@ -714362,8 +712608,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662440571",
@@ -714389,8 +712634,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662145749",
@@ -714416,8 +712660,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661860962",
@@ -714443,8 +712686,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661815761",
@@ -714470,8 +712712,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661547857",
@@ -714497,8 +712738,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661234990",
@@ -714524,8 +712764,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661575496",
@@ -714551,8 +712790,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661570977",
@@ -714578,8 +712816,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661115467",
@@ -714605,8 +712842,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661473873",
@@ -714632,8 +712868,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661325537",
@@ -714659,8 +712894,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660922522",
@@ -714712,8 +712946,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660671135",
@@ -714765,8 +712998,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2662157212",
@@ -714792,8 +713024,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2661953454",
@@ -714819,8 +713050,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "146548-sale-2660699079",
@@ -715203,8 +713433,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2663118179",
@@ -715230,8 +713459,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663116718",
@@ -715257,8 +713485,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663113162",
@@ -715284,8 +713511,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663082920",
@@ -715311,8 +713537,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663082147",
@@ -715338,8 +713563,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663058056",
@@ -715365,8 +713589,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2661214709",
@@ -715392,8 +713615,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2663059331",
@@ -715419,8 +713641,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2662846854",
@@ -715446,8 +713667,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2662395998",
@@ -715473,8 +713693,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2662101950",
@@ -715500,8 +713719,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2663016110",
@@ -715527,8 +713745,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2663022952",
@@ -715554,8 +713771,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-jeonse-2661161612",
@@ -715581,8 +713797,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-jeonse-2658871665",
@@ -715816,8 +714031,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662397392",
@@ -715843,8 +714057,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662043666",
@@ -715870,8 +714083,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661966303",
@@ -715897,8 +714109,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657342692",
@@ -715976,8 +714187,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663136006",
@@ -716003,8 +714213,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663114763",
@@ -716030,8 +714239,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663114188",
@@ -716057,8 +714265,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2662249202",
@@ -716084,8 +714291,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662845808",
@@ -716111,8 +714317,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2663116305",
@@ -716138,8 +714343,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663112551",
@@ -716165,8 +714369,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663112018",
@@ -716192,8 +714395,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663076548",
@@ -716219,8 +714421,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663058346",
@@ -716246,8 +714447,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663054477",
@@ -716273,8 +714473,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2663017134",
@@ -716300,8 +714499,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2662780010",
@@ -716327,8 +714525,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662327953",
@@ -716354,8 +714551,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662161560",
@@ -716381,8 +714577,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661572811",
@@ -716408,8 +714603,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661351641",
@@ -716435,8 +714629,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661303946",
@@ -716462,8 +714655,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661160224",
@@ -716489,8 +714681,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660501242",
@@ -716516,8 +714707,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261109",
         "regDate": "2026-11-09",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660519805",
@@ -716725,8 +714915,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2662692756",
@@ -716752,8 +714941,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662274662",
@@ -716779,8 +714967,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661773112",
@@ -716806,8 +714993,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661771860",
@@ -716833,8 +715019,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661598521",
@@ -716860,8 +715045,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661544592",
@@ -716887,8 +715071,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661350674",
@@ -716914,8 +715097,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661303536",
@@ -716941,8 +715123,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659930095",
@@ -717098,8 +715279,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662396751",
@@ -717125,8 +715305,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662100284",
@@ -717152,8 +715331,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662053485",
@@ -717179,8 +715357,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661243873",
@@ -717206,8 +715383,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660900233",
@@ -717389,8 +715565,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2661305377",
@@ -717416,8 +715591,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660935447",
@@ -717573,8 +715747,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "110276-sale-2661721567",
@@ -717600,8 +715773,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660546780",
@@ -717887,8 +716059,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662831134",
@@ -717914,8 +716085,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662722345",
@@ -717941,8 +716111,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662066455",
@@ -717968,8 +716137,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661966304",
@@ -717995,8 +716163,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660177112",
@@ -718074,8 +716241,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660045037",
@@ -718205,8 +716371,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261028",
         "regDate": "2026-10-28",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657485453",
@@ -718232,8 +716397,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261024",
         "regDate": "2026-10-24",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2660045732",
@@ -718259,8 +716423,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261106",
         "regDate": "2026-11-06",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659846094",
@@ -718286,8 +716449,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261105",
         "regDate": "2026-11-05",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2659031785",
@@ -718313,8 +716475,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261102",
         "regDate": "2026-11-02",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657189100",
@@ -718340,8 +716501,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261023",
         "regDate": "2026-10-23",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2657089899",
@@ -718367,8 +716527,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662103834",
@@ -718394,8 +716553,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2661305200",
@@ -718421,8 +716579,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "110276-sale-2662831473",
@@ -718448,8 +716605,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       }
     ]
   },
@@ -718520,8 +716676,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2662552942",
@@ -718547,8 +716702,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2661864211",
@@ -718574,8 +716728,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2661647857",
@@ -718601,8 +716754,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-jeonse-2660821714",
@@ -718680,8 +716832,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2663123752",
@@ -718707,8 +716858,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2662082090",
@@ -718734,8 +716884,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661894786",
@@ -718761,8 +716910,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658314210",
@@ -718892,8 +717040,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660865828",
@@ -718945,8 +717092,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2660540856",
@@ -718998,8 +717144,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662572001",
@@ -719025,8 +717170,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659989145",
@@ -719078,8 +717222,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661748935",
@@ -719105,8 +717248,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661737720",
@@ -719132,8 +717274,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661709414",
@@ -719159,8 +717300,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661708759",
@@ -719186,8 +717326,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661707413",
@@ -719213,8 +717352,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661707286",
@@ -719240,8 +717378,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661703627",
@@ -719267,8 +717404,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661646901",
@@ -719294,8 +717430,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661280877",
@@ -719321,8 +717456,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660896843",
@@ -719504,8 +717638,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662584866",
@@ -719531,8 +717664,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661710816",
@@ -719558,8 +717690,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661646978",
@@ -719585,8 +717716,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661383042",
@@ -719612,8 +717742,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2657102394",
@@ -719717,8 +717846,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661305704",
@@ -719744,8 +717872,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661811405",
@@ -719771,8 +717898,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662634320",
@@ -719798,8 +717924,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662588498",
@@ -719825,8 +717950,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662326191",
@@ -719852,8 +717976,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661894390",
@@ -719879,8 +718002,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661719657",
@@ -719906,8 +718028,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661716127",
@@ -719933,8 +718054,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661200532",
@@ -719960,8 +718080,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661200327",
@@ -719987,8 +718106,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661200854",
@@ -720014,8 +718132,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2663056772",
@@ -720041,8 +718158,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2660244145",
@@ -720094,8 +718210,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659397099",
@@ -720173,8 +718288,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661647015",
@@ -720200,8 +718314,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660835085",
@@ -720383,8 +718496,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660792035",
@@ -720462,8 +718574,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661894866",
@@ -720489,8 +718600,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659405477",
@@ -720542,8 +718652,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661694371",
@@ -720569,8 +718678,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661646816",
@@ -720596,8 +718704,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659989576",
@@ -720753,8 +718860,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662257427",
@@ -720780,8 +718886,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660836029",
@@ -720859,8 +718964,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661753394",
@@ -720886,8 +718990,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661311582",
@@ -720913,8 +719016,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660270683",
@@ -721018,8 +719120,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662593570",
@@ -721045,8 +719146,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661897609",
@@ -721072,8 +719172,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661756506",
@@ -721099,8 +719198,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2663096885",
@@ -721126,8 +719224,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "103343-sale-2661739860",
@@ -721153,8 +719250,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661712755",
@@ -721180,8 +719276,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662120542",
@@ -721207,8 +719302,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661903434",
@@ -721234,8 +719328,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661740555",
@@ -721261,8 +719354,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661509367",
@@ -721288,8 +719380,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662082466",
@@ -721315,8 +719406,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659989665",
@@ -721368,8 +719458,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660270397",
@@ -721577,8 +719666,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660636421",
@@ -721656,8 +719744,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661367498",
@@ -721683,8 +719770,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2657205313",
@@ -721866,8 +719952,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2662363975",
@@ -721893,8 +719978,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661442738",
@@ -721920,8 +720004,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2661357415",
@@ -721947,8 +720030,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2660593624",
@@ -722052,8 +720134,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2659398025",
@@ -722131,8 +720212,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658776771",
@@ -722184,8 +720264,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "103343-sale-2658570561",
@@ -722282,8 +720361,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662575768",
@@ -722309,8 +720387,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662540325",
@@ -722336,8 +720413,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662471881",
@@ -722363,8 +720439,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2661327579",
@@ -722390,8 +720465,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662694792",
@@ -722417,8 +720491,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662446155",
@@ -722444,8 +720517,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662294560",
@@ -722471,8 +720543,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662063534",
@@ -722498,8 +720569,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2661846710",
@@ -722525,8 +720595,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2661172540",
@@ -722552,8 +720621,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2661066276",
@@ -722579,8 +720647,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2661032699",
@@ -722606,8 +720673,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2660853736",
@@ -722711,8 +720777,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662146013",
@@ -722738,8 +720803,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662011634",
@@ -722765,8 +720829,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2660530148",
@@ -722818,8 +720881,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-jeonse-2663111333",
@@ -722845,8 +720907,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-jeonse-2663015583",
@@ -722872,8 +720933,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-jeonse-2663101736",
@@ -722899,8 +720959,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-jeonse-2662611438",
@@ -722926,8 +720985,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662109213",
@@ -722953,8 +721011,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-jeonse-2662151692",
@@ -722980,8 +721037,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662981928",
@@ -723007,8 +721063,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2662695220",
@@ -723034,8 +721089,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662530149",
@@ -723061,8 +721115,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662707774",
@@ -723088,8 +721141,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662473187",
@@ -723115,8 +721167,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662382449",
@@ -723142,8 +721193,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661856804",
@@ -723169,8 +721219,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661833968",
@@ -723196,8 +721245,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661402299",
@@ -723223,8 +721271,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661167279",
@@ -723250,8 +721297,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2658838216",
@@ -723407,8 +721453,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662469729",
@@ -723434,8 +721479,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2657720173",
@@ -723513,8 +721557,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2663067037",
@@ -723540,8 +721583,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2662184142",
@@ -723567,8 +721609,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662174732",
@@ -723594,8 +721635,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661747806",
@@ -723621,8 +721661,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661680134",
@@ -723648,8 +721687,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661172132",
@@ -723675,8 +721713,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660922458",
@@ -723728,8 +721765,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660606581",
@@ -723781,8 +721817,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2662927464",
@@ -723808,8 +721843,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261119",
         "regDate": "2026-11-19",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662545888",
@@ -723835,8 +721869,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261118",
         "regDate": "2026-11-18",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662473324",
@@ -723862,8 +721895,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662442258",
@@ -723889,8 +721921,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662357893",
@@ -723916,8 +721947,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662294240",
@@ -723943,8 +721973,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261117",
         "regDate": "2026-11-17",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661685216",
@@ -723970,8 +721999,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661684910",
@@ -723997,8 +722025,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261113",
         "regDate": "2026-11-13",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661366238",
@@ -724024,8 +722051,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661306506",
@@ -724051,8 +722077,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661042867",
@@ -724078,8 +722103,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2661042384",
@@ -724105,8 +722129,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261111",
         "regDate": "2026-11-11",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660860568",
@@ -724158,8 +722181,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660716221",
@@ -724211,8 +722233,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261114",
         "regDate": "2026-11-14",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660036890",
@@ -724290,8 +722311,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261112",
         "regDate": "2026-11-12",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2660711957",
@@ -724473,8 +722493,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261022",
         "regDate": "2026-10-22",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662997875",
@@ -724500,8 +722519,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       },
       {
         "id": "123443-sale-2662115428",
@@ -724527,8 +722545,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2662200274",
@@ -724554,8 +722571,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261116",
         "regDate": "2026-11-16",
-        "isNew": false,
-        "isBrandNew": true
+        "isNew": false
       },
       {
         "id": "123443-sale-2663045532",
@@ -724581,8 +722597,7 @@ const DEFAULT_COMPLEXES = [
         "agencyPhone": "051-555-8949",
         "confirmYmd": "20261120",
         "regDate": "2026-11-20",
-        "isNew": true,
-        "isBrandNew": true
+        "isNew": true
       }
     ]
   }
